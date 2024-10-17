@@ -1,0 +1,15 @@
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		675 4379 4865 7623 9794 9877 9884 10015 10065 10099 10141 
+	}
+ history={
+        victory_points = { 4379 5 }
+        victory_points = { 675 7 }
+        victory_points = { 7623 12 }
+		owner = FND
+	}
+	manpower=100000
+	state_category = large_town
+}

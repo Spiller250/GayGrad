@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Владимир Зайцев
+vladimirzaycev = {
+	name = vladimirzaycev
+	portraits = {
+		civilian = {
+			#Custom image for Владимир Зайцев
+			large = "/gfx/leaders/NSS/bPvQRIOh-613493.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = sindikalizmssr
+		traits = {  warrior_code dictator warmonger }
+	}
+}
+}

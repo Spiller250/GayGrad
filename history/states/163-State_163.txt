@@ -1,0 +1,15 @@
+state={
+	id=163
+	name="STATE_163"
+	provinces={
+		718 1037 1577 1898 2251 3407 5661 5873 7242 8187 8216 8295 8343 8391 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 8216 7 }
+        victory_points = { 8391 13 }
+    victory_points = { 718 24 }
+owner = WTL
+}

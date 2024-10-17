@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Майкл Сандерсон
+mayklsanderson = {
+	name = mayklsanderson
+	portraits = {
+		civilian = {
+			#Custom image for  Майкл Сандерсон
+			large = "/gfx/leaders/WPR/CGgMQYvR-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = ekosocializm
+		traits = {  }
+	}
+}
+}

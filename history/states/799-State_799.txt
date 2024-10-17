@@ -1,0 +1,15 @@
+state={
+	id=799
+	name="STATE_799"
+	provinces={
+		883 1109 1266 2106 4579 5637 6551 6947 7496 7517 11600 11648 11704 11803 11804 11902 11965 11992 12006 12086 12102 12173 12188 12256 12263 12306 
+	}
+       history={
+        victory_points = { 12306 10 }
+        victory_points = { 12188 8 }
+        victory_points = { 11704 12 }
+		owner = STR
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,15 @@
+state={
+	id=120
+	name="STATE_120"
+	provinces={
+		1250 2066 3027 4276 5845 7467 8010 8028 8055 8062 8073 8089 
+	}
+ history={
+        victory_points = { 8089 14 }
+        victory_points = { 5845 5 }
+        victory_points = { 3027 22 }
+		owner = SGR
+	}
+	manpower=100000
+	state_category = large_town
+}

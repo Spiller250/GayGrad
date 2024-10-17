@@ -1,0 +1,15 @@
+state={
+	id=126
+	name="STATE_126"
+	provinces={
+		133 254 459 1613 1829 2846 4802 4991 5178 7091 7779 8052 8082 8088 8109 8115 8152 8159 
+	}
+ history={
+        victory_points = { 8052 13 }
+        victory_points = { 8109 18 }
+        victory_points = { 4991 15 }
+		owner = TVB
+	}
+	manpower=100000
+	state_category = large_town
+}

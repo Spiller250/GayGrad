@@ -1,0 +1,15 @@
+state={
+	id=1080
+	name="STATE_1080"
+	provinces={
+		835 1799 3938 5177 6293 7453 13840 13869 13926 13936 13946 
+	}
+       history={
+        victory_points = { 1799 15 }
+        victory_points = { 13869 18 }
+        victory_points = { 3938 22 }
+		owner = SSR
+	}
+	manpower=100000
+	state_category = large_town
+}

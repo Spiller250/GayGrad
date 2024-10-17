@@ -1,0 +1,19 @@
+TOK_example_balance_category = {
+  icon = pop
+
+        priority = 97
+        
+        days_remove = 7
+
+        cost = 100
+
+        complete_effect = {
+			add_power_balance_value = {
+				id = TOK_example_balance
+				value = 0.1
+                        
+    
+   visible = {
+         alwats = yes
+       }
+}

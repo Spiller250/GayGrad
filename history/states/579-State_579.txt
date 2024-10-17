@@ -1,0 +1,15 @@
+state={
+	id=579
+	name="STATE_579"
+	provinces={
+		1869 5584 10731 10796 10859 10874 10888 10903 10986 
+	}
+       history={
+        victory_points = { 5584 16 }
+        victory_points = { 10888 8 }
+        victory_points = { 10859 13 }
+		owner = ALM
+	}
+	manpower=100000
+	state_category = large_town
+}

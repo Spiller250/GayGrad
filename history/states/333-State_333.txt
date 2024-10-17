@@ -1,0 +1,15 @@
+state={
+	id=333
+	name="STATE_333"
+	provinces={
+		183 421 1387 1540 2150 4451 4842 6247 6386 9069 9135 9216 9249 9250 9317 9339 9368 9520 
+	}  
+       history={
+        victory_points = { 6386 16 }
+        victory_points = { 421 8 }
+        victory_points = { 183 21 }
+		owner = NGA
+	}    
+	manpower=100000
+	state_category = large_town
+}

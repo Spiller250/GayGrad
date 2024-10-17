@@ -1,0 +1,13 @@
+bookmarks = {
+	bookmark = {
+		name = "Время Дестабилизации"
+		desc = "shtorm_desc"
+		date = 2022.1.1.12
+	picture = "shtorm-549134"
+		default_country = "TOK"
+		"TOK" = {
+			history = "shtorm_TOK"
+			ideology = neutrality
+		}
+	}
+}

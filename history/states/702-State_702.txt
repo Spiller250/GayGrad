@@ -1,0 +1,16 @@
+state={
+	id=702
+	name="STATE_702"
+	provinces={
+		3145 3410 3546 4760 7252 11423 11501 11502 11578 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11578 4 }
+        victory_points = { 3410 18 }
+    victory_points = { 11502 12 }
+owner = SIK
+}

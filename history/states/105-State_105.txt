@@ -1,0 +1,16 @@
+state={
+	id=105
+	name="STATE_105"
+	provinces={
+		337 1531 1549 3541 3993 4229 5473 6045 6951 7082 7655 7984 7995 8013 
+	}
+
+ history={
+        victory_points = { 7984 4 }
+        victory_points = { 1531 19 }
+        victory_points = { 6951 18 }
+		owner = ARM
+	}
+	
+manpower=100000
+	state_category = large_town}

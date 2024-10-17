@@ -1,0 +1,15 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		2096 2539 5065 5170 5840 6141 6446 7581 7731 12549 12638 12639 12754 
+	}
+ history={
+        victory_points = { 7731 8 }
+        victory_points = { 7581 22 }
+        victory_points = { 6446 19 }
+		owner = TPR
+	}
+	manpower=100000
+	state_category = large_town
+}

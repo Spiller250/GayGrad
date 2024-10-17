@@ -1,0 +1,15 @@
+state={
+	id=768
+	name="STATE_768"
+	provinces={
+		2495 2651 4600 5572 6804 11849 11916 11954 12163 
+	}
+ history={
+        victory_points = { 4600 25 }
+        victory_points = { 11954 10 }
+        victory_points = { 12163 13 }
+		owner = EAZ
+	}
+	manpower=100000
+	state_category = large_town
+}

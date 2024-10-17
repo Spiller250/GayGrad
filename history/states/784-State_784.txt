@@ -1,0 +1,16 @@
+state={
+	id=784
+	name="STATE_784"
+	provinces={
+		428 599 1897 3313 4352 4753 5967 12050 12079 12080 12118 12142 12212 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 12118 19 }
+        victory_points = { 5967 11 }
+    victory_points = { 3313 14 }
+owner = SWG
+}

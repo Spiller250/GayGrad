@@ -1,0 +1,16 @@
+state={
+	id=521
+	name="STATE_521"
+	provinces={
+		3403 4349 5291 5592 10427 10453 10479 10480 10533 10534 10577 10635 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 10533 18 }
+        victory_points = { 10479 10 }
+    victory_points = { 10427 13 }
+owner = MAT
+}

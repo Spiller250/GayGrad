@@ -1,0 +1,10 @@
+KIV_balance_of_power = {
+    icon = GFX_nov_decision_icon
+    allow = {
+        tag = KIV
+    }
+    available = {    }
+    visible = {
+        always = yes
+    }
+}

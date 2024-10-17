@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Елена Ракасовская
+elenarakasovskaya = {
+	name = elenarakasovskaya
+	portraits = {
+		civilian = {
+			#Custom image for Елена Ракасовская
+			large = "/gfx/leaders/RDR/aBDGxibq-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

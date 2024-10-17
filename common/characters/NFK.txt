@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Князь Александр Драгомиров
+knyazaleksandrdragomirov = {
+	name = knyazaleksandrdragomirov
+	portraits = {
+		civilian = {
+			#Custom image for  Князь Александр Драгомиров
+			large = "/gfx/leaders/NFK/FfmMGQpU-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = militaristskiyneofeodalizm
+		traits = {  dictator collaborator_king }
+	}
+}
+}

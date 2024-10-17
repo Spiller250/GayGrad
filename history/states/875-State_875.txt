@@ -1,0 +1,16 @@
+state={
+	id=875
+	name="STATE_875"
+	provinces={
+		1563 1780 2174 4159 12536 12571 12575 12598 12663 12747 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 12536 10 }
+        victory_points = { 12747 14 }
+    victory_points = { 12571 6 }
+ owner = TTZ
+}

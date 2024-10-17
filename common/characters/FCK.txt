@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Национальный Совет
+nacionalnyysovet = {
+	name = nacionalnyysovet
+	portraits = {
+		civilian = {
+			#Custom image for Национальный Совет
+			large = "/gfx/leaders/FCK/qaVDrjBK-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+}

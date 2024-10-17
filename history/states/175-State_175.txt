@@ -1,0 +1,15 @@
+state={
+	id=175
+	name="STATE_175"
+	provinces={
+		582 668 1409 1559 2753 4818 4975 7183 8251 8298 8328 8351 8408 8457 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 4975 18 }
+        victory_points = { 8351 11 }
+    victory_points = { 8408 13 }
+owner = WPR
+}

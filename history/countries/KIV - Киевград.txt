@@ -1,0 +1,93 @@
+﻿oob = "KIV_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 20
+
+set_power_balance = {
+		id = KIV_balance_of_power
+		set_default = yes 
+} 
+
+
+add_ideas = {
+	volunteer_only
+	low_economic_mobilisation
+}
+
+set_power_balance = {
+    id = KIV
+    set_default = yes
+}
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "KIV_1939"
+}
+
+
+#For start date 2022.1.1
+2022.1.1 = {
+	add_political_power = 1000
+	oob = "KIV_2022"
+add_ideas = {
+}
+
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = konservatizm
+	last_election = "1935.6.6"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 9
+	fascism = 25
+	communism = 0
+	neutrality = 63
+}
+
+#Politics for 1939.1.1
+1981.1.1 = {
+	set_popularities = {
+		konservatizm = 65
+		fascism = 15
+		communism = 10
+		nacionalsindikalizm = 10
+	}
+}
+
+#Politics for 2022.1.1
+2022.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
+
+recruit_character = dzhonnivetnam
+recruit_character = serafim_topal
+recruit_character = nina_vorobyeva
+recruit_character = lev_bogdanov
+recruit_character = pavel_ryzhkov
+recruit_character = ekaterina_frolova
+recruit_character = anton_grekov
+recruit_character = viktor_sharov
+recruit_character = alena_khristoforova
+recruit_character = osip_smirnov
+recruit_character = tatiana_savkina
+recruit_character = mikhail_kovalev
+recruit_character = zinaida_malysheva
+recruit_character = ivan_kruglov
+recruit_character = olga_bratova
+recruit_character = andrei_tikhonov
+
+
+

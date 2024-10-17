@@ -1,0 +1,16 @@
+state={
+	id=951
+	name="STATE_951"
+	provinces={
+		3323 4441 5985 6606 7404 7460 12974 13008 13077 13132 13162 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 5985 19 }
+        victory_points = { 13008 15 }
+    victory_points = { 7404 25 }
+owner = BSR
+}

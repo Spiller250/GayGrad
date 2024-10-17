@@ -1,0 +1,16 @@
+state={
+	id=548
+	name="STATE_548"
+	provinces={
+		1484 1525 3330 3739 3774 4238 7528 10566 10579 10650 10665 10666 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 10650 20 }
+        victory_points = { 4238 17 }
+    victory_points = { 10579 5 }
+owner = TWC
+}

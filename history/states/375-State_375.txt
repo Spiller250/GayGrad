@@ -1,0 +1,16 @@
+state={
+	id=375
+	name="STATE_375"
+	provinces={
+		22 3732 3822 6475 7391 9455 9557 9604 9646 9718 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 3732 12 }
+        victory_points = { 9557 11 }
+    victory_points = { 9455 4 }
+owner = CCC
+}

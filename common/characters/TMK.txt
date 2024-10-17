@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Иван IV
+ivaniv = {
+	name = ivaniv
+	portraits = {
+		civilian = {
+			#Custom image for  Иван IV
+			large = "/gfx/leaders/TMK/KByweEbs-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = konstitucionnyymonarhizm
+		traits = {  }
+	}
+}
+}

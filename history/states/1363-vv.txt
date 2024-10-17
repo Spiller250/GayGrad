@@ -1,0 +1,16 @@
+state={
+	id=1363
+	name="STATE_1363"
+	provinces={
+		1554 6222 14165 
+	}
+        history={
+        victory_points = { 1554 19 }
+        victory_points = { 14165 4 }
+        victory_points = { 6222 7 }
+		owner = FLO
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

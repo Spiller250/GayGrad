@@ -1,0 +1,16 @@
+state={
+	id=67
+	name="STATE_67"
+	provinces={
+		539 568 613 635 1232 2114 3185 3298 4758 6645 7817 7820 7830 7837 
+	}
+ history={
+        victory_points = { 7817 22 }
+        victory_points = { 4758 5 }
+        victory_points = { 568 22 }
+		owner = RED
+	}
+manpower=100000
+	state_category = large_town 
+}
+	

@@ -1,0 +1,16 @@
+state={
+	id=714
+	name="STATE_714"
+	provinces={
+		1062 2382 4318 11355 11438 11604 11626 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11438 13 }
+        victory_points = { 11626 7 }
+    victory_points = { 11355 18 }
+owner = LNR
+}

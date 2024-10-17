@@ -1,0 +1,15 @@
+state={
+	id=485
+	name="STATE_485"
+	provinces={
+		850 2681 3745 3964 5039 6734 10054 10129 10224 10303 10313 10399 10408 10433 
+	}
+ history={
+        victory_points = { 10313 12 }
+        victory_points = { 10303 6 }
+        victory_points = { 10129 18 }
+		owner = CAN
+	}
+	manpower=100000
+	state_category = large_town
+}

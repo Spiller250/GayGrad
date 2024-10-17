@@ -1,0 +1,15 @@
+state={
+	id=664
+	name="STATE_664"
+	provinces={
+		301 1071 1158 1662 2714 4185 5523 7516 7522 11195 11215 11226 11268 11276 11337 11352 11365 11390 11481 
+	}
+ history={
+        victory_points = { 11481 7 }
+        victory_points = { 5523 14 }
+        victory_points = { 1071 22 }
+		owner = TKB 
+	}
+	manpower=100000
+	state_category = large_town
+}

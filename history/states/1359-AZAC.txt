@@ -1,0 +1,14 @@
+state={
+	id=1359
+	name="STATE_1359"
+	provinces={
+		4838 
+	}
+        history={
+        victory_points = { 4838 15 }
+		owner = TOK
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

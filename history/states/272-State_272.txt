@@ -1,0 +1,15 @@
+state={
+	id=272
+	name="STATE_272"
+	provinces={
+		1045 1536 2376 2576 3279 4128 4234 5208 7257 8872 8881 8892 8958 8992 9000 9025 9080 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 8881 25 }
+        victory_points = { 8958 5 }
+    victory_points = { 9025 15 }
+owner = NSC
+}

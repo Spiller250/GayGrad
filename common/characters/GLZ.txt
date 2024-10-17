@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Рон Пол
+ronpol = {
+	name = ronpol
+	portraits = {
+		civilian = {
+			#Custom image for Рон Пол
+			large = "/gfx/leaders/GLZ/XmVBocRg-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = libertarianstvo
+		traits = {  }
+	}
+}
+}

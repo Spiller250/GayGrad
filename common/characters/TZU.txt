@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Ли Цзин
+liczin = {
+	name = liczin
+	portraits = {
+		civilian = {
+			#Custom image for Ли Цзин
+			large = "/gfx/leaders/TZU/OnwbsvRF-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = tehnokraticheskiyprogressivizm
+		traits = {  }
+	}
+}
+}

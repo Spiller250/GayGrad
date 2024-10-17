@@ -1,0 +1,15 @@
+state={
+	id=973
+	name="STATE_973"
+	provinces={
+		1034 1393 1557 4624 5398 5918 6194 6716 6893 13071 13196 13204 13283 13334 
+	}
+ history={
+        victory_points = { 4624 12 }
+        victory_points = { 13071 9 }
+        victory_points = { 13196 24 }
+		owner = ATZ
+	}
+	manpower=100000
+	state_category = large_town
+}

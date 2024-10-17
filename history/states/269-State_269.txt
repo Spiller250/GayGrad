@@ -1,0 +1,15 @@
+state={
+	id=269
+	name="STATE_269"
+	provinces={
+		2333 2759 6600 6803 7707 7737 8858 8916 8944 8987 
+	}   
+    history={
+        victory_points = { 7707 15 }
+        victory_points = { 8987 16 }
+        victory_points = { 7737 20 }
+		owner = BZN
+	}
+	manpower=100000
+	state_category = large_town
+}

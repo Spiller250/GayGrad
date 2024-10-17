@@ -1,0 +1,15 @@
+state={
+	id=631
+	name="STATE_631"
+	provinces={
+		1698 2907 3223 6589 7296 7330 10971 10990 11070 11076 11172 11180 
+	}
+       history={
+        victory_points = { 11180 8 }
+        victory_points = { 10971 10 }
+        victory_points = { 3223 10 }
+		owner = SSR
+	}
+	manpower=100000
+	state_category = large_town
+}

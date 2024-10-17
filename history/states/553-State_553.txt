@@ -1,0 +1,15 @@
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		2345 4378 4476 6276 6668 10485 10519 10584 10604 10620 10680 10818 
+	}
+ history={
+        victory_points = { 10584 10 }
+        victory_points = { 6668 11 }
+        victory_points = { 10818 16 }
+		owner = CAN
+	}
+	manpower=100000
+	state_category = large_town
+}

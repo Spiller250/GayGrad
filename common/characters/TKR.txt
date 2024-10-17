@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Али Кандауров
+alikandaurov = {
+	name = alikandaurov
+	portraits = {
+		civilian = {
+			#Custom image for  Али Кандауров
+			large = "/gfx/leaders/TKR/EDjcFfgw-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = klassicheskiyliberalizm
+		traits = {  }
+	}
+}
+}

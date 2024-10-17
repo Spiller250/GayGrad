@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Питер Катманд
+piterkatmand = {
+	name = piterkatmand
+	portraits = {
+		civilian = {
+			#Custom image for Питер Катманд
+			large = "/gfx/leaders/KMK/YVLAEKTR-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+}

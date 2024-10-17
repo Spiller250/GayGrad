@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Противостояние с Картелем
+	SpriteType = { 
+		name = "GFX_idea_CRP_vQoNwSEj-707379"
+		texturefile = "gfx/interface/ideas/protivostoyanie-s-kartelem-ideas/CRP_vQoNwSEj-707379.dds"
+	}
+
+	##Icon For: Влияние Швейцарины
+	SpriteType = { 
+		name = "GFX_idea_CRP__-707399"
+		texturefile = "gfx/interface/ideas/protivostoyanie-s-kartelem-ideas/CRP__-707399.dds"
+	}
+
+ 
+ }

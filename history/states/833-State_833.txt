@@ -1,0 +1,16 @@
+state={
+	id=833
+	name="STATE_833"
+	provinces={
+		424 1169 1206 4156 6290 7550 12254 12336 12346 12396 12426 12475 12505 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 12396 11 }
+        victory_points = { 4156 4 }
+    victory_points = { 12475 25 }
+owner = BKA
+}

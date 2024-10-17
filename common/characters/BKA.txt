@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Атаман Иван Синеградов
+atamanivansinegradov = {
+	name = atamanivansinegradov
+	portraits = {
+		civilian = {
+			#Custom image for Атаман Иван Синеградов
+			large = "/gfx/leaders/BKA/uNlKYCkm-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

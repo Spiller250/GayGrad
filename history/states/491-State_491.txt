@@ -1,0 +1,15 @@
+state={
+	id=491
+	name="STATE_491"
+	provinces={
+		598 1183 3059 3060 10193 10194 10386 
+	}
+ history={
+        victory_points = { 10193 23 }
+        victory_points = { 10194 4 }
+        victory_points = { 3060 22 }
+		owner = YEL
+	}
+	manpower=100000
+	state_category = large_town
+}

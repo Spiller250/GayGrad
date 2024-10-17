@@ -1,0 +1,15 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		316 4751 4911 5814 7180 12614 12643 12662 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 4751 12 }
+        victory_points = { 5814 22 }
+    victory_points = { 316 18 }
+owner = SNG
+}

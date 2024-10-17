@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Элеора Тельм
+eleoratelm = {
+	name = eleoratelm
+	portraits = {
+		civilian = {
+			#Custom image for Элеора Тельм
+			large = "/gfx/leaders/SST/KoIudmsX-560154.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  socialite_connections permanent_revolutionary }
+	}
+}
+}

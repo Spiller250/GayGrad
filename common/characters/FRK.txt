@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Виктор Беккер
+viktorbekker = {
+	name = viktorbekker
+	portraits = {
+		civilian = {
+			#Custom image for  Виктор Беккер
+			large = "/gfx/leaders/FRK/sAxGLSPV-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyysocializm
+		traits = {  }
+	}
+}
+}

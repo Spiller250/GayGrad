@@ -1,0 +1,16 @@
+state={
+	id=555
+	name="STATE_555"
+	provinces={
+		520 761 3325 3434 4064 4190 4672 10465 10539 10630 10656 10722 10723 10804 10846 10897 10898 10966 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 10846 24 }
+        victory_points = { 4190 24 }
+    victory_points = { 10656 20 }
+owner = TAB
+}

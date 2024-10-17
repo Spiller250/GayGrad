@@ -1,0 +1,15 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		3161 3523 3678 6329 7682 9977 10014 10203 10214 10298 
+	}
+ history={
+        victory_points = { 3678 4 }
+        victory_points = { 10298 18 }
+        victory_points = { 10203 23 }
+		owner = FND
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Общество
+obshchestvo = {
+	name = obshchestvo
+	portraits = {
+		civilian = {
+			#Custom image for Общество
+			large = "/gfx/leaders/ACT/LNxerJhW-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarhokommunizm
+		traits = {  }
+	}
+}
+}

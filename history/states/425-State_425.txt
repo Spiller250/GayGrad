@@ -1,0 +1,15 @@
+state={
+	id=425
+	name="STATE_425"
+	provinces={
+		1932 2415 3227 4068 5362 7001 7484 9815 9826 9875 9929 9988 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 9815 10 }
+        victory_points = { 2415 14 }
+    victory_points = { 4068 15 } 
+owner = TAR
+}

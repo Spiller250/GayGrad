@@ -1,0 +1,148 @@
+﻿l_russian:
+
+###################################################################################################################################
+### NOTE - FOR THE LOVE OF GOD PLEASE READ BEFORE MAKING CHANGES                                                                ###
+### Just because the name shows up in the map, doesn't mean the localisation will display in the UI (e.g. peace deal windows)   ###
+### Characters confirmed NOT to display right: ş ă ı                                                                            ###
+###################################################################################################################################
+
+
+VICTORY_POINTS_14609:0 "Вадуц"
+VICTORY_POINTS_14610:0 "Сан-Марино"
+VICTORY_POINTS_9849:0 "Призрен"
+
+
+#чехи
+VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! победные очки = §Y$POINTS$§!"
+VICTORY_POINTS_569:0 "Йиглава"
+VICTORY_POINTS_11432:0 "Оссиг"
+VICTORY_POINTS_3462:0 "Градец Кралове"
+VICTORY_POINTS_3414:0 "Оломоуц"
+VICTORY_POINTS_424:0 "Карлсбад"
+VICTORY_POINTS_13553:0 "Гавиржов"
+VICTORY_POINTS_6576:0 "Злин"
+VICTORY_POINTS_583:0 "Пардубице"
+VICTORY_POINTS_9541:0 "Ческе-Будеёвице"
+VICTORY_POINTS_9541:0 "Ческе-Будеёвице"
+VICTORY_POINTS_6440:0 "Кладно"
+VICTORY_POINTS_13826:0 "Фиуме"
+VICTORY_POINTS_13827:0 "Задар"
+VICTORY_POINTS_3418:0 "Брюкс"
+VICTORY_POINTS_3583:0 "Троппау"
+VICTORY_POINTS_9414:0 "Млада Болеслав"
+VICTORY_POINTS_6562:0 "Простеёв"
+VICTORY_POINTS_11525:0 "Знайм"
+VICTORY_POINTS_9421:0 "Пршибрам"
+
+
+
+#Словакия
+VICTORY_POINTS_3565:0 "Надьмихай"
+VICTORY_POINTS_3537:0 "Бестерцебанья"
+VICTORY_POINTS_11539:0 "Туроксенмартон"
+VICTORY_POINTS_3484:0 "Тренсен"
+VICTORY_POINTS_541:0 "Нагышомбат"
+VICTORY_POINTS_11679:0 "Нитра"
+VICTORY_POINTS_9551:0 "Жолна"
+VICTORY_POINTS_3581:0 "Эперьес"
+VICTORY_POINTS_3550:0 "Попрад"
+
+
+
+#Карпато Украина
+VICTORY_POINTS_3548:0 "Мункач"
+VICTORY_POINTS_11536:0 "Сзолива"
+
+
+
+#Галисия
+VICTORY_POINTS_3434:0 "Премизель"
+VICTORY_POINTS_417:0 "Ной-Сандез"
+VICTORY_POINTS_442:0 "Тарнов"
+VICTORY_POINTS_6522:0 "Реще"
+VICTORY_POINTS_6431:0 "Дрогобыч"
+VICTORY_POINTS_11427:0 "Тарнополь"
+VICTORY_POINTS_9412:0 "Белиц-Бяла"
+VICTORY_POINTS_536:0 "Рава Руска"
+VICTORY_POINTS_3743:0 "Коломея"
+VICTORY_POINTS_6460:0 "Стром"
+VICTORY_POINTS_9454:0 "Броды"
+VICTORY_POINTS_9468:0 "Яворив"
+
+#Черногория
+VICTORY_POINTS_9821:0 "Цетинье"
+
+#Венгрия
+VICTORY_POINTS_9690:0 "Вац"
+VICTORY_POINTS_684:0 "Кечкемет"
+VICTORY_POINTS_730:0 "Хайдубёсёрмень"
+VICTORY_POINTS_699:0 "Сольнок"
+VICTORY_POINTS_11627:0 "Залаэгерсег"
+VICTORY_POINTS_686:0 "Сомбатхей"
+VICTORY_POINTS_701:0 "Веспрем"
+VICTORY_POINTS_11663:0 "Татабанья"
+VICTORY_POINTS_3731:0 "Эгер"
+VICTORY_POINTS_3713:0 "Мишкольц"
+VICTORY_POINTS_3730:0 "Ньиредьхаза"
+VICTORY_POINTS_6672:0 "Мурасомбат"
+VICTORY_POINTS_11622:0 "Дьюлафехервар"
+VICTORY_POINTS_9619:0 "Дева"
+VICTORY_POINTS_3694:0 "Марошвашархей"
+VICTORY_POINTS_10104:0 "Сатмарнемети"
+VICTORY_POINTS_11676:0 "Надьбаня"
+VICTORY_POINTS_9687:0 "Зила"
+VICTORY_POINTS_646:0 "Темешвар"
+VICTORY_POINTS_11592:0 "Ресикабания"
+VICTORY_POINTS_6731:0 "Бестерце"
+VICTORY_POINTS_614:0 "Версек"
+VICTORY_POINTS_9668:0 "Сентдьёрдь"
+VICTORY_POINTS_3670:0 "Надьканижа"
+VICTORY_POINTS_5585:0 "Капошвар"
+VICTORY_POINTS_3680:0 "Сексард"
+VICTORY_POINTS_9656:0 "Бекешчаба"
+VICTORY_POINTS_679:0 "Ходмезёвашархей"
+
+
+
+#Австрия
+VICTORY_POINTS_3684:0 "Вельс"
+VICTORY_POINTS_6708:0 "Чертовски"
+VICTORY_POINTS_11634:0 "Куфштайн"
+VICTORY_POINTS_704:0 "Санкт-Пельтен"
+VICTORY_POINTS_6739:0 "Клостернойбург"
+VICTORY_POINTS_6690:0 "Баден"
+VICTORY_POINTS_6552:0 "Кремс-ан-дер-Донау"
+VICTORY_POINTS_11651:0 "Амштеттен"
+VICTORY_POINTS_9596:0 "Крайнбург"
+VICTORY_POINTS_9582:0 "Ровиго"
+VICTORY_POINTS_3604:0 "Виченца"
+VICTORY_POINTS_6656:0 "Порденоне"
+VICTORY_POINTS_9679:0 "Леобен"
+VICTORY_POINTS_11612:0 "Филлах"
+VICTORY_POINTS_596:0 "Марбург-ан-дер-Драу"
+VICTORY_POINTS_6680:0 "Дорнбирн"
+VICTORY_POINTS_11595:0 "Гориция"
+
+
+
+#Иллирия
+VICTORY_POINTS_3601:0 "Карловац"
+VICTORY_POINTS_11594:0 "Беловар"
+VICTORY_POINTS_9611:0 "Вировитица"
+VICTORY_POINTS_11580:0 "Сриемска-Митровица"
+VICTORY_POINTS_6799:0 "Тузла"
+VICTORY_POINTS_11574:0 "Брчко"
+VICTORY_POINTS_606:0 "Биелина"
+VICTORY_POINTS_6619:0 "Приедор"
+VICTORY_POINTS_6614:0 "Казин"
+VICTORY_POINTS_9586:0 "Бихач"
+VICTORY_POINTS_11872:0 "Илиджа"
+VICTORY_POINTS_6957:0 "Ливно"
+VICTORY_POINTS_11845:0 "Требинье"
+VICTORY_POINTS_11816:0 "Синь"
+VICTORY_POINTS_3943:0 "Шибеник"
+VICTORY_POINTS_11577:0 "Винковцы"
+VICTORY_POINTS_6611:0 "Госпич"
+VICTORY_POINTS_3592:0 "Велика Горица"
+VICTORY_POINTS_3596:0 "Сисак"
+VICTORY_POINTS_9611:0 "Вараждин"

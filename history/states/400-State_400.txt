@@ -1,0 +1,16 @@
+state={
+	id=400
+	name="STATE_400"
+	provinces={
+		1909 2484 3329 3701 9614 9687 9705 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 3701 10 }
+        victory_points = { 9705 4 }
+    victory_points = { 1909 10 }
+owner = TWC
+}

@@ -1,0 +1,15 @@
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		1954 6166 7616 8359 8387 8400 8432 8553 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 8359 14 }
+        victory_points = { 8553 18 }
+    victory_points = { 6166 22 }
+owner = RDR
+}

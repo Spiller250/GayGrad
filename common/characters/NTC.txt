@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Рагнар Ледяной Волк
+ragnarledyanoyvolk = {
+	name = ragnarledyanoyvolk
+	portraits = {
+		civilian = {
+			#Custom image for  Рагнар Ледяной Волк
+			large = "/gfx/leaders/NTC/bmVrMIJP-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = vernost
+		traits = {  }
+	}
+}
+}

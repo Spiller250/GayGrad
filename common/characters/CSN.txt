@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Василий Дрекслер
+vasiliydreksler = {
+	name = vasiliydreksler
+	portraits = {
+		civilian = {
+			#Custom image for Василий Дрекслер
+			large = "/gfx/leaders/CSN/CSN.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = burgundskayasistema
+		traits = {  warmonger fascist_militia_leader }
+	}
+}
+}

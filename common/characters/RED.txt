@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Дмитрий Красин
+dmitriykrasin = {
+	name = dmitriykrasin
+	portraits = {
+		civilian = {
+			#Custom image for Дмитрий Красин
+			large = "/gfx/leaders/RED/YkZsSRgr-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyymilitarizm
+		traits = {  }
+	}
+}
+}

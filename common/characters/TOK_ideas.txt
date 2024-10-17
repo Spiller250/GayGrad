@@ -1,0 +1,401 @@
+characters = {	stanislavchernenko = {
+		name = stanislavchernenko
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/XVdotpLx-697198.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = stanislavchernenko
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { eager_collaborator}
+		}
+	}
+	viktorkravchenko = {
+		name = viktorkravchenko
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/RUfrIhSG-697199.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = viktorkravchenko
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { war_industrialist}
+		}
+	}
+	stanislavchernenko = {
+		name = stanislavchernenko
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/XVdotpLx-697203.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = stanislavchernenko
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { great_architect}
+		}
+	}
+	evgeniykorolenko = {
+		name = evgeniykorolenko
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/jBShsVoA-697204.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = evgeniykorolenko
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { staunch_monarchist}
+		}
+	}
+	alekseygurev = {
+		name = alekseygurev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/QCkYiSxs-697205.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = alekseygurev
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { communist_revolutionary}
+		}
+	}
+	vasiliylarionov = {
+		name = vasiliylarionov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/GsEgzjoN-697207.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = vasiliylarionov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { conservative_grandee}
+		}
+	}
+	andreytihonov = {
+		name = andreytihonov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/EXuCTblw-697208.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = andreytihonov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { compassionate_gentleman}
+		}
+	}
+	konstantingoncharov = {
+		name = konstantingoncharov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/UtyMpbme-697219.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = konstantingoncharov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { army_chief_organizational_1}
+		}
+	}
+	olegmazut = {
+		name = olegmazut
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/mXzavOxd-1119.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = olegmazut
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { army_chief_offensive_2}
+		}
+	}
+	vladimirmuromcev = {
+		name = vladimirmuromcev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/bMcWDOkI-645144.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = vladimirmuromcev
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { army_chief_defensive_3}
+		}
+	}
+	antonsamoylov = {
+		name = antonsamoylov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/KIcOLVdH-643571.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = antonsamoylov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { army_artillery_1}
+		}
+	}
+	denistregubov = {
+		name = denistregubov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/fMyaNvQo-644121.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = denistregubov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { army_infantry_1}
+		}
+	}
+	ilyakaydash = {
+		name = ilyakaydash
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/TjOuNQpy-643488.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ilyakaydash
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { navy_chief_commerce_raiding_1}
+		}
+	}
+	leonidvasilchuk = {
+		name = leonidvasilchuk
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/rcbuoEPA-644182.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = leonidvasilchuk
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { navy_anti_submarine_2}
+		}
+	}
+	glebchernogradskiy = {
+		name = glebchernogradskiy
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/jXkilHUW-644485.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = glebchernogradskiy
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { navy_capital_ship_3}
+		}
+	}
+	dmitriyyazov = {
+		name = dmitriyyazov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/zLokwHgc-644072.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = dmitriyyazov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { navy_fleet_logistics_2}
+		}
+	}
+	viktorshevchenko = {
+		name = viktorshevchenko
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/utZTxPgO-1110.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = viktorshevchenko
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { air_air_superiority_1}
+		}
+	}
+	yuriytitarenko = {
+		name = yuriytitarenko
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/NBTpsMIm-1124.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = yuriytitarenko
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { air_chief_night_operations_3}
+		}
+	}
+	nikolaykovalev = {
+		name = nikolaykovalev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/jrkbyPmX-644552.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = nikolaykovalev
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { air_naval_strike_2}
+		}
+	}
+	borismartynov = {
+		name = borismartynov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/BpRdqftG-1112.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = borismartynov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { air_close_air_support_1}
+		}
+	}
+	alekseygromov = {
+		name = alekseygromov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/GkuKxETS-1123.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = alekseygromov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { army_chief_offensive_2}
+		}
+	}
+	borislevin = {
+		name = borislevin
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/YKtdzwUV-1116.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = borislevin
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { labor_defense_organizer army_chief_defensive_2}
+		}
+	}
+	dmitriygoncharov = {
+		name = dmitriygoncharov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/bJimBXas-122690.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = dmitriygoncharov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { army_armored_1 navy_carrier_1}
+		}
+	}
+	ruslanmarkov = {
+		name = ruslanmarkov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/OopRjcrL-644262.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ruslanmarkov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { air_air_superiority_2}
+		}
+	}
+	levsavelev = {
+		name = levsavelev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/vxTRUBLQ-1145.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = levsavelev
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { air_tactical_bombing_2}
+		}
+	}
+}

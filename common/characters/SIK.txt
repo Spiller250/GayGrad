@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Король Эдуард Литович
+koroleduardlitovich = {
+	name = koroleduardlitovich
+	portraits = {
+		civilian = {
+			#Custom image for Король Эдуард Литович
+			large = "/gfx/leaders/SIK/QsnCjkiD-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = avtoritarnyymonarhizm
+		traits = {  }
+	}
+}
+}

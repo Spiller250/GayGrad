@@ -1,0 +1,15 @@
+state={
+	id=134
+	name="STATE_134"
+	provinces={
+		3248 6099 6640 8134 
+	}
+ history={
+        victory_points = { 6640 23 }
+        victory_points = { 6099 22 }
+        victory_points = { 3248 25 }
+		owner = TVB
+	}
+	manpower=100000
+	state_category = large_town
+}

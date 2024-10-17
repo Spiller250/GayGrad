@@ -1,0 +1,16 @@
+state={
+	id=190
+	name="STATE_190"
+	provinces={
+		1017 2433 3931 4033 4403 5255 5879 8335 8370 8375 8392 8433 8481 8514 8566 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 8392 25 }
+        victory_points = { 8566 18 }
+    victory_points = { 8335 13 }
+owner = NRR
+}

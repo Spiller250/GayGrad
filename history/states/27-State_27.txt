@@ -1,0 +1,17 @@
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		7297 10790 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 10790 8 }
+
+
+
+    victory_points = { 7297 14 }
+owner = SWG
+
+}

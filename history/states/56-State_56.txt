@@ -1,0 +1,15 @@
+state={
+	id=56
+	name="STATE_56"
+	provinces={
+		2021 15089 15094 
+	}
+history={
+        victory_points = { 2021 8 }
+        victory_points = { 15089 12 }
+        victory_points = { 15094 6 }
+        owner = TOK
+}
+manpower=100000
+	state_category = large_town}
+	

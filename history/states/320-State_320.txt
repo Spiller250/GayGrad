@@ -1,0 +1,15 @@
+state={
+	id=320
+	name="STATE_320"
+	provinces={
+		1461 2557 3271 4989 5114 5218 7170 9128 9198 9272 9300 9396 
+	}
+       history={
+        victory_points = { 1461 17 }
+        victory_points = { 9128 11 }
+        victory_points = { 3271 25 }
+		owner = NOV
+	}
+	manpower=100000
+	state_category = large_town
+}

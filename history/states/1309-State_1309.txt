@@ -1,0 +1,15 @@
+state={
+	id=1309
+	name="STATE_1309"
+	provinces={
+		352 814 1101 1593 2590 2612 4109 14914 14921 14967 14971 15007 
+	}
+       history={
+        victory_points = { 1593 15 }
+        victory_points = { 14967 4 }
+        victory_points = { 352 7 }
+		owner = HAR
+	}
+	manpower=100000
+	state_category = large_town
+}

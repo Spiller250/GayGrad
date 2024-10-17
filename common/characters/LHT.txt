@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Мария Пашенина
+mariyapashenina = {
+	name = mariyapashenina
+	portraits = {
+		civilian = {
+			#Custom image for Мария Пашенина
+			large = "/gfx/leaders/LHT/lFuGwkLP-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialliberalizm
+		traits = {  }
+	}
+}
+}

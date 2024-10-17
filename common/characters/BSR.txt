@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Иван Горячев
+ivangoryachev = {
+	name = ivangoryachev
+	portraits = {
+		civilian = {
+			#Custom image for Иван Горячев
+			large = "/gfx/leaders/BSR/aBjoYVEb-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = sindikalizmssr
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,15 @@
+state={
+	id=778
+	name="STATE_778"
+	provinces={
+		206 584 856 1794 2196 2236 2264 2332 2459 3236 3592 4918 6591 11480 11524 11647 11714 11754 11847 11873 12024 12114 12180 12247 
+	}
+       history={
+        victory_points = { 2236 13 }
+        victory_points = { 11873 14 }
+        victory_points = { 2264 7 }
+		owner = REG
+	}
+	manpower=100000
+	state_category = large_town
+}

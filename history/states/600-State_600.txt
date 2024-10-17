@@ -1,0 +1,15 @@
+state={
+	id=600
+	name="STATE_600"
+	provinces={
+		708 1612 2659 3950 4518 5030 5325 6731 7633 10836 10847 10899 10925 11029 11091 11109 11168 
+	}
+ history={
+        victory_points = { 11109 23 }
+        victory_points = { 7633 18 }
+        victory_points = { 10847 9 }
+		owner = TKB 
+	}
+	manpower=100000
+	state_category = large_town
+}

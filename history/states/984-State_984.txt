@@ -1,0 +1,15 @@
+state={
+	id=984
+	name="STATE_984"
+	provinces={
+		1864 2210 4428 5515 5996 6345 13080 13154 13188 13253 13324 13402 
+	}
+ history={
+        victory_points = { 2210 20 }
+        victory_points = { 13324 7 }
+        victory_points = { 13253 17 }
+		owner = APL
+	}
+	manpower=100000
+	state_category = large_town
+}

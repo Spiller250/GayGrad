@@ -1,0 +1,16 @@
+state={
+	id=1272
+	name="STATE_1272"
+	provinces={
+		1360 2483 2529 3647 4729 4961 5139 14705 14719 14755 14787 14802 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 14719 11 }
+        victory_points = { 14705 23 }
+    victory_points = { 4729 16 }
+owner = TKC
+}

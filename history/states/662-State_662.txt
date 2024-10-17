@@ -1,0 +1,15 @@
+state={
+	id=662
+	name="STATE_662"
+	provinces={
+		2154 5674 7074 11248 11258 11322 11343 11363 11458 11540 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 11343 25 }
+        victory_points = { 2154 24 }
+    victory_points = { 11363 12 }
+owner = SWG
+}

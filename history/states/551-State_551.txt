@@ -1,0 +1,15 @@
+state={
+	id=551
+	name="STATE_551"
+	provinces={
+		70 6524 6692 7265 7503 7690 10418 10419 10517 10614 10700 10730 10805 
+	}
+ history={
+        victory_points = { 7503 12 }
+        victory_points = { 10419 4 }
+        victory_points = { 10418 7 }
+		owner = FND
+	}
+	manpower=100000
+	state_category = large_town
+}

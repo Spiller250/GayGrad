@@ -1,0 +1,16 @@
+state={
+	id=1228
+	name="STATE_1228"
+	provinces={
+		4463 6496 7739 14569 14652 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 4463 9 }
+        victory_points = { 7739 5 }
+    victory_points = { 14569 25 }
+owner = SIK
+}

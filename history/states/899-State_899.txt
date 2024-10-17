@@ -1,0 +1,15 @@
+state={
+	id=899
+	name="STATE_899"
+	provinces={
+		569 1690 2795 3119 6216 12640 12858 12946 12970 
+	}
+       history={
+        victory_points = { 12970 17 }
+        victory_points = { 12640 11 }
+        victory_points = { 3119 19 }
+		owner = TPR
+	}
+	manpower=100000
+	state_category = large_town
+}

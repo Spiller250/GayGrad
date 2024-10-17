@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Алексей Горнов
+alekseygornov = {
+	name = alekseygornov
+	portraits = {
+		civilian = {
+			#Custom image for Алексей Горнов
+			large = "/gfx/leaders/SRO/GQepTFUA-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = sindikalizmssr
+		traits = {  }
+	}
+}
+}

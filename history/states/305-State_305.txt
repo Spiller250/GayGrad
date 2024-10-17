@@ -1,0 +1,15 @@
+state={
+	id=305
+	name="STATE_305"
+	provinces={
+		315 1854 2747 3929 4063 4397 7386 8974 8983 9037 9066 9118 9144 9228 9280 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 3929 7 }
+        victory_points = { 9118 20 }
+    victory_points = { 4397 21 }
+owner = CCC
+}

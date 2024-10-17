@@ -1,0 +1,15 @@
+state={
+	id=992
+	name="STATE_992"
+	provinces={
+		744 1022 5284 5948 6473 13272 13354 13412 13481 
+	}
+ history={
+        victory_points = { 1022 5 }
+        victory_points = { 13272 23 }
+        victory_points = { 13481 14 }
+		owner = ACT
+	}
+	manpower=100000
+	state_category = large_town
+}

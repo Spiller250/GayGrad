@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Артем Орестов
+artemorestov = {
+	name = artemorestov
+	portraits = {
+		civilian = {
+			#Custom image for Артем Орестов
+			large = "/gfx/leaders/TOR/ujyBJoSz-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

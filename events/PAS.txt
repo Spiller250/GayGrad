@@ -1,0 +1,154 @@
+add_namespace = consrv
+
+country_event = {
+    id = consrv.1
+    title = "CONSRV_CRITICIZE_ELECTION"
+    desc = "CONSRV_CRITICIZE_ELECTION_DESC"
+    picture = "gfx/event_pictures/protests.tga"
+    trigger = {
+        has_government = democratic
+    }
+    immediate = {
+        log = "Консерваторы критикуют выборы"
+    }
+    mean_time_to_happen = {
+        days = 10
+    }
+    option = {
+        name = "Ситуация под контролем"
+        ai_chance = { factor = 100 }
+        trigger_event = { id = consrv.2 days = 20 }
+    }
+}
+
+# Ивент 2: Скандальное выступление Консерваторов
+country_event = {
+    id = consrv.2
+    title = "CONSRV_SCANDAL_SPEECH"
+    desc = "CONSRV_SCANDAL_SPEECH_DESC"
+    picture = "gfx/event_pictures/rally.tga"
+    mean_time_to_happen = {
+        days = 5
+    }
+    option = {
+        name = "Митинги неизбежны"
+        ai_chance = { factor = 100 }
+        trigger_event = { id = consrv.3 days = 3 }
+    }
+}
+
+# Ивент 3: Массовые митинги
+country_event = {
+    id = consrv.3
+    title = "PROTESTS_ANNOUNCED"
+    desc = "PROTESTS_ANNOUNCED_DESC"
+    picture = "gfx/event_pictures/protests.tga"
+    mean_time_to_happen = {
+        days = 3
+    }
+    option = {
+        name = "Подавить митинги"
+        ai_chance = { factor = 50 }
+        trigger_event = { id = consrv.4 days = 3 }
+    }
+    option = {
+        name = "Попробовать договориться"
+        ai_chance = { factor = 50 }
+        add_stability = 5
+    }
+}
+
+# Ивент 4: Митинги охватывают города
+country_event = {
+    id = consrv.4
+    title = "SUPPRESSION_DECISION"
+    desc = "SUPPRESSION_DECISION_DESC"
+    picture = "gfx/event_pictures/protests.tga"
+    mean_time_to_happen = {
+        days = 3
+    }
+    option = {
+        name = "Ситуация выходит из-под контроля"
+        ai_chance = { factor = 100 }
+        trigger_event = { id = consrv.5 days = 3 }
+    }
+}
+
+# Ивент 5: Захват городов
+country_event = {
+    id = consrv.5
+    title = "UPRISING"
+    desc = "UPRISING_DESC"
+    picture = "gfx/event_pictures/city_fall.tga"
+    mean_time_to_happen = {
+        days = 3
+    }
+    option = {
+        name = "Конституционные силы переходят к активным действиям"
+        ai_chance = { factor = 100 }
+        trigger_event = { id = consrv.6 days = 2 }
+    }
+}
+
+country_event = {
+    id = consrv.6
+    title = "Начало гражданской войны"
+    desc = "Выберите сторону в гражданской войне"
+    picture = "gfx/event_pictures/civil_war.tga"
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "Поддержать Пасифийский Союз"
+        ai_chance = { factor = 33 }
+        1203 = { transfer_state_to = PDP }
+        1241 = { transfer_state_to = PDP }
+        1245 = { transfer_state_to = PDP }
+        1194 = { transfer_state_to = PDP }
+        1223 = { transfer_state_to = PDP }
+        PDP = { change_tag_from = ROOT } # Переключение на Пасифийский Союз
+        declare_war_on = {
+            target = PSP
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = PDL
+            type = annex_everything
+        }
+    }
+    option = {
+        name = "Поддержать Конституционалистов"
+        ai_chance = { factor = 33 }
+        1212 = { transfer_state_to = PSP }
+        1187 = { transfer_state_to = PSP }
+        1365 = { transfer_state_to = PSP }
+        1361 = { transfer_state_to = PSP }
+        1204 = { transfer_state_to = PSP }
+        PSP = { change_tag_from = ROOT } # Переключение на Конституционалистов
+        declare_war_on = {
+            target = PDP
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = PDL
+            type = annex_everything
+        }
+    }
+    option = {
+        name = "Поддержать Южное Братство"
+        ai_chance = { factor = 33 }
+        1280 = { transfer_state_to = PDL }
+        1247 = { transfer_state_to = PDL }
+        PDL = { change_tag_from = ROOT } # Переключение на Южное Братство
+        declare_war_on = {
+            target = PDP
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = PSP
+            type = annex_everything
+        }
+    }
+}
+
+

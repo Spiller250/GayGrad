@@ -1,0 +1,205 @@
+characters = {
+
+bogdan = {
+	name = "bogdan"
+	portraits = {
+		civilian = {
+			#Custom image for Джонни Вьетнам
+			large = "/gfx/leaders/PAS/bogdan.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = klassicheskiyliberalizm
+		traits = {  eager_collaborator economic_reformer }
+	}
+
+TRIMP = {
+	name = "TRIMP"
+	portraits = {
+		civilian = {
+			#Custom image for Джонни Вьетнам
+			large = "/gfx/leaders/PAS/Fascist.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = klassicheskiykonservatizm
+		traits = {  eager_collaborator economic_reformer }
+	}
+}
+
+	rendolfstenli = {
+		name = "rendolfstenli"
+		portraits = {
+			army = {
+				#Custom images for Рэндольф Стэнли
+				large = "/gfx/leaders/PAS/rendolfstenli-721765.dds"
+				small = "/gfx/interface/ideas/PAS/rendolfstenli-721765.dds"
+			}
+		}
+		corps_commander = {
+			traits = { superior_tactician }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+		legacy_id = 1491338890
+		}
+	}
+
+#Create military leader - Клайд Мэддокс
+	klaydmeddoks = {
+		name = "klaydmeddoks"
+		portraits = {
+			army = {
+				#Custom images for Клайд Мэддокс
+				large = "/gfx/leaders/PAS/klaydmeddoks-721768.dds"
+				small = "/gfx/interface/ideas/PAS/klaydmeddoks-721768.dds"
+			}
+		}
+		corps_commander = {
+			traits = { aggressive_assaulter }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		legacy_id = 1491338891
+		}
+	}
+
+#Create military leader - Элмер Рид
+	elmerrid = {
+		name = "elmerrid"
+		portraits = {
+			army = {
+				#Custom images for Элмер Рид
+				large = "/gfx/leaders/PAS/elmerrid-721769.dds"
+				small = "/gfx/interface/ideas/PAS/elmerrid-721769.dds"
+			}
+		}
+		corps_commander = {
+			traits = { defensive_doctrine }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+		legacy_id = 1491338892
+		}
+	}
+
+#Create military leader - Честер Хопкинс
+	chesterhopkins = {
+		name = "chesterhopkins"
+		portraits = {
+			army = {
+				#Custom images for Честер Хопкинс
+				large = "/gfx/leaders/PAS/chesterhopkins-721773.dds"
+				small = "/gfx/interface/ideas/PAS/chesterhopkins-721773.dds"
+			}
+		}
+		corps_commander = {
+			traits = { logistics_wizard }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		legacy_id = 1491338893
+		}
+	}
+
+#Create military leader - Харрисон Паркс
+	harrisonparks = {
+		name = "harrisonparks"
+		portraits = {
+			army = {
+				#Custom images for Харрисон Паркс
+				large = "/gfx/leaders/PAS/harrisonparks-721775.dds"
+				small = "/gfx/interface/ideas/PAS/harrisonparks-721775.dds"
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 0
+		legacy_id = 1491338894
+		}
+	}
+
+#Create military leader - Харрисон Паркс
+	harrisonparks = {
+		name = "harrisonparks"
+		portraits = {
+			army = {
+				#Custom images for Харрисон Паркс
+				large = "/gfx/leaders/PAS/harrisonparks-721791.dds"
+				small = "/gfx/interface/ideas/PAS/harrisonparks-721791.dds"
+			}
+		}
+		corps_commander = {
+			traits = { urban_assault_specialist }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 0
+			logistics_skill = 4
+		legacy_id = 1491338895
+		}
+	}
+
+#Create military leader - Джейкоб Марлоу
+	dzheykobmarlou = {
+		name = "dzheykobmarlou"
+		portraits = {
+			army = {
+				#Custom images for Джейкоб Марлоу
+				large = "/gfx/leaders/PAS/dzheykobmarlou-721792.dds"
+				small = "/gfx/interface/ideas/PAS/dzheykobmarlou-721792.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		legacy_id = 1491338896
+		}
+	}
+
+	fordsanders = {
+		name = "fordsanders"
+		portraits = {
+			army = {
+				#Custom images for Форд Сандерс
+				large = "/gfx/leaders/PAS/fordsanders-721793.dds"
+				small = "/gfx/interface/ideas/PAS/fordsanders-721793.dds"
+			}
+		}
+		navy_leader = {
+			traits = { fleet_protector }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+			legacy_id = 3491338890
+		}
+	}
+}
+
+
+}
+
+
+
+
+

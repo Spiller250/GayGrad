@@ -1,0 +1,186 @@
+KIV_balance_of_power = {
+
+# Решения для стороны рабочих
+
+workers_improve_conditions = {
+    icon = "gfx/interface/decisions/workers_support.dds"
+    priority = 90
+    days_remove = 7
+    cost = 100
+    visible = {
+        has_country_flag = supported_workers
+    }
+    available = {
+        has_country_flag = supported_workers
+    }
+    complete_effect = {
+        add_stability = 0.05
+        add_political_power = -50
+        consumer_goods_factor = -0.05
+        add_power_balance_value = {
+            id = my_bop   # ID вашего баланса власти
+            value = 0.05  # Сдвиг в сторону рабочих
+            tooltip_side = my_bop_workers # Сторона рабочих
+        }
+    }
+}
+
+workers_increase_wages = {
+    icon = "gfx/interface/decisions/workers_wages.dds"
+    priority = 85
+    days_remove = 7
+    cost = 200
+    visible = {
+        has_country_flag = supported_workers
+    }
+    available = {
+        has_country_flag = supported_workers
+    }
+    complete_effect = {
+        add_stability = 0.03
+        consumer_goods_factor = -0.1
+        add_political_power = -100
+        add_power_balance_value = {
+            id = my_bop
+            value = 0.1   # Большее влияние рабочих
+            tooltip_side = my_bop_workers
+        }
+    }
+}
+
+workers_union_support = {
+    icon = "gfx/interface/decisions/workers_union.dds"
+    priority = 80
+    days_remove = 7
+    cost = 150
+    visible = {
+        has_country_flag = supported_workers
+    }
+    available = {
+        has_country_flag = supported_workers
+    }
+    complete_effect = {
+        add_stability = 0.02
+        production_efficiency_cap = 0.05
+        add_political_power = -75
+        add_power_balance_value = {
+            id = my_bop
+            value = 0.07
+            tooltip_side = my_bop_workers
+        }
+    }
+}
+
+workers_reduce_hours = {
+    icon = "gfx/interface/decisions/workers_hours.dds"
+    priority = 75
+    days_remove = 7
+    cost = 100
+    visible = {
+        has_country_flag = supported_workers
+    }
+    available = {
+        has_country_flag = supported_workers
+    }
+    complete_effect = {
+        add_stability = 0.02
+        production_efficiency_cap = -0.05
+        add_political_power = -50
+        add_power_balance_value = {
+            id = my_bop
+            value = 0.03
+            tooltip_side = my_bop_workers
+        }
+    }
+}
+
+government_increase_police = {
+    icon = "gfx/interface/decisions/government_police.dds"
+    priority = 90
+    days_remove = 7
+    cost = 100
+    visible = {
+        has_country_flag = supported_government
+    }
+    available = {
+        has_country_flag = supported_government
+    }
+    complete_effect = {
+        add_stability = 0.1
+        add_political_power = -50
+        add_power_balance_value = {
+            id = my_bop
+            value = -0.05  # Сдвиг в сторону правительства
+            tooltip_side = my_bop_government
+        }
+    }
+}
+
+government_impose_curfew = {
+    icon = "gfx/interface/decisions/government_curfew.dds"
+    priority = 85
+    days_remove = 7
+    cost = 150
+    visible = {
+        has_country_flag = supported_government
+    }
+    available = {
+        has_country_flag = supported_government
+    }
+    complete_effect = {
+        add_stability = 0.05
+        production_efficiency_cap = 0.1
+        add_political_power = -75
+        add_power_balance_value = {
+            id = my_bop
+            value = -0.07
+            tooltip_side = my_bop_government
+        }
+    }
+}
+
+government_hard_labor_conditions = {
+    icon = "gfx/interface/decisions/government_hard_labor.dds"
+    priority = 80
+    days_remove = 7
+    cost = 200
+    visible = {
+        has_country_flag = supported_government
+    }
+    available = {
+        has_country_flag = supported_government
+    }
+    complete_effect = {
+        production_efficiency_cap = 0.05
+        consumer_goods_factor = -0.05
+        add_political_power = -100
+        add_power_balance_value = {
+            id = my_bop
+            value = -0.1
+            tooltip_side = my_bop_government
+        }
+    }
+}
+
+government_crush_unions = {
+    icon = "gfx/interface/decisions/government_union_crackdown.dds"
+    priority = 70
+    days_remove = 7
+    cost = 100
+    visible = {
+        has_country_flag = supported_government
+    }
+    available = {
+        has_country_flag = supported_government
+    }
+    complete_effect = {
+        add_stability = 0.03
+        production_speed_buildings_factor = 0.1
+        add_political_power = -50
+        add_power_balance_value = {
+            id = my_bop
+            value = -0.05
+            tooltip_side = my_bop_government
+        }
+    }
+}

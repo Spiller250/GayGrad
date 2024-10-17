@@ -1,0 +1,16 @@
+state={
+	id=299
+	name="STATE_299"
+	provinces={
+		1104 1922 2063 2271 3409 5109 7076 7444 9017 9086 9115 9149 9156 9170 9194 9224 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 9149 16 }
+        victory_points = { 9115 6 }
+    victory_points = { 2063 9 }
+owner = WPR
+}

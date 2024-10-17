@@ -1,0 +1,13 @@
+# Decision Categories for Novograd
+
+NOV_balance_of_power = {
+    id = NOV_balance_of_power
+    icon = GFX_nov_decision_icon
+    allow = {
+        tag = NOV
+    }
+    available = {    }
+    visible = {
+        always = yes
+    }
+}

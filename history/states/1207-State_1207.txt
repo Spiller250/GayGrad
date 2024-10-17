@@ -1,0 +1,17 @@
+
+state={
+	id=1207
+	name="STATE_1207"
+	provinces={
+		211 1713 4848 6967 7021 14445 14459 14493 14521 14585 
+	}
+       history={
+        victory_points = { 7021 22 }
+        victory_points = { 6967 6 }
+        victory_points = { 1713 12 }
+		owner = GLU
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

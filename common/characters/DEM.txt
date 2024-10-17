@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Сенат
+senat = {
+	name = senat
+	portraits = {
+		civilian = {
+			#Custom image for Сенат
+			large = "/gfx/leaders/DEM/DEM.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  liberal_democratic_paragon }
+	}
+}
+}

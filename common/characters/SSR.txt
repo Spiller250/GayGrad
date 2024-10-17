@@ -1,0 +1,33 @@
+characters = {
+#Create country leader - Александр Ковалёв
+aleksandrkovalyov = {
+	name = aleksandrkovalyov
+	portraits = {
+		civilian = {
+			#Custom image for Александр Ковалёв
+			large = "/gfx/leaders/SSR/Alex.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyynacionalizm 
+		traits = {  }
+	}
+}
+}
+
+DenisDushlan = {
+	name = DenisDushlan 
+	portraits = {
+		civilian = {
+			#Custom image for Александр Ковалёв
+			large = "/gfx/leaders/SSR/Denis.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = konservatizm
+		traits = {  }
+	}
+}
+}

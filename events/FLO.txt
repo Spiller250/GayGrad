@@ -1,0 +1,15 @@
+add_namespace = FLO.dixieland_event
+
+country_event = {
+    id = FLO.dixieland_event.1
+    title = "Dixieland is Born"
+    desc = "The state of Dixieland has formed, representing a new era for the South."
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
+
+    option = {
+        name = "Long live Dixieland!"
+        set_cosmetic_tag = FLO_dixieland
+        set_global_flag = FLO_dixieland
+    }
+}

@@ -1,0 +1,16 @@
+state={
+	id=1059
+	name="STATE_1059"
+	provinces={
+		1064 1278 2272 3839 4898 5705 13642 13704 13836 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 13704 5 }
+        victory_points = { 3839 4 }
+    victory_points = { 1278 19 }
+owner = TVF
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Дмитрий Халваши
+dmitriyhalvashi = {
+	name = dmitriyhalvashi
+	portraits = {
+		civilian = {
+			#Custom image for Дмитрий Халваши
+			large = "/gfx/leaders/BGR/WFQpYgur-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  retired_officer }
+	}
+}
+}

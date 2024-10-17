@@ -1,0 +1,248 @@
+﻿l_russian:
+ AZO_fascism:0 " Меонтидоград"
+ AZO_fascism_DEF:0 " Меонтидоград"
+ AZO_fascism_ADJ:0"Азовск."
+ AZO_communism:0 "Азовская народная Республика"
+ AZO_communism_DEF:0 "Азовская народная Республика"
+ AZO_communism_ADJ:0"Азовск."
+ AZO_democratic:0 "Республика Азов"
+ AZO_democratic_DEF:0 "Республика Азов"
+ AZO_democratic_ADJ:0"Азовск."
+ AZO_neutrality:0 "Королевство Азовгстан"
+ AZO_neutrality_DEF:0 "Королевство Азовгстан"
+ AZO_neutrality_ADJ:0"Азовск."
+ AZO_extremism:0 " Меонтидоград"
+ AZO_extremism_DEF:0 " Меонтидоград"
+ AZO_extremism_ADJ:0" Меонтид."
+ VFR_totalist:0 "Свободная Республика Вельмиция"
+ VFR_totalist_DEF:0 "Свободная Республика Вельмиция"
+ VFR_totalist_ADJ:0 ""
+ VFR_syndicalist:0 "Свободная Республика Вельмиция"
+ VFR_syndicalist_DEF:0 "Свободная Республика Вельмиция"
+ VFR_syndicalist_ADJ:0 ""
+ VFR_radical_socialist:0 "Свободная Республика Вельмиция"
+ VFR_radical_socialist_DEF:0 "Свободная Республика Вельмиция"
+ VFR_radical_socialist_ADJ:0 ""
+ VFR_social_democrat:0 "Свободная Республика Вельмиция"
+ VFR_social_democrat_DEF:0 "Свободная Республика Вельмиция"
+ VFR_social_democrat_ADJ:0 ""
+ VFR_social_liberal:0 "Свободная Республика Вельмиция"
+ VFR_social_liberal_DEF:0 "Свободная Республика Вельмиция"
+ VFR_social_liberal_ADJ:0 ""
+ VFR_market_liberal:0 "Свободная Республика Вельмиция"
+ VFR_market_liberal_DEF:0 "Свободная Республика Вельмиция"
+ VFR_market_liberal_ADJ:0 ""
+ VFR_social_conservative:0 "Свободная Республика Вельмиция"
+ VFR_social_conservative_DEF:0 "Свободная Республика Вельмиция"
+ VFR_social_conservative_ADJ:0 ""
+ VFR_authoritarian_democrat:0 "Свободная Республика Вельмиция"
+ VFR_authoritarian_democrat_DEF:0 "Свободная Республика Вельмиция"
+ VFR_authoritarian_democrat_ADJ:0 ""
+ VFR_paternal_autocrat:0 "Свободная Республика Вельмиция"
+ VFR_paternal_autocrat_DEF:0 "Свободная Республика Вельмиция"
+ VFR_paternal_autocrat_ADJ:0 ""
+ VFR_national_populist:0 "Свободная Республика Вельмиция"
+ VFR_national_populist_DEF:0 "Свободная Республика Вельмиция"
+ VFR_national_populist_ADJ:0 ""
+ NOV_anarhiya:0 "Свободное Государство Новоград"
+ NOV_anarhiya_DEF:0 "Свободное Государство Новоград"
+ NOV_anarhiya_ADJ:0 "Новоградское"
+
+ NOV_despotizm:0 "Новоградская Диктатура"
+ NOV_despotizm_DEF:0 "Новоградская Диктатура"
+ NOV_despotizm_ADJ:0 "Новоградская"
+
+ NOV_ekstremizm:0 "Радикальный Новоград"
+ NOV_ekstremizm_DEF:0 "Радикальный Новоград"
+ NOV_ekstremizm_ADJ:0 "Новоградский"
+
+ NOV_ezotericheskiynacizm:0 "Эзотерическая Империя Новоград"
+ NOV_ezotericheskiynacizm_DEF:0 "Эзотерическая Империя Новоград"
+ NOV_ezotericheskiynacizm_ADJ:0 "Новоградская"
+
+ NOV_islamizm:0 "Исламская Республика Новоград"
+ NOV_islamizm_DEF:0 "Исламская Республика Новоград"
+ NOV_islamizm_ADJ:0 "Новоградская"
+
+ NOV_konservatizm:0 "Республика Новоград"
+ NOV_konservatizm_DEF:0 "Консервативная Республика Новоград"
+ NOV_konservatizm_ADJ:0 "Новоградская"
+
+ NOV_kriminalnyyautoritarizm:0 "Криминальный Новоград"
+ NOV_kriminalnyyautoritarizm_DEF:0 "Криминальный Новоград"
+ NOV_kriminalnyyautoritarizm_ADJ:0 "Новоградский"
+
+ NOV_liberalizm:0 "Республика Новоград"
+ NOV_liberalizm_DEF:0 "Либеральная Республика Новоград"
+ NOV_liberalizm_ADJ:0 "Новоградская"
+
+ NOV_libertarianstvo:0 "Либертарианский Новоград"
+ NOV_libertarianstvo_DEF:0 "Либертарианский Новоград"
+ NOV_libertarianstvo_ADJ:0 "Новоградский"
+
+ NOV_militarizm:0 "Военная Империя Новоград"
+ NOV_militarizm_DEF:0 "Военная Империя Новоград"
+ NOV_militarizm_ADJ:0 "Новоградская"
+
+ NOV_monarhizm:0 "Королевство Новоград"
+ NOV_monarhizm_DEF:0 "Королевство Новоград"
+ NOV_monarhizm_ADJ:0 "Новоградское"
+
+ NOV_nacionalnsindikalizm:0 "Национал-синдикалистский Новоград"
+ NOV_nacionalnsindikalizm_DEF:0 "Национал-синдикалистский Новоград"
+ NOV_nacionalnsindikalizm_ADJ:0 "Новоградский"
+
+ NOV_neofeodalizm:0 "Неофеодальная Империя Новоград"
+ NOV_neofeodalizm_DEF:0 "Неофеодальная Империя Новоград"
+ NOV_neofeodalizm_ADJ:0 "Новоградская"
+
+ NOV_oligahizm:0 "Олигархическая Республика Новоград"
+ NOV_oligahizm_DEF:0 "Олигархическая Республика Новоград"
+ NOV_oligahizm_ADJ:0 "Новоградская"
+
+ NOV_progressivizm:0 "Прогрессивная Республика Новоград"
+ NOV_progressivizm_DEF:0 "Прогрессивная Республика Новоград"
+ NOV_progressivizm_ADJ:0 "Новоградская"
+
+ NOV_rycarskiykodeks:0 "Рыцарское Королевство Новоград"
+ NOV_rycarskiykodeks_DEF:0 "Рыцарский Новоград"
+ NOV_rycarskiykodeks_ADJ:0 "Новоградский"
+
+ NOV_socializm:0 "Социалистическая Республика Новоград"
+ NOV_socializm_DEF:0 "Социалистическая Республика Новоград"
+ NOV_socializm_ADJ:0 "Новоградская"
+
+ NOV_teokratiya:0 "Теократическая Империя Новоград"
+ NOV_teokratiya_DEF:0 "Теократическая Империя Новоград"
+ NOV_teokratiya_ADJ:0 "Новоградская"
+
+ NOV_voennayayhunta:0 "Военная Хунта Новоград"
+ NOV_voennayayhunta_DEF:0 "Военная Хунта Новоград"
+ NOV_voennayayhunta_ADJ:0 "Новоградская"
+ Nov_neutrality:0 "Новоград"
+ 
+ VSokolov:0 "Владимир Соколов"
+ ABarreta:0 "Александр Баррета"
+ GVladimir:0 "Владимир Балслеев"
+ VremPrav:0 "Временное Правительство"
+ 
+ PAS_konservatizm:0 "Республика Пасифия"
+ 
+your_mod.1.title: "Изменение Религиозного Влияния"
+your_mod.1.desc: "Изменение популярности религий."
+decision_increase_perunism_popularity: "Увеличить популярность Перунизма"
+decision_increase_christianity_popularity: "Увеличить популярность Христианства"
+decision_increase_atheism_popularity: "Увеличить популярность Атеизма"
+perunism_buff: "Перунизм Влияние"
+christianity_buff: "Христианство Влияние"
+atheism_buff: "Атеизм Влияние"
+GetChristianity: "[GetChristianity]"
+GetAtheism: "[GetAtheism]"
+GetPerunism: "[GetPerunism]"
+GetDominantReligion: "[GetDominantReligion]"
+
+CAR_kriminalnyyavtoritarizm:0 "Зона Контроля Картеля"
+
+bogdan:0 "Богдан Спиллеров"
+TRIMP:0 "Джонни Свифт"
+Garrett:0 "Гаррет О'Хара"
+Nathan:0 "Нейтон Грейсуэлл"
+
+FLO_konservatizm:0 "Республика Фолессия"
+FLO_liberalizm:0 "Республика Фолессия"
+
+  PDP:0 "Пасифийский Союз"
+  PDP_ADJ:0 "Пасифийский"
+  PSP:0 "Конституционная Пасифия"
+  PSP_ADJ:0 "Конституционный"
+  PDL:0 "Южное Братство"
+  PDL_ADJ:0 "Южный"
+
+  PDP_DESC:0 "Пасифийский Союз - страна, построенная на принципах свободы, демократии и прав человека. Стремится к мирному сосуществованию и развитию международных связей."
+  PSP_DESC:0 "Конституционная Пасифия - государство, основанное на консервативных ценностях, традициях и сильной государственной власти. Власть здесь защищает традиции и поддерживает порядок."
+  PDL_DESC:0 "Южное Братство - фашистское государство, где во главе стоят националистические ценности и авторитарный контроль. Главная цель - милитаризация и экспансия."
+
+
+  CONSRV_CRITICIZE_ELECTION:0 "Консерваторы критикуют результаты выборов"
+  CONSRV_CRITICIZE_ELECTION_DESC:0 "Консерваторы открыто выражают недовольство результатами последних выборов, утверждая, что они были сфальсифицированы."
+
+  CONSRV_SCANDAL_SPEECH:0 "Скандальное выступление Консерваторов"
+  CONSRV_SCANDAL_SPEECH_DESC:0 "Консерваторы выступили с жёсткими заявлениями, что выборы были нелегитимными, подогревая политическую напряжённость в стране."
+
+  PROTESTS_ANNOUNCED:0 "Массовые митинги"
+  PROTESTS_ANNOUNCED_DESC:0 "Консерваторы призвали своих сторонников выйти на улицы, чтобы протестовать против результатов выборов."
+
+  SUPPRESSION_DECISION:0 "Подавление митингов"
+  SUPPRESSION_DECISION_DESC:0 "Правительство решило подавить протесты силой. Митинги начали охватывать всё больше городов."
+
+  UPRISING:0 "Захват городов"
+  UPRISING_DESC:0 "Консерваторы начали захватывать ключевые города, утверждая, что они борются за восстановление конституционного порядка."
+
+  CIVIL_WAR_START:0 "Начало Гражданской войны"
+  CIVIL_WAR_START_DESC:0 "Гражданская война вспыхнула между сторонниками трёх политических сил: либерального Пасифийского Союза, консервативной Конституционной Пасифии и фашистского Южного Братства."
+
+  demyan_ryazantsev:0 "Демьян Рязанцев"
+  Yaroslav:0 "Ярослав Штрейсер"
+  stanislav_kupeckiy:0 "Станислав Купецкий"
+  aleksey_progressov:0 "Алексей Трэмбон"
+    
+    
+  VLR:0 "Республиканская Лига Великограда"
+  VLR_DEF:0 "Республиканская Лига"
+  VLR_ADJ:0 "республиканская"
+
+# Княжество Белогорское
+TKB_satanizm:0 "Сатанинское Княжество"
+TKB_liberalizm:0 "Светлая Река"
+TKB_militarizm:0 "Фортеция Войн"
+TKB_konservatizm:0 "Наследие Веков"
+TKB_monarhizm:0 "Королевство Белого Солнца"
+TKB_fascism:0 "Легионы Ренессанса"
+TKB_neutrality:0 "Тишина Земли"
+
+# Великоградский Союз Свободы
+GLU_satanizm:0 "Сатанинская Альтернатива"
+GLU_liberalizm:0 "Великоградский Союз Свободы"
+GLU_militarizm:0 "Великоградский Союз"
+GLU_konservatizm:0 "Огненная Традиция"
+GLU_monarhizm:0 "Империя Золотого Века"
+GLU_fascism:0 "Восстание Чёрных"
+GLU_neutrality:0 "Путь Мира"
+
+# Серебряная Гвардия
+TSG_satanizm:0 "Сатанинская Гвардия"
+TSG_liberalizm:0 "Светлая Республика"
+TSG_militarizm:0 "Щит Серебра"
+TSG_konservatizm:0 "Оплот Мудрости"
+TSG_monarhizm:0 "Королевство Серебряного Ветра"
+TSG_fascism:0 "Фашистская Мощь"
+TSG_neutrality:0 "Забвение Мира"
+
+# Чёрный Консулат
+TBK_satanizm:0 "Сатанинский Консулат"
+TBK_liberalizm:0 "Либеральный Город"
+TBK_militarizm:0 "Чёрный Консулат"
+TBK_konservatizm:0 "Долина Традиций"
+TBK_monarhizm:0 "Империя Чёрного Солнца"
+TBK_fascism:0 "Фашистская Деспотия"
+TBK_neutrality:0 "Тень Устойчивости"
+
+# Патриотическая Республика Великограда
+GPR_satanizm:0 "Сатанинская Республика"
+GPR_liberalizm:0 "Республика Свободных Мыслей"
+GPR_militarizm:0 "Великая Оборона"
+GPR_konservatizm:0 "Оплот Традиций"
+GPR_monarhizm:0 "Патриотическая Империя Великограда"
+GPR_fascism:0 "Патриотическая Республика Великограда"
+GPR_neutrality:0 "Сердце Мира"
+
+# Тёмный Конклав
+TSC_satanism:0 "Тёмный Конклав"
+TSC_liberalizm:0 "Конклав Свободной Мысли"
+TSC_militarizm:0 "Темные Легионы"
+TSC_konservatizm:0 "Темное Наследие"
+TSC_monarhizm:0 "Темное Королевство"
+TSC_fascism:0 "Фашистская Тень"
+TSC_neutrality:0 "Тайна Устойчивости"
+
+SFG:0 "Содружество Федеральных Государств"

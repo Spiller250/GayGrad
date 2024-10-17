@@ -1,0 +1,16 @@
+state={
+	id=213
+	name="STATE_213"
+	provinces={
+		267 1852 1890 3412 4709 4834 5361 6758 8467 8475 8518 8552 8570 8589 8603 8636 8676 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 3412 4 }
+        victory_points = { 4709 21 }
+    victory_points = { 8589 12 }
+owner = LHT
+}

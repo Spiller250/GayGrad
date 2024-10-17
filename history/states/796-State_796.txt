@@ -1,0 +1,16 @@
+state={
+	id=796
+	name="STATE_796"
+	provinces={
+		711 2195 2223 4263 5830 6129 12053 12233 12269 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 2223 11 }
+        victory_points = { 4263 15 }
+    victory_points = { 6129 14 }
+owner = LNR
+}

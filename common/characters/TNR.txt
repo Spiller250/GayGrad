@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Сян Ли
+syanli = {
+	name = syanli
+	portraits = {
+		civilian = {
+			#Custom image for Сян Ли
+			large = "/gfx/leaders/TNR/qcQsSgVh-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

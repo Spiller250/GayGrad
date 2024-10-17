@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Фашисткий совет
+fashistkiysovet = {
+	name = fashistkiysovet
+	portraits = {
+		civilian = {
+			#Custom image for Фашисткий совет
+			large = "/gfx/leaders/CAO/mVxkIXTn-582056.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  dictator underage_monarch }
+	}
+}
+}

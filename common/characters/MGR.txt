@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Эмма Грин
+emmagrin = {
+	name = emmagrin
+	portraits = {
+		civilian = {
+			#Custom image for Эмма Грин
+			large = "/gfx/leaders/MGR/EDqHSkdn-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = ekosocializm
+		traits = {  }
+	}
+}
+}

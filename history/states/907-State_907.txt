@@ -1,0 +1,15 @@
+state={
+	id=907
+	name="STATE_907"
+	provinces={
+		1105 1384 1538 2368 2400 4612 12710 12806 12826 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 1384 13 }
+        victory_points = { 4612 20 }
+    victory_points = { 2368 19 }
+owner = TLI
+}

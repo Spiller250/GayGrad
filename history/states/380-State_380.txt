@@ -1,0 +1,16 @@
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		240 2506 5960 6010 6270 7002 9454 9503 9518 9555 9562 9603 9673 9725 9726 9824 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 9518 10 }
+        victory_points = { 240 11 }
+    victory_points = { 9503 20 }
+owner = WSR
+}

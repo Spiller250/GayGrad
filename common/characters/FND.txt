@@ -1,0 +1,33 @@
+characters = {
+#Create country leader -  Себастьян Кортес
+sebastyankortes = {
+	name = sebastyankortes
+	portraits = {
+		civilian = {
+			#Custom image for  Себастьян Кортес
+			large = "/gfx/leaders/FND/kVcaiXDe-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader -  Себастьян Кортес
+sebastyankortes = {
+	name = sebastyankortes
+	portraits = {
+		civilian = {
+			#Custom image for  Себастьян Кортес
+			large = "/gfx/leaders/FND/zwoupxLn-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+}

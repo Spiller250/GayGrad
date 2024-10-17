@@ -1,0 +1,16 @@
+state={
+	id=791
+	name="STATE_791"
+	provinces={
+		1388 2464 6050 11976 12074 12122 12160 12161 12216 12237 12245 12301 12302 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 12074 5 }
+        victory_points = { 12245 8 }
+    victory_points = { 12160 9 }
+owner = NAD
+}

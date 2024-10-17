@@ -1,0 +1,17 @@
+
+state={
+	id=398
+	name="STATE_398"
+	provinces={
+		2420 3135 6176 7379 7464 9507 9605 9606 9689 9759 9806 9910 9911 9962 
+	}
+ history={
+        victory_points = { 9606 7 }
+        victory_points = { 9689 18 }
+        victory_points = { 9962 19 }
+		owner = YEL
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

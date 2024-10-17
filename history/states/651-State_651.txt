@@ -1,0 +1,17 @@
+
+state={
+	id=651
+	name="STATE_651"
+	provinces={
+		409 3651 4086 7672 11189 11247 11273 11332 11421 11422 11515 
+	}
+       history={
+        victory_points = { 11189 22 }
+        victory_points = { 11422 14 }
+        victory_points = { 7672 9 }
+		owner = SSR
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

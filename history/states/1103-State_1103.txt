@@ -1,0 +1,15 @@
+state={
+	id=1103
+	name="STATE_1103"
+	provinces={
+		131 579 2169 3051 5390 5442 6960 13790 13858 13964 14054 
+	}
+       history={
+        victory_points = { 131 20 }
+        victory_points = { 14054 13 }
+        victory_points = { 5390 25 }
+		owner = TBK
+	}
+	manpower=100000
+	state_category = large_town
+}

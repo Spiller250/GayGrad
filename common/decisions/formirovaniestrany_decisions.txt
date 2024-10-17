@@ -1,0 +1,7 @@
+formirovaniestrany = {
+	obrazovaniesfg = {
+		icon = decision_icon_obrazovaniesfg
+		cost = 150
+		days_remove = -1
+	}
+}

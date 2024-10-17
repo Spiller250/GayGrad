@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Ганс Барунов
+gansbarunov = {
+	name = gansbarunov
+	portraits = {
+		civilian = {
+			#Custom image for Ганс Барунов
+			large = "/gfx/leaders/SWG/NSHXZxjR-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

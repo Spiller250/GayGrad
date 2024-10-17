@@ -1,0 +1,15 @@
+state={
+	id=747
+	name="STATE_747"
+	provinces={
+		93 2613 3614 4553 5143 7510 11655 11894 11955 
+	}
+       history={
+        victory_points = { 4553 13 }
+        victory_points = { 93 22 }
+        victory_points = { 11955 23 }
+		owner = GEO
+	}
+	manpower=100000
+	state_category = large_town
+}

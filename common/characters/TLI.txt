@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Дэвид Камерон
+devidkameron = {
+	name = devidkameron
+	portraits = {
+		civilian = {
+			#Custom image for Дэвид Камерон
+			large = "/gfx/leaders/TLI/MnzARydo-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

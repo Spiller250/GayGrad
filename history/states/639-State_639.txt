@@ -1,0 +1,15 @@
+state={
+	id=639
+	name="STATE_639"
+	provinces={
+		205 519 1700 2524 2575 2917 10985 11103 11143 11186 11187 
+	}
+       history={
+        victory_points = { 2575 14 }
+        victory_points = { 11187 6 }
+        victory_points = { 11186 15 }
+		owner = ALM
+	}
+	manpower=100000
+	state_category = large_town
+}

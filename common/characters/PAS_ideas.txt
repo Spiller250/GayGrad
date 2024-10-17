@@ -1,0 +1,209 @@
+characters = {	eleanor_m_baines = {
+		name = eleanor_m_baines
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/CexPhZRn-718372.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = eleanor_m_baines
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { democratic_reformer}
+		}
+	}
+	kelvinrlokridzh = {
+		name = kelvinrlokridzh
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/AIZCTuhS-718380.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = kelvinrlokridzh
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { political_manipulator}
+		}
+	}
+	dzhasperthollingsvort = {
+		name = dzhasperthollingsvort
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/rOviASgT-718382.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = dzhasperthollingsvort
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { captain_of_industry financial_expert}
+		}
+	}
+	virdzhiniyalhotorn = {
+		name = virdzhiniyalhotorn
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/JlkdZuxA-718384.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = virdzhiniyalhotorn
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { economic_reformer}
+		}
+	}
+	sterlingpfosett = {
+		name = sterlingpfosett
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/nRmTFsQo-718385.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = sterlingpfosett
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { war_industrialist military_theorist}
+		}
+	}
+	doloresauinslou = {
+		name = doloresauinslou
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/lIpXuKmo-718387.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = doloresauinslou
+			allowed = {
+				original_tag = PAS
+			}
+			traits = {man_of_the_nation feminist_ultranationalist }
+		}
+	}
+	kuinsirkinkeyd = {
+		name = kuinsirkinkeyd
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/VPRGOIzv-718388.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = kuinsirkinkeyd
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { the_young_magnate silent_mule}
+		}
+	}
+	marigoldstrevelyan = {
+		name = marigoldstrevelyan
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/kOMWrgzj-718391.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = marigoldstrevelyan
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { defender_of_the_peasantry}
+		}
+	}
+	fineasukedvell = {
+		name = fineasukedvell
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/iHZARoEj-718392.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = fineasukedvell
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { railway_company railroad_enthusiast}
+		}
+	}
+	dzhonatanuolters = {
+		name = dzhonatanuolters
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/YsPOZSfG-718487.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = dzhonatanuolters
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { army_chief_organizational_2}
+		}
+	}
+	mayklharding = {
+		name = mayklharding
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/xQdzjlDy-718488.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = mayklharding
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { army_artillery_1 army_regrouping_1}
+		}
+	}
+	richarduebster = {
+		name = richarduebster
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/kIPVimpn-718489.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = richarduebster
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { army_chief_reform_2}
+		}
+	}
+	devidmakferson = {
+		name = devidmakferson
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/PAS/KYZEgmJx-718491.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = devidmakferson
+			allowed = {
+				original_tag = PAS
+			}
+			traits = { army_chief_planning_2}
+		}
+	}
+}

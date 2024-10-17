@@ -1,0 +1,15 @@
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		1573 2318 3492 4670 6122 7069 7488 9473 9505 9529 9615 9662 9675 9688 9729 9748 9878 
+	}
+ history={
+        victory_points = { 7069 15 }
+        victory_points = { 9473 25 }
+        victory_points = { 9615 6 }
+		owner = DEM
+	}
+	manpower=100000
+	state_category = large_town
+}

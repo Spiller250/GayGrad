@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Арам Айвазян
+aramayvazyan = {
+	name = aramayvazyan
+	portraits = {
+		civilian = {
+			#Custom image for Арам Айвазян
+			large = "/gfx/leaders/NAD/KgEyJkdv-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyysocializm
+		traits = {  }
+	}
+}
+}

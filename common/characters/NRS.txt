@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Лиана Старосветская
+lianastarosvetskaya = {
+	name = lianastarosvetskaya
+	portraits = {
+		civilian = {
+			#Custom image for Лиана Старосветская
+			large = "/gfx/leaders/NRS/AKLeGPEv-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = tehnokraticheskiyprogressivizm
+		traits = {  }
+	}
+}
+}

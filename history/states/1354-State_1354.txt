@@ -1,0 +1,15 @@
+state={
+	id=1354
+	name="STATE_1354"
+	provinces={
+		1321 5051 15111 15115 15121 15124 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 1321 8 }
+        victory_points = { 5051 9 }
+    victory_points = { 15121 20 }
+owner = TKC
+}

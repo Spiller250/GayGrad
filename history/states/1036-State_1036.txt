@@ -1,0 +1,16 @@
+state={
+	id=1036
+	name="STATE_1036"
+	provinces={
+		176 3067 4683 5077 5467 7143 13434 13572 13582 13672 13698 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 4683 11 }
+        victory_points = { 13672 21 }
+    victory_points = { 176 21 }
+owner = CHN
+}

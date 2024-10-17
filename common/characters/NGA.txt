@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Борис Громов
+borisgromov = {
+	name = borisgromov
+	portraits = {
+		civilian = {
+			#Custom image for  Борис Громов
+			large = "/gfx/leaders/NGA/XeJIzTSK-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = dzhingoizm
+		traits = {  }
+	}
+}
+}

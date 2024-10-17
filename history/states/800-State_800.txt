@@ -1,0 +1,15 @@
+state={
+	id=800
+	name="STATE_800"
+	provinces={
+		1481 3996 4388 5586 5769 7044 7480 12043 12149 12221 12273 
+	}
+ history={
+        victory_points = { 12149 7 }
+        victory_points = { 12273 25 }
+        victory_points = { 5769 11 }
+		owner = EAZ
+	}
+	manpower=100000
+	state_category = large_town
+}

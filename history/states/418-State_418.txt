@@ -1,0 +1,15 @@
+state={
+	id=418
+	name="STATE_418"
+	provinces={
+		308 907 1701 5610 6124 6713 7280 9632 9703 9758 9827 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 6713 12 }
+        victory_points = { 9758 4 }
+    victory_points = { 308 11 }
+owner = TAR
+}

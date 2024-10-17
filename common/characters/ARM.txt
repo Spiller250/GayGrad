@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Аркадий Армянцев
+arkadiyarmyancev = {
+	name = arkadiyarmyancev
+	portraits = {
+		civilian = {
+			#Custom image for  Аркадий Армянцев
+			large = "/gfx/leaders/ARM/bvRTtKIX-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,16 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		669 4133 4987 5577 6769 6781 6926 12019 12097 12120 12136 12197 12235 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 5577 23 }
+        victory_points = { 669 9 }
+    victory_points = { 6926 18 }
+owner = BNA
+}

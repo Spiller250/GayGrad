@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Леонард Хуан
+leonardhuan = {
+	name = leonardhuan
+	portraits = {
+		civilian = {
+			#Custom image for Леонард Хуан
+			large = "/gfx/leaders/NSC/BdycoMXR-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = ekosocializm
+		traits = {  }
+	}
+}
+}

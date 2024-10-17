@@ -1,0 +1,15 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		2936 3636 5229 5859 7486 9550 9623 9698 9706 9737 9781 9802 9851 9957 9985 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 9781 24 }
+        victory_points = { 9623 25 }
+    victory_points = { 3636 18 }
+owner = GLZ
+}

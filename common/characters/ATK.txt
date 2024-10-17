@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Анархия
+anarhiya = {
+	name = anarhiya
+	portraits = {
+		civilian = {
+			#Custom image for Анархия
+			large = "/gfx/leaders/ATK/ZaNBPOTy-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarchism
+		traits = {  }
+	}
+}
+}

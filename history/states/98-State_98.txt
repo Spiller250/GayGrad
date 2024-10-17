@@ -1,0 +1,15 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		223 3474 3524 4297 5312 5501 5594 6686 7941 7953 7978 7981 7996 
+	}
+
+ history={
+        victory_points = { 223 16 }
+        victory_points = { 3474 20 }
+        victory_points = { 4297 11 }
+		owner = ARM
+	}
+	manpower=100000
+	state_category = large_town}

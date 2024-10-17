@@ -1,0 +1,18 @@
+
+state={
+	id=1087
+	name="STATE_1087"
+	provinces={
+		993 1456 2744 4108 4184 13779 13785 13806 13843 13852 13906 13961 13976 14016 14050 14053 14062 14087 14131 
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+
+
+history = {
+        victory_points = { 14062 6 }
+        victory_points = { 13852 10 }
+    victory_points = { 2744 23 }
+owner = CHN
+}

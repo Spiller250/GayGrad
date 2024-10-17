@@ -1,0 +1,15 @@
+state={
+	id=721
+	name="STATE_721"
+	provinces={
+		3939 4312 7039 11568 11599 11654 11681 11703 11731 11753 11777 11793 11794 11826 11863 11909 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 11654 9 }
+        victory_points = { 11599 18 }
+    victory_points = { 11753 19 }
+owner = FRV
+}

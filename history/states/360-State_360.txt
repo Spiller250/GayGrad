@@ -1,0 +1,15 @@
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		1138 1323 2741 3513 5031 5581 6336 7358 9367 9383 9445 9446 9463 9472 
+	} 
+             history={
+        victory_points = { 9445 9 }
+        victory_points = { 5581 20 }
+        victory_points = { 9383 25 }
+		owner = CAN
+	}
+	manpower=100000
+	state_category = large_town
+}

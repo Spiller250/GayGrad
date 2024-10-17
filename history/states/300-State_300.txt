@@ -1,0 +1,15 @@
+state={
+	id=300
+	name="STATE_300"
+	provinces={
+		189 698 1629 2214 4031 4083 8960 9003 9014 9035 9057 9082 9121 9151 9175 9308 
+	}
+       history={
+        victory_points = { 9151 23 }
+        victory_points = { 9014 25 }
+        victory_points = { 2214 4 }
+		owner = NGA
+	}    
+	manpower=100000
+	state_category = large_town
+}

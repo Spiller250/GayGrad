@@ -1,0 +1,9 @@
+FLO_dixieland = {
+    color = rgb { 180 0 0 }
+    color_ui = rgb { 180 0 0 }
+}
+
+SFG = {
+    color = rgb { 24 26 122 }
+    color_ui = rgb { 24 26 122 }
+}

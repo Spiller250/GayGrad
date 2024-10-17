@@ -1,0 +1,15 @@
+state={
+	id=1284
+	name="STATE_1284"
+	provinces={
+		334 902 1991 3164 4715 5132 5667 5970 6287 14805 14828 14863 14887 
+	}
+       history={
+        victory_points = { 334 14 }
+        victory_points = { 3164 6 }
+        victory_points = { 902 20 }
+		owner = NSS
+	}
+	manpower=100000
+	state_category = large_town
+}

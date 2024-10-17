@@ -1,0 +1,16 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		209 322 552 939 1185 1641 1736 2516 4427 4654 5695 6023 6805 8056 8069 8081 8117 8144 8171 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 8069 9 }
+        victory_points = { 939 10 }
+    victory_points = { 8081 19 }
+owner = TBR
+}

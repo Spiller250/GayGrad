@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Хансулууган Наран
+hansuluugannaran = {
+	name = hansuluugannaran
+	portraits = {
+		civilian = {
+			#Custom image for Хансулууган Наран
+			large = "/gfx/leaders/HAL/HAL.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyynacionalizm
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,29 @@
+characters = {
+
+Nathan = {
+    name = "Nathan"
+    portraits = {
+        civilian = {
+            large = "/gfx/leaders/FLO/GFX_leader_nathan_gracewell.dds"
+        }
+    }
+    country_leader = {
+        expire = "1965.1.1"
+        ideology = rynochnyyliberalizm
+        traits = { trait_administrator trait_decisive }
+    }
+}
+
+Garrett = {
+    name = "Garrett"
+    portraits = {
+        civilian = {
+            large = "/gfx/leaders/FLO/GFX_leader_garrett_o_hare.dds"
+        }
+    }
+    country_leader = {
+        expire = "1965.1.1"
+        ideology = nacionalnyykonservatizm
+        traits = { trait_strategist trait_demagogue }
+    }
+}

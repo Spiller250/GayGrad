@@ -1,0 +1,14 @@
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		2571 3312 3401 5103 6518 7936 7940 7973 7975 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 2571 25 }
+      victory_points = { 5103 17 }
+    victory_points = { 3401 6 }
+owner = ATK
+}

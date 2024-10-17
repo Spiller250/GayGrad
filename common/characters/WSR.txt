@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Эльза Кляйн
+elzaklyayn = {
+	name = elzaklyayn
+	portraits = {
+		civilian = {
+			#Custom image for Эльза Кляйн
+			large = "/gfx/leaders/WSR/eSgiryXO-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nacionalnyysocializm
+		traits = {  }
+	}
+}
+}

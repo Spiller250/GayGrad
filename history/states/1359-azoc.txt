@@ -1,0 +1,14 @@
+state={
+	id=1360
+	name="STATE_1360"
+	provinces={
+		11249 
+	}
+        history={
+        victory_points = { 11249 11 }
+		owner = AZO
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

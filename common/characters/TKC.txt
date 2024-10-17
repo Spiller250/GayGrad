@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Михаил Кривий
+mihailkriviy = {
+	name = mihailkriviy
+	portraits = {
+		civilian = {
+			#Custom image for Михаил Кривий
+			large = "/gfx/leaders/TKC/GaRtjfzk-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = falangism
+		traits = {  }
+	}
+}
+}

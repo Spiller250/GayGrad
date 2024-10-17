@@ -1,0 +1,16 @@
+state={
+	id=900
+	name="STATE_900"
+	provinces={
+		244 1396 1477 3914 4024 6467 12653 12673 12744 12832 12882 12925 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 4024 10 }
+        victory_points = { 12744 25 }
+    victory_points = { 244 11 }
+owner = BKA
+}

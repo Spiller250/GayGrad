@@ -1,0 +1,582 @@
+focus_tree = {
+	id = flo
+	continuous_focus_position = { x = -40 y = 1830 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FLO
+		}
+	}
+	#Толерантность
+	focus = {
+		id = FLO_tolerantnost
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FLO_otnosheniyapopovodudrugihnacionalnostey  }
+		mutually_exclusive = { focus = FLO_diskriminaciya  }
+		available = {
+			always = no
+			
+			
+		}
+		select_effect = {
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+
+}
+	}
+
+	#Развитие Сельского Хозяйства
+	focus = {
+		id = FLO_razvitieselskogohozyaystva
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FLO_ekonomicheskiykonservatizm  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Рождение Флориды
+	focus = {
+		id = FLO_rozhdeniefloridy
+		icon = GFX_goal_unknown
+		x = 3
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		select_effect = {
+add_stability = 0.1
+
+
+}
+	}
+
+	#Выборы
+	focus = {
+		id = FLO_vybory
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = FLO_rozhdeniefloridy  }
+		select_effect = {
+add_stability = 0.1
+
+
+}
+	}
+
+	#Победа Консервативной Партии
+	focus = {
+		id = FLO_pobedakonservativnoypartii
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FLO_vybory  }
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+			country_event = {
+			    id = EVENT_ID
+			    days = 10
+			    random = 50
+			    random_days = 10
+			}
+			
+			
+			
+		}
+	}
+
+	#Семейные Ценности
+	focus = {
+		id = FLO_semeynyecennosti
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FLO_pobedakonservativnoypartii  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			add_manpower = 10000
+			
+			
+		}
+	}
+
+	#Экономический консерватизм
+	focus = {
+		id = FLO_ekonomicheskiykonservatizm
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FLO_pobedakonservativnoypartii  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Пропаганда Семейных Ценностей
+	focus = {
+		id = FLO_propagandasemeynyhcennostey
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = FLO_semeynyecennosti  }
+		select_effect = {
+add_stability = 0.1
+
+
+}
+	}
+
+	#Флорида прежде всего
+	focus = {
+		id = FLO_floridaprezhdevsego
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FLO_ekonomicheskiykonservatizm  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Цитрусовая империя
+	focus = {
+		id = FLO_citrusovayaimperiya
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FLO_floridaprezhdevsego  }
+		select_effect = {
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 2
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+
+}
+	}
+
+	#образовательной программы
+	focus = {
+		id = FLO_obrazovatelnoyprogrammy
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = FLO_propagandasemeynyhcennostey  }
+		select_effect = {
+add_research_slot = 1
+
+
+}
+	}
+
+	#Поддержка бедных слоев населения
+	focus = {
+		id = FLO_podderzhkabednyhsloevnaseleniya
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FLO_razvitieselskogohozyaystva  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Пропаганда Национализма
+	focus = {
+		id = FLO_propagandanacionalizma
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = FLO_citrusovayaimperiya  } prerequisite = { focus = FLO_obrazovatelnoyprogrammy  focus = FLO_podderzhkabednyhsloevnaseleniya  }
+		select_effect = {
+add_stability = -0.2
+
+add_manpower = 10000
+
+
+}
+	}
+
+	#Отношения по поводу других национальностей
+	focus = {
+		id = FLO_otnosheniyapopovodudrugihnacionalnostey
+		icon = GFX_goal_unknown
+		x = 6
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = FLO_propagandanacionalizma  }
+		select_effect = {
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = arms_factory
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = arms_factory
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+add_stability = -0.1
+
+
+country_event = {
+    id = flo.1
+    days = 10
+    random = 50
+    random_days = 10
+}
+
+
+
+}
+	}
+
+	#Дискриминация
+	focus = {
+		id = FLO_diskriminaciya
+		icon = GFX_goal_unknown
+		x = 5
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FLO_otnosheniyapopovodudrugihnacionalnostey  }
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Флоридский Ультра-Национализм
+	focus = {
+		id = FLO_floridskiyultranacionalizm
+		icon = GFX_goal_unknown
+		x = 5
+		y = 9
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = FLO_diskriminaciya  }
+		mutually_exclusive = { focus = FLO_nacionalnoeedinstvo  }
+		select_effect = {
+add_manpower = 50000
+
+
+}
+	}
+
+	#"Национальное Единство"
+	focus = {
+		id = FLO_nacionalnoeedinstvo
+		icon = GFX_goal_unknown
+		x = 7
+		y = 9
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = FLO_tolerantnost  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#НАЧАТЬ СМУТУ
+	focus = {
+		id = FLO_nachatsmutu
+		icon = GFX_goal_unknown
+		x = 6
+		y = 11
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		select_effect = {
+unlock_decision_category_tooltip = Smuta
+
+
+}
+	}
+
+	#Флоридский Импереализм
+	focus = {
+		id = FLO_floridskiyimperealizm
+		icon = GFX_goal_unknown
+		x = 6
+		y = 10
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FLO_floridskiyultranacionalizm  } prerequisite = { focus = FLO_nacionalnoeedinstvo  }
+		completion_reward = {
+			add_war_support = 0.1
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+}

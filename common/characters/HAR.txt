@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Алексей Харенский
+alekseyharenskiy = {
+	name = alekseyharenskiy
+	portraits = {
+		civilian = {
+			#Custom image for Алексей Харенский
+			large = "/gfx/leaders/HAR/spkDNobV-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = falangism
+		traits = {  }
+	}
+}
+}

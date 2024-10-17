@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Игорь Грозовский
+igorgrozovskiy = {
+	name = igorgrozovskiy
+	portraits = {
+		civilian = {
+			#Custom image for Игорь Грозовский
+			large = "/gfx/leaders/REG/IRGJiQMA-597596.dds"
+		}
+	}
+	country_leader = {
+		expire = "2077.7.7"
+		ideology = kievgradskayasistema
+		traits = {  }
+	}
+}
+}

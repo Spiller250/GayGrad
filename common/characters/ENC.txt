@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Артур Волковский
+arturvolkovskiy = {
+	name = arturvolkovskiy
+	portraits = {
+		civilian = {
+			#Custom image for Артур Волковский
+			large = "/gfx/leaders/ENC/gHpsQcLZ-607579.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = sindikalizmssr
+		traits = {  }
+	}
+}
+}

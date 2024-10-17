@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Грегор Вайс
+gregorvays = {
+	name = gregorvays
+	portraits = {
+		civilian = {
+			#Custom image for Грегор Вайс
+			large = "/gfx/leaders/TWB/ZJkxhIMs-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

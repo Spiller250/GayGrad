@@ -1,0 +1,36 @@
+obb = "NOV_1936"
+capital = 233
+set_research_slots = 3
+set_stability = 4
+set_war_support = 3
+set_convoys = 200
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription   
+	limited_conscription
+	volunteer_only 
+        limited_conscription
+	civilian_economy
+	civilian_economy     
+}                                                           
+
+
+#Politics for 1951.1.1
+set_politics = {
+	ruling_party = nazism
+	last_election = "1935.1.24"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	fascism = 100
+	communism = 0
+	neutrality = 0
+}
+
+}
+
+recruit_character = NAZI

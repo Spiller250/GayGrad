@@ -1,0 +1,15 @@
+state={
+	id=127
+	name="STATE_127"
+	provinces={
+		300 652 2884 2886 3396 4433 6575 6725 7710 7748 8071 8130 8139 8140 8163 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 3396 22 }
+        victory_points = { 2884 12 }
+    victory_points = { 8139 8 }
+owner = WBD
+}

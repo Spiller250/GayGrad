@@ -1,0 +1,20 @@
+
+state={
+	id=69
+	name="STATE_69"
+
+	history={
+		victory_points = {7864 21 }
+		victory_points = {7842 20 }
+		victory_points = {7854 14}
+owner = KMK
+
+	}
+
+	provinces={
+		475 1644 1828 1946 5798 7202 7842 7843 7854 7864 
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

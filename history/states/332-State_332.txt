@@ -1,0 +1,16 @@
+state={
+	id=332
+	name="STATE_332"
+	provinces={
+		404 4029 4090 5578 6837 9125 9126 9165 9238 9288 9365 9372 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 9365 19 }
+        victory_points = { 9288 4 }
+    victory_points = { 404 7 }
+owner = CCC
+}

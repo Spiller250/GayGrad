@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Виктор Белов
+viktorbelov = {
+	name = viktorbelov
+	portraits = {
+		civilian = {
+			#Custom image for  Виктор Белов
+			large = "/gfx/leaders/ALM/xmOCpTlK-607570.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyynacionalizm
+		traits = {  }
+	}
+}
+}

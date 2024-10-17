@@ -1,0 +1,14 @@
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		188 207 212 491 544 1249 1289 2662 3970 6062 7340 7869 7876 7881 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 7881 16 }
+       victory_points = { 491 24 }
+    victory_points = { 6062 8 }
+owner = KMK
+}

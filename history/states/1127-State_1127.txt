@@ -1,0 +1,15 @@
+state={
+	id=1127
+	name="STATE_1127"
+	provinces={
+		935 3217 4741 6959 13884 13983 14068 14134 14152 
+	}
+        history = {
+        victory_points = { 14152 25 }
+        victory_points = { 935 12 }
+        victory_points = { 6959 14 }
+                owner = NFK
+}
+	manpower=100000
+	state_category = large_town
+}

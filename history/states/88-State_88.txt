@@ -1,0 +1,14 @@
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		272 340 1920 3461 3945 4415 6839 7897 7907 7917 7925 7949 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 7949 17 }
+        victory_points = { 3945 9 }
+    victory_points = { 6839 15 }
+owner = KMK
+}

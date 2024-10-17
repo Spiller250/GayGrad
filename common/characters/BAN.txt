@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Джоуи Бастер
+dzhouibaster = {
+	name = dzhouibaster
+	portraits = {
+		civilian = {
+			#Custom image for Джоуи Бастер
+			large = "/gfx/leaders/BAN/xiDBvnLK-603921.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

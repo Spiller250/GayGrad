@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Генерал Джонатан Айрон
+generaldzhonatanayron = {
+	name = generaldzhonatanayron
+	portraits = {
+		civilian = {
+			#Custom image for Генерал Джонатан Айрон
+			large = "/gfx/leaders/MCG/dABZQncp-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stratokratiya
+		traits = {  warrior_code }
+	}
+}
+}

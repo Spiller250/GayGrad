@@ -1,0 +1,548 @@
+characters = {
+#Create military leader - Алексей Златов
+	alekseyzlatov = {
+		name = "alekseyzlatov"
+		portraits = {
+			army = {
+				#Custom images for Алексей Златов
+				large = "/gfx/leaders/TOK/alekseyzlatov-679076.dds"
+				small = "/gfx/interface/ideas/TOK/alekseyzlatov-679076.dds"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard harsh_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		legacy_id = 1731289340
+		}
+	}
+
+#Create military leader - Борис Лазарев
+	borislazarev = {
+		name = "borislazarev"
+		portraits = {
+			army = {
+				#Custom images for Борис Лазарев
+				large = "/gfx/leaders/TOK/borislazarev-679079.dds"
+				small = "/gfx/interface/ideas/TOK/borislazarev-679079.dds"
+			}
+		}
+		field_marshal = {
+			traits = { winter_specialist trait_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 5
+		legacy_id = 1731289341
+		}
+	}
+
+#Create military leader - Михаил Чернешёв
+	mihailcherneshyov = {
+		name = "mihailcherneshyov"
+		portraits = {
+			army = {
+				#Custom images for Михаил Чернешёв
+				large = "/gfx/leaders/TOK/mihailcherneshyov-679092.dds"
+				small = "/gfx/interface/ideas/TOK/mihailcherneshyov-679092.dds"
+			}
+		}
+		field_marshal = {
+			traits = { organizer offensive_doctrine }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		legacy_id = 1731289342
+		}
+	}
+
+#Create military leader - Виктор Селезнёв
+	viktorseleznyov = {
+		name = "viktorseleznyov"
+		portraits = {
+			army = {
+				#Custom images for Виктор Селезнёв
+				large = "/gfx/leaders/TOK/viktorseleznyov-679094.dds"
+				small = "/gfx/interface/ideas/TOK/viktorseleznyov-679094.dds"
+			}
+		}
+		corps_commander = {
+			traits = { defensive_doctrine }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		legacy_id = 1731289343
+		}
+	}
+
+#Create military leader - Александр Обухов
+	aleksandrobuhov = {
+		name = "aleksandrobuhov"
+		portraits = {
+			army = {
+				#Custom images for Александр Обухов
+				large = "/gfx/leaders/TOK/aleksandrobuhov-679100.dds"
+				small = "/gfx/interface/ideas/TOK/aleksandrobuhov-679100.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+		legacy_id = 1731289344
+		}
+	}
+
+#Create military leader - Николай Белозёрский
+	nikolaybelozyorskiy = {
+		name = "nikolaybelozyorskiy"
+		portraits = {
+			army = {
+				#Custom images for Николай Белозёрский
+				large = "/gfx/leaders/TOK/nikolaybelozyorskiy-679104.dds"
+				small = "/gfx/interface/ideas/TOK/nikolaybelozyorskiy-679104.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ambusher }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		legacy_id = 1731289345
+		}
+	}
+
+#Create military leader - Иван Чарушин
+	ivancharushin = {
+		name = "ivancharushin"
+		portraits = {
+			army = {
+				#Custom images for Иван Чарушин
+				large = "/gfx/leaders/TOK/ivancharushin-679113.dds"
+				small = "/gfx/interface/ideas/TOK/ivancharushin-679113.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 4
+		legacy_id = 1731289346
+		}
+	}
+
+#Create military leader - Павел Бондаренко
+	pavelbondarenko = {
+		name = "pavelbondarenko"
+		portraits = {
+			army = {
+				#Custom images for Павел Бондаренко
+				large = "/gfx/leaders/TOK/pavelbondarenko-679118.dds"
+				small = "/gfx/interface/ideas/TOK/pavelbondarenko-679118.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		legacy_id = 1731289347
+		}
+	}
+
+#Create military leader - Владимир Глинский 
+	vladimirglinskiy = {
+		name = "vladimirglinskiy"
+		portraits = {
+			army = {
+				#Custom images for Владимир Глинский 
+				large = "/gfx/leaders/TOK/vladimirglinskiy-679127.dds"
+				small = "/gfx/interface/ideas/TOK/vladimirglinskiy-679127.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		legacy_id = 1731289348
+		}
+	}
+
+#Create military leader - Олег Долинин
+	olegdolinin = {
+		name = "olegdolinin"
+		portraits = {
+			army = {
+				#Custom images for Олег Долинин
+				large = "/gfx/leaders/TOK/olegdolinin-679137.dds"
+				small = "/gfx/interface/ideas/TOK/olegdolinin-679137.dds"
+			}
+		}
+		field_marshal = {
+			traits = { naval_invader urban_assault_specialist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 3
+		legacy_id = 1731289349
+		}
+	}
+
+maksimnovogordskiy = {
+	name = maksimnovogordskiy
+	portraits = {
+		civilian = {
+			#Custom image for Максим Новогордский
+			large = "/gfx/leaders/TOK/TOK.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nacionalnyykonservatizm
+		traits = {  dictator }
+	}
+}
+
+
+VSokolov = {
+	name = VSokolov
+	portraits = {
+		civilian = {
+			#Custom image for Максим Новогордский
+			large = "/gfx/leaders/TOK/NOVL.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = klassicheskiyliberalizm
+		traits = {  liberal_democratic_paragon }
+	}
+}
+
+ABarreta = {
+	name = ABarreta
+	portraits = {
+		civilian = {
+			#Custom image for Максим Новогордский
+			large = "/gfx/leaders/TOK/NOVF.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {   fascist_demagogue }
+	}
+}
+
+
+GVladimir = {
+	name = GVladimir
+	portraits = {
+		civilian = {
+			#Custom image for Максим Новогордский
+			large = "/gfx/leaders/TOK/NOVM.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = avtoritarnyymonarhizm
+		traits = {  divisive_absolute_monarch }
+	}
+}
+
+arseniychernogorov = {
+        name = arseniychernogorov
+        portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/NOVADVICE.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = arseniychernogorov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { railroad_enthusiast railway_company}
+		}
+	}
+
+nikolaitrofimov = {
+    name = nikolaitrofimov
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE1.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = nikolaitrofimov
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { silent_workhorse political_commissar }
+    }
+}
+
+olgapetrovskaya = {
+    name = olgapetrovskaya
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE2.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = olgapetrovskaya
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { popular_figue_head industrial_concern }
+    }
+}
+
+dmitrykovalev = {
+    name = dmitrykovalev
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE3.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = dmitrykovalev
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { backroom_backer theorist }
+    }
+}
+
+ekaterinazorina = {
+    name = ekaterinazorina
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE4.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = ekaterinazorina
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { compassionate_gentleman head_of_intelligence }
+    }
+}
+
+alexandergrinev = {
+    name = alexandergrinev
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE5.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = alexandergrinev
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { democratic_reformer research_grants }
+    }
+}
+
+sofiaivanova = {
+    name = sofiaivanova
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE6.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = sofiaivanova
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { military_theorist military_entrepreneur }
+    }
+}
+
+vladimirsmirnov = {
+    name = vladimirsmirnov
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE7.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = vladimirsmirnov
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { logistics_specialist free_market_advocate }
+    }
+}
+
+olgaivanova = {
+    name = "Ольга Иванова"
+    portraits = {
+        army = {
+            small = "gfx/interface/portraits/olgaivanova.dds"
+        }
+    }
+    advisor = {
+        slot = economic_advisor
+        idea_token = olgaivanova
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { industrialist economist pragmatist }
+        description = "Ольга Иванова - талантливый экономист, специализирующийся на развитии промышленности. Ее идеи о стимулировании производства и внедрении новых технологий помогут вашей стране стать экономическим гигантом."
+    }
+}
+
+nataliavolkova = {
+    name = "Наталья Волкова"
+    portraits = {
+        army = {
+            small = "gfx/interface/portraits/nataliavolkova.dds"
+        }
+    }
+    advisor = {
+        slot = intelligence_advisor
+        idea_token = nataliavolkova
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { mastermind intelligence_expert cunning }
+        description = "Наталья Волкова - опытный разведчик, обладающий блестящим умом и интуицией. Она  может  получить  важную  информацию  о  противниках  и  обеспечить  безопасность  вашей  страны."
+    }
+}
+
+ivanfedorov = {
+    name = "Иван Федоров"
+    portraits = {
+        army = {
+            small = "gfx/interface/portraits/ivanfedorov.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = ivanfedorov
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { charismatic diplomatic strong_leader }
+        description = "Иван Федоров - харизматичный политик, способный убедить народ в правильности своих идей.  Он мастер дипломатии и умеет находить компромиссы, чтобы укрепить позицию вашей страны на международной арене."
+    }
+}
+
+ivangolubev = {
+    name = "Ivan Golubev"
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE8.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = ivangolubev
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { silent_workhorse industrial_concern }
+    }
+}
+
+mariavlasova = {
+    name = "Maria Vlasova"
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE9.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = mariavlasova
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { popular_figue_head research_grants }
+    }
+}
+
+sergeyorlov = {
+    name = "Sergey Orlov"
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE10.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = sergeyorlov
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { backroom_backer political_commissar }
+    }
+}
+
+alekseylebedev = {
+    name = "Aleksey Landon"
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE11.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = alekseylebedev
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { compassionate_gentleman head_of_intelligence }
+    }
+}
+
+artemlebedev = {
+    name = "Artem Lozarev"
+    portraits = {
+        army = {
+            small = "gfx/interface/ideas/TOK/NOVADVICE14.dds"
+        }
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = artemlebedev
+        allowed = {
+            original_tag = TOK
+        }
+        traits = { liberalizm_supporter }
+    }
+}
+ }

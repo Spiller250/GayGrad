@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Александр Рэдфилд
+aleksandrredfild = {
+	name = aleksandrredfild
+	portraits = {
+		civilian = {
+			#Custom image for  Александр Рэдфилд
+			large = "/gfx/leaders/TAB/aJBmOYCI-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = tehnokraticheskiyprogressivizm
+		traits = {  }
+	}
+}
+}

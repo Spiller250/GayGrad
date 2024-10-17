@@ -1,0 +1,15 @@
+state={
+	id=81
+	name="STATE_81"
+	provinces={
+		386 2426 2705 2900 3767 4296 4759 5495 6929 7208 7883 7895 7901 7904 7909 7919 
+	}
+ history={
+        victory_points = { 5495 11 }
+        victory_points = { 7883 13 }
+        victory_points = { 6929 21 }
+		owner = RED
+	}
+	manpower=100000
+	state_category = large_town}
+

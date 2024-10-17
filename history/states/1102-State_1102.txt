@@ -1,0 +1,16 @@
+state={
+	id=1102
+	name="STATE_1102"
+	provinces={
+		529 1057 1622 4605 4930 5463 6422 6459 13914 13927 13941 14001 14059 14060 14092 
+	}
+
+history = {
+    owner = NFK
+        victory_points = { 13941 12 }
+        victory_points = { 14001 8 }
+    victory_points = { 5463 13 }
+}
+	manpower=100000
+	state_category = large_town
+}

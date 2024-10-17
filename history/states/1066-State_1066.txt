@@ -1,0 +1,15 @@
+state={
+	id=1066
+	name="STATE_1066"
+	provinces={
+		1964 2477 3547 3744 6796 6969 7197 13645 13654 13686 13708 13834 
+	}
+       history={
+        victory_points = { 13686 12 }
+        victory_points = { 13645 15 }
+        victory_points = { 1964 21 }
+		owner = TOU
+	}
+	manpower=100000
+	state_category = large_town
+}

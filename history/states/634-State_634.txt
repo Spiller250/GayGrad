@@ -1,0 +1,15 @@
+state={
+	id=634
+	name="STATE_634"
+	provinces={
+		805 1735 2904 2928 5052 6416 11007 11075 11149 11158 
+	}
+ history={
+        victory_points = { 2904 10 }
+        victory_points = { 11158 4 }
+        victory_points = { 2928 21 }
+		owner = TMK
+	}
+	manpower=100000
+	state_category = large_town
+}

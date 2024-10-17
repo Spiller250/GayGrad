@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Артур Мендал
+arturmendal = {
+	name = arturmendal
+	portraits = {
+		civilian = {
+			#Custom image for Артур Мендал
+			large = "/gfx/leaders/MAT/dJUkcfOG-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyysocializm
+		traits = {  }
+	}
+}
+}

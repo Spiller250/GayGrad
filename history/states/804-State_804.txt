@@ -1,0 +1,15 @@
+state={
+	id=804
+	name="STATE_804"
+	provinces={
+		310 420 4369 6471 6667 7420 12140 12141 12182 12222 12266 12374 
+	}
+       history={
+        victory_points = { 12266 4 }
+        victory_points = { 12140 5 }
+        victory_points = { 12374 10 }
+		owner = TPR
+	}
+	manpower=100000
+	state_category = large_town
+}

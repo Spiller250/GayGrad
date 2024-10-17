@@ -1,0 +1,80 @@
+# Balance of Power for Novograd
+
+NOV_balance_of_power = {
+    initial_value = 0.0
+    left_side =  NOV_nazis
+    right_side =  NOV_government
+    decision_category = NOV_balance_of_power
+
+
+# Novograd Government Side
+side = {
+    id = NOV_government
+    icon = GFX_nov_government_icon
+    range = {
+        id = NOV_gov_control
+        min = -0.5
+        max = -1.5
+        modifier = {
+            war_support_factor = 0.1
+            political_power_factor = 0.2
+            stability_factor = 0.15
+        }
+    }
+    range = {
+        id = NOV_gov_control_high
+        min = -0.5
+        max = -0.25
+        modifier = {
+            war_support_factor = 0.15
+            political_power_factor = 0.25
+            stability_factor = 0.2
+        }
+    }
+    range = {
+        id = NOV_gov_control_moderate
+        min = -0.25
+        max = 0.0
+        modifier = {
+            war_support_factor = 0.2
+            political_power_factor = 0.3
+            stability_factor = 0.25
+        }
+    }
+}
+
+# National Salvation Committee (Nazis) Side
+side = {
+    id = NOV_nazis
+    icon = GFX_nov_nazis_icon
+    range = {
+        id = NOV_nazis_control
+        min = 0.0
+        max = 0.25
+        modifier = {
+            war_support_factor = 0.2
+            political_power_factor = 0.1
+            stability_factor = -0.1
+        }
+    }
+    range = {
+        id = NOV_nazis_control_high
+        min = 0.25
+        max = 0.5
+        modifier = {
+            war_support_factor = 0.25
+            political_power_factor = 0.15
+            stability_factor = -0.15
+        }
+    }
+    range = {
+        id = NOV_nazis_control_moderate
+        min = 0.5
+        max = 1.5
+        modifier = {
+            war_support_factor = 0.3
+            political_power_factor = 0.2
+            stability_factor = -0.2
+        }
+    }
+}

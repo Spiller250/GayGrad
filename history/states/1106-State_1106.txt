@@ -1,0 +1,15 @@
+state={
+	id=1106
+	name="STATE_1106"
+	provinces={
+		1000 1389 1660 2009 3250 4560 6069 6806 13822 13878 13910 13955 14033 14041 14099 14148 14163 
+	}
+ history={
+        victory_points = { 6069 14 }
+        victory_points = { 13878 14 }
+        victory_points = { 14163 13 }
+		owner = ACZ
+	}
+	manpower=100000
+	state_category = large_town
+}

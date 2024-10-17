@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Джордж  Камберленд
+dzhordzhkamberlend = {
+	name = dzhordzhkamberlend
+	portraits = {
+		civilian = {
+			#Custom image for Джордж  Камберленд
+			large = "/gfx/leaders/CSG/TbRwZUlK-582331.dds"
+		}
+	}
+	country_leader = {
+		expire = "2056.5.5"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+}

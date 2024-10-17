@@ -1,0 +1,15 @@
+state={
+	id=660
+	name="STATE_660"
+	provinces={
+		4 1584 1935 3605 6744 11111 11185 11277 11297 11317 
+	}
+ history={
+        victory_points = { 1584 20 }
+        victory_points = { 6744 17 }
+        victory_points = { 11277 20 }
+		owner = TMK
+	}
+	manpower=100000
+	state_category = large_town
+}

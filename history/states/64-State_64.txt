@@ -1,0 +1,15 @@
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		673 793 1050 1066 1209 1244 1502 1728 2069 2573 3583 3673 4269 4389 4694 4824 6066 7807 7812 7813 7823 7827 7835 7840 
+	}
+ history={
+        victory_points = { 2573 22 }
+        victory_points = { 7813 15 }
+        victory_points = { 6066 25 }
+		owner = TNR
+	}
+	manpower=100000
+	state_category = large_town}
+

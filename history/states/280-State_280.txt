@@ -1,0 +1,16 @@
+state={
+	id=280
+	name="STATE_280"
+	provinces={
+		2170 7344 8879 8913 8963 9022 9031 9061 9088 9103 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 9022 21 }
+        victory_points = { 8879 12 }
+    victory_points = { 9103 25 }
+owner = TKR
+}

@@ -1,0 +1,15 @@
+state={
+	id=149
+	name="STATE_149"
+	provinces={
+		2416 5220 6520 6690 8111 8138 8145 8172 8197 8222 8243 8274 8289 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 8197 14 }
+        victory_points = { 8243 11 }
+    victory_points = { 8138 17 }
+owner = WBD
+}

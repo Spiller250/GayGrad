@@ -1,0 +1,16 @@
+state={
+	id=886
+	name="STATE_886"
+	provinces={
+		33 3793 6466 6516 6720 12675 12770 12776 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 6466 4 }
+        victory_points = { 12675 21 }
+    victory_points = { 12770 20 }
+owner = TLI
+}

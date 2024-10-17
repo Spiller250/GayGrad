@@ -1,0 +1,649 @@
+focus_tree = {
+	id = kiv
+	continuous_focus_position = { x = 150 y = 2740 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KIV
+		}
+	}
+	#Ошибки прошлого
+	focus = {
+		id = KIV_oshibkiproshlogo
+		icon = GFX_KIV_oshibkiproshlogo-735399
+		x = 13
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = KIV_velikograd  }
+	}
+
+	#Великоград
+	focus = {
+		id = KIV_velikograd
+		icon = GFX_KIV_velikograd-735398
+		x = 14
+		y = 1
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Построить новые сети снабжения
+	focus = {
+		id = KIV_postroitnovyesetisnabzheniya
+		icon = GFX_KIV_postroitnovyesetisnabzheniya-736903
+		x = 11
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_perestanovkivkomandovanii  }
+	}
+
+	#Начать постройку военных заводов
+	focus = {
+		id = KIV_nachatpostroykuvoennyhzavodov
+		icon = GFX_KIV_nachatpostroykuvoennyhzavodov-736902
+		x = 11
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_postroitnovyesetisnabzheniya  }
+	}
+
+	#Новая армия
+	focus = {
+		id = KIV_novayaarmiya
+		icon = GFX_KIV_novayaarmiya-735400
+		x = 15
+		y = 2
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_velikograd  }
+	}
+
+	#Выборы
+	focus = {
+		id = KIV_vybory
+		icon = GFX_KIV_vybory-735600
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_oshibkiproshlogo  } prerequisite = { focus = KIV_novayaarmiya  }
+	}
+
+	#Победа Джонни
+	focus = {
+		id = KIV_pobedadzhonni
+		icon = GFX_KIV_pobedadzhonni-735404
+		x = 8
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_vybory  }
+		mutually_exclusive = { focus = KIV_pobedaloutona  }
+	}
+
+	#Победа Лоутона
+	focus = {
+		id = KIV_pobedaloutona
+		icon = GFX_KIV_pobedaloutona-735405
+		x = 20
+		y = 4
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_vybory  }
+	}
+
+	#Ввести дневную норму калорий
+	focus = {
+		id = KIV_vvestidnevnuyunormukaloriy
+		icon = GFX_KIV_vvestidnevnuyunormukaloriy-736904
+		x = 5
+		y = 13
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_gidroponikavpustyne  }
+	}
+
+	#Начать постройку военных лагерей
+	focus = {
+		id = KIV_nachatpostroykuvoennyhlagerey
+		icon = GFX_KIV_nachatpostroykuvoennyhlagerey-736918
+		x = 11
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_situaciyavarmii  }
+	}
+
+	#Перестановки в командовании
+	focus = {
+		id = KIV_perestanovkivkomandovanii
+		icon = GFX_KIV_perestanovkivkomandovanii-736919
+		x = 11
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_nachatpostroykuvoennyhlagerey  }
+	}
+
+	#Запретить красную заразу
+	focus = {
+		id = KIV_zapretitkrasnuyuzarazu
+		icon = GFX_KIV_zapretitkrasnuyuzarazu-736915
+		x = 7
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_dognatiperegnat  }
+		mutually_exclusive = { focus = KIV_naytikompromisssindikalistami  }
+	}
+
+	#Найти Компромис с Синдикалистами
+	focus = {
+		id = KIV_naytikompromisssindikalistami
+		icon = GFX_KIV_naytikompromisssindikalistami-736916
+		x = 9
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_dognatiperegnat  }
+	}
+
+	#Устранить оппозицию
+	focus = {
+		id = KIV_ustranitoppoziciyu
+		icon = GFX_KIV_ustranitoppoziciyu-736898
+		x = 8
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_zapretitkrasnuyuzarazu  focus = KIV_naytikompromisssindikalistami  }
+	}
+
+	#Регулировать прессу в интересах государства
+	focus = {
+		id = KIV_regulirovatpressuvinteresahgosudarstva
+		icon = GFX_KIV_regulirovatpressuvinteresahgosudarstva-736899
+		x = 8
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_ustranitoppoziciyu  }
+	}
+
+	#Победа над врагами народа
+	focus = {
+		id = KIV_pobedanadvragaminaroda
+		icon = GFX_KIV_pobedanadvragaminaroda-736900
+		x = 8
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_regulirovatpressuvinteresahgosudarstva  }
+	}
+
+	#выглянуть из-за забора
+	focus = {
+		id = KIV_vyglyanutizzazabora
+		icon = GFX_goal_unknown
+		x = 8
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_pobedanadvragaminaroda  }
+	}
+
+	#Развивать сельское хозяйство на востоке
+	focus = {
+		id = KIV_razvivatselskoehozyaystvonavostoke
+		icon = GFX_KIV_razvivatselskoehozyaystvonavostoke-736908
+		x = 5
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_situaciyavagrarnomsektore  }
+	}
+
+	#Экономические реформы
+	focus = {
+		id = KIV_ekonomicheskiereformy
+		icon = GFX_KIV_ekonomicheskiereformy-736912
+		x = 8
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = KIV_pobedadzhonni  }
+	}
+
+	#Ввести Шестидневку!
+	focus = {
+		id = KIV_vvestishestidnevku
+		icon = GFX_KIV_vvestishestidnevku-736913
+		x = 8
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_voennayaekonomika  }
+	}
+
+	#Догнать и перегнать!
+	focus = {
+		id = KIV_dognatiperegnat
+		icon = GFX_KIV_dognatiperegnat-736914
+		x = 8
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = KIV_vvestishestidnevku  }
+	}
+
+	#Внутренняя политика
+	focus = {
+		id = KIV_vnutrennyayapolitika
+		icon = GFX_goal_unknown
+		x = 8
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_vnutrennyayapolitika  }
+	}
+
+	#Начать закупать провизию в западных странах
+	focus = {
+		id = KIV_nachatzakupatproviziyuvzapadnyhstranah
+		icon = GFX_KIV_nachatzakupatproviziyuvzapadnyhstranah-736909
+		x = 5
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = KIV_razvivatselskoehozyaystvonavostoke  }
+	}
+
+	#Гидропоника в пустыне
+	focus = {
+		id = KIV_gidroponikavpustyne
+		icon = GFX_KIV_gidroponikavpustyne-736907
+		x = 5
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_nachatzakupatproviziyuvzapadnyhstranah  }
+	}
+
+	#Ситуация в аграрном секторе
+	focus = {
+		id = KIV_situaciyavagrarnomsektore
+		icon = GFX_KIV_situaciyavagrarnomsektore-736910
+		x = 5
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_dognatiperegnat  }
+	}
+
+	#Ситуация в армии
+	focus = {
+		id = KIV_situaciyavarmii
+		icon = GFX_KIV_situaciyavarmii-736917
+		x = 11
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_dognatiperegnat  }
+	}
+
+	#Военная экономика
+	focus = {
+		id = KIV_voennayaekonomika
+		icon = GFX_KIV_voennayaekonomika-736911
+		x = 8
+		y = 6
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = KIV_ekonomicheskiereformy  }
+	}
+
+	#Экономические реформы
+	focus = {
+		id = KIV_ekonomicheskiereformy
+		icon = GFX_KIV_ekonomicheskiereformy-737024
+		x = 20
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_pobedaloutona  }
+	}
+
+	#"Очищение" промышленности
+	focus = {
+		id = KIV_ochishcheniepromyshlennosti
+		icon = GFX_KIV_ochishcheniepromyshlennosti-737025
+		x = 20
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_ekonomicheskiereformy  }
+	}
+
+	#Новые трудовые "нормы"
+	focus = {
+		id = KIV_novyetrudovyenormy
+		icon = GFX_KIV_novyetrudovyenormy-737026
+		x = 20
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = KIV_ochishcheniepromyshlennosti  }
+	}
+
+	#Прославить нашу расу!
+	focus = {
+		id = KIV_proslavitnashurasu
+		icon = GFX_KIV_proslavitnashurasu-737028
+		x = 20
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_novyetrudovyenormy  }
+	}
+
+	#Состояние в армии
+	focus = {
+		id = KIV_sostoyanievarmii
+		icon = GFX_goal_unknown
+		x = 23
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_proslavitnashurasu  }
+	}
+
+	#Форпосты нового порядка
+	focus = {
+		id = KIV_forpostynovogoporyadka
+		icon = GFX_goal_unknown
+		x = 23
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_sostoyanievarmii  }
+	}
+
+	#Чистка рядов
+	focus = {
+		id = KIV_chistkaryadov
+		icon = GFX_goal_unknown
+		x = 23
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_forpostynovogoporyadka  }
+	}
+
+	#Эскадроны смерти
+	focus = {
+		id = KIV_eskadronysmerti
+		icon = GFX_goal_unknown
+		x = 23
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_chistkaryadov  }
+	}
+
+	#Начать Наращивать мозь нашей рассы
+	focus = {
+		id = KIV_nachatnarashchivatmoznasheyrassy
+		icon = GFX_goal_unknown
+		x = 23
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_eskadronysmerti  }
+	}
+
+	#Чистка рядов
+	focus = {
+		id = KIV_chistkaryadov
+		icon = GFX_KIV_chistkaryadov-737030
+		x = 20
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_proslavitnashurasu  }
+	}
+
+	#Контроль над госаппаратом
+	focus = {
+		id = KIV_kontrolnadgosapparatom
+		icon = GFX_KIV_kontrolnadgosapparatom-737031
+		x = 20
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_chistkaryadov  }
+	}
+
+	#Поддержка рабочих
+	focus = {
+		id = KIV_podderzhkarabochih
+		icon = GFX_KIV_podderzhkarabochih-737032
+		x = 20
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_kontrolnadgosapparatom  }
+	}
+
+	#Трудовые Лагеря
+	focus = {
+		id = KIV_trudovyelagerya
+		icon = GFX_KIV_trudovyelagerya-737033
+		x = 20
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_podderzhkarabochih  }
+	}
+
+	#Пропагандисткая Компания
+	focus = {
+		id = KIV_propagandistkayakompaniya
+		icon = GFX_goal_unknown
+		x = 19
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_trudovyelagerya  }
+	}
+
+	#"Гелпо"
+	focus = {
+		id = KIV_gelpo
+		icon = GFX_goal_unknown
+		x = 21
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_trudovyelagerya  }
+	}
+
+	#Культ лидера
+	focus = {
+		id = KIV_kultlidera
+		icon = GFX_goal_unknown
+		x = 20
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_propagandistkayakompaniya  } prerequisite = { focus = KIV_gelpo  }
+	}
+
+	#Единая нация
+	focus = {
+		id = KIV_edinayanaciya
+		icon = GFX_goal_unknown
+		x = 20
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_kultlidera  }
+	}
+
+	#Промышленная ситуация
+	focus = {
+		id = KIV_promyshlennayasituaciya
+		icon = GFX_goal_unknown
+		x = 17
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_proslavitnashurasu  }
+	}
+
+	#Массовая мобилизация труда
+	focus = {
+		id = KIV_massovayamobilizaciyatruda
+		icon = GFX_goal_unknown
+		x = 17
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_promyshlennayasituaciya  }
+	}
+
+	#Государственное планирование
+	focus = {
+		id = KIV_gosudarstvennoeplanirovanie
+		icon = GFX_goal_unknown
+		x = 17
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_massovayamobilizaciyatruda  }
+	}
+
+	#Поддержка местной промышленности
+	focus = {
+		id = KIV_podderzhkamestnoypromyshlennosti
+		icon = GFX_goal_unknown
+		x = 17
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_gosudarstvennoeplanirovanie  }
+	}
+
+	#Экономика военного времени
+	focus = {
+		id = KIV_ekonomikavoennogovremeni
+		icon = GFX_goal_unknown
+		x = 17
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KIV_podderzhkamestnoypromyshlennosti  }
+	}
+
+}

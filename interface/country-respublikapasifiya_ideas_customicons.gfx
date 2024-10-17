@@ -1,0 +1,81 @@
+spriteTypes = { 
+	##Icon For: Eleanor M. Baines
+	SpriteType = { 
+		name = "trKePcRb-718372"
+		texturefile = "gfx/interface/ideas/PAS/trKePcRb-718372.dds"
+	}
+
+	##Icon For: Кельвин Р. Локридж
+	SpriteType = { 
+		name = "hPKAtpbF-718380"
+		texturefile = "gfx/interface/ideas/PAS/hPKAtpbF-718380.dds"
+	}
+
+	##Icon For: Джаспер Т. Холлингсворт
+	SpriteType = { 
+		name = "iPLvQZxS-718382"
+		texturefile = "gfx/interface/ideas/PAS/iPLvQZxS-718382.dds"
+	}
+
+	##Icon For:  Вирджиния Л. Хоторн
+	SpriteType = { 
+		name = "UyOTkgrF-718384"
+		texturefile = "gfx/interface/ideas/PAS/UyOTkgrF-718384.dds"
+	}
+
+	##Icon For: Стерлинг П. Фосетт
+	SpriteType = { 
+		name = "nGjSKhLM-718385"
+		texturefile = "gfx/interface/ideas/PAS/nGjSKhLM-718385.dds"
+	}
+
+	##Icon For: Долорес А. Уинслоу
+	SpriteType = { 
+		name = "nLbwoICp-718387"
+		texturefile = "gfx/interface/ideas/PAS/nLbwoICp-718387.dds"
+	}
+
+	##Icon For:  Куинси Р. Кинкейд
+	SpriteType = { 
+		name = "IgsYGHEu-718388"
+		texturefile = "gfx/interface/ideas/PAS/IgsYGHEu-718388.dds"
+	}
+
+	##Icon For: Маригольд С. Тревельян
+	SpriteType = { 
+		name = "JOhVRgkp-718391"
+		texturefile = "gfx/interface/ideas/PAS/JOhVRgkp-718391.dds"
+	}
+
+	##Icon For: Финеас У. Кэдвелл
+	SpriteType = { 
+		name = "TCQjRuNP-718392"
+		texturefile = "gfx/interface/ideas/PAS/TCQjRuNP-718392.dds"
+	}
+
+	##Icon For: Джонатан Уолтерс
+	SpriteType = { 
+		name = "AOTKwWvy-718487"
+		texturefile = "gfx/interface/ideas/PAS/AOTKwWvy-718487.dds"
+	}
+
+	##Icon For: Майкл Хардинг
+	SpriteType = { 
+		name = "KEpNWGoi-718488"
+		texturefile = "gfx/interface/ideas/PAS/KEpNWGoi-718488.dds"
+	}
+
+	##Icon For: Ричард Уэбстер
+	SpriteType = { 
+		name = "YmsqcnuT-718489"
+		texturefile = "gfx/interface/ideas/PAS/YmsqcnuT-718489.dds"
+	}
+
+	##Icon For: Дэвид Макферсон
+	SpriteType = { 
+		name = "jlIvWyRX-718491"
+		texturefile = "gfx/interface/ideas/PAS/jlIvWyRX-718491.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,15 @@
+state={
+	id=595
+	name="STATE_595"
+	provinces={
+		217 726 2346 2521 2642 3393 4522 5226 5829 6517 6761 6972 7511 10817 10981 10988 11066 11108 11125 11207 11241 11282 11296 11377 11395 11407 
+	}
+ history={
+        victory_points = { 5829 6 }
+        victory_points = { 7511 12 }
+        victory_points = { 11108 8 }
+		owner = TKB 
+	}
+	manpower=100000
+	state_category = large_town
+}

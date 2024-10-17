@@ -1,0 +1,15 @@
+state={
+	id=955
+	name="STATE_955"
+	provinces={
+		329 654 2746 3091 3411 3994 5734 12929 12930 12985 13087 13140 13197 13212 13271 
+	}
+ history={
+        victory_points = { 329 17 }
+        victory_points = { 13087 18 }
+        victory_points = { 2746 5 }
+		owner = ACT
+	}
+	manpower=100000
+	state_category = large_town
+}

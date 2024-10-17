@@ -1,0 +1,14 @@
+add_namespace = FLO
+
+country_event = {
+    id = FLO.change_flag_event
+    title = "Change to Dixieland Flag"
+    desc = "Dixieland adopts its new flag!"
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
+
+    option = {
+        name = "Adopt New Flag"
+        set_country_flag = Dixieland
+    }
+}

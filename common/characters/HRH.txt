@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Папа Братский
+papabratskiy = {
+	name = papabratskiy
+	portraits = {
+		civilian = {
+			#Custom image for Папа Братский
+			large = "/gfx/leaders/HRH/jtJMKQfY-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyynacionalizm
+		traits = {  orthodox_rabblerouser }
+	}
+}
+}

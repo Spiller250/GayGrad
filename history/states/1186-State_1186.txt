@@ -1,0 +1,15 @@
+state={
+	id=1186
+	name="STATE_1186"
+	provinces={
+		2357 3054 4072 5228 5443 6332 7429 14347 14418 14441 14447 
+	}
+       history={
+        victory_points = { 5228 18 }
+        victory_points = { 2357 11 }
+        victory_points = { 14441 19 }
+		owner = KIV
+	}
+	manpower=100000
+	state_category = large_town
+}

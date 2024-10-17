@@ -1,0 +1,15 @@
+state={
+	id=433
+	name="STATE_433"
+	provinces={
+		763 800 6607 9769 9777 9845 9870 9991 10084 
+	}
+       history={
+        victory_points = { 9870 7 }
+        victory_points = { 763 18 }
+        victory_points = { 9845 18 }
+		owner = ENC
+	}
+	manpower=100000
+	state_category = large_town
+}

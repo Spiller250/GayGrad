@@ -1,0 +1,15 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		213 485 1987 2319 4049 4988 6439 11875 11948 11953 11981 12033 12065 
+	}
+ history={
+        victory_points = { 11981 14 }
+        victory_points = { 11875 22 }
+        victory_points = { 2319 20 }
+		owner = TSG 
+	}
+	manpower=100000
+	state_category = large_town
+}

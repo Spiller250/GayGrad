@@ -1,0 +1,21 @@
+spriteTypes = { 
+	##Icon For: Теневая Экономика
+	SpriteType = { 
+		name = "GFX_idea_BZV__-718406"
+		texturefile = "gfx/interface/ideas/postoyannaya-byurokratiya-ideas/BZV__-718406.dds"
+	}
+
+	##Icon For: Постоянная Бюрократия
+	SpriteType = { 
+		name = "GFX_idea_BZV__-718395"
+		texturefile = "gfx/interface/ideas/postoyannaya-byurokratiya-ideas/BZV__-718395.dds"
+	}
+
+	##Icon For: Рыцари Южного Братства
+	SpriteType = { 
+		name = "GFX_idea_BZV_VoMESlkY-718407"
+		texturefile = "gfx/interface/ideas/postoyannaya-byurokratiya-ideas/BZV_VoMESlkY-718407.dds"
+	}
+
+ 
+ }

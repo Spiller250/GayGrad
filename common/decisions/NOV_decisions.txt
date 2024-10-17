@@ -1,0 +1,241 @@
+NOV_balance_of_power = {
+    novograd_increase_trust_1 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 97
+        days_remove = 7
+        cost = 100
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_government
+                value = -0.1
+            }
+        }
+    }
+
+    novograd_increase_trust_2 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 90
+        days_remove = 7
+        cost = 200
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_government
+                value = -0.3
+            }
+        }
+    }
+
+    novograd_increase_trust_3 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 60
+        days_remove = 7
+        cost = 300
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_government
+                value = -0.5
+            }
+        }
+    }
+
+    novograd_increase_trust_4 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 50
+        days_remove = 7
+        cost = 400
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_government
+                value = -0.7
+            }
+        }
+    }
+
+    novograd_increase_trust_5 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 40
+        days_remove = 7
+        cost = 500
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_government
+                value = -1.0
+            }
+        }
+    }
+
+    novograd_decrease_trust_1 = {
+        icon = "gfx/interface/decisions/decrease_trust.dds"
+        priority = 80
+        days_remove = 7
+        cost = 100
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 0.1
+            }
+        }
+    }
+
+    novograd_decrease_trust_2 = {
+        icon = "gfx/interface/decisions/decrease_trust.dds"
+        priority = 70
+        days_remove = 7
+        cost = 200
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 0.3
+            }
+        }
+    }
+
+    novograd_decrease_trust_3 = {
+        icon = "gfx/interface/decisions/decrease_trust.dds"
+        priority = 60
+        days_remove = 7
+        cost = 300
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 0.5
+            }
+        }
+    }
+
+    novograd_decrease_trust_4 = {
+        icon = "gfx/interface/decisions/decrease_trust.dds"
+        priority = 50
+        days_remove = 7
+        cost = 400
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 0.7
+            }
+        }
+    }
+
+    novograd_decrease_trust_5 = {
+        icon = "gfx/interface/decisions/decrease_trust.dds"
+        priority = 40
+        days_remove = 7
+        cost = 500
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 1.0
+            }
+        }
+    }
+
+    novograd_increase_committee_1 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 97
+        days_remove = 7
+        cost = 100
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 0.1
+            }
+        }
+    }
+
+    novograd_increase_committee_2 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 90
+        days_remove = 7
+        cost = 200
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 0.3
+            }
+        }
+    }
+
+    novograd_increase_committee_3 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 80
+        days_remove = 7
+        cost = 300
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 0.5
+            }
+        }
+    }
+
+    novograd_increase_committee_4 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 70
+        days_remove = 7
+        cost = 400
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 0.7
+            }
+        }
+    }
+
+    novograd_increase_committee_5 = {
+        icon = "gfx/interface/decisions/increase_trust.dds"
+        priority = 60
+        days_remove = 7
+        cost = 500
+        available = {
+            tag = NOV
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                side = NOV_nazis
+                value = 1.0
+            }
+        }
+    }
+}

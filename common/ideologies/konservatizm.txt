@@ -1,0 +1,43 @@
+ideologies = {
+	konservatizm = {
+		types = {
+			klassicheskiykonservatizm = { can_be_randomly_selected = no }
+			socialnyykonservatizm = { can_be_randomly_selected = no }
+			nacionalnyykonservatizm = { can_be_randomly_selected = no }
+			neokonservatizm = { can_be_randomly_selected = no }
+			liberalnyykonservatizm = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {
+		}
+		color = { 0 83 168 }
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = -0.25
+		faction_modifiers = {
+			faction_impact_on_world_tension = 0.1
+		}
+		rules = {
+			can_create_collaboration_government = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = -0.25
+			join_faction_tension = -0.25
+			lend_lease_tension = -0.25
+			send_volunteers_tension = -0.25
+			guarantee_tension = -0.25
+			annex_cost_factor = -0.25
+			civilian_intel_to_others = 0.1
+			army_intel_to_others = 0.1
+			navy_intel_to_others = 0.1
+			airforce_intel_to_others = 0.1
+			justify_war_goal_when_in_major_war_time = -0.25
+			increased_influence_factor = 0.1
+			drift_defence_factor = 0.1
+		}
+		ai_neutral = yes
+	}
+}

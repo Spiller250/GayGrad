@@ -1,0 +1,15 @@
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		634 1802 2157 2387 4180 4203 4265 4434 6387 6490 8497 8524 8548 8610 8626 8694 8718 
+	}
+       history={
+        victory_points = { 2157 14 }
+        victory_points = { 8497 8 }
+        victory_points = { 8626 13 }
+		owner = NGA
+	}      
+	manpower=100000
+	state_category = large_town
+}

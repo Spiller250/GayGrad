@@ -1,0 +1,15 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		1840 2347 2492 4342 4889 5525 7132 12478 12540 12623 12707 
+	}
+ history={
+        victory_points = { 12623 14 }
+        victory_points = { 12540 15 }
+        victory_points = { 12478 23 }
+		owner = EAZ
+	}
+	manpower=100000
+	state_category = large_town
+}

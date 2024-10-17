@@ -1,0 +1,15 @@
+state={
+	id=370
+	name="STATE_370"
+	provinces={
+		271 1340 1533 3366 3766 4506 5587 7559 9366 9444 9480 9713 9719 
+	}
+ history={
+        victory_points = { 9366 10 }
+        victory_points = { 1533 7 }
+        victory_points = { 5587 18 }
+		owner = HCR
+	}
+	manpower=100000
+	state_category = large_town
+}

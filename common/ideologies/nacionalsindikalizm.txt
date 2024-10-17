@@ -1,0 +1,44 @@
+ideologies = {
+	nacionalsindikalizm = {
+		types = {
+			revolyucionnyynacionalizm = { can_be_randomly_selected = no }
+			sindikalistskayarevolyuciya = {  }
+		}
+		dynamic_faction_names = {
+			"faction_nacionalsindikalizm_novayaimperiya"
+			"faction_nacionalsindikalizm_sindikalistskiysoyuz"
+			"faction_nacionalsindikalizm_nacionalnyyfront"
+		}
+		color = { 159 29 12 }
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = -0.25
+		faction_modifiers = {
+			faction_impact_on_world_tension = -0.2
+			faction_trade_opinion_factor = 0.1
+		}
+		rules = {
+			can_create_collaboration_government = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = -0.25
+			join_faction_tension = 0.5
+			lend_lease_tension = 0.5
+			send_volunteers_tension = 0.5
+			guarantee_tension = 0.5
+			annex_cost_factor = 0.75
+			civilian_intel_to_others = -0.2
+			army_intel_to_others = -0.2
+			navy_intel_to_others = -0.2
+			airforce_intel_to_others = -0.2
+			justify_war_goal_when_in_major_war_time = -0.5
+			increased_influence_factor = 0.2
+			drift_defence_factor = 0.3
+		}
+		ai_neutral = yes
+	}
+}

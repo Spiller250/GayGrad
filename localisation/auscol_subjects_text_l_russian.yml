@@ -1,0 +1,87 @@
+﻿l_russian:
+
+AUS_crown_territory:0 "§W-Цислейтанское княжество-§!"
+HUN_crown_territory:0 "§W-Транслейтанское княжество-§!"
+AUS_partner_state_cisleithania:0 "§Y-Цислейтанское королевство-§!"
+HUN_partner_state_transleithania:0 "§Y-Транслейтанское королевство-§!"
+AUS_special_status_territory:0 "§C-Территория с особым статусом-§!"
+AUS_sovereign_kingdom:0 "§G-Суверенное королевство-§!"
+VARIABLE:0 "§Y[THIS.GetNameDef]§! - [?THIS.subject_revolt_progress|%Y0]\nк §Rвосстанию§!"
+COLLAPSE:0 "§YАвстрийская империя§! - [?THIS.subject_revolt_progress|%Y0]\nк §Rполному краху§!"
+EMPEROR:0 "§CАвстрия§! является §Yимператором§!"
+
+AUS_minorities_left:0 "§YЭтнические§! беспорядки\n\n[AUS.GetFlag] §YГерманское§! недовольство - §R[?AUS.german_unrest]§!.\n[SLO.GetFlag] §YСловенское§! недовольство - §R[?AUS.slovene_unrest]§!.\n[ITA.GetFlag] §YИтальянское§! недовольство - §R[?AUS.italian_unrest]§!.\n[CRR.GetFlag] §YХорватское§! недовольство - §R[?AUS.croat_unrest]§!.\n"
+
+#AUS_minorities_right:0 "§YEthnic§! effects\n§Y15%§! per minority\n[AUS.GetFlag] [?AUS.german_stability|%R0] £stability_icon , [?AUS.german_war_support|%R0] £war_support_icon \n[SLO.GetFlag] [?AUS.slovene_stability|%R0] £stability_icon , [?AUS.slovene_war_support|%R0] £war_support_icon \n[ITA.GetFlag] [?AUS.italian_stability|%R0] £stability_icon , [?AUS.italian_war_support|%R0] £war_support_icon \n[CRR.GetFlag] [?AUS.croat_stability|%R0] £stability_icon , [?AUS.croat_war_support|%R0] £war_support_icon"
+
+HUN_minorities_left:0 "§YЭтнические§! беспорядки\n\n[HUN.GetFlag] §YВенгерское§! недовольство - §R[?HUN.hungarian_unrest]§!.\n[AUS.GetFlag] §YГерманское§! недовольство - §R[?HUN.german_unrest]§!.\n[SVK.GetFlag] §YСловацкое§! недовольство - §R[?HUN.slovak_unrest]§!.\n[SER.GetFlag] §YСербское§! недовольство - §R[?HUN.serb_unrest]§!.\n[TRS.GetFlag] §YТрансильванское§! недовольство - §R[?HUN.transylvanian_unrest]§!.\n[BAN.GetFlag] §YБанатское§! недовольство - §R[?HUN.banat_unrest]§!.\n[UKR.GetFlag] §YУкраинское§! недовольство - §R[?HUN.ukrainian_unrest]§!.\n"
+
+#HUN_minorities_right:0 "§YEthnic§! effects\n§Y10%§! per minority\n[HUN.GetFlag] [?HUN.hungarian_stability|%R0] £stability_icon , [?HUN.hungarian_war_support|%R0] £war_support_icon \n[AUS.GetFlag] [?HUN.german_stability|%R0] £stability_icon , [?HUN.german_war_support|%R0] £war_support_icon \n[SVK.GetFlag] [?HUN.slovak_stability|%R0] £stability_icon , [?HUN.slovak_war_support|%R0] £war_support_icon \n[SER.GetFlag] [?HUN.serb_stability|%R0] £stability_icon , [?HUN.serb_war_support|%R0] £war_support_icon \n[TRS.GetFlag] [?HUN.transylvanian_stability|%R0] £stability_icon , [?HUN.transylvanian_war_support|%R0] £war_support_icon \n[BAN.GetFlag] [?HUN.banat_stability|%R0] £stability_icon , [?HUN.banat_war_support|%R0] £war_support_icon \n[UKR.GetFlag] [?HUN.ukrainian_stability|%R0] £stability_icon , [?HUN.ukrainian_war_support|%R0] £war_support_icon \n"
+
+CRO_minorities_left:0 "§YЭтнические§! беспорядки\n\n[CRR.GetFlag] §YХорватское§! недовольство - §R[?CRO.croat_unrest]§!.\n[AUS.GetFlag] §YГерманское§! недовольство - §R[?CRO.german_unrest]§!.\n[BOS.GetFlag] §YБоснийское§! недовольство - §R[?CRO.bosnian_unrest]§!.\n[SER.GetFlag] §YСербское§! недовольство - §R[?CRO.serb_unrest]§!.\n[MNT.GetFlag] §YЧерногорское§! недовольство - §R[?CRO.montenegrin_unrest]§!.\n"
+
+#CRO_minorities_right:0 "§YEthnic§! effects\n§Y15%§! per minority\n[CRR.GetFlag] [?CRO.croat_stability|%R0] £stability_icon , [?CRO.croat_war_support|%R0] £war_support_icon \n[AUS.GetFlag] [?CRO.german_stability|%R0] £stability_icon , [?CRO.german_war_support|%R0] £war_support_icon \n[BOS.GetFlag] [?CRO.bosnian_stability|%R0] £stability_icon , [?CRO.bosnian_war_support|%R0] £war_support_icon \n[SER.GetFlag] [?CRO.serb_stability|%R0] £stability_icon , [?CRO.serb_war_support|%R0] £war_support_icon \n[MNT.GetFlag] [?CRO.montenegrin_stability|%R0] £stability_icon , [?CRO.montenegrin_war_support|%R0] £war_support_icon \n"
+
+CZE_minorities_left:0 "§YЭтнические§! беспорядки\n\n[CZE.GetFlag] §YЧешское§! недовольство - §R[?CZE.czech_unrest]§!.\n[AUS.GetFlag] §YГерманское§! недовольство - §R[?CZE.german_unrest]§!.\n"
+
+#CZE_minorities_right:0 "§YEthnic§! effects\n§Y30%§! per minority\n[CZE.GetFlag] [?CZE.czech_stability|%R0] £stability_icon , [?CZE.czech_war_support|%R0] £war_support_icon \n[AUS.GetFlag] [?CZE.german_stability|%R0] £stability_icon , [?CZE.german_war_support|%R0] £war_support_icon \n"
+
+GAL_minorities_left:0 "§YЭтнические§! беспорядки\n\n[POL.GetFlag] §YПольское§! недовольство - §R[?GAL.polish_unrest]§!.\n[UKR.GetFlag] §YУкраинское§! недовольство - §R[?GAL.ukrainian_unrest]§!.\n[BUK.GetFlag] §YБуковинское§! недовольство - §R[?GAL.bukovina_unrest]§!.\n"
+
+#GAL_minorities_right:0 "§YEthnic§! effects\n§Y20%§! per minority\n[POL.GetFlag] [?GAL.polish_stability|%R0] £stability_icon , [?GAL.polish_war_support|%R0] £war_support_icon \n[UKR.GetFlag] [?GAL.ukrainian_stability|%R0] £stability_icon , [?GAL.ukrainian_war_support|%R0] £war_support_icon \n[BUK.GetFlag] [?GAL.bukovina_stability|%R0] £stability_icon , [?GAL.bukovina_war_support|%R0] £war_support_icon \n"
+
+
+
+BAS_minorities_left:0 "Волнения §Yменьшинств§! \n\n[AUS.GetFlag] §YГерманское§! недовольство - §R[?HUN.german_unrest]§!.\n"
+BAS_minorities_right:0 "Эффекты §Yменьшинства§! \n§Y10%§! на меньшинство\n[AUS.GetFlag] [?HUN.german_stability|%R0] £stability_icon , [?HUN.german_war_support|%R0] £war_support_icon \n"
+
+
+
+KX_AUS_TITLE:0 "Австрийская империя в 1936 году"
+KX_HUN_TITLE:0 "Королевство Венгрия в 1936 году"
+KX_CRO_TITLE:0 "Иллирийская Федерация в 1936 году"
+KX_CZE_TITLE:0 "Королевство Богемия в 1936 году"
+KX_GAL_TITLE:0 "Королевство Галиции и Лодомерии в 1936 году"
+
+KX_AUS_BUTTON1:0 "Австрийская империя"
+KX_HUN_BUTTON1:0 "Королевство Венгрия"
+KX_CRO_BUTTON1:0 "Иллирийская Федерация"
+KX_CZE_BUTTON1:0 "Королевство Богемия"
+KX_GAL_BUTTON1:0 "Королевство Галиции и Лодомерии"
+
+KX_AUS_BUTTON2:0 "Игровые механики"
+
+KX_AUS_BUTTON3:0 "Секреты и уловки"
+
+KX_AUS_BUTTON4:0 "Гайды"
+
+KX_AUS_BUTTON1_HEADER:0 "Австрийская империя – бомба замедленного действия в Европе"
+KX_HUN_BUTTON1_HEADER:0 "Королевство Венгрия - Заговорщик в заключении"
+KX_CRO_BUTTON1_HEADER:0 "Иллирийская Федерация - Нация, спасённая гнётом Австрии"
+KX_CZE_BUTTON1_HEADER:0 "Королевство Богемия - Молодой оппортунист в цепях"
+KX_GAL_BUTTON1_HEADER:0 "Королевство Галиция и Лодомерия - Зажжённый фитиль"
+
+KX_AUS_BUTTON2_HEADER:0 "Учение кнутом"
+KX_HUN_BUTTON2_HEADER:0 "Борьба за свободу?"
+
+save_austria_desc:0 "Австро-Венгерская империя - огромная многокультурная нация, состоящая из\n§C [AUS.GetNameDef] [AUS.GetFlag], [HUN.GetNameDef] [HUN.GetFlag], [CRO.GetNameDef] [CRO.GetFlag], [CZE.GetNameDef] [CZE.GetFlag],  и [GAL.GetNameDef] [GAL.GetFlag].§!\nЭти народы стали бременем, соперничающим и борющимся за власть и права в правительстве. Конечно, это не очень хорошо.\nАвстрийская империя в настоящее время [?AUS.subject_revolt_progress|%Y0] к полному неизбежному распаду империи. Мы можем предотвратить это.\n§YКаждую неделю коллапс будет на §!§R1%.§!§Y ближе к началу. Если у нас менее §!§R50%§!§Y стабильности, счетчик будет повыситься на ещё §!§R1%.§!§Y. Если у нас менее §!§R20%§!§Y стабильности, счетчик будет повыситься на ещё §!§R1%.§!\n\n§GНовое федеральное правительство§! [?AUS.government_percentage|%Y0] подготовлено."
+
+AUS_federalized_tag_social_democrat:0 "Дунайская Федерация"
+AUS_federalized_tag_social_democrat_DEF:0 "Дунайская Федерация"
+AUS_federalized_tag_social_democrat_ADJ:0 "Дунайск"
+
+AUS_federalized_tag_social_conservative:0 "Австро-Венгрия"
+AUS_federalized_tag_social_conservative_DEF:0 "Австро-Венгрия"
+AUS_federalized_tag_social_conservative_ADJ:0 "Австро-Венгерск"
+
+AUS_federalized_tag_authoritarian_democrat:0 "Соединённый Штаты Великой Австрии"
+AUS_federalized_tag_authoritarian_democrat_DEF:0 "Соединённый Штаты Великой Австрии"
+AUS_federalized_tag_authoritarian_democrat_ADJ:0 "Австрийск"
+
+AUS_federalized_tag_paternal_autocrat:0 "Федеративное Дунайское Государство"
+AUS_federalized_tag_paternal_autocrat_DEF:0 "Федеративное Дунайское Государство"
+AUS_federalized_tag_paternal_autocrat_ADJ:0 "Дунайск"
+
+AUS_federalized_tag_national_populist:0 "Федеративное Дунайское Государство"
+AUS_federalized_tag_national_populist_DEF:0 "Федеративное Дунайское Государство"
+AUS_federalized_tag_national_populist_ADJ:0 "Дунайск"

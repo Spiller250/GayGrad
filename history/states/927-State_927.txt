@@ -1,0 +1,15 @@
+state={
+	id=927
+	name="STATE_927"
+	provinces={
+		3038 3704 5045 5623 5750 12778 12842 12990 13085 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 12990 23 }
+        victory_points = { 5623 23 }
+    victory_points = { 12778 10 }
+owner = BSR
+}

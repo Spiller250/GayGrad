@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Центральный Профсоюзный Совет
+centralnyyprofsoyuznyysovet = {
+	name = centralnyyprofsoyuznyysovet
+	portraits = {
+		civilian = {
+			#Custom image for Центральный Профсоюзный Совет
+			large = "/gfx/leaders/RWR/RWR.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = revolyucionnyynacionalizm
+		traits = {  }
+	}
+}
+}

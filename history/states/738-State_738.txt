@@ -1,0 +1,15 @@
+state={
+	id=738
+	name="STATE_738"
+	provinces={
+		210 243 700 1020 1624 3794 7375 11671 11778 12026 
+	}
+ history={
+        victory_points = { 210 6 }
+        victory_points = { 700 16 }
+        victory_points = { 3794 25 }
+		owner = TSG 
+	}
+	manpower=100000
+	state_category = large_town
+}

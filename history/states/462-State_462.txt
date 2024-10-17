@@ -1,0 +1,15 @@
+state={
+	id=462
+	name="STATE_462"
+	provinces={
+		1808 2167 2582 4498 6868 9828 9959 10016 10067 10100 10128 10223 
+	}
+ history={
+        victory_points = { 9828 9 }
+        victory_points = { 1808 7 }
+        victory_points = { 10067 17 }
+		owner = CAN
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,15 @@
+state={
+	id=978
+	name="STATE_978"
+	provinces={
+		132 987 2337 2410 3759 4512 13125 13160 13185 13224 13225 13268 13295 13299 13310 13417 13495 
+	}
+     history = {
+    owner = NFK
+        victory_points = { 3759 8 }
+        victory_points = { 4512 12 }
+    victory_points = { 2337 12 }
+}
+	manpower=100000
+	state_category = large_town
+}

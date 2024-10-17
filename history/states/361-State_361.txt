@@ -1,0 +1,15 @@
+state={
+	id=361
+	name="STATE_361"
+	provinces={
+		347 510 3534 3551 3972 4493 6533 9328 9337 9411 9425 9434 9495 9530 9666 
+	}
+ history={
+        victory_points = { 4493 12 }
+        victory_points = { 9666 6 }
+        victory_points = { 347 4 }
+		owner = DEM
+	}
+	manpower=100000
+	state_category = large_town
+}

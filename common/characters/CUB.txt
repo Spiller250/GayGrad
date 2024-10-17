@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Ольга Голмен
+olgagolmen = {
+	name = olgagolmen
+	portraits = {
+		civilian = {
+			#Custom image for Ольга Голмен
+			large = "/gfx/leaders/CUB/KMzptGZI-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+}

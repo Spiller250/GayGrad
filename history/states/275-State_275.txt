@@ -1,0 +1,15 @@
+state={
+	id=275
+	name="STATE_275"
+	provinces={
+		1021 2722 2794 3239 3897 4658 7620 8820 8851 8975 
+	}
+ history={
+        victory_points = { 1021 19 }
+        victory_points = { 7620 15 }
+        victory_points = { 2722 18 }
+		owner = HCR
+	}
+	manpower=100000
+	state_category = large_town
+}

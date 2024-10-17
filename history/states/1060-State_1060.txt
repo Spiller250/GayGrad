@@ -1,0 +1,15 @@
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		1602 2791 4568 5481 7603 13549 13556 13626 13640 13682 13774 
+	}
+ history={
+        victory_points = { 13626 10 }
+        victory_points = { 2791 18 }
+        victory_points = { 13549 17 }
+		owner = ATZ
+	}
+	manpower=100000
+	state_category = large_town
+}

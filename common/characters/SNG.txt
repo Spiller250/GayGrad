@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Полковник Йозеф Мюллер
+polkovnikyozefmyuller = {
+	name = polkovnikyozefmyuller
+	portraits = {
+		civilian = {
+			#Custom image for Полковник Йозеф Мюллер
+			large = "/gfx/leaders/SNG/iOtsxnkz-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = voennayahunta
+		traits = {  }
+	}
+}
+}

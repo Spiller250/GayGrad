@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+
+		CRP_tzhFCqpf = {
+			picture = CRP_tzhFCqpf-707379
+			traits = {
+				Cartel
+			}
+			allowed = {
+				tag = PAS
+
+
+			}
+			available = {
+				always = yes
+
+
+			}
+			visible = {
+				always = yes
+
+
+			}
+			cancel = {
+				has_completed_focus = Cart1
+
+
+			}
+			on_add = {
+				add_stability = -0.3
+
+
+			}
+		}
+
+		CRP__ = {
+			picture = CRP__-707399
+		}
+	}
+}

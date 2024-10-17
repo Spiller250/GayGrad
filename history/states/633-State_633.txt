@@ -1,0 +1,15 @@
+state={
+	id=633
+	name="STATE_633"
+	provinces={
+		143 454 572 2265 3936 6732 6809 10967 10982 11051 11092 11169 11196 
+	}
+ history={
+        victory_points = { 572 8 }
+        victory_points = { 454 21 }
+        victory_points = { 143 25 }
+		owner = TKB 
+	}
+	manpower=100000
+	state_category = large_town
+}

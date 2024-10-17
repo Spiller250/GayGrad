@@ -1,0 +1,15 @@
+state={
+	id=465
+	name="STATE_465"
+	provinces={
+		1775 4491 6253 7065 7681 9879 10120 10131 10159 10160 10264 
+	}
+ history={
+        victory_points = { 9879 12 }
+        victory_points = { 10159 13 }
+        victory_points = { 10264 16 }
+		owner = DEM
+	}
+	manpower=100000
+	state_category = large_town
+}

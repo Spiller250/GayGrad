@@ -1,0 +1,15 @@
+state={
+	id=754
+	name="STATE_754"
+	provinces={
+		2408 5624 6156 7587 11876 11904 11917 11966 
+	}
+       history={
+        victory_points = { 11904 14 }
+        victory_points = { 11876 15 }
+        victory_points = { 7587 20 }
+		owner = GEO
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,15 @@
+state={
+	id=295
+	name="STATE_295"
+	provinces={
+		1054 1519 2515 3723 4616 5410 5744 8966 8967 8977 
+	}
+ history={
+        victory_points = { 1519 13 }
+        victory_points = { 5744 19 }
+        victory_points = { 2515 11 }
+		owner = NOV
+	}
+	manpower=100000
+	state_category = large_town
+}

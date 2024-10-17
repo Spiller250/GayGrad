@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Кирилл Резюмиров
+kirillrezyumirov = {
+	name = kirillrezyumirov
+	portraits = {
+		civilian = {
+			#Custom image for Кирилл Резюмиров
+			large = "/gfx/leaders/TAT/TAT.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  conservative_grandee }
+	}
+}
+}

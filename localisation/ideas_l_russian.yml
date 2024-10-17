@@ -1,0 +1,133 @@
+﻿l_russian:
+ECONOMIC_COLLAPSE:0 "Экономический Крах"
+ECONOMIC_COLLAPSE_desc:0 "Наша экономика переживает беспрецедентный крах. Промышленность стагнирует, уровень безработицы растет, а производственные мощности резко снижаются. Мы должны предпринять решительные меры для преодоления этого кризиса."
+NOV_nationalization_of_oligarch_assets_idea:0 "Национализация активов олигархов"
+NOV_nationalization_of_oligarch_assets_idea_desc:0 "Правительство решило национализировать активы олигархов, чтобы уменьшить их влияние на экономику страны."
+
+NOV_media_control_idea:0 "Контроль над СМИ"
+NOV_media_control_idea_desc:0 "Централизованный контроль над СМИ позволяет нам распространять необходимую информацию и поддерживать порядок в обществе."
+
+NOV_iron_lord_of_novograd_idea:0 "Железный Господин Новограда"
+NOV_iron_lord_of_novograd_idea_desc:0 "Сильная рука и непоколебимая воля лидера привели Новоград к стабильности и процветанию."
+
+NOV_return_oligarchs_idea:0 "Вернуть олигархов из-за границы"
+NOV_return_oligarchs_idea_desc:0 "Программа возвращения олигархов и их капиталов из-за границы для стимулирования внутреннего роста."
+
+NOV_buy_large_company_shares_idea:0 "Выкуп акций крупных компаний"
+NOV_buy_large_company_shares_idea_desc:0 "Скупка акций крупных компаний укрепляет экономическую стабильность и обеспечивает контроль над ключевыми отраслями."
+
+NOV_expand_democratic_institutions_idea:0 "Расширение демократических институтов"
+NOV_expand_democratic_institutions_idea_desc:0 "Расширение и укрепление демократических институтов для повышения прозрачности и подотчетности правительства."
+
+NOV_free_bangistan_idea:0 "Освободить Бангистан от оккупантов"
+NOV_free_bangistan_idea_desc:0 "Военная кампания по освобождению Бангистана от вражеской оккупации и установлению там демократического порядка."
+
+NOV_democratize_tokiostan_idea:0 "Принести демократию в Токиостан"
+NOV_democratize_tokiostan_idea_desc:0 "Поддержка демократических движений в Токиостане для содействия политической стабильности и процветанию региона."
+
+NOV_bangistan_ally_idea:0 "Бангистан - союзник"
+NOV_bangistan_ally_idea_desc:0 "Заключение союза с Бангистаном для укрепления наших политических и военных позиций."
+
+NOV_closer_ties_with_passify_idea:0 "Более тесные связи с Пассифией"
+NOV_closer_ties_with_passify_idea_desc:0 "Укрепление политических и экономических связей с Пассифией для совместного процветания."
+
+NOV_closer_ties_with_folessy_idea:0 "Более тесные связи с Фолессией"
+NOV_closer_ties_with_folessy_idea_desc:0 "Углубление сотрудничества с Фолессией для усиления нашего влияния на международной арене."
+
+NOV_guarantee_exchange_idea:0 "Обмен гарантиями"
+NOV_guarantee_exchange_idea_desc:0 "Обмен гарантиями с нашими союзниками для обеспечения взаимной безопасности и стабильности."
+
+NOV_create_novograd_pact_idea:0 "Создать Новоградский Договор"
+NOV_create_novograd_pact_idea_desc:0 "Инициатива по созданию Новоградского Договора для объединения демократических стран в мощный союз."
+
+NOV_idea_democracy:0 "Идея Демократии"
+NOV_idea_industry:0 "Идея Индустрии"
+NOV_idea_science:0 "Идея Науки"
+
+ green_energy_initiative: "Инициатива зеленой энергии"
+ green_energy_initiative_desc: "Продвигает устойчивую энергию, увеличивая эффективность производства и стабильность."
+
+ industrial_expansion: "Индустриальная экспансия"
+ industrial_expansion_desc: "Ускоряет строительство гражданских и военных заводов."
+
+ diplomatic_success: "Дипломатический успех"
+ diplomatic_success_desc: "Увеличивает национальную стабильность благодаря успешным дипломатическим усилиям."
+
+ economic_union: "Экономический союз"
+ economic_union_desc: "Поощряет торговлю и снижает потребление товаров народного потребления."
+
+ research_collaboration: "Исследовательское сотрудничество"
+ research_collaboration_desc: "Ускоряет исследования за счет международного сотрудничества."
+
+ advanced_research: "Продвинутые исследования"
+ advanced_research_desc: "Значительно увеличивает скорость исследований с использованием передовых методов."
+
+ democratic_reforms: "Демократические реформы"
+ democratic_reforms_desc: "Повышает стабильность и прирост политической власти благодаря демократическим реформам."
+
+ single_currency: "Единая валюта"
+ single_currency_desc: "Улучшает экономическую стабильность и снижает потребление товаров народного потребления."
+
+ economic_crisis: "Экономический кризис"
+ economic_crisis_desc: "Снижает эффективность производства и стабильность в период экономического спада."
+
+ scientific_breakthrough: "Научный прорыв"
+ scientific_breakthrough_desc: "Значительно ускоряет исследования благодаря крупному научному прорыву."
+
+ political_crisis: "Политический кризис"
+ political_crisis_desc: "Снижает стабильность и прирост политической власти во время политической нестабильности."
+
+ mass_revolt: "Массовое восстание"
+ mass_revolt_desc: "Значительно снижает стабильность и прирост политической власти во время массовых беспорядков."
+
+vladimirdragomirov:0 "Владимир Драгомиров"
+sergeyazblotov:0 "Сергей Азблотов"
+igorkobzar:0 "Игорь Кобзар"
+alekseyvasilev:0 "Алексей Васильев"
+kimsonhun:0 "Ким Сон-хун"
+leonidkarpov:0 "Леонид Карпов"
+andreylebedev:0 "Андрей Лебедев"
+vladislavkovalchuk:0 "Владислав Ковальчук"
+MpLdXjuD:0 ""
+gorislavvlasov:0 "Горислав Власов"
+sergeymelnik:0 "Сергей  Мельник "
+miloradmihaylov:0 "Милорад Михайлов"
+gennadiykovach:0 "Геннадий Ковач"
+yaroslavboyko:0 "Ярослав Бойко"
+NOV_democratic:5 "NOV"
+NOV_democratic_DEF:5 "The NOV"
+NOV_democratic_ADJ:5 "NOV citizen"
+NOV_fascism:5 "NOV"
+NOV_fascism_DEF:5 "The NOV"
+NOV_fascism_ADJ:5 "NOV citizen"
+NOV_communism:5 "NOV"
+NOV_communism_DEF:5 "The NOV"
+NOV_communism_ADJ:5 "NOV citizen"
+NOV_neutrality:5 "NOV"
+NOV_neutrality_DEF:5 "The NOV"
+NOV_neutrality_ADJ:5 "NOV citizen"
+stanislavchernenko:0 "Станислав Черненко"
+viktorkravchenko:0 "Виктор Кравченко"
+stanislavchernenko:0 "Станислав Черненко"
+evgeniykorolenko:0 "Евгений Короленко"
+alekseygurev:0 "Алексей Гурьев"
+vasiliylarionov:0 "Василий Ларионов"
+andreytihonov:0 "Андрей Тихонов"
+konstantingoncharov:0 "Константин Гончаров"
+olegmazut:0 "Олег Мазут"
+vladimirmuromcev:0 "Владимир Муромцев"
+antonsamoylov:0 "Антон Самойлов"
+denistregubov:0 "Денис Трегубов"
+ilyakaydash:0 "Илья Кайдаш"
+leonidvasilchuk:0 "Леонид Васильчук"
+glebchernogradskiy:0 "Глеб Черноградский"
+dmitriyyazov:0 "Дмитрий Язов"
+viktorshevchenko:0 "Виктор Шевченко"
+yuriytitarenko:0 "Юрий Титаренко"
+nikolaykovalev:0 "Николай Ковалев"
+borismartynov:0 "Борис Мартынов"
+alekseygromov:0 "Алексей Громов"
+borislevin:0 "Борис Левин"
+dmitriygoncharov:0 " Дмитрий Гончаров"
+ruslanmarkov:0 " Руслан Марков"
+levsavelev:0 "Лев Савельев"

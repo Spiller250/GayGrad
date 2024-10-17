@@ -1,0 +1,15 @@
+state={
+	id=182
+	name="STATE_182"
+	provinces={
+		1835 1877 4592 4949 5073 7689 8355 
+	}
+       history={
+        victory_points = { 4592 9 }
+        victory_points = { 1877 24 }
+        victory_points = { 5073 4 }
+		owner = NGA
+	}    
+	manpower=100000
+	state_category = large_town
+}

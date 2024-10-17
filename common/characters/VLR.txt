@@ -1,0 +1,13 @@
+Demyan = {
+    name = "Demyan Ryazantsev"
+    portraits = {
+        civilian = {
+            large = "/gfx/leaders/RLV/demyan_ryazantsev.dds"
+        }
+    }
+    country_leader = {
+        expire = "1984.1.1"
+        ideology = klassicheskiyliberalizm
+        traits = { eager_collaborator economic_reformer }
+    }
+}

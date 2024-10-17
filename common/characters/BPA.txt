@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - : Генерал Алексей Вавилонов
+generalalekseyvavilonov = {
+	name = generalalekseyvavilonov
+	portraits = {
+		civilian = {
+			#Custom image for : Генерал Алексей Вавилонов
+			large = "/gfx/leaders/BPA/TtcjPBJh-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = dzhingoizm
+		traits = {  }
+	}
+}
+}

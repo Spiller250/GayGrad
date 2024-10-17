@@ -1,0 +1,15 @@
+state={
+	id=1031
+	name="STATE_1031"
+	provinces={
+		931 966 2010 3345 3585 3685 3917 6652 7004 7119 13347 13419 13437 13490 13601 13639 
+	}
+       history={
+        victory_points = { 7004 4 }
+        victory_points = { 13639 23 }
+        victory_points = { 6652 23 }
+		owner = TBK 
+	}
+	manpower=100000
+	state_category = large_town
+}

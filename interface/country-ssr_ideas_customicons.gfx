@@ -1,0 +1,153 @@
+spriteTypes = { 
+	##Icon For: Григорий Земляницын
+	SpriteType = { 
+		name = "UYljWJZA-702669"
+		texturefile = "gfx/interface/ideas/SSR/UYljWJZA-702669.dds"
+	}
+
+	##Icon For: Фёдор Карамзин
+	SpriteType = { 
+		name = "gPOXoufJ-702670"
+		texturefile = "gfx/interface/ideas/SSR/gPOXoufJ-702670.dds"
+	}
+
+	##Icon For: Андрей Берёзкин
+	SpriteType = { 
+		name = "enFGVRvt-702672"
+		texturefile = "gfx/interface/ideas/SSR/enFGVRvt-702672.dds"
+	}
+
+	##Icon For: Константин Ветров
+	SpriteType = { 
+		name = "HoaSdZEM-702673"
+		texturefile = "gfx/interface/ideas/SSR/HoaSdZEM-702673.dds"
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "VQIZiJfF-702674"
+		texturefile = "gfx/interface/ideas/SSR/VQIZiJfF-702674.dds"
+	}
+
+	##Icon For: Михаил Головин
+	SpriteType = { 
+		name = "HvPDMjgS-702681"
+		texturefile = "gfx/interface/ideas/SSR/HvPDMjgS-702681.dds"
+	}
+
+	##Icon For: Пётр Поленов
+	SpriteType = { 
+		name = "jlNwHrmg-702688"
+		texturefile = "gfx/interface/ideas/SSR/jlNwHrmg-702688.dds"
+	}
+
+	##Icon For: Лев Кондратьев
+	SpriteType = { 
+		name = "kdKRpXWh-702698"
+		texturefile = "gfx/interface/ideas/SSR/kdKRpXWh-702698.dds"
+	}
+
+	##Icon For: Андрей Севастьянов
+	SpriteType = { 
+		name = "gwTFcMvE-702703"
+		texturefile = "gfx/interface/ideas/SSR/gwTFcMvE-702703.dds"
+	}
+
+	##Icon For: Василий Морозов
+	SpriteType = { 
+		name = "tipQAvCb-702709"
+		texturefile = "gfx/interface/ideas/SSR/tipQAvCb-702709.dds"
+	}
+
+	##Icon For: Станислав Твердовский
+	SpriteType = { 
+		name = "hlORVHjC-705406"
+		texturefile = "gfx/interface/ideas/SSR/hlORVHjC-705406.dds"
+	}
+
+	##Icon For: Валентин Шестаков
+	SpriteType = { 
+		name = "cdsnyKzr-705407"
+		texturefile = "gfx/interface/ideas/SSR/cdsnyKzr-705407.dds"
+	}
+
+	##Icon For: Владислав Смирягин
+	SpriteType = { 
+		name = "owIjsqvx-705408"
+		texturefile = "gfx/interface/ideas/SSR/owIjsqvx-705408.dds"
+	}
+
+	##Icon For: Игорь Холодов
+	SpriteType = { 
+		name = "qIhKaFTL-705409"
+		texturefile = "gfx/interface/ideas/SSR/qIhKaFTL-705409.dds"
+	}
+
+	##Icon For: Николай Зорин
+	SpriteType = { 
+		name = "xCpUHcyj-705410"
+		texturefile = "gfx/interface/ideas/SSR/xCpUHcyj-705410.dds"
+	}
+
+	##Icon For: Олег Тихомиров
+	SpriteType = { 
+		name = "HogpSqlB-705411"
+		texturefile = "gfx/interface/ideas/SSR/HogpSqlB-705411.dds"
+	}
+
+	##Icon For: Евграф Буровский
+	SpriteType = { 
+		name = "feztLoQp-705412"
+		texturefile = "gfx/interface/ideas/SSR/feztLoQp-705412.dds"
+	}
+
+	##Icon For: Макар Струминский
+	SpriteType = { 
+		name = "zfpZUShY-705413"
+		texturefile = "gfx/interface/ideas/SSR/zfpZUShY-705413.dds"
+	}
+
+	##Icon For: Трофим Игнатьев
+	SpriteType = { 
+		name = "SdmqMUeW-705414"
+		texturefile = "gfx/interface/ideas/SSR/SdmqMUeW-705414.dds"
+	}
+
+	##Icon For: Георгий Шулепов
+	SpriteType = { 
+		name = "wAWgDKrJ-705415"
+		texturefile = "gfx/interface/ideas/SSR/wAWgDKrJ-705415.dds"
+	}
+
+	##Icon For: Платон Полевой
+	SpriteType = { 
+		name = "SHNruDMz-705416"
+		texturefile = "gfx/interface/ideas/SSR/SHNruDMz-705416.dds"
+	}
+
+	##Icon For: Алексей Черенков
+	SpriteType = { 
+		name = "WCvXImrV-705417"
+		texturefile = "gfx/interface/ideas/SSR/WCvXImrV-705417.dds"
+	}
+
+	##Icon For: Тимофей Воропаев
+	SpriteType = { 
+		name = "KJmBwxPM-705418"
+		texturefile = "gfx/interface/ideas/SSR/KJmBwxPM-705418.dds"
+	}
+
+	##Icon For: Арсений Стрелков
+	SpriteType = { 
+		name = "zRiXvpTn-705419"
+		texturefile = "gfx/interface/ideas/SSR/zRiXvpTn-705419.dds"
+	}
+
+	##Icon For: Фёдор Крапивин
+	SpriteType = { 
+		name = "ZDKLpeYT-705420"
+		texturefile = "gfx/interface/ideas/SSR/ZDKLpeYT-705420.dds"
+	}
+
+ 
+ }

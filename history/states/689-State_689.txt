@@ -1,0 +1,15 @@
+state={
+	id=689
+	name="STATE_689"
+	provinces={
+		42 1961 2639 6580 6821 7782 11382 11444 11482 11488 11528 11556 11735 
+	}
+ history={
+        victory_points = { 11482 7 }
+        victory_points = { 1961 25 }
+        victory_points = { 2639 12 }
+		owner = GEO
+	}
+	manpower=100000
+	state_category = large_town
+}

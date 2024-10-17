@@ -1,0 +1,15 @@
+state={
+	id=72
+	name="STATE_72"
+	provinces={
+		1290 1642 3976 5335 5857 7641 7846 7849 7851 7855 7859 
+	}
+ history={
+        victory_points = { 5857 12 }
+        victory_points = { 7641 5 }
+        victory_points = { 7849 9 }
+		owner = TNR
+	}
+	manpower=100000
+	state_category = large_town}
+

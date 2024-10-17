@@ -1,0 +1,16 @@
+state={
+	id=117
+	name="STATE_117"
+	provinces={
+		130 724 1018 3587 3854 4037 4144 5082 5138 5251 8012 8035 8049 8051 8075 8076 8114 
+	}
+
+ history={
+        victory_points = { 8075 17 }
+        victory_points = { 5138 5 }
+        victory_points = { 5082 12 }
+		owner = FRR
+	}
+	manpower=100000
+	state_category = large_town
+}

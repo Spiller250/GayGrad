@@ -1,0 +1,16 @@
+state={
+	id=402
+	name="STATE_402"
+	provinces={
+		612 1102 4179 4377 4386 4915 6514 6905 9577 9619 9670 9694 9752 9893 9924 9969 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 6514 5 }
+        victory_points = { 1102 10 }
+    victory_points = { 4915 21 }
+owner = VNK
+}

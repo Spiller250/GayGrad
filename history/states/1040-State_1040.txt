@@ -1,0 +1,16 @@
+state={
+	id=1040
+	name="STATE_1040"
+	provinces={
+		1455 2596 3098 4018 4828 5162 6018 13460 13567 13598 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 6018 11 }
+        victory_points = { 4018 11 }
+    victory_points = { 13567 15 }
+owner = FRK
+}

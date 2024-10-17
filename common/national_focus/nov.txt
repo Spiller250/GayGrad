@@ -1,0 +1,2842 @@
+﻿focus_tree = {
+	id = NOV
+	continuous_focus_position = { x = 910 y = 2480 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NOV
+		}
+	}
+	
+		#Отмена закона "Токио-Новоград"
+		focus = {
+			id = NOV_otmenazakonatokionovograd
+			icon = GFX_goal_unknown
+			x = 47
+			y = 5
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			prerequisite = { focus = NOV_zashchitalichnyhsvobod  } prerequisite = { focus = NOV_ravenstvoperedzakonom  }
+			completion_reward = {
+    add_stability = 0.05
+    add_political_power = 30
+}
+		}
+
+
+		#Прекратить судебные иски против олигархов
+		focus = {
+			id = NOV_prekratitsudebnyeiskiprotivoligarhov
+			icon = GFX_NOV_prekratitsudebnyeiskiprotivoligarhov-649702
+			x = 17
+			y = 7
+			cost = 10
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			prerequisite = { focus = NOV_privlechenieoligarhov  }
+			completion_reward = {
+    add_stability = 0.03
+    add_political_power = 20
+    remove_country_leader_trait = leader_trait_oligarch
+}
+		}
+
+		#История Новограда
+		focus = {
+			id = NOV_istoriyanovograda
+			icon = GFX_NOV_istoriyanovograda-637570
+			x = 16
+			y = 0
+			cost = 1
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			completion_reward = {
+				country_event = {
+					id = NOV_novograd.1
+					days = 10
+					random = 50
+					random_days = 10
+				}
+				
+				
+				
+			}
+			select_effect = {
+	add_political_power = 50
+
+
+	}
+		}
+
+		#Запуск Реформ!
+		focus = {
+			id = NOV_zapuskreform
+			icon = GFX_NOV_zapuskreform-636166
+			x = 16
+			y = 3
+			cost = 2
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_maksimnovogorodskiy  }
+			completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.2
+        days = 5
+    }
+}
+		}
+
+		#Подъём Этатизма
+		focus = {
+			id = NOV_podyometatizma
+			icon = GFX_NOV_podyometatizma-649700
+			x = 12
+			y = 7
+			cost = 6
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			prerequisite = { focus = NOV_otobrataktivyoligarhov  }
+			completion_reward = {
+    add_political_power = 40
+    country_event = {
+        id = NOV_novograd.3
+        days = 10
+    }
+}
+		}
+
+		#Развитие инфраструктуры
+		focus = {
+			id = NOV_razvitieinfrastruktury
+			icon = GFX_NOV_razvitieinfrastruktury-637575
+			x = 20
+			y = 4
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_zapuskreform  }
+			completion_reward = {
+    add_extra_state_shared_building_slots = 2
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 0
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+        set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+    }
+    country_event = {
+        id = NOV_novograd.4
+        days = 7
+    }
+}
+}
+
+		#Максим Новогородский!
+		focus = {
+			id = NOV_maksimnovogorodskiy
+			icon = GFX_NOV_maksimnovogorodskiy-637571
+			x = 16
+			y = 2
+			cost = 4
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			prerequisite = { focus = NOV_vybory1951  }
+
+completion_reward = {
+    add_stability = 0.04
+    add_political_power = 30
+}
+			ai_will_do = { factor = 70 }
+			available = {
+				always = no
+				
+				
+			}
+		}
+
+		#Модернизация транспортной сети
+		focus = {
+			id = NOV_modernizaciyatransportnoyseti
+			icon = GFX_NOV_modernizaciyatransportnoyseti-649761
+			x = 18
+			y = 5
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_razvitieinfrastruktury  }
+			completion_reward = {
+    add_extra_state_shared_building_slots = 3
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 0
+                include_locked = yes
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+        set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+    }
+    country_event = {
+        id = NOV_novograd.5
+        days = 7
+    }
+}
+
+		}
+
+		#Реконструкция городской инфраструктуры
+		focus = {
+			id = NOV_rekonstrukciyagorodskoyinfrastruktury
+			icon = GFX_NOV_rekonstrukciyagorodskoyinfrastruktury-649688
+			x = 20
+			y = 5
+			cost = 6
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_razvitieinfrastruktury  }
+			completion_reward = {
+				random_owned_controlled_state = {
+				limit = {
+				free_building_slots = {
+				building = industrial_complex
+				size > 0
+				include_locked = yes
+				}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+				set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+				}
+				
+				
+			}
+		}
+
+		#Привлечение иностранных инвестиций
+		focus = {
+			id = NOV_privlechenieinostrannyhinvesticiy
+			icon = GFX_NOV_privlechenieinostrannyhinvesticiy-649752
+			x = 23
+			y = 6
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_CHI_INFLATION
+			}
+			prerequisite = { focus = NOV_razvitieinfrastruktury  }
+
+completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.6
+        days = 5
+    }
+}
+		}
+
+		#Отчественные инвестиции
+		focus = {
+			id = NOV_otchestvennyeinvesticii
+			icon = GFX_NOV_otchestvennyeinvesticii-649709
+			x = 21
+			y = 6
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_CHI_INFLATION
+			}
+			prerequisite = { focus = NOV_razvitieinfrastruktury  }
+
+completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.7
+        days = 5
+    }
+}
+			mutually_exclusive = { focus = NOV_privlechenieinostrannyhinvesticiy  }
+		}
+
+		#Начать борьбу с Коррупцией
+		focus = {
+			id = NOV_nachatborbuskorrupciey
+			icon = GFX_NOV_nachatborbuskorrupciey-649714
+			x = 12
+			y = 4
+			cost = 4
+			search_filters = {
+				FOCUS_FILTER_STABILITY
+			}
+			prerequisite = { focus = NOV_zapuskreform  }
+			completion_reward = {
+    add_stability = 0.05
+    add_political_power = 30
+}
+		}
+
+		#Расширить влияние  приближенных Максима
+		focus = {
+			id = NOV_rasshiritvliyaniepriblizhennyhmaksima
+			icon = GFX_NOV_rasshiritvliyaniepriblizhennyhmaksima-649684
+			x = 16
+			y = 4
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+			}
+			prerequisite = { focus = NOV_zapuskreform  }
+			completion_reward = {
+    add_stability = 0.03
+    add_political_power = 20
+}
+			mutually_exclusive = { focus = NOV_nachatborbuskorrupciey  }
+		}
+
+		#Модернизация существующих предприятий
+		focus = {
+			id = NOV_modernizaciyasushchestvuyushchihpredpriyatiy
+			icon = GFX_goal_unknown
+			x = 18
+			y = 8
+			cost = 6
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_proektnovyynovograd  }
+			completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.8
+        days = 5
+    }
+}
+		}
+
+		#Поддержка инноваций и научно-технического прогресса
+		focus = {
+			id = NOV_podderzhkainnovaciyinauchnotehnicheskogoprogressa
+			icon = GFX_NOV_podderzhkainnovaciyinauchnotehnicheskogoprogressa-649698
+			x = 22
+			y = 8
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_proektnovyynovograd  }
+			completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.9
+        days = 5
+    }
+}
+		}
+
+		#Создание новых рабочих мест
+		focus = {
+			id = NOV_sozdanienovyhrabochihmest
+			icon = GFX_NOV_sozdanienovyhrabochihmest-649693
+			x = 20
+			y = 10
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_MANPOWER
+			}
+			prerequisite = { focus = NOV_stroitelstvonovyhproizvodstvennyhobektov  }
+			completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.10
+        days = 5
+    }
+}
+		}
+
+		#Стимулирование промышленности
+		focus = {
+			id = NOV_stimulirovaniepromyshlennosti
+			icon = GFX_NOV_stimulirovaniepromyshlennosti-649694
+			x = 18
+			y = 10
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_CHI_INFLATION
+			}
+			prerequisite = { focus = NOV_modernizaciyasushchestvuyushchihpredpriyatiy  }
+			completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.11
+        days = 5
+    }
+}
+		}
+
+		#Внедрение передовых технологий
+		focus = {
+			id = NOV_vnedrenieperedovyhtehnologiy
+			icon = GFX_NOV_vnedrenieperedovyhtehnologiy-649776
+			x = 22
+			y = 10
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_RESEARCH
+			}
+			prerequisite = { focus = NOV_podderzhkainnovaciyinauchnotehnicheskogoprogressa  }
+			completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.12
+        days = 5
+    }
+}
+		}
+
+		#Содействие экспорту
+		focus = {
+			id = NOV_sodeystvieeksportu
+			icon = GFX_NOV_sodeystvieeksportu-649691
+			x = 20
+			y = 11
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			prerequisite = { focus = NOV_sozdanienovyhrabochihmest  }
+			completion_reward = {
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.13
+        days = 5
+    }
+}
+		}
+
+		#Государственные субсидии
+		focus = {
+			id = NOV_gosudarstvennyesubsidii
+			icon = GFX_goal_unknown
+			x = 22
+			y = 11
+			cost = 6
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_gosudarstvennyesubsidii  }
+			completion_reward = {
+    add_stability = 0.03
+    country_event = {
+        id = NOV_novograd.14
+        days = 5
+    }
+}
+		}
+
+		#Окончить Проект
+		focus = {
+			id = NOV_okonchitproekt
+			icon = GFX_NOV_okonchitproekt-649708
+			x = 20
+			y = 12
+			cost = 3
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_nalogovyelgotydlyapredpriyatiy  } prerequisite = { focus = NOV_sodeystvieeksportu  focus = NOV_gosudarstvennyesubsidii  }
+
+completion_reward = {
+    add_stability = 0.05
+    add_political_power = 40
+}
+		}
+
+		#Защита национальных интересов
+		focus = {
+			id = NOV_zashchitanacionalnyhinteresov
+			icon = GFX_NOV_zashchitanacionalnyhinteresov-649750
+			x = 16
+			y = 14
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_WAR_SUPPORT
+			}
+			prerequisite = { focus = NOV_okonchitproekt  } prerequisite = { focus = NOV_zheleznyygospodinnovograda  }
+			completion_reward = {
+    add_stability = 0.05
+    country_event = {
+        id = NOV_novograd.15
+        days = 5
+    }
+}
+
+		}
+
+		#Проект "Новый Новоград"
+		focus = {
+			id = NOV_proektnovyynovograd
+			icon = GFX_NOV_proektnovyynovograd-649706
+			x = 20
+			y = 7
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_modernizaciyatransportnoyseti  } prerequisite = { focus = NOV_rekonstrukciyagorodskoyinfrastruktury  focus = NOV_otchestvennyeinvesticii  } prerequisite = { focus = NOV_privlechenieinostrannyhinvesticiy  }
+		}
+		#Строительство новых производственных объектов
+		focus = {
+			id = NOV_stroitelstvonovyhproizvodstvennyhobektov
+			icon = GFX_goal_unknown
+			x = 20
+			y = 8
+			cost = 6
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_proektnovyynovograd  }
+			completion_reward = {
+    add_building_slots = 2
+    add_extra_state_shared_building_slots = 2
+    add_building_construction = {
+        type = arms_factory
+        level = 2
+        instant_build = yes
+    }
+}
+
+		}
+
+		#Привлечение Олигархов
+		focus = {
+			id = NOV_privlechenieoligarhov
+			icon = GFX_NOV_privlechenieoligarhov-649704
+			x = 16
+			y = 5
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+			}
+			prerequisite = { focus = NOV_rasshiritvliyaniepriblizhennyhmaksima  }
+			completion_reward = {
+    add_political_power = 50
+    country_event = {
+        id = NOV_novograd.17
+        days = 5
+    }
+}
+
+		}
+
+		#Ослабление Олигрхов!
+		focus = {
+			id = NOV_oslablenieoligrhov
+			icon = GFX_NOV_oslablenieoligrhov-637573
+			x = 12
+			y = 5
+			cost = 4
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			prerequisite = { focus = NOV_nachatborbuskorrupciey  }
+			completion_reward = {
+    add_stability = 0.05
+    add_political_power = 20
+    country_event = {
+        id = NOV_novograd.18
+        days = 5
+    }
+}
+
+		}
+
+		#Налоговые льготы для предприятий
+		focus = {
+			id = NOV_nalogovyelgotydlyapredpriyatiy
+			icon = GFX_NOV_nalogovyelgotydlyapredpriyatiy-649699
+			x = 18
+			y = 11
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_INDUSTRY
+			}
+			prerequisite = { focus = NOV_stimulirovaniepromyshlennosti  }
+			completion_reward = {
+    add_resource = {
+        type = steel
+        amount = 20
+    }
+    add_resource = {
+        type = oil
+        amount = 10
+    }
+    add_building_construction = {
+        type = synthetic_refinery
+        level = 1
+        instant_build = yes
+    }
+}
+
+		}
+
+
+		#Отобрать активы олигархов
+		focus = {
+			id = NOV_otobrataktivyoligarhov
+			icon = GFX_NOV_otobrataktivyoligarhov-637572
+			x = 12
+			y = 6
+			cost = 6
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			prerequisite = { focus = NOV_oslablenieoligrhov  }
+			completion_reward = {
+    add_stability = 0.02
+    add_political_power = 25
+    country_event = {
+        id = NOV_novograd.22
+        days = 3
+    }
+}
+
+		}
+
+		#Контроль над СМИ
+		focus = {
+			id = NOV_kontrolnadsmi
+			icon = GFX_NOV_kontrolnadsmi-649697
+			x = 13
+			y = 8
+			cost = 5
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+			prerequisite = { focus = NOV_podyometatizma  }
+			completion_reward = {
+    add_political_power = 50
+    add_stability = 0.05
+    country_event = {
+        id = NOV_novograd.23
+        days = 3
+    }
+}
+
+		}
+
+	#Укрепление Олигархической Власти
+	focus = {
+		id = NOV_ukreplenieoligarhicheskoyvlasti
+		icon = GFX_NOV_ukreplenieoligarhicheskoyvlasti-649695
+		x = 15
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_prekratitsudebnyeiskiprotivoligarhov  focus = NOV_privlechenieoligarhov  }
+		completion_reward = {
+    add_political_power = 75
+    add_stability = 0.04
+    add_idea = NOV_oligarchic_power
+}
+
+	}
+
+	#Мир с Синдикатами
+	focus = {
+		id = NOV_mirssindikatami
+		icon = GFX_NOV_mirssindikatami-649703
+		x = 16
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = NOV_ukreplenieoligarhicheskoyvlasti  }
+		completion_reward = {
+    add_political_power = 40
+    country_event = {
+        id = NOV_novograd.24
+        days = 3
+    }
+}
+
+	}
+
+	#Новоградский Олигархат
+	focus = {
+		id = NOV_novogradskiyoligarhat
+		icon = GFX_NOV_novogradskiyoligarhat-649707
+		x = 16
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_izbavitsyaotmaksima  }
+		completion_reward = {
+    add_stability = 0.05
+    add_political_power = 50
+    add_idea = NOV_oligarchic_reform
+}
+
+	}
+
+	#ИЗБАВИТЬСЯ ОТ МАКСИМА
+	focus = {
+		id = NOV_izbavitsyaotmaksima
+		icon = GFX_NOV_izbavitsyaotmaksima-649751
+		x = 16
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_vernutoligarhovizzagranicy  }
+		completion_reward = {
+    add_stability = 0.03
+    add_political_power = 30
+    country_event = {
+        id = NOV_novograd.25
+        days = 3
+    }
+}
+
+	}
+
+	#ПОКОНЧИТЬ С ОЛИГАРХИЕЙ
+	focus = {
+		id = NOV_pokonchitsoligarhiey
+		icon = GFX_NOV_pokonchitsoligarhiey-649701
+		x = 13
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_otmenitvybory  } prerequisite = { focus = NOV_razdavitoppoziciyu  }
+		completion_reward = {
+    add_stability = 0.05
+    add_political_power = 40
+    country_event = {
+        id = NOV_novograd.26
+        days = 3
+    }
+}
+
+	}
+
+	#Отменить выборы
+	focus = {
+		id = NOV_otmenitvybory
+		icon = GFX_NOV_otmenitvybory-649696
+		x = 11
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_usileniecentralizaciivlasti  } prerequisite = { focus = NOV_razdavitoppoziciyu  } prerequisite = { focus = NOV_povyshenieeffektivnostiresheniyagosudarstvennyhvoprosov  }
+		completion_reward = {
+    add_stability = 0.04
+    add_political_power = 50
+    add_idea = NOV_no_elections
+}
+
+	}
+
+	#Реформа правовой системы
+	focus = {
+		id = NOV_reformapravovoysistemy
+		icon = GFX_NOV_reformapravovoysistemy-649690
+		x = 11
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_podyometatizma  }
+		completion_reward = {
+    add_stability = 0.05
+    add_political_power = 30
+    country_event = {
+        id = NOV_novograd.27
+        days = 3
+    }
+}
+
+	}
+
+	#Усиление централизации власти.
+	focus = {
+		id = NOV_usileniecentralizaciivlasti
+		icon = GFX_NOV_usileniecentralizaciivlasti-649680
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_reformapravovoysistemy  }
+		completion_reward = {
+    add_stability = 0.04
+    add_political_power = 35
+    add_idea = NOV_centralized_power
+}
+
+	}
+
+	#Повышение эффективности решения государственных вопросов.
+	focus = {
+		id = NOV_povyshenieeffektivnostiresheniyagosudarstvennyhvoprosov
+		icon = GFX_NOV_povyshenieeffektivnostiresheniyagosudarstvennyhvoprosov-649753
+		x = 12
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_reformapravovoysistemy  } prerequisite = { focus = NOV_kontrolnadsmi  }
+	completion_reward = {
+    add_stability = 0.03
+    add_political_power = 30
+    add_idea = NOV_efficient_government
+}
+
+	}
+
+
+
+	#Раздавить оппозицию
+	focus = {
+		id = NOV_razdavitoppoziciyu
+		icon = GFX_NOV_razdavitoppoziciyu-649660
+		x = 14
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_kontrolnadsmi  }
+		completion_reward = {
+    add_stability = 0.04
+    add_political_power = 40
+    country_event = {
+        id = NOV_novograd.28
+        days = 3
+    }
+}
+
+	}
+
+	#Железный Господин Новограда
+	focus = {
+		id = NOV_zheleznyygospodinnovograda
+		icon = GFX_NOV_zheleznyygospodinnovograda-649749
+		x = 12
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_pokonchitsoligarhiey  }
+		completion_reward = {
+    add_stability = 0.05
+    add_political_power = 50
+    add_idea = NOV_iron_lord
+}
+
+	}
+
+	#Вернуть олигархов из за границы
+	focus = {
+		id = NOV_vernutoligarhovizzagranicy
+		icon = GFX_NOV_vernutoligarhovizzagranicy-649770
+		x = 16
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_vykupitakciikurpnyhkompaniy  }
+		completion_reward = {
+    add_stability = 0.03
+    add_political_power = 30
+    country_event = {
+        id = NOV_novograd.29
+        days = 3
+    }
+}
+
+	}
+
+	#Выкупить акции курпных компаний
+	focus = {
+		id = NOV_vykupitakciikurpnyhkompaniy
+		icon = GFX_NOV_vykupitakciikurpnyhkompaniy-649717
+		x = 16
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_mirssindikatami  }
+		completion_reward = {
+    add_political_power = 40
+    add_stability = 0.02
+    country_event = {
+        id = NOV_novograd.30
+        days = 3
+    }
+}
+
+	}
+
+	#Расширение Демократических Институтов
+	focus = {
+		id = NOV_rasshireniedemokraticheskihinstitutov
+		icon = GFX_goal_unknown
+		x = 43
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_anticenzurnyemery  } prerequisite = { focus = NOV_podderzhkanezavisimyhmedia  }
+	completion_reward = {
+    add_stability = 0.05
+    add_political_power = 50
+    add_idea = NOV_democratic_institutions
+}
+
+	}
+
+	#Освободить Бангистан от оккупантов
+	focus = {
+		id = NOV_osvoboditbangistanotokkupantov
+		icon = GFX_goal_unknown
+		x = 40
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_prinestidemokratiyuvtokiostan  }
+		completion_reward = {
+    add_war_support = 0.05
+    add_political_power = 30
+    create_wargoal = {
+        type = annex
+        target = BAN
+    }
+}
+
+	}
+
+	#Принести демократию в Токиостан
+	focus = {
+		id = NOV_prinestidemokratiyuvtokiostan
+		icon = GFX_goal_unknown
+		x = 40
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sozdatnovogradskiydogovor  }
+		completion_reward = {
+    add_stability = 0.03
+    add_political_power = 40
+    country_event = {
+        id = NOV_novograd.31
+        days = 3
+    }
+}
+
+	}
+
+	#Бангистан - Союзник
+	focus = {
+		id = NOV_bangistansoyuznik
+		icon = GFX_goal_unknown
+		x = 38
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_soyuzniktokiostan  }
+		completion_reward = {
+    add_stability = 0.04
+    add_political_power = 35
+    add_opinion_modifier = {
+        target = BAN
+        modifier = NOV_allied_relations
+    }
+}
+
+	}
+
+	#Более тесные связи с Пассифией
+	focus = {
+		id = NOV_boleetesnyesvyazispassifiey
+		icon = GFX_goal_unknown
+		x = 39
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sestburgerysospillerom  }
+		completion_reward = {
+    add_political_power = 30
+    add_stability = 0.03
+    add_opinion_modifier = {
+        target = PAS
+        modifier = NOV_closer_ties
+    }
+}
+
+	}
+
+	#Более тесные связи с Фолессией
+	focus = {
+		id = NOV_boleetesnyesvyazisfolessiey
+		icon = GFX_goal_unknown
+		x = 41
+		y = 18
+		cost = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sestburgerysospillerom  }
+		completion_reward = {
+    add_political_power = 30
+    add_stability = 0.03
+    add_opinion_modifier = {
+        target = FOL
+        modifier = NOV_closer_ties
+    }
+}
+
+	}
+
+	#обменятся гарантиями
+	focus = {
+		id = NOV_obmenyatsyagarantiyami
+		icon = GFX_goal_unknown
+		x = 40
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_boleetesnyesvyazispassifiey  } prerequisite = { focus = NOV_boleetesnyesvyazisfolessiey  }
+		completion_reward = {
+    add_stability = 0.04
+    add_political_power = 40
+    country_event = {
+        id = NOV_novograd.32
+        days = 3
+    }
+}
+
+	}
+
+	#Создать Новоградский Договор
+	focus = {
+		id = NOV_sozdatnovogradskiydogovor
+		icon = GFX_goal_unknown
+		x = 39
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_obmenyatsyagarantiyami  }
+		completion_reward = {
+    add_stability = 0.05
+    add_political_power = 50
+    country_event = {
+        id = NOV_novograd.33
+        days = 3
+    }
+}
+
+	}
+
+	#Союзник Токиостан
+	focus = {
+		id = NOV_soyuzniktokiostan
+		icon = GFX_goal_unknown
+		x = 38
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sozdatnovogradskiydogovor  }
+	}
+
+	#Строительство нового жилья!
+	focus = {
+		id = NOV_stroitelstvonovogozhilya
+		icon = GFX_goal_unknown
+		x = 31
+		y = 6
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_deregulirovaniebiznesa  }
+		completion_reward = {
+			add_stability = 0.2
+			add_building_construction_speed = {
+						modifier = 0.2
+						category = residential
+			
+		}
+	}
+}
+
+	#Выборы 1951
+	focus = {
+		id = NOV_vybory1951
+		icon = GFX_goal_unknown
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_istoriyanovograda  }
+		available = {
+			on_actions = {
+			    on_new_year = {
+			        effect = {
+			            limit = {
+			                date > 1951.03.020
+			            }
+			            country_event = { id = NOV_novograd.3 }
+			        }
+			    }
+			}
+			
+			
+			
+			
+		}
+		select_effect = {
+country_event = {
+    id = NOV_novograd.3
+    days = 1
+    random =1
+    random_days = 1
+}
+
+
+
+add_stability = 0.1
+
+
+
+}
+	}
+
+	#Да здраствует Свобода!
+	focus = {
+		id = NOV_dazdrastvuetsvoboda
+		icon = GFX_goal_unknown
+		x = 36
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_vybory1951  }
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			add_stability = 0.1
+			
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Укрепление Демократии
+	focus = {
+		id = NOV_ukrepleniedemokratii
+		icon = GFX_goal_unknown
+		x = 45
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_dazdrastvuetsvoboda  }
+	}
+
+	#Свобода Слова и Прессы
+	focus = {
+		id = NOV_svobodaslovaipressy
+		icon = GFX_goal_unknown
+		x = 43
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_ukrepleniedemokratii  }
+	}
+
+	#Поддержка Независимых Медиа
+	focus = {
+		id = NOV_podderzhkanezavisimyhmedia
+		icon = GFX_goal_unknown
+		x = 44
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_svobodaslovaipressy  }
+	}
+
+	#Антицензурные Меры
+	focus = {
+		id = NOV_anticenzurnyemery
+		icon = GFX_goal_unknown
+		x = 42
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_svobodaslovaipressy  }
+	}
+
+	#Гражданские Права
+	focus = {
+		id = NOV_grazhdanskieprava
+		icon = GFX_goal_unknown
+		x = 47
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_ukrepleniedemokratii  }
+	}
+
+	#Равенство Перед Законом
+	focus = {
+		id = NOV_ravenstvoperedzakonom
+		icon = GFX_goal_unknown
+		x = 46
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_grazhdanskieprava  }
+	}
+
+	#Защита Личных Свобод
+	focus = {
+		id = NOV_zashchitalichnyhsvobod
+		icon = GFX_goal_unknown
+		x = 48
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_grazhdanskieprava  }
+	}
+
+	#Идеал Новоградской Демократии
+	focus = {
+		id = NOV_idealnovogradskoydemokratii
+		icon = GFX_goal_unknown
+		x = 45
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_otmenazakonatokionovograd  } prerequisite = { focus = NOV_rasshireniedemokraticheskihinstitutov  }
+	}
+
+	#Восстановления после кризиса
+	focus = {
+		id = NOV_vosstanovleniyaposlekrizisa
+		icon = GFX_goal_unknown
+		x = 30
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_dazdrastvuetsvoboda  }
+		completion_reward = {
+			country_event = {
+			    id = NOV_novograd.4
+			    days = 1
+			    random = 1
+			    random_days = 1
+			}
+			
+			
+			
+		}
+	}
+
+	#Понижение налогов
+	focus = {
+		id = NOV_ponizhenienalogov
+		icon = GFX_goal_unknown
+		x = 31
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_vosstanovleniyaposlekrizisa  }
+	}
+
+	#Налоговые Льготы для Малого Бизнеса
+	focus = {
+		id = NOV_nalogovyelgotydlyamalogobiznesa
+		icon = GFX_goal_unknown
+		x = 29
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = NOV_vosstanovleniyaposlekrizisa  }
+		select_effect = {
+add_building_construction_speed_factor = 0.05
+
+}
+	}
+
+	#Дерегулирование Бизнеса
+	focus = {
+		id = NOV_deregulirovaniebiznesa
+		icon = GFX_goal_unknown
+		x = 30
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_stimulirovaniechastnogopredprinimatelstva  } prerequisite = { focus = NOV_ponizhenienalogov  }
+		completion_reward = {
+			add_building_construction_speed = {
+						modifier = 0.2
+						category = civilian_industry
+		}
+	}
+}
+
+	#Стимулирование Частного Предпринимательства
+	focus = {
+		id = NOV_stimulirovaniechastnogopredprinimatelstva
+		icon = GFX_goal_unknown
+		x = 30
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = NOV_nalogovyelgotydlyamalogobiznesa  } prerequisite = { focus = NOV_ponizhenienalogov  }
+		completion_reward = {
+			add_building_construction_speed = {
+						modifier = 0.2
+						category = civilian_industry
+			
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = industrial_tech
+			}
+			
+			
+			
+		}
+	}
+}
+
+	#Развитие Инфраструктуры
+	focus = {
+		id = NOV_razvitieinfrastruktury
+		icon = GFX_goal_unknown
+		x = 26
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_dazdrastvuetsvoboda  }
+		ai_will_do = { factor = 30 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Инвестиции в Науку!
+	focus = {
+		id = NOV_investiciivnauku
+		icon = GFX_goal_unknown
+		x = 33
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_dazdrastvuetsvoboda  }
+		completion_reward = {
+			add_research_speed = 0.05
+		}
+	}
+
+	#Развивать Транспорт
+	focus = {
+		id = NOV_razvivattransport
+		icon = GFX_goal_unknown
+		x = 25
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_razvitieinfrastruktury  }
+		select_effect = {
+ add_ideas = {
+            idea = construction_boost_idea
+            construction_speed_factor = 0.1
+}
+	}
+}
+
+	#Модернизация Железных Дорог
+	focus = {
+		id = NOV_modernizaciyazheleznyhdorog
+		icon = GFX_goal_unknown
+		x = 25
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_razvivattransport  }
+		select_effect = {
+add_ideas = {
+            idea = railway_construction_boost_idea
+            railway_construction_speed_factor = 2
+}
+	}
+}
+
+	#Строительство Автомагистралей
+	focus = {
+		id = NOV_stroitelstvoavtomagistraley
+		icon = GFX_goal_unknown
+		x = 25
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_modernizaciyazheleznyhdorog  }
+		ai_will_do = { factor = 30 }
+		select_effect = {
+build_railway = {
+  level = 2
+  build_only_on_allied = yes
+  controller_priority = {
+    base = 1
+   
+    modifier = {
+      tag = NOV
+      add = 2
+    }
+  }
+  fallback = yes
+  path = { 8622 281 8647 4594 8642 8601 8568 8529 2629 8550 1545 5415 }
+  start_province =  8622
+  target_province = 5415
+}
+
+
+
+
+}
+	}
+
+	#Расширение Портов
+	focus = {
+		id = NOV_rasshirenieportov
+		icon = GFX_goal_unknown
+		x = 27
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_stroitelstvonovyhzavodov  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = dockyard
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Промышленная Модернизация
+	focus = {
+		id = NOV_promyshlennayamodernizaciya
+		icon = GFX_goal_unknown
+		x = 27
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_razvitieinfrastruktury  }
+		ai_will_do = { factor = 30 }
+		select_effect = {
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+set_building_level = {
+    type = infrastructure
+    level = 3
+    instant_build = yes
+}
+
+
+}
+	}
+
+	#Строительство Новых Заводов
+	focus = {
+		id = NOV_stroitelstvonovyhzavodov
+		icon = GFX_goal_unknown
+		x = 27
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_promyshlennayamodernizaciya  }
+		select_effect = {
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = no
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = no
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+
+}
+	}
+
+	#Энергетическая Независимость
+	focus = {
+		id = NOV_energeticheskayanezavisimost
+		icon = GFX_goal_unknown
+		x = 26
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_modernizaciyainfrastruktury  }
+		ai_will_do = { factor = 30 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Модернизация Школ
+	focus = {
+		id = NOV_modernizaciyashkol
+		icon = GFX_goal_unknown
+		x = 33
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_obnovlenieuchebnyhprogramm  } prerequisite = { focus = NOV_uvelicheniezarplatuchitelyam  }
+		completion_reward = {
+			  swap_ideas = {
+			            remove_idea = outdated_school_system
+			            add_idea = modernized_school_system
+		}
+	}
+}
+
+	#Увеличение Зарплат Учителям
+	focus = {
+		id = NOV_uvelicheniezarplatuchitelyam
+		icon = GFX_goal_unknown
+		x = 34
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_podderzhkauniversitetov  }
+		completion_reward = {
+			        add_political_power = 50
+			        add_stability = 0.05
+		}
+	}
+
+	#Обновление Учебных Программ
+	focus = {
+		id = NOV_obnovlenieuchebnyhprogramm
+		icon = GFX_goal_unknown
+		x = 32
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_podderzhkauniversitetov  }
+		select_effect = {
+        add_political_power = 50
+        add_stability = 0.05
+        swap_ideas = {
+            remove_idea = outdated_curriculum
+            add_idea = updated_curriculum
+}
+	}
+}
+
+	#Поддержка Университетов
+	focus = {
+		id = NOV_podderzhkauniversitetov
+		icon = GFX_goal_unknown
+		x = 33
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_investiciivnauku  }
+		completion_reward = {
+			  add_political_power = 50
+			        add_stability = 0.05
+			        swap_ideas = {
+			            remove_idea = underfunded_universities
+			            add_idea = well_funded_universities
+		}
+	}
+	}
+
+	#Инвестиции в Научные Исследования
+	focus = {
+		id = NOV_investiciivnauchnyeissledovaniya
+		icon = GFX_goal_unknown
+		x = 33
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_modernizaciyashkol  }
+		completion_reward = {
+			country_event = {
+			    id = NOV.investiciivnauchnyeissledovaniya
+			    days = 10
+			    random = 50
+			    random_days = 10
+			}
+			
+			
+			add_ideas = { research_investment }
+		}
+	}
+
+	#Строительство АЭС
+	focus = {
+		id = NOV_stroitelstvoaes
+		icon = GFX_goal_unknown
+		x = 32
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_investiciivnauchnyeissledovaniya  }
+	}
+
+	#Проект "Октябрь"
+	focus = {
+		id = NOV_proektoktyabr
+		icon = GFX_goal_unknown
+		x = 34
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_investiciivnauchnyeissledovaniya  }
+	}
+
+	#Реформа Арендной Платы
+	focus = {
+		id = NOV_reformaarendnoyplaty
+		icon = GFX_goal_unknown
+		x = 29
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_deregulirovaniebiznesa  }
+		select_effect = {
+country_event = {
+    id = NOV.reformaarendnoyplaty
+    days = 10
+    random = 50
+    random_days = 10
+}
+
+
+
+}
+	}
+
+	#Первоначальное Восстановление
+	focus = {
+		id = NOV_pervonachalnoevosstanovlenie
+		icon = GFX_goal_unknown
+		x = 30
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_reformaarendnoyplaty  } prerequisite = { focus = NOV_stroitelstvonovogozhilya  }
+		completion_reward = {
+			remove_ideas = ECONOMIC_COLLAPSE
+			remove_ideas = {
+			    ECONOMIC_COLLAPSE
+			   
+			}
+			
+			
+			
+		}
+	}
+
+	#Модернизация Инфраструктуры
+	focus = {
+		id = NOV_modernizaciyainfrastruktury
+		icon = GFX_goal_unknown
+		x = 26
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_rasshirenieportov  } prerequisite = { focus = NOV_stroitelstvoavtomagistraley  }
+		select_effect = {
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = infrastructure
+size > 0
+include_locked = no
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = infrastructure
+level = 2
+instant_build = no
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+}
+}
+	#Привлечение иностранных инвестиций
+	focus = {
+		id = NOV_privlechenieinostrannyhinvesticiy
+		icon = GFX_goal_unknown
+		x = 25
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_energeticheskayanezavisimost  } prerequisite = { focus = NOV_modernizaciyainfrastruktury  }
+	}
+
+	#Решить Внутренние проблемы
+	focus = {
+		id = NOV_reshitvnutrennieproblemy
+		icon = GFX_goal_unknown
+		x = 38
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_dazdrastvuetsvoboda  }
+		completion_reward = {
+			country_event = {
+			    id = "NOV.reshitvnutrennieproblemy"
+			    days = 10
+			    random = 50
+			    random_days = 10
+			}
+			
+			
+			
+		}
+	}
+
+	#Борьба с Олигархами
+	focus = {
+		id = NOV_borbasoligarhami
+		icon = GFX_goal_unknown
+		x = 37
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = NOV_reshitvnutrennieproblemy  }
+	}
+
+	#Конфискация Имущества
+	focus = {
+		id = NOV_konfiskaciyaimushchestva
+		icon = GFX_goal_unknown
+		x = 36
+		y = 8
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = NOV_vremennozakrytgranicy  }
+	}
+
+	#Судебные процессы над олигархами
+	focus = {
+		id = NOV_sudebnyeprocessynadoligarhami
+		icon = GFX_goal_unknown
+		x = 38
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = NOV_vremennozakrytgranicy  }
+	}
+
+	#Приватизация через Частные Аукционы
+	focus = {
+		id = NOV_privatizaciyacherezchastnyeaukciony
+		icon = GFX_goal_unknown
+		x = 37
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_konfiskaciyaimushchestva  } prerequisite = { focus = NOV_sudebnyeprocessynadoligarhami  }
+	}
+
+	#Временно закрыть границы
+	focus = {
+		id = NOV_vremennozakrytgranicy
+		icon = GFX_goal_unknown
+		x = 37
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_borbasoligarhami  }
+	}
+
+	#Создание Антикоррупционного Агенства
+	focus = {
+		id = NOV_sozdanieantikorrupcionnogoagenstva
+		icon = GFX_goal_unknown
+		x = 37
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_reshitvnutrennieproblemy  }
+	}
+
+	#Введение строгих Антикоррупционных Законов
+	focus = {
+		id = NOV_vvedeniestrogihantikorrupcionnyhzakonov
+		icon = GFX_goal_unknown
+		x = 36
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sozdanieantikorrupcionnogoagenstva  }
+	}
+
+	#Начать "Чистку"
+	focus = {
+		id = NOV_nachatchistku
+		icon = GFX_goal_unknown
+		x = 37
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_vvedeniestrogihantikorrupcionnyhzakonov  } prerequisite = { focus = NOV_reydyantikor  }
+	}
+
+	#Рейды "АнтиКор"
+	focus = {
+		id = NOV_reydyantikor
+		icon = GFX_goal_unknown
+		x = 38
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sozdanieantikorrupcionnogoagenstva  }
+	}
+
+	#С Олиграхией покончено!
+	focus = {
+		id = NOV_soligrahieypokoncheno
+		icon = GFX_goal_unknown
+		x = 37
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_privatizaciyacherezchastnyeaukciony  }
+	}
+
+	#Покончить с Нацисткими Фанатиками
+	focus = {
+		id = NOV_pokonchitsnacistkimifanatikami
+		icon = GFX_goal_unknown
+		x = 40
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_reshitvnutrennieproblemy  }
+	}
+
+	#Проведение Расследования
+	focus = {
+		id = NOV_provedenierassledovaniya
+		icon = GFX_goal_unknown
+		x = 39
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_razoblacheniedeyatelnostikomiteta  }
+	}
+
+	#Поддержка Антинацистких Движений
+	focus = {
+		id = NOV_podderzhkaantinacistkihdvizheniy
+		icon = GFX_goal_unknown
+		x = 39
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_priznatorganizaciyuekstremistkoy  }
+	}
+
+	#Разоблачение деятельности Комитета
+	focus = {
+		id = NOV_razoblacheniedeyatelnostikomiteta
+		icon = GFX_goal_unknown
+		x = 40
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_podderzhkaantinacistkihdvizheniy  } prerequisite = { focus = NOV_podderzhkagrazhdanskiyiniciativ  }
+	}
+
+	#Операция по Аресту  Членов Комитета
+	focus = {
+		id = NOV_operaciyapoarestuchlenovkomiteta
+		icon = GFX_goal_unknown
+		x = 40
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_provedenierassledovaniya  } prerequisite = { focus = NOV_koordinaciyaspravoohranitelnymiorganami  }
+	}
+
+	#Координация с Правоохранительными органами
+	focus = {
+		id = NOV_koordinaciyaspravoohranitelnymiorganami
+		icon = GFX_goal_unknown
+		x = 41
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_razoblacheniedeyatelnostikomiteta  }
+	}
+
+	#Признать организацию экстремисткой
+	focus = {
+		id = NOV_priznatorganizaciyuekstremistkoy
+		icon = GFX_goal_unknown
+		x = 40
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_pokonchitsnacistkimifanatikami  }
+	}
+
+	#Лидеры пойманы!
+	focus = {
+		id = NOV_liderypoymany
+		icon = GFX_goal_unknown
+		x = 40
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_operaciyapoarestuchlenovkomiteta  }
+	}
+
+	#Лидеры бегут из страны.
+	focus = {
+		id = NOV_liderybegutizstrany
+		icon = GFX_goal_unknown
+		x = 42
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = NOV_liderypoymany  }
+	}
+
+	#Зов о помощи в поимке
+	focus = {
+		id = NOV_zovopomoshchivpoimke
+		icon = GFX_goal_unknown
+		x = 42
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_liderybegutizstrany  }
+	}
+
+	#Конфискация Имущества
+	focus = {
+		id = NOV_konfiskaciyaimushchestva
+		icon = GFX_goal_unknown
+		x = 40
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_liderypoymany  focus = NOV_liderybegutizstrany  }
+	}
+
+	#Реформа Правоохранительных Органов
+	focus = {
+		id = NOV_reformapravoohranitelnyhorganov
+		icon = GFX_goal_unknown
+		x = 40
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_velikiysud  }
+	}
+
+	#Поддержка Гражданский Инициатив
+	focus = {
+		id = NOV_podderzhkagrazhdanskiyiniciativ
+		icon = GFX_goal_unknown
+		x = 41
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_priznatorganizaciyuekstremistkoy  }
+	}
+
+	#Конец нацистких фанатиков
+	focus = {
+		id = NOV_konecnacistkihfanatikov
+		icon = GFX_goal_unknown
+		x = 40
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Великий суд
+	focus = {
+		id = NOV_velikiysud
+		icon = GFX_goal_unknown
+		x = 40
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_konfiskaciyaimushchestva  }
+	}
+
+	#Саммит Государств бывшего Киевграда
+	focus = {
+		id = NOV_sammitgosudarstvbyvshegokievgrada
+		icon = GFX_goal_unknown
+		x = 23
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Свободный Новоград
+	focus = {
+		id = NOV_svobodnyynovograd
+		icon = GFX_goal_unknown
+		x = 40
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Наша либеральная Гегемония
+	focus = {
+		id = NOV_nashaliberalnayagegemoniya
+		icon = GFX_goal_unknown
+		x = 40
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Принести демократию в Татарград
+	focus = {
+		id = NOV_prinestidemokratiyuvtatargrad
+		icon = GFX_goal_unknown
+		x = 35
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = NOV_nashaliberalnayagegemoniya  }
+	}
+
+	#Подкупить чиновников и политиков
+	focus = {
+		id = NOV_podkupitchinovnikovipolitikov
+		icon = GFX_goal_unknown
+		x = 35
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = NOV_prinestidemokratiyuvtatargrad  }
+	}
+
+	#Свергнуть оккупантов и угнетателей!
+	focus = {
+		id = NOV_svergnutokkupantoviugnetateley
+		icon = GFX_goal_unknown
+		x = 35
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_podkupitchinovnikovipolitikov  }
+	}
+
+	#Пригласить Асверленд
+	focus = {
+		id = NOV_priglasitasverlend
+		icon = GFX_goal_unknown
+		x = 44
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_obezopasitnashregion  }
+	}
+
+	#Сохранить старую систему
+	focus = {
+		id = NOV_sohranitstaruyusistemu
+		icon = GFX_goal_unknown
+		x = 46
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_priglasitskameysk  }
+	}
+
+	#Пригласить Демократическую Республику
+	focus = {
+		id = NOV_priglasitdemokraticheskuyurespubliku
+		icon = GFX_goal_unknown
+		x = 48
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_obezopasitnashregion  }
+	}
+
+	#Пригласить Скамейск
+	focus = {
+		id = NOV_priglasitskameysk
+		icon = GFX_goal_unknown
+		x = 46
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_priglasitdemokraticheskuyurespubliku  } prerequisite = { focus = NOV_priglasitasverlend  }
+	}
+
+	#Спасти Банзаеград!
+	focus = {
+		id = NOV_spastibanzaegrad
+		icon = GFX_goal_unknown
+		x = 37
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_nashaliberalnayagegemoniya  }
+	}
+
+	#Подкупать чиновников и политиков
+	focus = {
+		id = NOV_podkupatchinovnikovipolitikov
+		icon = GFX_goal_unknown
+		x = 37
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_spastibanzaegrad  }
+	}
+
+	#Свободный мир в Банзаеграде!
+	focus = {
+		id = NOV_svobodnyymirvbanzaegrade
+		icon = GFX_goal_unknown
+		x = 37
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_podkupatchinovnikovipolitikov  }
+	}
+
+	#Съесть Бургеры со Спиллером
+	focus = {
+		id = NOV_sestburgerysospillerom
+		icon = GFX_goal_unknown
+		x = 40
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_nashaliberalnayagegemoniya  }
+	}
+
+	#Обезопасить наш регион
+	focus = {
+		id = NOV_obezopasitnashregion
+		icon = GFX_goal_unknown
+		x = 46
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = NOV_sestburgerysospillerom  }
+	}
+
+	#Переписать Конституцию
+	focus = {
+		id = NOV_perepisatkonstituciyu
+		icon = GFX_goal_unknown
+		x = 43
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_priglasitskameysk  }
+	}
+
+	#Новоградская Федерация
+	focus = {
+		id = NOV_novogradskayafederaciya
+		icon = GFX_goal_unknown
+		x = 49
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_priglasitskameysk  }
+	}
+
+	#Всесоюзный Референдум
+	focus = {
+		id = NOV_vsesoyuznyyreferendum
+		icon = GFX_goal_unknown
+		x = 42
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_perepisatkonstituciyu  }
+	}
+
+	#Провести Референдум
+	focus = {
+		id = NOV_provestireferendum
+		icon = GFX_goal_unknown
+		x = 43
+		y = 23
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_referndumprovalen  } prerequisite = { focus = NOV_vsesoyuznyyreferendum  }
+	}
+
+	#Реферндум провален!
+	focus = {
+		id = NOV_referndumprovalen
+		icon = GFX_goal_unknown
+		x = 44
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_perepisatkonstituciyu  }
+	}
+
+	#Успешный Референдум!
+	focus = {
+		id = NOV_uspeshnyyreferendum
+		icon = GFX_goal_unknown
+		x = 43
+		y = 24
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_provestireferendum  }
+	}
+
+	#Культурный обмен
+	focus = {
+		id = NOV_kulturnyyobmen
+		icon = GFX_goal_unknown
+		x = 49
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_novogradskayafederaciya  }
+	}
+
+	#Укрепление наших связей
+	focus = {
+		id = NOV_ukreplenienashihsvyazey
+		icon = GFX_goal_unknown
+		x = 48
+		y = 23
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_kulturnyyobmen  }
+	}
+
+	#Дружба народов!
+	focus = {
+		id = NOV_druzhbanarodov
+		icon = GFX_goal_unknown
+		x = 50
+		y = 23
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_kulturnyyobmen  }
+	}
+
+	#Референдум!
+	focus = {
+		id = NOV_referendum
+		icon = GFX_goal_unknown
+		x = 49
+		y = 24
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_ukreplenienashihsvyazey  } prerequisite = { focus = NOV_druzhbanarodov  }
+	}
+
+	#Новоградская Федерация!
+	focus = {
+		id = NOV_novogradskayafederaciya
+		icon = GFX_goal_unknown
+		x = 49
+		y = 25
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_referendum  }
+	}
+
+	#Справедливые Налоги!
+	focus = {
+		id = NOV_spravedlivyenalogi
+		icon = GFX_goal_unknown
+		x = 46
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sohranitstaruyusistemu  }
+	}
+
+	#Развитие Промышленности
+	focus = {
+		id = NOV_razvitiepromyshlennosti
+		icon = GFX_goal_unknown
+		x = 23
+		y = 24
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_investiciivinfrastrukturu  }
+	}
+
+	#Новоградская мечта
+	focus = {
+		id = NOV_novogradskayamechta
+		icon = GFX_goal_unknown
+		x = 46
+		y = 23
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_spravedlivyenalogi  focus = NOV_novogradskayafederaciya  } prerequisite = { focus = NOV_uspeshnyyreferendum  }
+	}
+
+	#Экономическая Зона Свободной Торговли
+	focus = {
+		id = NOV_ekonomicheskayazonasvobodnoytorgovli
+		icon = GFX_goal_unknown
+		x = 21
+		y = 26
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sovmestnyeissledovatelskieprogrammy  }
+	}
+
+	#Инвестировать в Зеленую энергию!
+	focus = {
+		id = NOV_investirovatvzelenuyuenergiyu
+		icon = GFX_goal_unknown
+		x = 45
+		y = 24
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_novogradskayamechta  }
+	}
+
+	#Промышленная программа
+	focus = {
+		id = NOV_promyshlennayaprogramma
+		icon = GFX_goal_unknown
+		x = 47
+		y = 24
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_novogradskayamechta  }
+	}
+
+	#Проведение Саммита
+	focus = {
+		id = NOV_provedeniesammita
+		icon = GFX_goal_unknown
+		x = 23
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sammitgosudarstvbyvshegokievgrada  }
+	}
+
+	#Формирование Экономического Союза
+	focus = {
+		id = NOV_formirovanieekonomicheskogosoyuza
+		icon = GFX_goal_unknown
+		x = 23
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_provedeniesammita  }
+	}
+
+	#Создание Общего Рынка
+	focus = {
+		id = NOV_sozdanieobshchegorynka
+		icon = GFX_goal_unknown
+		x = 22
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_formirovanieekonomicheskogosoyuza  }
+	}
+
+	#Транснациональные Корпорации
+	focus = {
+		id = NOV_transnacionalnyekorporacii
+		icon = GFX_goal_unknown
+		x = 24
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_formirovanieekonomicheskogosoyuza  }
+	}
+
+	#Инвестиции в Инфраструктуру
+	focus = {
+		id = NOV_investiciivinfrastrukturu
+		icon = GFX_goal_unknown
+		x = 23
+		y = 23
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sozdanieobshchegorynka  } prerequisite = { focus = NOV_transnacionalnyekorporacii  }
+	}
+
+	#Совместные Исследовательские Программы
+	focus = {
+		id = NOV_sovmestnyeissledovatelskieprogrammy
+		icon = GFX_goal_unknown
+		x = 23
+		y = 25
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NOV_razvitiepromyshlennosti  }
+	}
+
+	#Интеграция Банковских Систем
+	focus = {
+		id = NOV_integraciyabankovskihsistem
+		icon = GFX_goal_unknown
+		x = 20
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_ekonomicheskayazonasvobodnoytorgovli  }
+	}
+
+	#Снижение Торговых Барьеров
+	focus = {
+		id = NOV_snizhenietorgovyhbarerov
+		icon = GFX_goal_unknown
+		x = 22
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_ekonomicheskayazonasvobodnoytorgovli  }
+	}
+
+	#Совместные Технологические Парки
+	focus = {
+		id = NOV_sovmestnyetehnologicheskieparki
+		icon = GFX_goal_unknown
+		x = 25
+		y = 26
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sovmestnyeissledovatelskieprogrammy  }
+	}
+
+	#Развитие Транспорта и Логистики
+	focus = {
+		id = NOV_razvitietransportailogistiki
+		icon = GFX_goal_unknown
+		x = 24
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sovmestnyetehnologicheskieparki  }
+	}
+
+	#Развитие железныхдорог
+	focus = {
+		id = NOV_razvitiezheleznyhdorog
+		icon = GFX_goal_unknown
+		x = 26
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = NOV_sovmestnyetehnologicheskieparki  }
+	}
+
+	#Единая Валюта
+	focus = {
+		id = NOV_edinayavalyuta
+		icon = GFX_goal_unknown
+		x = 23
+		y = 28
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_integraciyabankovskihsistem  } prerequisite = { focus = NOV_snizhenietorgovyhbarerov  } prerequisite = { focus = NOV_razvitietransportailogistiki  } prerequisite = { focus = NOV_razvitiezheleznyhdorog  }
+	}
+
+	#Следущий этап нашего сотруднечевства
+	focus = {
+		id = NOV_sledushchiyetapnashegosotrudnechevstva
+		icon = GFX_goal_unknown
+		x = 23
+		y = 29
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_edinayavalyuta  }
+	}
+
+
+	#Совместные Технологические Парки
+	focus = {
+		id = NOV_sovmestnyetehnologicheskieparki
+		icon = GFX_goal_unknown
+		x = 25
+		y = 26
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NOV_sovmestnyeissledovatelskieprogrammy  }
+	}    
+	}    

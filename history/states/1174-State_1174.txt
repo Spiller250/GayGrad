@@ -1,0 +1,15 @@
+state={
+	id=1174
+	name="STATE_1174"
+	provinces={
+		145 1306 1981 2832 3804 6827 14224 14286 14287 14319 14322 
+	}
+       history={
+        victory_points = { 14286 15 }
+        victory_points = { 14224 8 }
+        victory_points = { 14319 18 }
+		owner = GLU
+	}
+	manpower=100000
+	state_category = large_town
+}

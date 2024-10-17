@@ -1,0 +1,15 @@
+state={
+	id=779
+	name="STATE_779"
+	provinces={
+		392 3502 4610 5922 6912 11999 12042 12090 12265 
+	}
+ history={
+        victory_points = { 11999 4 }
+        victory_points = { 12090 24 }
+        victory_points = { 3502 18 }
+		owner = TSG 
+	}
+	manpower=100000
+	state_category = large_town
+}

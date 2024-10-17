@@ -1,0 +1,16 @@
+state={
+	id=1268
+	name="STATE_1268"
+	provinces={
+		8 1820 1883 2667 4009 5289 5704 7382 14668 14767 14817 14875 
+	}
+        history={
+        victory_points = { 8 6 }
+        victory_points = { 1820 4 }
+        victory_points = { 5704 20 }
+		owner = TOK
+	}
+
+	manpower=100000
+	state_category = large_town
+}

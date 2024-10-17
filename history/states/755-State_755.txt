@@ -1,0 +1,16 @@
+state={
+	id=755
+	name="STATE_755"
+	provinces={
+		3752 3992 5454 6538 6915 7359 11739 11811 11860 11883 12014 12088 12134 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11811 4 }
+        victory_points = { 6538 6 }
+    victory_points = { 12088 11 }
+owner = SWG
+}

@@ -1,0 +1,203 @@
+ideas = {
+	mobilization_laws = {
+}
+	economy = {
+}
+	political_advisor = {
+		grigoriyzemlyanicyn = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { fascist_demagogue}
+			picture = "MDeaoidF-702669"
+		}
+		fyodorkaramzin = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { staunch_monarchist}
+			picture = "XoEqGwZp-702670"
+		}
+		andreyberyozkin = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { construction_company}
+			picture = "iYnlzfcQ-702672"
+		}
+		konstantinvetrov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { eager_collaborator}
+			picture = "XnzwQjmy-702673"
+		}
+		konstantinvetrov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { war_industrialist}
+			picture = "KojpeWAw-702674"
+		}
+		mihailgolovin = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { propaganda_expert}
+			picture = "wNxZenEt-702681"
+		}
+}
+	tank_manufacturer = {
+}
+	naval_manufacturer = {
+}
+	aircraft_manufacturer = {
+}
+	materiel_manufacturer = {
+}
+	industrial_concern = {
+}
+	theorist = {
+		pyotrpolenov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { military_theorist}
+			picture = "UoeGIbjq-702688"
+		}
+		levkondratev = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { armored_car_manufacturer}
+			picture = "oHLMAGYZ-702698"
+		}
+		andreysevastyanov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { air_warfare_theorist}
+			picture = "LrtjhuHO-702703"
+		}
+		vasiliymorozov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { naval_theorist}
+			picture = "RDlEBQkX-702709"
+		}
+}
+	army_chief = {
+		stanislavtverdovskiy = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { army_chief_offensive_1}
+			picture = "LPZAaJHs-705406"
+		}
+		valentinshestakov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { army_chief_organizational_1}
+			picture = "dfBmsPUJ-705407"
+		}
+		vladislavsmiryagin = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { army_chief_defensive_2}
+			picture = "gXbhwucq-705408"
+		}
+		igorholodov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { army_chief_maneuver_2}
+			picture = "ZgsyLRuC-705409"
+		}
+		nikolayzorin = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { army_chief_organizational_3}
+			picture = "xqPKCFdG-705410"
+		}
+}
+	navy_chief = {
+		olegtihomirov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { navy_chief_naval_aviation_1}
+			picture = "gpsoPnzt-705411"
+		}
+		evgrafburovskiy = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { navy_capital_ship_2}
+			picture = "fPEuqNbU-705412"
+		}
+		makarstruminskiy = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { air_naval_strike_3}
+			picture = "nhkAxCzO-705413"
+		}
+}
+	air_chief = {
+		trofimignatev = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { air_chief_reform_1}
+			picture = "pUCqKrau-705414"
+		}
+		georgiyshulepov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { air_chief_ground_support_2}
+			picture = "vAXypzQi-705415"
+		}
+		platonpolevoy = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { air_chief_all_weather_3}
+			picture = "rHTvwPIj-705416"
+		}
+}
+	high_command = {
+		alekseycherenkov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { army_chief_offensive_3}
+			picture = "INROsGdK-705417"
+		}
+		timofeyvoropaev = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { pc_military_naval_affairs air_naval_strike_2}
+			picture = "XnEsqHRx-705418"
+		}
+		arseniystrelkov = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { naval_aircraft_manufacturer}
+			picture = "slrPBOdY-705419"
+		}
+		fyodorkrapivin = {
+			allowed = {
+				tag = SSR
+			}
+			traits = { infantry_tank_manufacturer army_infantry_2}
+			picture = "CxpqkeIO-705420"
+		}
+}
+}

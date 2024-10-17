@@ -1,0 +1,15 @@
+state={
+	id=274
+	name="STATE_274"
+	provinces={
+		991 1731 5050 5749 5906 6637 8864 8925 8932 8947 8957 9028 9076 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 5749 9 }
+        victory_points = { 8932 8 }
+    victory_points = { 6637 7 }
+owner = WSR
+}

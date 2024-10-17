@@ -1,0 +1,16 @@
+state={
+	id=757
+	name="STATE_757"
+	provinces={
+		3171 3746 5075 6884 11846 11857 11871 11912 11951 12021 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11871 16 }
+        victory_points = { 3746 8 }
+    victory_points = { 11857 13 }
+ owner = TOR
+}

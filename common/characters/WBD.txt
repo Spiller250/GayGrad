@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Ивар Ланг
+ivarlang = {
+	name = ivarlang
+	portraits = {
+		civilian = {
+			#Custom image for  Ивар Ланг
+			large = "/gfx/leaders/WBD/FjZlCqng-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+}

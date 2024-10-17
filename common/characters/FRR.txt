@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Алексей Веденьев
+alekseyvedenev = {
+	name = alekseyvedenev
+	portraits = {
+		civilian = {
+			#Custom image for Алексей Веденьев
+			large = "/gfx/leaders/FRR/GwYvODuz-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+}

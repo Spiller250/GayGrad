@@ -1,0 +1,17 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		616 1316 7806 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 1316 9 }
+
+
+
+        victory_points = { 616 9 }
+    victory_points = { 7806 24 }
+owner = ATK
+}

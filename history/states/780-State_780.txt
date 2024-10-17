@@ -1,0 +1,15 @@
+state={
+	id=780
+	name="STATE_780"
+	provinces={
+		5269 6302 6452 7718 11865 11938 12008 12117 12124 12131 12202 12209 
+	}
+       history={
+        victory_points = { 12202 22 }
+        victory_points = { 12008 4 }
+        victory_points = { 12209 18 }
+		owner = GEO
+	}
+	manpower=100000
+	state_category = large_town
+}

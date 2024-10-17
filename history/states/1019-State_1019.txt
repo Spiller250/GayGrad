@@ -1,0 +1,16 @@
+state={
+	id=1019
+	name="STATE_1019"
+	provinces={
+		68 350 1465 3282 5559 6890 13289 13367 13461 13668 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 68 4 }
+        victory_points = { 13289 12 }
+    victory_points = { 3282 4 }
+owner = ACO
+}

@@ -1,0 +1,16 @@
+state={
+	id=294
+	name="STATE_294"
+	provinces={
+		419 2727 3784 4099 4419 7182 7253 8935 9038 9077 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 3784 23 }
+        victory_points = { 2727 22 }
+    victory_points = { 4099 12 }
+owner = BER
+}

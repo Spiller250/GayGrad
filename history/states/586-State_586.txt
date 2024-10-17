@@ -1,0 +1,16 @@
+state={
+	id=586
+	name="STATE_586"
+	provinces={
+		2374 2937 4041 4640 4798 5309 5360 5651 6321 7028 10740 10785 10827 10872 10917 10947 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 2374 15 }
+        victory_points = { 10947 18 }
+    victory_points = { 4640 24 }
+owner = MGR
+}

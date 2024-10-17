@@ -1,0 +1,16 @@
+state={
+	id=666
+	name="STATE_666"
+	provinces={
+		1184 4298 4448 5736 6425 7010 7518 11157 11164 11244 11264 11335 11349 11440 11450 11542 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11349 14 }
+        victory_points = { 5736 12 }
+    victory_points = { 11450 11 }
+owner = NAD
+}

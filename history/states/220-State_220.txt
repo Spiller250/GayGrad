@@ -1,0 +1,15 @@
+state={
+	id=220
+	name="STATE_220"
+	provinces={
+		63 1265 1848 3497 4756 4934 5347 6954 6962 8577 8588 8598 8646 8732 
+	}
+ history={
+        victory_points = { 5347 14 }
+        victory_points = { 6954 14 }
+        victory_points = { 1848 11 }
+		owner = HCR
+	}
+	manpower=100000
+	state_category = large_town
+}

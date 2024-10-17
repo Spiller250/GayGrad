@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Чан Сяопин
+chansyaopin = {
+	name = chansyaopin
+	portraits = {
+		civilian = {
+			#Custom image for  Чан Сяопин
+			large = "/gfx/leaders/CHN/zQgMFXts-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,16 @@
+state={
+	id=920
+	name="STATE_920"
+	provinces={
+		924 1565 3417 3584 6013 6649 7079 12738 12800 12942 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 3417 14 }
+        victory_points = { 924 4 }
+    victory_points = { 3584 16 }
+owner = ACO
+}

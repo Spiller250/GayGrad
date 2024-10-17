@@ -1,0 +1,13 @@
+﻿l_russian:
+CAR_democratic:5 "Зона Контроля Картеля"
+CAR_democratic_DEF:5 "Зона Контроля Картеля"
+CAR_democratic_ADJ:5 "Жители оккупационной зоны"
+CAR_fascism:5 "Зона Контроля Картеля"
+CAR_fascism_DEF:5 "The Зона Контроля Картеля"
+CAR_fascism_ADJ:5 "Зона Контроля Картеля citizen"
+CAR_communism:5 "Зона Контроля Картеля"
+CAR_communism_DEF:5 "The Зона Контроля Картеля"
+CAR_communism_ADJ:5 "Зона Контроля Картеля citizen"
+CAR_neutrality:5 "Зона Контроля Картеля"
+CAR_neutrality_DEF:5 "The Зона Контроля Картеля"
+CAR_neutrality_ADJ:5 "Зона Контроля Картеля citizen"

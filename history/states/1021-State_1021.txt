@@ -1,0 +1,15 @@
+state={
+	id=1021
+	name="STATE_1021"
+	provinces={
+		471 619 1437 2325 2383 2564 2800 4561 5424 5431 7355 7656 13094 13095 13178 13241 13252 13323 13389 13463 13533 13610 
+	}
+       history={
+        victory_points = { 2564 23 }
+        victory_points = { 2383 20 }
+        victory_points = { 13533 10 }
+		owner = AST
+	}
+	manpower=100000
+	state_category = large_town
+}

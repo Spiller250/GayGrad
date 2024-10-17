@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Генерал Иванов
+generalivanov = {
+	name = generalivanov
+	portraits = {
+		civilian = {
+			#Custom image for Генерал Иванов
+			large = "/gfx/leaders/NGR/WoxSknVp-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=1101
+	name="STATE_1101"
+	provinces={
+		447 1131 1300 2268 2866 2980 3860 5787 6502 7026 7040 13743 13784 13875 13893 13942 13953 14048 14069 14106 14112 14119 14130 14135 
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+
+
+history = {
+        victory_points = { 447 25 }
+        victory_points = { 6502 24 }
+    victory_points = { 7040 23 }
+owner = FRK
+}

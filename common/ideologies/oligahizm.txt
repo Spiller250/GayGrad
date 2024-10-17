@@ -1,0 +1,41 @@
+ideologies = {
+	oligahizm = {
+		types = {
+			sa = {  }
+		}
+		dynamic_faction_names = {
+		}
+		color = { 65 67 65 }
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		war_impact_on_world_tension = 0.8
+		faction_modifiers = {
+			faction_impact_on_world_tension = 1.1
+			faction_trade_opinion_factor = 0.8
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 10
+			join_faction_tension = 50
+			lend_lease_tension = 60
+			send_volunteers_tension = 70
+			guarantee_tension = 70
+			annex_cost_factor = 15
+			civilian_intel_to_others = 12
+			army_intel_to_others = 12
+			navy_intel_to_others = 12
+			airforce_intel_to_others = 11.9
+			justify_war_goal_when_in_major_war_time = 0.4
+			increased_influence_factor = 0.7
+			drift_defence_factor = 0.7
+		}
+		ai_neutral = yes
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		390 456 480 779 1149 2769 2801 3021 3231 3905 5885 6432 7211 12354 12400 12515 12582 12636 12655 12664 12681 12748 12781 12791 12835 
+	}
+       history={
+        victory_points = { 12655 10 }
+        victory_points = { 12664 14 }
+        victory_points = { 3021 4 }
+		owner = STR
+	}
+	manpower=100000
+	state_category = large_town
+}

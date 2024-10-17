@@ -1,0 +1,16 @@
+state={
+	id=698
+	name="STATE_698"
+	provinces={
+		1470 3159 5583 5737 6353 11463 11543 11585 11679 11712 11761 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 5583 7 }
+        victory_points = { 11761 25 }
+    victory_points = { 6353 4 }
+owner = NAD
+}

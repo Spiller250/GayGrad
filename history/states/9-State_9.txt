@@ -1,0 +1,14 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		745 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+    victory_points = { 745 8 }
+owner = ATK
+
+
+}

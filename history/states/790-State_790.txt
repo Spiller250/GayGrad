@@ -1,0 +1,16 @@
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		4181 7006 11995 12035 12095 12127 12176 12204 12275 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11995 11 }
+        victory_points = { 12035 22 }
+    victory_points = { 4181 21 }
+owner = TLI
+}

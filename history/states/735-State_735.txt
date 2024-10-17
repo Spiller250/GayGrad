@@ -1,0 +1,15 @@
+state={
+	id=735
+	name="STATE_735"
+	provinces={
+		395 469 1973 6547 6819 11638 11675 11720 11748 11851 11867 11939 11940 12034 
+	}
+       history={
+        victory_points = { 395 21 }
+        victory_points = { 11720 6 }
+        victory_points = { 11675 9 }
+		owner = SSR
+	}
+	manpower=100000
+	state_category = large_town
+}

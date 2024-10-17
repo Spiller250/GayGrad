@@ -1,0 +1,15 @@
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		1506 2466 4400 6401 7945 7951 7962 
+	}
+
+ history={
+        victory_points = { 7951 14 }
+        victory_points = { 7945 5 }
+        victory_points = { 1506 7 }
+		owner = FRR
+	}
+	manpower=100000
+	state_category = large_town}

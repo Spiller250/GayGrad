@@ -1,0 +1,14 @@
+state={
+	id=1067
+	name="STATE_1067"
+	provinces={
+		181 1709 3809 4919 6212 6532 7171 13676 13742 13765 13801 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 3809 21 }
+        victory_points = { 13765 9 }
+    victory_points = { 6532 13 }
+owner = BGR
+}

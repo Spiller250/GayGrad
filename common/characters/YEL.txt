@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Виктор Воборн
+viktorvoborn = {
+	name = viktorvoborn
+	portraits = {
+		civilian = {
+			#Custom image for Виктор Воборн
+			large = "/gfx/leaders/YEL/YEL.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

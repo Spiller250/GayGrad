@@ -1,0 +1,16 @@
+state={
+	id=605
+	name="STATE_605"
+	provinces={
+		245 660 2914 2987 4595 4646 4969 5348 5436 7267 10803 10895 10896 10919 10956 10979 11048 11049 11050 11124 11135 11175 11194 11224 11240 11305 
+	}
+	manpower=100000
+       state_category = large_town
+
+
+history = {
+        victory_points = { 11240 6 }
+        victory_points = { 11124 9 }
+    victory_points = { 11175 6 }
+owner = TAB
+}

@@ -1,0 +1,18 @@
+             characters = {
+              arseniychernogorov = {
+		name = arseniychernogorov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/TOK/qyMTRphQ-679894.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = arseniychernogorov
+			allowed = {
+				original_tag = TOK
+			}
+			traits = { railroad_enthusiast railway_company}
+		}
+	}
+}

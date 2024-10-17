@@ -1,0 +1,16 @@
+state={
+	id=251
+	name="STATE_251"
+	provinces={
+		2235 2421 2739 2817 3564 5435 6100 7238 8673 8728 8785 8799 8863 
+	}
+
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 2817 19 }
+        victory_points = { 2739 20 }
+    victory_points = { 5435 14 }
+owner = NTC
+}

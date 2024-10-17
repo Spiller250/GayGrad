@@ -1,0 +1,196 @@
+bookmarks = {
+    bookmark = {
+        name = "mirposlerazvala_name"
+        desc = "mirposlerazvala_desc"
+        date = 1981.1.1.12
+        picture = "mirposlerazvala-549795"
+        default_country = "PAS"
+
+        FLO = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = konservatizm
+        }
+
+        TOK = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        
+        TWB = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        
+        NSC = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+         TLI = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        
+        SWG = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+          FCK = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = konservatizm
+        }
+
+        TOU = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        
+        AKT = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        
+        KSR = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        ALM = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        
+       HAL = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+          FRR = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        
+        NRR = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        BZN = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        
+       TAT = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+          CAR = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+          AZO = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+          NTC = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+          WBD = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+          TCK = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+          SNG = {
+            minor = yes
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        PAS = {
+            history = "mirposlerazvala_FLO"
+            ideology = konservatizm
+        }
+
+        WTL = {
+            history = "mirposlerazvala_FLO"
+            ideology = konservatizm
+        }
+
+        SIK = {
+            history = "mirposlerazvala_FLO"
+            ideology = neutrality
+        }
+
+        KIV = {
+            history = "mirposlerazvala_FLO"
+            ideology = konservatizm
+        }
+
+        REG = {
+            history = "mirposlerazvala_FLO"
+            ideology = konservatizm
+        }
+
+        SSR = {
+            history = "mirposlerazvala_FLO"
+            ideology = konservatizm
+        }
+
+        RED = {
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        NSK = {
+            history = "mirposlerazvala_FLO"
+            ideology = democratic
+        }
+
+        NOV = {
+            history = "mirposlerazvala_FLO"
+            ideology = konservatizm
+        }
+
+    
+    }
+}

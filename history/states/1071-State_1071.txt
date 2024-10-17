@@ -1,0 +1,15 @@
+state={
+	id=1071
+	name="STATE_1071"
+	provinces={
+		331 710 1312 1351 3011 3813 5259 6390 13665 13705 13741 13783 13900 13924 
+	}
+history = {
+        victory_points = { 3813 25 }
+        victory_points = { 1312 24 }
+    victory_points = { 710 11 }
+           owner = NFK
+}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Император Карл V
+imperatorkarlv = {
+	name = imperatorkarlv
+	portraits = {
+		civilian = {
+			#Custom image for Император Карл V
+			large = "/gfx/leaders/TSI/UFhfPQJC-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = avtoritarnyymonarhizm
+		traits = {  }
+	}
+}
+}

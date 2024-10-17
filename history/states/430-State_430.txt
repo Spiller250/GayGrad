@@ -1,0 +1,15 @@
+state={
+	id=430
+	name="STATE_430"
+	provinces={
+		80 3376 4562 4888 5874 6739 9739 9914 9923 10017 10027 
+	}
+       history={
+        victory_points = { 5874 20 }
+        victory_points = { 10017 10 }
+        victory_points = { 6739 9 }
+		owner = ENC
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Иван Горошков
+ivangoroshkov = {
+	name = ivangoroshkov
+	portraits = {
+		civilian = {
+			#Custom image for Иван Горошков
+			large = "/gfx/leaders/TBR/jNgWVMvI-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = demokraticheskiysocializm
+		traits = {  }
+	}
+}
+}

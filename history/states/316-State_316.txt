@@ -1,0 +1,16 @@
+state={
+	id=316
+	name="STATE_316"
+	provinces={
+		629 792 1392 1585 4348 6182 6273 7024 9008 9052 9140 9142 9223 9324 9380 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 4348 8 }
+        victory_points = { 1585 17 }
+    victory_points = { 6273 6 }
+owner = TKR
+}

@@ -1,0 +1,16 @@
+state={
+	id=357
+	name="STATE_357"
+	provinces={
+		6613 7401 9320 9349 9415 9450 9545 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 9320 6 }
+        victory_points = { 9415 17 }
+    victory_points = { 7401 4 }
+owner = VNK
+}

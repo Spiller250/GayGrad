@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Капитан Сергей Ветров
+kapitansergeyvetrov = {
+	name = kapitansergeyvetrov
+	portraits = {
+		civilian = {
+			#Custom image for Капитан Сергей Ветров
+			large = "/gfx/leaders/SRY/ePFNQHAR-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = sindikalizmssr
+		traits = {  }
+	}
+}
+}

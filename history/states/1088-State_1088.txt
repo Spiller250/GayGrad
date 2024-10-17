@@ -1,0 +1,16 @@
+state={
+	id=1088
+	name="STATE_1088"
+	provinces={
+		1081 1282 1938 3387 4982 13757 13766 13844 13894 13916 13962 13978 13985 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 1081 22 }
+        victory_points = { 13894 7 }
+    victory_points = { 13844 18 }
+owner = BAN
+}

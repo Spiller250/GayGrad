@@ -1,0 +1,23 @@
+focus_tree = {
+	id = cal
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAL
+		}
+	}
+	#Принести демократию в Токиостан
+	focus = {
+		id = CAL_prinestidemokratiyuvtokiostan
+		icon = GFX_focus_chi_legislative_yuan
+		x = 3
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { } prerequisite = { } prerequisite = { }
+	}
+
+}

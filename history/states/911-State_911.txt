@@ -1,0 +1,15 @@
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		3031 5816 7308 12784 12909 12972 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 3031 9 }
+        victory_points = { 5816 8 }
+    victory_points = { 7308 8 }
+owner = SIK
+}

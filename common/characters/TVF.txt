@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Изабель Гарсиа
+izabelgarsia = {
+	name = izabelgarsia
+	portraits = {
+		civilian = {
+			#Custom image for Изабель Гарсиа
+			large = "/gfx/leaders/TVF/jykgHeaD-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = ekosocializm
+		traits = {  }
+	}
+}
+}

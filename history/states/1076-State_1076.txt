@@ -1,0 +1,15 @@
+state={
+	id=1076
+	name="STATE_1076"
+	provinces={
+		1230 2035 4677 6126 7629 7757 13707 13876 13954 
+	}
+       history={
+        victory_points = { 4677 13 }
+        victory_points = { 13954 6 }
+        victory_points = { 1230 5 }
+		owner = BAN
+	}
+	manpower=100000
+	state_category = large_town
+}

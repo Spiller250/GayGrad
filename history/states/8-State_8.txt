@@ -1,0 +1,17 @@
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		182 7814 7829 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 7814 8 }
+
+
+
+        victory_points = { 182 7 }
+    victory_points = { 7829 12 }
+owner = ATK
+}

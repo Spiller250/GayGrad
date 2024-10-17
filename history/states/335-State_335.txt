@@ -1,0 +1,15 @@
+state={
+	id=335
+	name="STATE_335"
+	provinces={
+		3020 3050 7674 9210 9261 9311 9407 
+	}
+       history={
+        victory_points = { 9261 15 }
+        victory_points = { 3020 18 }
+        victory_points = { 9311 13 }
+		owner = ENC
+	}
+	manpower=100000
+	state_category = large_town
+}

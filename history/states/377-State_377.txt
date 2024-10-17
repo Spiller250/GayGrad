@@ -1,0 +1,15 @@
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		900 977 1693 9401 9468 9514 9535 9567 9612 9621 9762 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 9612 18 }
+        victory_points = { 9535 13 }
+    victory_points = { 9762 25 }
+owner = NRS
+}

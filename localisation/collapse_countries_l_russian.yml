@@ -1,0 +1,241 @@
+﻿l_russian:
+
+CUM:0 "Кумания"
+CUM_DEF:0 "Кумания"
+CUM_ADJ:0 "Куманск"
+CUM_JASZ:0 "Ясско-Куманский союз"
+CUM_JASZ_DEF:0 "Ясско-Куманский союз"
+CUM_JASZ_ADJ:0 "Ясско-Куманск"
+
+SRC_social_democrat:0 "Иллирийская Социалистическая Республика"
+SRC_social_democrat_DEF:0 "Иллирийская Социалистическая Республика"
+SRC_social_democrat_ADJ:0 "Иллирийск"
+
+SRC_syndicalist:0 "Иллирийская Социалистическая Республика"
+SRC_syndicalist_DEF:0 "Иллирийская Социалистическая Республика"
+SRC_syndicalist_ADJ:0 "Иллирийск"
+
+SRC_radical_socialist:0 "Иллирийская Социалистическая Республика"
+SRC_radical_socialist_DEF:0 "Иллирийская Социалистическая Республика"
+SRC_radical_socialist_ADJ:0 "Иллирийск"
+
+SRC_totalist:0 "Иллирийская Социалистическая Республика"
+SRC_totalist_DEF:0 "Иллирийская Социалистическая Республика"
+SRC_totalist_ADJ:0 "Иллирийск"
+
+
+
+BSE_paternal_autocrat:0 "Султанат Босния"
+BSE_paternal_autocrat_DEF:0 "Султанат Босния"
+BSE_paternal_autocrat_ADJ:0 "Боснийск"
+
+
+
+SKS_paternal_autocrat:0 "Республика Сербия"
+SKS_paternal_autocrat_DEF:0 "Республика Сербия"
+SKS_paternal_autocrat_ADJ:0 "Сербо-боснийск"
+
+SKS_authoritarian_democrat:0 "Республика Сербская"
+SKS_authoritarian_democrat_DEF:0 "Республика Сербская"
+SKS_authoritarian_democrat_ADJ:0 "Сербо-боснийск"
+
+
+
+FIU_paternal_autocrat:0 "Фиуме"
+FIU_paternal_autocrat_DEF:0 "Фиуме"
+FIU_paternal_autocrat_ADJ:0 "Фиумск"
+
+FIU_authoritarian_democrat:0 "Фиуме"
+FIU_authoritarian_democrat_DEF:0 "Фиуме"
+FIU_authoritarian_democrat_ADJ:0 "Фиумск"
+
+
+
+
+
+
+
+
+
+
+ABO_syndicalist:0 "Лабинская Республика"
+ABO_syndicalist_DEF:0 "Лабинская Республика"
+ABO_syndicalist_ADJ:0 "Лабинск"
+
+
+
+AWR_totalist:0 "Австрийская Рабочая Республика"
+AWR_totalist_DEF:0 "Австрийская Рабочая Республика"
+AWR_totalist_ADJ:0 "Австрийск"
+
+
+
+BAN_social_democrat:0 "Банатская Республика"
+BAN_social_democrat_DEF:0 "Банатская Республика"
+BAN_social_democrat_ADJ:0 "Банатск"
+
+BAN_authoritarian_democrat:0 "Банатское Королевство"
+BAN_authoritarian_democrat_DEF:0 "Банатское Королевство"
+BAN_authoritarian_democrat_ADJ:0 "Банатск"
+
+BAN_social_conservative:0 "Банатская Республика"
+BAN_social_conservative_DEF:0 "Банатская Республика"
+BAN_social_conservative_ADJ:0 "Банатск"
+
+BAN_syndicalist:0 "Банатская Рабочая Республика"
+BAN_syndicalist_DEF:0 "Банатская Рабочая Республика"
+BAN_syndicalist_ADJ:0 "Банатск"
+
+BAN_totalist:0 "Банатское Рабочее Государство"
+BAN_totalist_DEF:0 "Банатское Рабочее Государство"
+BAN_totalist_ADJ:0 "Банатск"
+
+BAN_national_populist:0 "Железногвардейский Банат"
+BAN_national_populist_DEF:0 "Железногвардейский Банат"
+BAN_national_populist_ADJ:0 "Банатск"
+
+
+
+BUK_paternal_autocrat:0 "Герцогство Буковина"
+BUK_paternal_autocrat_DEF:0 "Герцогство Буковина"
+BUK_paternal_autocrat_ADJ:0 "Буковинск"
+
+
+
+FIU_social_conservative:0 "Вольный город Фиуме"
+FIU_social_conservative_DEF:0 "Вольный город Фиуме"
+FIU_social_conservative_ADJ:0 "Фиумск"
+
+
+
+HSR_totalist:0 "Венгерская Советская Республика"
+HSR_totalist_DEF:0 "Венгерская Советская Республика"
+HSR_totalist_ADJ:0 "Венгерск"
+
+HSR_syndicalist:0 "Венгерская Советская Республика"
+HSR_syndicalist_DEF:0 "Венгерская Советская Республика"
+HSR_syndicalist_ADJ:0 "Венгерск"
+
+HSR_radical_socialist:0 "Венгерская Советская Республика"
+HSR_radical_socialist_DEF:0 "Венгерская Советская Республика"
+HSR_radical_socialist_ADJ:0 "Венгерск"
+
+
+
+NAZ_national_populist:0 "Австрийское Национальное Государство"
+NAZ_national_populist_DEF:0 "Австрийское Национальное Государство"
+NAZ_national_populist_ADJ:0 "Австрийск"
+
+
+
+
+HNR_national_populist:0 "Великая Венгрия"
+HNR_national_populist_DEF:0 "Великая Венгрия"
+HNR_national_populist_ADJ:0 "Венгерск"
+
+
+
+SNZ_authoritarian_democrat:0 "Швейцарская нейтральная зона"
+SNZ_authoritarian_democrat_DEF:0 "Швейцарская нейтральная зона"
+SNZ_authoritarian_democrat_ADJ:0 "Нейтральн"
+
+
+
+ANZ_authoritarian_democrat:0 "Австрийская нейтральная зона"
+ANZ_authoritarian_democrat_DEF:0 "Австрийская нейтральная зона"
+ANZ_authoritarian_democrat_ADJ:0 "Нейтральн"
+
+
+
+
+
+
+HNZ_social_conservative:0 "Банат Лейта"
+HNZ_social_conservative_DEF:0 "Банат Лейта"
+HNZ_social_conservative_ADJ:0 "Лейтск"
+
+
+
+
+
+SIL_social_conservative:0 "Герцогство Силезия"
+SIL_social_conservative_DEF:0 "Герцогство Силезия"
+SIL_social_conservative_ADJ:0 "Силезск"
+
+SIL_social_democrat:0 "Герцогство Силезия"
+SIL_social_democrat_DEF:0 "Герцогство Силезия"
+SIL_social_democrat_ADJ:0 "Силезск"
+
+
+
+
+SAX_social_conservative:0 "Королевство Саксония"
+SAX_social_conservative_DEF:0 "Королевство Саксония"
+SAX_social_conservative_ADJ:0 "Саксонск"
+
+SAX_social_democrat:0 "Королевство Саксония"
+SAX_social_democrat_DEF:0 "Королевство Саксония"
+SAX_social_democrat_ADJ:0 "Саксонск"
+
+
+
+
+
+BRN_social_conservative:0 "Бранденбург"
+BRN_social_conservative_DEF:0 "Бранденбург"
+BRN_social_conservative_ADJ:0 "Бранденбургск"
+
+BRN_social_democrat:0 "Бранденбург"
+BRN_social_democrat_DEF:0 "Бранденбург"
+BRN_social_democrat_ADJ:0 "Бранденбургск"
+
+
+
+
+
+THU_social_conservative:0 "Тюрингия"
+THU_social_conservative_DEF:0 "Тюрингия"
+THU_social_conservative_ADJ:0 "Тюрингск"
+
+THU_social_democrat:0 "Тюрингия"
+THU_social_democrat_DEF:0 "Тюрингия"
+THU_social_democrat_ADJ:0 "Тюрингск"
+
+
+
+
+
+
+
+POM_social_conservative:0 "Померания"
+POM_social_conservative_DEF:0 "Померания"
+POM_social_conservative_ADJ:0 "Померанск"
+
+POM_social_democrat:0 "Померания"
+POM_social_democrat_DEF:0 "Померания"
+POM_social_democrat_ADJ:0 "Померанск"
+
+
+
+
+
+
+HAN_social_conservative:0 "Ганновер"
+HAN_social_conservative_DEF:0 "Ганновер"
+HAN_social_conservative_ADJ:0 "Ганноверск"
+
+HAN_social_democrat:0 "Ганновер"
+HAN_social_democrat_DEF:0 "Ганновер"
+HAN_social_democrat_ADJ:0 "Ганноверск"
+
+
+
+
+
+SWH_social_conservative:0 "Шлезвиг-Гольштейн"
+SWH_social_conservative_DEF:0 "Шлезвиг-Гольштейн"
+SWH_social_conservative_ADJ:0 "Шлезвиг-Гольштейнск"
+
+SWH_social_democrat:0 "Шлезвиг-Гольштейн"
+SWH_social_democrat_DEF:0 "Шлезвиг-Гольштейн"
+SWH_social_democrat_ADJ:0 "Шлезвиг-Гольштейнск"

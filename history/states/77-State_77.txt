@@ -1,0 +1,17 @@
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		3 486 595 2127 2258 4785 7868 7874 7882 7885 7892 7893 7900 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 7874 11 }
+
+
+
+        victory_points = { 2258 12 }
+    victory_points = { 3 25 }
+owner = ATK
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Сантьяго Хеулети
+santyagoheuleti = {
+	name = santyagoheuleti
+	portraits = {
+		civilian = {
+			#Custom image for Сантьяго Хеулети
+			large = "/gfx/leaders/CAR/LED.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = kartelisticheskiyavtoritarizmm 
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Кацуро Ямагата
+kacuroyamagata = {
+	name = kacuroyamagata
+	portraits = {
+		civilian = {
+			#Custom image for Кацуро Ямагата
+			large = "/gfx/leaders/BZN/KMkqQOAw-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

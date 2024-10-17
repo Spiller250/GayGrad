@@ -1,0 +1,16 @@
+state={
+	id=655
+	name="STATE_655"
+	provinces={
+		492 927 1133 2086 2840 4587 7246 7356 11073 11154 11190 11324 11386 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11154 24 }
+        victory_points = { 2086 4 }
+    victory_points = { 492 15 }
+owner = TKK
+}

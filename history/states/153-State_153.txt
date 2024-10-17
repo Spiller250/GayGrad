@@ -1,0 +1,15 @@
+state={
+	id=153
+	name="STATE_153"
+	provinces={
+		1971 3018 3657 4631 5154 5499 7720 7786 8164 8315 8333 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 8333 18 }
+        victory_points = { 5154 17 }
+    victory_points = { 7720 22 }
+owner = NSC
+}

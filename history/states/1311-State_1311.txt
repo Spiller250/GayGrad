@@ -1,0 +1,15 @@
+state={
+	id=1311
+	name="STATE_1311"
+	provinces={
+		899 1805 1975 4080 7647 14902 14903 14915 14928 14932 14945 14968 
+	}
+       history={
+        victory_points = { 7647 21 }
+        victory_points = { 4080 11 }
+        victory_points = { 1805 20 }
+		owner = NSS
+	}
+	manpower=100000
+	state_category = large_town
+}

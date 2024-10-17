@@ -1,0 +1,17 @@
+
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		103 701 1026 2519 3889 4088 5094 6248 12223 12309 12431 12432 12489 12501 12584 12669 
+	}
+       history={
+        victory_points = { 12223 7 }
+        victory_points = { 4088 18 }
+        victory_points = { 12501 7 }
+		owner = ALM
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

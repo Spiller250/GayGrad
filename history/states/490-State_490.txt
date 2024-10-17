@@ -1,0 +1,15 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		32 5478 5895 6252 6824 10113 10168 10178 10257 10315 10365 10468 
+	}
+ history={
+        victory_points = { 10365 25 }
+        victory_points = { 10178 14 }
+        victory_points = { 5895 11 }
+		owner = YEL
+	}
+	manpower=100000
+	state_category = large_town
+}

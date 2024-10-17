@@ -1,0 +1,171 @@
+characters = {
+    flo_advisor_1 = {
+        name = flo_advisor_1
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_1.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_1
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { political_organizer }
+        }
+    }
+
+    flo_advisor_2 = {
+        name = flo_advisor_2
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_2.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_2
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { political_manipulator }
+        }
+    }
+
+    flo_advisor_3 = {
+        name = flo_advisor_3
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_3.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_3
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { compassionate_gentleman }
+        }
+    }
+
+    flo_advisor_4 = {
+        name = flo_advisor_4
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_4.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_4
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { backroom_broadcaster }
+        }
+    }
+
+    flo_advisor_5 = {
+        name = flo_advisor_5
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_5.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_5
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { war_industry_advocate }
+        }
+    }
+
+    flo_advisor_6 = {
+        name = flo_advisor_6
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_6.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_6
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { silent_workhorse }
+        }
+    }
+
+    flo_advisor_7 = {
+        name = flo_advisor_7
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_7.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_7
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { smooth_talker }
+        }
+    }
+
+    flo_advisor_8 = {
+        name = flo_advisor_8
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_8.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_8
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { prince_of_terror }
+        }
+    }
+
+    flo_advisor_9 = {
+        name = flo_advisor_9
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_9.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_9
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { democratic_reformer }
+        }
+    }
+
+    flo_advisor_10 = {
+        name = flo_advisor_10
+        portraits = {
+            army = {
+                small = "gfx/interface/ideas/FLO/advisor_portrait_10.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = flo_advisor_10
+            allowed = {
+                original_tag = FLO
+            }
+            traits = { fascist_demagogue }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		1273 1578 2572 3634 5088 9745 9898 9926 10000 10036 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 10036 23 }
+        victory_points = { 2572 25 }
+    victory_points = { 1273 22 }
+owner = GLZ
+}

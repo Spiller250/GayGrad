@@ -1,0 +1,16 @@
+state={
+	id=478
+	name="STATE_478"
+	provinces={
+		2702 4219 4485 4813 5590 6266 6595 10146 10242 10252 10319 10378 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 5590 19 }
+        victory_points = { 4219 5 }
+    victory_points = { 6266 6 }
+owner = VNK
+}

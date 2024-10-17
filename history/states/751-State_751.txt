@@ -1,0 +1,15 @@
+state={
+	id=751
+	name="STATE_751"
+	provinces={
+		2709 6338 7316 7462 7695 11806 11827 11891 11915 12025 
+	}
+ history={
+        victory_points = { 12025 18 }
+        victory_points = { 6338 6 }
+        victory_points = { 2709 25 }
+		owner = TSG 
+	}
+	manpower=100000
+	state_category = large_town
+}

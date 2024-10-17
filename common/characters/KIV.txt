@@ -1,0 +1,289 @@
+characters = {
+#Create country leader - Джонни Вьетнам
+dzhonnivetnam = {
+	name = dzhonnivetnam
+	portraits = {
+		civilian = {
+			#Custom image for Джонни Вьетнам
+			large = "/gfx/leaders/KIV/Johny.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nacionalnyykonservatizm
+		traits = {  eager_collaborator economic_reformer }
+	}
+}
+
+
+# Генерал Габриэль Оренбург
+gabriele_orenburg = {
+    name = "gabriele_orenburg"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/gabriele_orenburg_large.dds"
+            small = "/gfx/interface/ideas/KIV/gabriele_orenburg_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { offensive_doctrine, logistics_organizer }
+        skill = 5
+        attack_skill = 4
+        defense_skill = 3
+        planning_skill = 4
+        logistics_skill = 5
+    }
+    legacy_id = 1491338891
+}
+
+# Генерал Адель Кулешов
+adel_kuleshov = {
+    name = "adel_kuleshov"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/adel_kuleshov_large.dds"
+            small = "/gfx/interface/ideas/KIV/adel_kuleshov_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { defensive_doctrine, fortress_buster }
+        skill = 4
+        attack_skill = 3
+        defense_skill = 4
+        planning_skill = 5
+        logistics_skill = 4
+    }
+    legacy_id = 1491338892
+}
+
+# Генерал Исмет Каракоз
+ismet_karakoz = {
+    name = "ismet_karakoz"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/ismet_karakoz_large.dds"
+            small = "/gfx/interface/ideas/KIV/ismet_karakoz_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { armored_specialist, trickster }
+        skill = 3
+        attack_skill = 4
+        defense_skill = 3
+        planning_skill = 4
+        logistics_skill = 2
+    }
+    legacy_id = 1491338893
+}
+
+# Генерал Нурлан Такешев
+nurlan_takeshev = {
+    name = "nurlan_takeshev"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/nurlan_takeshev_large.dds"
+            small = "/gfx/interface/ideas/KIV/nurlan_takeshev_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { defensive_doctrine, fortification_innovator }
+        skill = 5
+        attack_skill = 2
+        defense_skill = 5
+        planning_skill = 3
+        logistics_skill = 4
+    }
+    legacy_id = 1491338894
+}
+
+# Генерал Петр Амиралиев
+petr_amiraliyev = {
+    name = "petr_amiraliyev"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/petr_amiraliyev_large.dds"
+            small = "/gfx/interface/ideas/KIV/petr_amiraliyev_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { mobile_warfare, aggressive_assaulter }
+        skill = 4
+        attack_skill = 5
+        defense_skill = 3
+        planning_skill = 3
+        logistics_skill = 4
+    }
+    legacy_id = 1491338895
+}
+
+# Генерал Лейла Аминова
+leila_aminova = {
+    name = "leila_aminova"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/leila_aminova_large.dds"
+            small = "/gfx/interface/ideas/KIV/leila_aminova_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { infantry_leader, charismatic }
+        skill = 3
+        attack_skill = 4
+        defense_skill = 3
+        planning_skill = 5
+        logistics_skill = 4
+    }
+    legacy_id = 1491338896
+}
+
+# Генерал Токтамыш Бекетов
+toktamish_beketov = {
+    name = "toktamish_beketov"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/toktamish_beketov_large.dds"
+            small = "/gfx/interface/ideas/KIV/toktamish_beketov_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { mountain_warfare, skilled_crossing }
+        skill = 4
+        attack_skill = 3
+        defense_skill = 5
+        planning_skill = 4
+        logistics_skill = 3
+    }
+    legacy_id = 1491338897
+}
+
+# Генерал Ибрагим Шукуров
+ibrahim_shukurov = {
+    name = "ibrahim_shukurov"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/ibrahim_shukurov_large.dds"
+            small = "/gfx/interface/ideas/KIV/ibrahim_shukurov_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { logistics_expert, offensive_doctrine }
+        skill = 5
+        attack_skill = 4
+        defense_skill = 3
+        planning_skill = 4
+        logistics_skill = 5
+    }
+    legacy_id = 1491338898
+}
+
+# Генерал Рамир Капланов
+ramir_kaplanov = {
+    name = "ramir_kaplanov"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/ramir_kaplanov_large.dds"
+            small = "/gfx/interface/ideas/KIV/ramir_kaplanov_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { armored_specialist, daring }
+        skill = 4
+        attack_skill = 5
+        defense_skill = 3
+        planning_skill = 3
+        logistics_skill = 4
+    }
+    legacy_id = 1491338899
+}
+
+# Генерал Анисса Валиуллина
+anissa_valiullina = {
+    name = "anissa_valiullina"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/anissa_valiullina_large.dds"
+            small = "/gfx/interface/ideas/KIV/anissa_valiullina_small.dds"
+        }
+    }
+    corps_commander = {
+        traits = { city_fighter, urban_warfare }
+        skill = 3
+        attack_skill = 4
+        defense_skill = 4
+        planning_skill = 3
+        logistics_skill = 3
+    }
+    legacy_id = 1491338900
+}
+
+# Фельдмаршал Дамир Нигметов
+damir_nigmetov = {
+    name = "damir_nigmetov"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/damir_nigmetov_large.dds"
+            small = "/gfx/interface/ideas/KIV/damir_nigmetov_small.dds"
+        }
+    }
+    field_marshal = {
+        traits = { charismatic, offensive_doctrine }
+        skill = 6
+        attack_skill = 5
+        defense_skill = 4
+        planning_skill = 5
+        logistics_skill = 4
+    }
+    legacy_id = 1491338901
+}
+
+# Фельдмаршал Серафим Топал
+serafim_topal = {
+    name = "serafim_topal"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/serafim_topal_large.dds"
+            small = "/gfx/interface/ideas/KIV/serafim_topal_small.dds"
+        }
+    }
+    field_marshal = {
+        traits = { defensive_doctrine, fortress_buster }
+        skill = 5
+        attack_skill = 4
+        defense_skill = 5
+        planning_skill = 4
+        logistics_skill = 3
+    }
+    legacy_id = 1491338902
+}
+
+# Фельдмаршал Рустем Хасанов
+rustem_khasanov = {
+    name = "rustem_khasanov"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/rustem_khasanov_large.dds"
+            small = "/gfx/interface/ideas/KIV/rustem_khasanov_small.dds"
+        }
+    }
+    field_marshal = {
+        traits = { logistics_expert, mobile_warfare }
+        skill = 6
+        attack_skill = 5
+        defense_skill = 4
+        planning_skill = 5
+        logistics_skill = 6
+    }
+    legacy_id = 1491338903
+}
+
+# Фельдмаршал Нурия Ягудина
+nuriya_yagudina = {
+    name = "nuriya_yagudina"
+    portraits = {
+        army = {
+            large = "/gfx/leaders/KIV/nuriya_yagudina_large.dds"
+            small = "/gfx/interface/ideas/KIV/nuriya_yagudina_small.dds"
+        }
+    }
+    field_marshal = {
+        traits

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Олаф Эриксон
+olaferikson = {
+	name = olaferikson
+	portraits = {
+		civilian = {
+			#Custom image for Олаф Эриксон
+			large = "/gfx/leaders/CCC/KmlakfsL-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = demokraticheskiysocializm
+		traits = {  }
+	}
+}
+}

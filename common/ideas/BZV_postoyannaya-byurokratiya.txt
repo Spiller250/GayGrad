@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+
+		BZV__ = {
+			picture = BZV__-718406
+			modifier = {
+				stability_weekly = -0.01
+
+root_out_resistance_effectiveness_factor = 0.3
+
+
+			}
+		}
+
+		BZV__ = {
+			picture = BZV__-718395
+			modifier = {
+				political_power_gain = -0.1
+
+production_speed_industrial_complex_factor = -0.5 
+
+
+			}
+		}
+
+		BZV_zAiNKVRI = {
+			picture = BZV_zAiNKVRI-718407
+			traits = {
+				 fascist_demagogue
+			}
+		}
+	}
+}

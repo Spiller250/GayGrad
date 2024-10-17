@@ -1,0 +1,21 @@
+ideas = {
+	economy = {
+
+		EXT_ikXeNIwj = {
+			picture = EXT_ikXeNIwj-583601
+			traits = {
+				 disdain_for_politicians_1 the_young_magnate
+			}
+			visible = {
+				always = yes
+
+
+			}
+			equipment_bonus = {
+				political_power_growth > -10
+
+
+			}
+		}
+	}
+}

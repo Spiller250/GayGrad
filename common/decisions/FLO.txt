@@ -1,0 +1,20 @@
+ florida_decision_category  = {
+    FLO_dixieland_decision = {
+        icon = generic_political_focus
+        available = {
+            has_government = democratic
+        }
+        visible = {
+            tag = FLO
+        }
+        complete_effect = {
+            set_cosmetic_tag = FLO_dixieland
+            set_global_flag = FLO_dixieland
+        }
+        days = 7
+        cost = 50
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

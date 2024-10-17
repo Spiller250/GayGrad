@@ -1,0 +1,15 @@
+state={
+	id=165
+	name="STATE_165"
+	provinces={
+		463 573 1113 2654 4547 4676 5397 5808 6463 8221 8246 8283 8369 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 1113 4 }
+        victory_points = { 5397 14 }
+    victory_points = { 8221 24 }
+owner = TWB
+}

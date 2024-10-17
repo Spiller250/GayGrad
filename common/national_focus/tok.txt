@@ -1,0 +1,1947 @@
+focus_tree = {
+	id = tok
+	continuous_focus_position = { x = -40 y = 2350 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TOK
+		}
+	}
+	#Угодитиь Христианам
+	focus = {
+		id = TOK_ugoditihristianam
+		icon = GFX_goal_unknown
+		x = 7
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_voprosreligii  }
+		mutually_exclusive = { focus = TOK_svetskoegosudarstvo  }
+	}
+
+	#Полицейское Государство
+	focus = {
+		id = TOK_policeyskoegosudarstvo
+		icon = GFX_goal_unknown
+		x = 20
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_promyvkamozgov  }
+	}
+
+	#Промывка Мозгов
+	focus = {
+		id = TOK_promyvkamozgov
+		icon = GFX_goal_unknown
+		x = 20
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_edinstvonacii  focus = TOK_yatokiostanecyagorzhus  }
+	}
+
+	#Я Токиостанец! Я Горжусь!
+	focus = {
+		id = TOK_yatokiostanecyagorzhus
+		icon = GFX_goal_unknown
+		x = 21
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_nacionalizaciyapromyshlennosti  }
+	}
+
+	#Священные Леса и Гайи
+	focus = {
+		id = TOK_svyashchennyelesaigayi
+		icon = GFX_goal_unknown
+		x = 16
+		y = 24
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_ritualyiobryady  } prerequisite = { focus = TOK_perunicheskiehramy  }
+	}
+
+	#Перунические Храмы
+	focus = {
+		id = TOK_perunicheskiehramy
+		icon = GFX_goal_unknown
+		x = 17
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_kultperuna  }
+	}
+
+	#Ритуалы и Обряды
+	focus = {
+		id = TOK_ritualyiobryady
+		icon = GFX_goal_unknown
+		x = 15
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_kultperuna  }
+	}
+
+	#Культ Перуна
+	focus = {
+		id = TOK_kultperuna
+		icon = GFX_goal_unknown
+		x = 16
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_ugoditperunistam  }
+	}
+
+	#Религиозное Образование
+	focus = {
+		id = TOK_religioznoeobrazovanie
+		icon = GFX_goal_unknown
+		x = 6
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_sozdaniegosudarstvennoycerkvi  }
+	}
+
+	#Вопрос Религии
+	focus = {
+		id = TOK_voprosreligii
+		icon = GFX_goal_unknown
+		x = 12
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_massovoestroitelstvo  } prerequisite = { focus = TOK_nacionalizaciyapromyshlennosti  }
+	}
+
+	#Светское государство
+	focus = {
+		id = TOK_svetskoegosudarstvo
+		icon = GFX_goal_unknown
+		x = 12
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_voprosreligii  }
+		mutually_exclusive = { focus = TOK_ugoditperunistam  }
+	}
+
+	#Создание Государственной Церкви
+	focus = {
+		id = TOK_sozdaniegosudarstvennoycerkvi
+		icon = GFX_goal_unknown
+		x = 7
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_ugoditihristianam  }
+	}
+
+	#Пропаганда Светских Ценностей
+	focus = {
+		id = TOK_propagandasvetskihcennostey
+		icon = GFX_goal_unknown
+		x = 12
+		y = 24
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_garantiisvobodyveroispovedaniya  } prerequisite = { focus = TOK_regulirovaniereligioznyhorganizaciy  }
+	}
+
+	#Регулирование Религиозных Организаций
+	focus = {
+		id = TOK_regulirovaniereligioznyhorganizaciy
+		icon = GFX_goal_unknown
+		x = 13
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_sekulyarizaciyaobrazovaniya  }
+	}
+
+	#Гарантии Свободы Вероисповедания
+	focus = {
+		id = TOK_garantiisvobodyveroispovedaniya
+		icon = GFX_goal_unknown
+		x = 11
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_sekulyarizaciyaobrazovaniya  }
+	}
+
+	#Секуляризация Образования
+	focus = {
+		id = TOK_sekulyarizaciyaobrazovaniya
+		icon = GFX_goal_unknown
+		x = 12
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = TOK_svetskoegosudarstvo  }
+	}
+
+	#Борьба с Еретиками
+	focus = {
+		id = TOK_borbaseretikami
+		icon = GFX_goal_unknown
+		x = 7
+		y = 24
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_religioznoeobrazovanie  } prerequisite = { focus = TOK_prazdnovaniereligioznyhprazdnikov  }
+	}
+
+	#Празднование Религиозных Праздников
+	focus = {
+		id = TOK_prazdnovaniereligioznyhprazdnikov
+		icon = GFX_goal_unknown
+		x = 8
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_sozdaniegosudarstvennoycerkvi  }
+	}
+
+	#Массовое Строительство
+	focus = {
+		id = TOK_massovoestroitelstvo
+		icon = GFX_goal_unknown
+		x = 11
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_rasshireniepolnomochiylidera  }
+	}
+
+	#Покончить с Коммунистами
+	focus = {
+		id = TOK_pokonchitskommunistami
+		icon = GFX_goal_unknown
+		x = 24
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_politicheskayapoliciya  }
+	}
+
+	#Национализация Промышленности
+	focus = {
+		id = TOK_nacionalizaciyapromyshlennosti
+		icon = GFX_goal_unknown
+		x = 13
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_rasshireniepolnomochiylidera  }
+	}
+
+	#Национализация Промышленности
+	focus = {
+		id = TOK_nacionalizaciyapromyshlennosti
+		icon = GFX_goal_unknown
+		x = 20
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_reformagosudarstvennogoapparata  }
+	}
+
+	#Реформа Государственного Аппарата
+	focus = {
+		id = TOK_reformagosudarstvennogoapparata
+		icon = GFX_goal_unknown
+		x = 20
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_vechnyypravitel  }
+	}
+
+	#Политическая Полиция
+	focus = {
+		id = TOK_politicheskayapoliciya
+		icon = GFX_goal_unknown
+		x = 24
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_kontrolnadsmi  }
+	}
+
+	#Пропаганда Культа Личности
+	focus = {
+		id = TOK_propagandakultalichnosti
+		icon = GFX_goal_unknown
+		x = 22
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_kontrolnadsmi  }
+	}
+
+	#Усиление Центрального Контроля над СМИ
+	focus = {
+		id = TOK_usileniecentralnogokontrolyanadsmi
+		icon = GFX_goal_unknown
+		x = 30
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_pervonachalnoevosstanovlenie  }
+	}
+
+	#Реформа Государственной Службы
+	focus = {
+		id = TOK_reformagosudarstvennoysluzhby
+		icon = GFX_goal_unknown
+		x = 30
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_usileniecentralnogokontrolyanadsmi  }
+	}
+
+	#История Токиостана
+	focus = {
+		id = TOK_istoriyatokiostana
+		icon = GFX_TOK_istoriyatokiostana-688462
+		x = 46
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Продолжить Курс
+	focus = {
+		id = TOK_prodolzhitkurs
+		icon = GFX_goal_unknown
+		x = 30
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_istoriyatokiostana  }
+		mutually_exclusive = { focus = TOK_smenakursa  }
+	}
+
+	#Смена Курса
+	focus = {
+		id = TOK_smenakursa
+		icon = GFX_goal_unknown
+		x = 75
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_istoriyatokiostana  }
+	}
+
+	#Восстановление после черного вторника
+	focus = {
+		id = TOK_vosstanovlenieposlechernogovtornika
+		icon = GFX_goal_unknown
+		x = 30
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_prodolzhitkurs  }
+	}
+
+	#Экономическая стабилизация
+	focus = {
+		id = TOK_ekonomicheskayastabilizaciya
+		icon = GFX_goal_unknown
+		x = 30
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_vosstanovlenieposlechernogovtornika  }
+	}
+
+	#Создание рабочих мест
+	focus = {
+		id = TOK_sozdanierabochihmest
+		icon = GFX_goal_unknown
+		x = 29
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_ekonomicheskayastabilizaciya  }
+	}
+
+	#Реформа банковской системы
+	focus = {
+		id = TOK_reformabankovskoysistemy
+		icon = GFX_goal_unknown
+		x = 31
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_ekonomicheskayastabilizaciya  }
+	}
+
+	#Медицинская реформа
+	focus = {
+		id = TOK_medicinskayareforma
+		icon = GFX_goal_unknown
+		x = 29
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_sozdanierabochihmest  focus = TOK_reformabankovskoysistemy  }
+	}
+
+	#Поддержка бездомных
+	focus = {
+		id = TOK_podderzhkabezdomnyh
+		icon = GFX_goal_unknown
+		x = 30
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_medicinskayareforma  } prerequisite = { focus = TOK_socialnayapomoshch  }
+	}
+
+	#Социальная помощь
+	focus = {
+		id = TOK_socialnayapomoshch
+		icon = GFX_goal_unknown
+		x = 31
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_sozdanierabochihmest  focus = TOK_reformabankovskoysistemy  }
+	}
+
+	#Разогнать Беспорядки
+	focus = {
+		id = TOK_razognatbesporyadki
+		icon = GFX_goal_unknown
+		x = 30
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podderzhkabezdomnyh  }
+	}
+
+	#Первоначальное Восстановление
+	focus = {
+		id = TOK_pervonachalnoevosstanovlenie
+		icon = GFX_goal_unknown
+		x = 30
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_razognatbesporyadki  }
+	}
+
+	#Организация забастовок
+	focus = {
+		id = TOK_organizaciyazabastovok
+		icon = GFX_goal_unknown
+		x = 75
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_smenakursa  }
+	}
+
+	#Подкуп чиновников
+	focus = {
+		id = TOK_podkupchinovnikov
+		icon = GFX_goal_unknown
+		x = 75
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_organizaciyazabastovok  }
+	}
+
+	#Подрыв реформ
+	focus = {
+		id = TOK_podryvreform
+		icon = GFX_goal_unknown
+		x = 75
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podkupchinovnikov  }
+	}
+
+	#Ухудшение экономической ситуации
+	focus = {
+		id = TOK_uhudshenieekonomicheskoysituacii
+		icon = GFX_goal_unknown
+		x = 74
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podryvreform  }
+	}
+
+	#Рост народного недовольства
+	focus = {
+		id = TOK_rostnarodnogonedovolstva
+		icon = GFX_goal_unknown
+		x = 76
+		y = 6
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podryvreform  }
+	}
+
+	#Импичмент Богдана Кабанова
+	focus = {
+		id = TOK_impichmentbogdanakabanova
+		icon = GFX_goal_unknown
+		x = 75
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_rostnarodnogonedovolstva  } prerequisite = { focus = TOK_uhudshenieekonomicheskoysituacii  }
+	}
+
+	#Назначение временного правительства
+	focus = {
+		id = TOK_naznachenievremennogopravitelstva
+		icon = GFX_goal_unknown
+		x = 75
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_impichmentbogdanakabanova  }
+	}
+
+	#Привлечение опытных генералов
+	focus = {
+		id = TOK_privlechenieopytnyhgeneralov
+		icon = GFX_goal_unknown
+		x = 70
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_verbovkaarmii  }
+	}
+
+	#Подготовка к триумфу
+	focus = {
+		id = TOK_podgotovkaktriumfu
+		icon = GFX_goal_unknown
+		x = 75
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_naznachenievremennogopravitelstva  }
+	}
+
+	#Коммунистическая пропаганда
+	focus = {
+		id = TOK_kommunisticheskayapropaganda
+		icon = GFX_goal_unknown
+		x = 79
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podgotovkaktriumfu  }
+	}
+
+	#Вербовка армии
+	focus = {
+		id = TOK_verbovkaarmii
+		icon = GFX_goal_unknown
+		x = 71
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podgotovkaktriumfu  }
+	}
+
+	#Массовая мобилизация
+	focus = {
+		id = TOK_massovayamobilizaciya
+		icon = GFX_goal_unknown
+		x = 72
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = TOK_verbovkaarmii  }
+	}
+
+	#Организация митингов и протестов
+	focus = {
+		id = TOK_organizaciyamitingoviprotestov
+		icon = GFX_goal_unknown
+		x = 78
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_kommunisticheskayapropaganda  }
+	}
+
+	#Подрывные действия в СМИ
+	focus = {
+		id = TOK_podryvnyedeystviyavsmi
+		icon = GFX_goal_unknown
+		x = 80
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_kommunisticheskayapropaganda  }
+	}
+
+	#Секретные ячейки в правительстве
+	focus = {
+		id = TOK_sekretnyeyacheykivpravitelstve
+		icon = GFX_goal_unknown
+		x = 79
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podryvnyedeystviyavsmi  } prerequisite = { focus = TOK_organizaciyamitingoviprotestov  }
+	}
+
+	#Создание лояльных подразделений
+	focus = {
+		id = TOK_sozdanieloyalnyhpodrazdeleniy
+		icon = GFX_goal_unknown
+		x = 71
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = TOK_privlechenieopytnyhgeneralov  } prerequisite = { focus = TOK_massovayamobilizaciya  }
+	}
+
+	#Коммунистический мятеж
+	focus = {
+		id = TOK_kommunisticheskiymyatezh
+		icon = GFX_goal_unknown
+		x = 75
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_sekretnyeyacheykivpravitelstve  } prerequisite = { focus = TOK_sozdanieloyalnyhpodrazdeleniy  }
+	}
+
+	#Разжечь пламя
+	focus = {
+		id = TOK_razzhechplamya
+		icon = GFX_goal_unknown
+		x = 75
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_kommunisticheskiymyatezh  }
+	}
+
+	#Расширение инфраструктуры
+	focus = {
+		id = TOK_rasshirenieinfrastruktury
+		icon = GFX_goal_unknown
+		x = 15
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_pervonachalnoevosstanovlenie  }
+	}
+
+	#Оживление промышленности
+	focus = {
+		id = TOK_ozhivleniepromyshlennosti
+		icon = GFX_goal_unknown
+		x = 14
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_rasshirenieinfrastruktury  }
+	}
+
+	#Инновации в сельском хозяйстве
+	focus = {
+		id = TOK_innovaciivselskomhozyaystve
+		icon = GFX_goal_unknown
+		x = 16
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_rasshirenieinfrastruktury  }
+	}
+
+	#Трудовые реформы
+	focus = {
+		id = TOK_trudovyereformy
+		icon = GFX_goal_unknown
+		x = 16
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_innovaciivselskomhozyaystve  }
+	}
+
+	#Реформа образования
+	focus = {
+		id = TOK_reformaobrazovaniya
+		icon = GFX_goal_unknown
+		x = 14
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_ozhivleniepromyshlennosti  }
+	}
+
+	#Восстановление старых заводов
+	focus = {
+		id = TOK_vosstanovleniestaryhzavodov
+		icon = GFX_goal_unknown
+		x = 42
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_podderzhkamalogoisrednegobiznesa  }
+	}
+
+	#Восстановление старых заводов
+	focus = {
+		id = TOK_vosstanovleniestaryhzavodov
+		icon = GFX_goal_unknown
+		x = 14
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_reformaobrazovaniya  }
+	}
+
+	#Стимулировать Промышленный комплекс
+	focus = {
+		id = TOK_stimulirovatpromyshlennyykompleks
+		icon = GFX_goal_unknown
+		x = 15
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_nacionalizaciyapromyshlennosti  focus = TOK_podderzhkachastnogopredprinimatelstva  }
+	}
+
+	#Развитие транспортной сети
+	focus = {
+		id = TOK_razvitietransportnoyseti
+		icon = GFX_goal_unknown
+		x = 16
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_trudovyereformy  }
+	}
+
+	#Частные инвестиции
+	focus = {
+		id = TOK_chastnyeinvesticii
+		icon = GFX_goal_unknown
+		x = 45
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_finansovayastabilnost  }
+	}
+
+	#Технологический прогресс
+	focus = {
+		id = TOK_tehnologicheskiyprogress
+		icon = GFX_goal_unknown
+		x = 41
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_vosstanovleniestaryhzavodov  }
+	}
+
+	#Торговые соглашения
+	focus = {
+		id = TOK_torgovyesoglasheniya
+		icon = GFX_goal_unknown
+		x = 43
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_tehnologicheskiyprogress  } prerequisite = { focus = TOK_chastnyeinvesticii  }
+	}
+
+	#Финансовая стабильность
+	focus = {
+		id = TOK_finansovayastabilnost
+		icon = GFX_goal_unknown
+		x = 43
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_chastnyeinvesticii  } prerequisite = { focus = TOK_tehnologicheskiyprogress  }
+	}
+
+	#Финансовая стабильность
+	focus = {
+		id = TOK_finansovayastabilnost
+		icon = GFX_goal_unknown
+		x = 44
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_finansovayastabilnost  }
+	}
+
+	#Поддержка малого и среднего бизнеса
+	focus = {
+		id = TOK_podderzhkamalogoisrednegobiznesa
+		icon = GFX_goal_unknown
+		x = 42
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_modernizaciyapromyshlennosti  }
+	}
+
+	#Привлечение инвестиций
+	focus = {
+		id = TOK_privlechenieinvesticiy
+		icon = GFX_goal_unknown
+		x = 44
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_eksportnayastrategiya  }
+	}
+
+	#Модернизация промышленности
+	focus = {
+		id = TOK_modernizaciyapromyshlennosti
+		icon = GFX_goal_unknown
+		x = 42
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_diversifikaciyaekonomiki  }
+	}
+
+	#Экспортная стратегия
+	focus = {
+		id = TOK_eksportnayastrategiya
+		icon = GFX_goal_unknown
+		x = 44
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_diversifikaciyaekonomiki  }
+	}
+
+	#Диверсификация экономики
+	focus = {
+		id = TOK_diversifikaciyaekonomiki
+		icon = GFX_goal_unknown
+		x = 43
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_pervonachalnoevosstanovlenie  }
+	}
+
+	#Полный Контроль над Местными Властями
+	focus = {
+		id = TOK_polnyykontrolnadmestnymivlastyami
+		icon = GFX_goal_unknown
+		x = 29
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_reformagosudarstvennoysluzhby  }
+	}
+
+	#Национализация Промышленности
+	focus = {
+		id = TOK_nacionalizaciyapromyshlennosti
+		icon = GFX_goal_unknown
+		x = 13
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_vosstanovleniestaryhzavodov  } prerequisite = { focus = TOK_razvitietransportnoyseti  }
+	}
+
+	#Поддержка частного предпринимательства
+	focus = {
+		id = TOK_podderzhkachastnogopredprinimatelstva
+		icon = GFX_goal_unknown
+		x = 17
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_razvitietransportnoyseti  } prerequisite = { focus = TOK_vosstanovleniestaryhzavodov  }
+		mutually_exclusive = { focus = TOK_nacionalizaciyapromyshlennosti  }
+	}
+
+	#Индустриальные Мегапроекты
+	focus = {
+		id = TOK_industrialnyemegaproekty
+		icon = GFX_goal_unknown
+		x = 15
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_stimulirovatpromyshlennyykompleks  }
+	}
+
+	#Централизация Власти
+	focus = {
+		id = TOK_centralizaciyavlasti
+		icon = GFX_goal_unknown
+		x = 30
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_usilenieadministrativnogokontrolya  } prerequisite = { focus = TOK_polnyykontrolnadmestnymivlastyami  }
+	}
+
+	#Усиление Административного Контроля
+	focus = {
+		id = TOK_usilenieadministrativnogokontrolya
+		icon = GFX_goal_unknown
+		x = 31
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_reformagosudarstvennoysluzhby  }
+	}
+
+	#Коронавать Богдана
+	focus = {
+		id = TOK_koronavatbogdana
+		icon = GFX_goal_unknown
+		x = 30
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_perepisatkonstituciyu  }
+	}
+
+	#Коронавать Настю
+	focus = {
+		id = TOK_koronavatnastyu
+		icon = GFX_goal_unknown
+		x = 40
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_perepisatkonstituciyu  }
+		mutually_exclusive = { focus = TOK_koronavatbogdana  }
+	}
+
+	#Переписать Конституцию
+	focus = {
+		id = TOK_perepisatkonstituciyu
+		icon = GFX_goal_unknown
+		x = 30
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_centralizaciyavlasti  }
+	}
+
+	#Вечный правитель
+	focus = {
+		id = TOK_vechnyypravitel
+		icon = GFX_goal_unknown
+		x = 20
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_perepisatkonstituciyu  }
+		mutually_exclusive = { focus = TOK_koronavatbogdana  }
+	}
+
+	#Образовательная Реформа
+	focus = {
+		id = TOK_obrazovatelnayareforma
+		icon = GFX_goal_unknown
+		x = 34
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_rekviziciyachastnoysobstvennosti  } prerequisite = { focus = TOK_uvelicheniekorolevskihnalogov  }
+	}
+
+	#Социальные Программы
+	focus = {
+		id = TOK_socialnyeprogrammy
+		icon = GFX_goal_unknown
+		x = 34
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = TOK_obrazovatelnayareforma  }
+	}
+
+	#Закрытие Свободных Школ
+	focus = {
+		id = TOK_zakrytiesvobodnyhshkol
+		icon = GFX_goal_unknown
+		x = 33
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = TOK_socialnyeprogrammy  }
+	}
+
+	#Цензура Учебных Программ
+	focus = {
+		id = TOK_cenzurauchebnyhprogramm
+		icon = GFX_goal_unknown
+		x = 35
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = TOK_socialnyeprogrammy  }
+	}
+
+	#Принудительные Социальные Программы
+	focus = {
+		id = TOK_prinuditelnyesocialnyeprogrammy
+		icon = GFX_goal_unknown
+		x = 34
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = TOK_zakrytiesvobodnyhshkol  } prerequisite = { focus = TOK_cenzurauchebnyhprogramm  }
+	}
+
+	#Реквизиция Частной Собственности
+	focus = {
+		id = TOK_rekviziciyachastnoysobstvennosti
+		icon = GFX_goal_unknown
+		x = 33
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_razvitieselskogohozyaystva  }
+	}
+
+	#Восстановление Монархии
+	focus = {
+		id = TOK_vosstanovleniemonarhii
+		icon = GFX_goal_unknown
+		x = 30
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_koronavatbogdana  }
+	}
+
+	#Королевский Совет
+	focus = {
+		id = TOK_korolevskiysovet
+		icon = GFX_goal_unknown
+		x = 30
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_vosstanovleniemonarhii  }
+	}
+
+	#Придворная Знать
+	focus = {
+		id = TOK_pridvornayaznat
+		icon = GFX_goal_unknown
+		x = 31
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_korolevskiysovet  }
+	}
+
+	#Монархические Привилегии
+	focus = {
+		id = TOK_monarhicheskieprivilegii
+		icon = GFX_goal_unknown
+		x = 29
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_korolevskiysovet  }
+	}
+
+	#Укрепление Королевской Власти
+	focus = {
+		id = TOK_ukrepleniekorolevskoyvlasti
+		icon = GFX_goal_unknown
+		x = 29
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_monarhicheskieprivilegii  }
+	}
+
+	#Конфискация Собственности Знати
+	focus = {
+		id = TOK_konfiskaciyasobstvennostiznati
+		icon = GFX_goal_unknown
+		x = 31
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_pridvornayaznat  }
+	}
+
+	#Принудительные Службы Дворян
+	focus = {
+		id = TOK_prinuditelnyesluzhbydvoryan
+		icon = GFX_goal_unknown
+		x = 30
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_ukrepleniekorolevskoyvlasti  } prerequisite = { focus = TOK_konfiskaciyasobstvennostiznati  }
+	}
+
+	#Подавление Дворянских Восстаний
+	focus = {
+		id = TOK_podavleniedvoryanskihvosstaniy
+		icon = GFX_goal_unknown
+		x = 30
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_prinuditelnyesluzhbydvoryan  }
+	}
+
+	#Продолжить Экнономическое развитие
+	focus = {
+		id = TOK_prodolzhiteknonomicheskoerazvitie
+		icon = GFX_goal_unknown
+		x = 34
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_koronavatbogdana  focus = TOK_koronavatnastyu  focus = TOK_vechnyypravitel  }
+	}
+
+	#Экономические Реформы
+	focus = {
+		id = TOK_ekonomicheskiereformy
+		icon = GFX_goal_unknown
+		x = 34
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_prodolzhiteknonomicheskoerazvitie  }
+	}
+
+	#Развитие Сельского Хозяйства
+	focus = {
+		id = TOK_razvitieselskogohozyaystva
+		icon = GFX_goal_unknown
+		x = 33
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_ekonomicheskiereformy  }
+	}
+
+	#Монопольное Право Короны
+	focus = {
+		id = TOK_monopolnoepravokorony
+		icon = GFX_goal_unknown
+		x = 35
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_ekonomicheskiereformy  }
+	}
+
+	#Увеличение Королевских Налогов
+	focus = {
+		id = TOK_uvelicheniekorolevskihnalogov
+		icon = GFX_goal_unknown
+		x = 35
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = TOK_monopolnoepravokorony  }
+	}
+
+	#Вопрос западных соседей.
+	focus = {
+		id = TOK_voproszapadnyhsosedey
+		icon = GFX_goal_unknown
+		x = 34
+		y = 25
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_delazagranicey  }
+	}
+
+	#Операция по освбождению наших земель
+	focus = {
+		id = TOK_operaciyapoosvbozhdeniyunashihzemel
+		icon = GFX_goal_unknown
+		x = 20
+		y = 26
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_delazagranicey  }
+	}
+
+	#Дела за границей
+	focus = {
+		id = TOK_delazagranicey
+		icon = GFX_goal_unknown
+		x = 30
+		y = 24
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_provozglasitimperiyu  focus = TOK_ukreplenievlastikorolevynasti  }
+	}
+
+	#Учения на границе
+	focus = {
+		id = TOK_ucheniyanagranice
+		icon = GFX_goal_unknown
+		x = 19
+		y = 27
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_operaciyapoosvbozhdeniyunashihzemel  }
+	}
+
+	#Морская блокада
+	focus = {
+		id = TOK_morskayablokada
+		icon = GFX_goal_unknown
+		x = 21
+		y = 27
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_operaciyapoosvbozhdeniyunashihzemel  }
+	}
+
+	#Покончить с экстремистами.
+	focus = {
+		id = TOK_pokonchitsekstremistami
+		icon = GFX_goal_unknown
+		x = 20
+		y = 28
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_ucheniyanagranice  } prerequisite = { focus = TOK_morskayablokada  }
+	}
+
+	#Союзник Пассифия
+	focus = {
+		id = TOK_soyuznikpassifiya
+		icon = GFX_goal_unknown
+		x = 33
+		y = 26
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_voproszapadnyhsosedey  }
+		mutually_exclusive = { focus = TOK_pristrelitgrizli  }
+	}
+
+	#Совет Матрон
+	focus = {
+		id = TOK_sovetmatron
+		icon = GFX_goal_unknown
+		x = 40
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_koronavatnastyu  }
+	}
+
+	#Реформа Правосудия
+	focus = {
+		id = TOK_reformapravosudiya
+		icon = GFX_goal_unknown
+		x = 39
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_sovetmatron  }
+	}
+
+	#Пристрелить Гризли
+	focus = {
+		id = TOK_pristrelitgrizli
+		icon = GFX_goal_unknown
+		x = 35
+		y = 26
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_voproszapadnyhsosedey  }
+	}
+
+	#Старый союзник.
+	focus = {
+		id = TOK_staryysoyuznik
+		icon = GFX_goal_unknown
+		x = 33
+		y = 27
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_soyuznikpassifiya  focus = TOK_pristrelitgrizli  }
+		mutually_exclusive = { focus = TOK_zahvatitfolessiyu  }
+	}
+
+	#Захватить Фолессию
+	focus = {
+		id = TOK_zahvatitfolessiyu
+		icon = GFX_goal_unknown
+		x = 35
+		y = 27
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_pristrelitgrizli  focus = TOK_soyuznikpassifiya  }
+	}
+
+	#Захватить клятых Феодалов
+	focus = {
+		id = TOK_zahvatitklyatyhfeodalov
+		icon = GFX_goal_unknown
+		x = 34
+		y = 28
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_staryysoyuznik  focus = TOK_zahvatitfolessiyu  }
+	}
+
+	#Разобраться с Синеградом
+	focus = {
+		id = TOK_razobratsyassinegradom
+		icon = GFX_goal_unknown
+		x = 34
+		y = 29
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_zahvatitklyatyhfeodalov  }
+	}
+
+	#дела на востоке
+	focus = {
+		id = TOK_delanavostoke
+		icon = GFX_goal_unknown
+		x = 25
+		y = 25
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_delazagranicey  }
+	}
+
+	#Заключить союз с Бангистаном
+	focus = {
+		id = TOK_zaklyuchitsoyuzsbangistanom
+		icon = GFX_goal_unknown
+		x = 26
+		y = 26
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_delanavostoke  }
+	}
+
+	#Атаковать Бангистан
+	focus = {
+		id = TOK_atakovatbangistan
+		icon = GFX_goal_unknown
+		x = 24
+		y = 26
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_delanavostoke  }
+		mutually_exclusive = { focus = TOK_zaklyuchitsoyuzsbangistanom  }
+	}
+
+	#Помочь Арцаху
+	focus = {
+		id = TOK_pomocharcahu
+		icon = GFX_goal_unknown
+		x = 24
+		y = 27
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_atakovatbangistan  focus = TOK_zaklyuchitsoyuzsbangistanom  }
+		mutually_exclusive = { focus = TOK_kontrolirovatarcah  }
+	}
+
+	#Контролировать Арцах
+	focus = {
+		id = TOK_kontrolirovatarcah
+		icon = GFX_goal_unknown
+		x = 26
+		y = 27
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_atakovatbangistan  } prerequisite = { focus = TOK_zaklyuchitsoyuzsbangistanom  }
+	}
+
+	#Провозгласить империю
+	focus = {
+		id = TOK_provozglasitimperiyu
+		icon = GFX_goal_unknown
+		x = 30
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podavleniedvoryanskihvosstaniy  }
+	}
+
+	#Фонд Королевы Насти
+	focus = {
+		id = TOK_fondkorolevynasti
+		icon = GFX_goal_unknown
+		x = 41
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_sovetmatron  }
+	}
+
+	#Матриархальный Указ
+	focus = {
+		id = TOK_matriarhalnyyukaz
+		icon = GFX_goal_unknown
+		x = 39
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_reformapravosudiya  focus = TOK_fondkorolevynasti  }
+	}
+
+	#Равенство Полов
+	focus = {
+		id = TOK_ravenstvopolov
+		icon = GFX_goal_unknown
+		x = 41
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_reformapravosudiya  focus = TOK_fondkorolevynasti  }
+	}
+
+	#Укрепление Власти Королевы Насти
+	focus = {
+		id = TOK_ukreplenievlastikorolevynasti
+		icon = GFX_goal_unknown
+		x = 40
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_matriarhalnyyukaz  } prerequisite = { focus = TOK_ravenstvopolov  }
+	}
+
+	#Подавление Оппозиции
+	focus = {
+		id = TOK_podavlenieoppozicii
+		icon = GFX_goal_unknown
+		x = 22
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_propagandakultalichnosti  }
+	}
+
+	#Королевская Свадьба
+	focus = {
+		id = TOK_korolevskayasvadba
+		icon = GFX_goal_unknown
+		x = 40
+		y = 26
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_korolevskiytur  }
+	}
+
+	#Единое Правительство
+	focus = {
+		id = TOK_edinoepravitelstvo
+		icon = GFX_goal_unknown
+		x = 40
+		y = 27
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_korolevskayasvadba  }
+	}
+
+	#Коронация Монарха
+	focus = {
+		id = TOK_koronaciyamonarha
+		icon = GFX_goal_unknown
+		x = 42
+		y = 24
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_nachaloperevorota  }
+	}
+
+	#Королевский Тур
+	focus = {
+		id = TOK_korolevskiytur
+		icon = GFX_goal_unknown
+		x = 40
+		y = 25
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_utverzhdenienovogokorolya  focus = TOK_koronaciyamonarha  }
+	}
+
+	#Утверждение Нового Короля
+	focus = {
+		id = TOK_utverzhdenienovogokorolya
+		icon = GFX_goal_unknown
+		x = 38
+		y = 24
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_zahvatvlasti  }
+	}
+
+	#Монархический Переворот в Новограде
+	focus = {
+		id = TOK_monarhicheskiyperevorotvnovograde
+		icon = GFX_goal_unknown
+		x = 41
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_ukreplenievlastikorolevynasti  }
+	}
+
+	#Подготовка Заговора
+	focus = {
+		id = TOK_podgotovkazagovora
+		icon = GFX_goal_unknown
+		x = 41
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_monarhicheskiyperevorotvnovograde  }
+	}
+
+	#Подкуп Чиновников
+	focus = {
+		id = TOK_podkupchinovnikov
+		icon = GFX_goal_unknown
+		x = 42
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podgotovkazagovora  }
+	}
+
+	#Начало Переворота
+	focus = {
+		id = TOK_nachaloperevorota
+		icon = GFX_goal_unknown
+		x = 42
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_podkupchinovnikov  }
+	}
+
+	#Подкуп Генералов
+	focus = {
+		id = TOK_podkupgeneralov
+		icon = GFX_goal_unknown
+		x = 38
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_podgotovkazagovora  }
+	}
+
+	#Захват Власти
+	focus = {
+		id = TOK_zahvatvlasti
+		icon = GFX_goal_unknown
+		x = 38
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = TOK_podkupgeneralov  }
+	}
+
+	#Монархический Переворот в Пассифии
+	focus = {
+		id = TOK_monarhicheskiyperevorotvpassifii
+		icon = GFX_goal_unknown
+		x = 39
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_ukreplenievlastikorolevynasti  }
+		mutually_exclusive = { focus = TOK_monarhicheskiyperevorotvnovograde  }
+	}
+
+	#Подготовка Заговора
+	focus = {
+		id = TOK_podgotovkazagovora
+		icon = GFX_goal_unknown
+		x = 39
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_monarhicheskiyperevorotvpassifii  }
+	}
+
+	#Расширение Полномочий Лидера
+	focus = {
+		id = TOK_rasshireniepolnomochiylidera
+		icon = GFX_goal_unknown
+		x = 12
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Контроль над СМИ
+	focus = {
+		id = TOK_kontrolnadsmi
+		icon = GFX_goal_unknown
+		x = 23
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_promyvkamozgov  }
+	}
+
+	#Угодить Перунистам
+	focus = {
+		id = TOK_ugoditperunistam
+		icon = GFX_goal_unknown
+		x = 16
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_voprosreligii  }
+	}
+
+	#Единство нации
+	focus = {
+		id = TOK_edinstvonacii
+		icon = GFX_goal_unknown
+		x = 19
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_nacionalizaciyapromyshlennosti  }
+	}
+
+	#Богдан Великий
+	focus = {
+		id = TOK_bogdanvelikiy
+		icon = GFX_goal_unknown
+		x = 22
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = TOK_assimilyaciyanaseleniya  } prerequisite = { focus = TOK_pokonchitskommunistami  } prerequisite = { focus = TOK_podavlenieoppozicii  }
+	}
+
+	#Ассимиляция Населения
+	focus = {
+		id = TOK_assimilyaciyanaseleniya
+		icon = GFX_goal_unknown
+		x = 20
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = TOK_policeyskoegosudarstvo  }
+	}
+
+}

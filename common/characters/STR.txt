@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Андрей Норкин
+andreynorkin = {
+	name = andreynorkin
+	portraits = {
+		civilian = {
+			#Custom image for Андрей Норкин
+			large = "/gfx/leaders/STR/dkzpCIaW-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+}

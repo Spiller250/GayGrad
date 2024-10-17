@@ -1,0 +1,16 @@
+state={
+	id=936
+	name="STATE_936"
+	provinces={
+		2942 3082 3397 5093 5653 6110 12867 12918 12938 12964 12987 13004 13014 13056 13074 13084 13151 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 13074 17 }
+        victory_points = { 12938 11 }
+    victory_points = { 3082 25 }
+owner = TLI
+}

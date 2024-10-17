@@ -1,0 +1,16 @@
+state={
+	id=811
+	name="STATE_811"
+	provinces={
+		462 6773 7736 12172 12236 12316 12330 12404 12412 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 6773 23 }
+        victory_points = { 12412 12 }
+    victory_points = { 12172 16 }
+owner = BKA
+}

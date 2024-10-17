@@ -1,0 +1,15 @@
+state={
+	id=1344
+	name="STATE_1344"
+	provinces={
+		957 1257 3310 3915 6885 7564 15081 15086 
+	}
+       history={
+        victory_points = { 6885 21 }
+        victory_points = { 957 17 }
+        victory_points = { 3915 9 }
+		owner = MAR
+	}
+	manpower=100000
+	state_category = large_town
+}

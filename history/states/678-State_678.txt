@@ -1,0 +1,15 @@
+state={
+	id=678
+	name="STATE_678"
+	provinces={
+		1947 3365 3538 6112 6789 7066 7126 11353 11409 11435 11454 11497 
+	}
+       history={
+        victory_points = { 3365 10 }
+        victory_points = { 1947 22 }
+        victory_points = { 7066 9 }
+		owner = ALM
+	}
+	manpower=100000
+	state_category = large_town
+}

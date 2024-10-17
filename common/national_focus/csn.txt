@@ -1,0 +1,85 @@
+focus_tree = {
+	id = csn
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSN
+		}
+	}
+	#Победа!
+	focus = {
+		id = CSN_pobeda
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Съезд партии
+	focus = {
+		id = CSN_sezdpartii
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CSN_pobeda  }
+	}
+
+	#Дрекслер очистит мир!
+	focus = {
+		id = CSN_drekslerochistitmir
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CSN_sezdpartii  }
+	}
+
+	#Межрев Железная рука нации!
+	focus = {
+		id = CSN_mezhrevzheleznayarukanacii
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CSN_sezdpartii  }
+	}
+
+	#Игорь Воевода! Слава нашей армии!
+	focus = {
+		id = CSN_igorvoevodaslavanasheyarmii
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CSN_sezdpartii  }
+	}
+
+	#Борис Фрейман расчистит родную землю
+	focus = {
+		id = CSN_borisfreymanraschistitrodnuyuzemlyu
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CSN_sezdpartii  }
+	}
+
+}

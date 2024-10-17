@@ -1,0 +1,15 @@
+state={
+	id=719
+	name="STATE_719"
+	provinces={
+		3358 3963 5260 5367 6015 7446 11489 11591 11721 11819 
+	}
+       history={
+        victory_points = { 7446 6 }
+        victory_points = { 5260 10 }
+        victory_points = { 11819 4 }
+		owner = SSR
+	}
+	manpower=100000
+	state_category = large_town
+}

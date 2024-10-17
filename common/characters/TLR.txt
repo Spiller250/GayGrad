@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Лиза Уотсон
+lizauotson = {
+	name = lizauotson
+	portraits = {
+		civilian = {
+			#Custom image for Лиза Уотсон
+			large = "/gfx/leaders/TLR/FPhwuRBn-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = rynochnyyliberalizm
+		traits = {  }
+	}
+}
+}

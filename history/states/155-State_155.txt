@@ -1,0 +1,15 @@
+state={
+	id=155
+	name="STATE_155"
+	provinces={
+		72 216 2595 6228 8161 8180 8188 8213 8233 8254 8268 8285 8306 8337 8353 8406 
+	}
+ history={
+        victory_points = { 8353 5 }
+        victory_points = { 8188 20 }
+        victory_points = { 2595 21 }
+		owner = CRD
+	}
+	manpower=100000
+	state_category = large_town
+}

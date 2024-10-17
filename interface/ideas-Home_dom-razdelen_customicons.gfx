@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Дом Разделён
+	SpriteType = { 
+		name = "GFX_idea_Home__-721099"
+		texturefile = "gfx/interface/ideas/dom-razdelen-ideas/Home__-721099.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,15 @@
+state={
+	id=456
+	name="STATE_456"
+	provinces={
+		3730 7149 7298 9858 9990 10045 10167 10266 
+	}
+ history={
+        victory_points = { 3730 5 }
+        victory_points = { 10045 22 }
+        victory_points = { 7298 19 }
+		owner = YEL
+	}
+	manpower=100000
+	state_category = large_town
+}

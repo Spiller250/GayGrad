@@ -1,0 +1,16 @@
+state={
+	id=154
+	name="STATE_154"
+	provinces={
+		290 4004 4174 6757 8158 8182 8199 8200 8267 8275 8301 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 8182 25 }
+        victory_points = { 8275 13 }
+    victory_points = { 8200 19 }
+owner = NSC
+}

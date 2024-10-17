@@ -1,0 +1,15 @@
+state={
+	id=645
+	name="STATE_645"
+	provinces={
+		2204 4765 4803 5748 6005 11080 11100 11142 11253 11269 11306 11366 
+	}
+              history={
+        victory_points = { 11366 8 }
+        victory_points = { 11142 7 }
+        victory_points = { 11269 19 }
+		owner = TMK
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=1242
+	name="STATE_1242"
+	provinces={
+		6 175 1040 2126 4471 4510 5954 6352 14610 14640 14686 14698 14747 
+	}
+        history={
+        victory_points = { 14686 16 }
+        victory_points = { 175 8 }
+        victory_points = { 6 6 }
+		owner = AZO
+	}
+	manpower=100000
+	state_category = large_town
+	local_supplies=0.000
+}

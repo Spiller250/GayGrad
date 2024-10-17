@@ -1,0 +1,15 @@
+state={
+	id=284
+	name="STATE_284"
+	provinces={
+		2419 4474 4580 6167 6260 8860 8922 9041 9095 9096 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 4580 6 }
+        victory_points = { 2419 13 }
+    victory_points = { 8860 23 }
+owner = NRS
+}

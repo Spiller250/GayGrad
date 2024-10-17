@@ -1,0 +1,15 @@
+state={
+	id=449
+	name="STATE_449"
+	provinces={
+		3216 5183 7090 9807 9829 9862 9904 9967 
+	}
+       history={
+        victory_points = { 9967 25 }
+        victory_points = { 9807 22 }
+        victory_points = { 3216 4 }
+		owner = ENC
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,17 @@
+state={
+	id=92
+	name="STATE_92"
+	provinces={
+		816 1199 1369 2094 2628 2845 3515 3986 4611 4944 7533 7946 7957 
+	}
+
+ history={
+        victory_points = { 3986 15 }
+        victory_points = { 7946 8 }
+        victory_points = { 816 14 }
+		owner = ARM
+	}
+manpower=100000
+	state_category = large_town}
+
+	

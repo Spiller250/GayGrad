@@ -1,0 +1,16 @@
+state={
+	id=625
+	name="STATE_625"
+	provinces={
+		1645 2112 3131 4460 5805 7078 10890 11026 11033 11144 11233 11346 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11033 17 }
+        victory_points = { 3131 15 }
+    victory_points = { 11346 24 }
+owner = SNG
+}

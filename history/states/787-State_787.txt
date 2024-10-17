@@ -1,0 +1,16 @@
+state={
+	id=787
+	name="STATE_787"
+	provinces={
+		917 2355 7677 7790 11963 12071 12119 12169 12244 12251 12298 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 7790 8 }
+        victory_points = { 12298 23 }
+    victory_points = { 12244 22 }
+owner = BNA
+}

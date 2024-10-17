@@ -1,0 +1,15 @@
+state={
+	id=1249
+	name="STATE_1249"
+	provinces={
+		854 958 2303 3821 4979 5174 5267 7199 7227 14613 14623 14669 14753 14775 14811 14852 
+	}
+       history={
+        victory_points = { 958 21 }
+        victory_points = { 4979 22 }
+        victory_points = { 14775 22 }
+		owner = KIV
+	}
+	manpower=100000
+	state_category = large_town
+}

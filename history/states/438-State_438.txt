@@ -1,0 +1,16 @@
+state={
+	id=438
+	name="STATE_438"
+	provinces={
+		1881 4323 6071 7670 9790 9850 9882 9998 10022 10061 10098 10110 10151 10233 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 9850 18 }
+        victory_points = { 9790 15 }
+    victory_points = { 7670 24 }
+owner = TWC
+}

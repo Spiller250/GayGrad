@@ -1,0 +1,16 @@
+state={
+	id=174
+	name="STATE_174"
+	provinces={
+		810 1710 2113 3321 3725 4282 8186 8230 8308 8309 8313 8350 8358 8379 8403 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 3321 18 }
+        victory_points = { 2113 24 }
+    victory_points = { 8350 22 }
+owner = RDR
+}

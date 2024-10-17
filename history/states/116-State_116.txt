@@ -1,0 +1,14 @@
+state={
+	id=116
+	name="STATE_116"
+	provinces={
+		94 161 905 1427 1447 1582 2764 3099 3362 5359 7336 7342 7983 8017 8018 8024 8063 8066 8098 8129 
+	}
+	manpower=100000
+	state_category = large_town
+history = {
+        victory_points = { 94 24 }
+        victory_points = { 8098 25 }
+    victory_points = { 2764 15 }
+owner = TBR
+}

@@ -1,0 +1,16 @@
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		2562 2760 2778 4499 5635 6380 6760 11835 11879 11908 11922 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 11908 21 }
+        victory_points = { 11835 14 }
+    victory_points = { 6380 16 }
+owner = BNA
+}

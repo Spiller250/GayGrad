@@ -1,0 +1,15 @@
+state={
+	id=334
+	name="STATE_334"
+	provinces={
+		344 1432 2471 4157 4537 7128 9122 9136 9167 9217 9241 9258 9282 9329 9376 9465 
+	}
+       history={
+        victory_points = { 9282 23 }
+        victory_points = { 4157 5 }
+        victory_points = { 1432 10 }
+		owner = NOV
+	}
+	manpower=100000
+	state_category = large_town
+}

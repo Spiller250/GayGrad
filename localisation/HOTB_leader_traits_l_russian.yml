@@ -1,0 +1,319 @@
+﻿l_russian:
+
+##CAR Leader Traits##
+the_prophet:0 "Апостол Христа" #Armstrong
+young_leader:0 "Молодой лидер" #Rockwell/Yockey
+the_lone_eagle:0 "Одинокий орел" #Lindbergh
+COR_head_in_the_clouds:0 "Витать в облаках" #Lindbergh
+american_emperor:0 "Американский император" #Simmons
+blood_and_guts:0 "Старая кровь и кишки" #Patton
+terror_of_the_midwest:0 "Террор Среднего Запада" #Stephenson
+power_hungry:0 "Жажда власти" #Evans
+alfalfa_bill:0 "Люцерна Билл"  #Murray
+clever_aristocrat:0 "Умный Аристократ"  #Russell
+twentieth_century_philosopher:0 "Философ ХХ века"
+command_and_charisma:0 "Власть и харизма"
+
+##Syndies##
+the_marxist:0 "Марксист" #Burnham
+the_machevellian:0 "Макиавеллиан" #Burnham
+the_patriot:0 "Патриот" #Burnham
+managerialist:0 "Менеджер" #Burnham
+big_bill:0 "Большой Билл" #Haywood
+fighting_bob:0 "'Боевой Боб'" #Minor
+educator:0 "Педагог"
+head_of_techno_inc:0 "Глава Технократии" #Scott
+destroyer_of_worlds:0 "Разрушитель миров" #Oppenheimer
+#Reed:
+CSA_all_american_worker: "Всеамериканский рабочий"
+#Browder:
+CSA_new_founding_father: "Новый Отец-Основатель"
+#Foster:
+CSA_vanguard_of_the_new_america: "Авангард Новой Америки"
+#Flynn:
+CSA_freedom_above_all: "Свобода превыше всего"
+#Hoan:
+CSA_sewer_socialism: "Канализационный социализм"
+#Johns:
+CSA_agitated_labourer: "Взволнованный рабочий"
+#Roosevelt:
+CSA_first_lady_of_the_revolution: "Первая леди революции"
+#Keller:
+CSA_blind_socialist: "Слепой социалист"
+#Zeidler:
+CSA_the_american_haussmann: "Американский осман"
+#Allison:
+CSA_the_toiler: "Труженик"
+#Cannon:
+CSA_fervent_revolutionary: "Пылкий революционер"
+#Blomen:
+CSA_bloodless_revolutionary: "Бескровный революционер"
+#Petersen:
+CSA_de_leonist: "Совершенный Де Леонист"
+#Thomas:
+CSA_all_inclusive_socialist: "Всеохватывающий социалист"
+#Lewis:
+CSA_militant_union_boss: "Босс воинствующего союза"
+#Amter:
+CSA_voice_of_the_unemployed: "Голос безработных"
+#Hoopes:
+CSA_voice_of_moderation: "Голос умеренности"
+#Johnson:
+CSA_equal_education_opportunities: "Равные возможности для получения образования"
+#Randolph:
+CSA_peace_and_reconciliation: "Мир и примирение"
+#Butler/Carlson:
+CSA_maverick_marine: "'Маверик Марин'"
+#Waters:
+CSA_leader_of_bonus_army: "Глава бонусной армии"
+#Ricca:
+CSA_rat_traits:0 "Крыса"
+#Belbenoit:
+CSA_bagnard_traits:0 "Ле Баньяр"
+#Torrio:
+CSA_fox_traits:0 "Лиса"
+#Luciano:
+CSA_don_traits:0 "Капо ди Тутти и Капи"
+#Hoffa
+CSA_union_gangster_traits:0 "Гангстер-юнионист"
+#Seavey
+CSA_pirate_traits:0 "Пират Великих озер"
+#Barrow
+CSA_barrow_traits:0 "Главарь банды Барроу"
+#Dillinger
+CSA_jackrabbit_traits:0 "Джекраббит"
+#Francis Capone
+CSA_son_traits:0 "Сын Большого Эла"
+#Ральф Капоне
+CSA_bro_traits:0 "'Бутылка'"
+#Weiss
+CSA_one_man_capone_feared_traits:0 "Человек, которого боялся Капоне"
+#Flyod
+CSA_robin_hood_traits:0 "Робин Гуд"
+#Loeb
+CSA_utopian_technocrat_traits:0 "Утопический технократ"
+#Technocractic Council
+CSA_technocrat_council_traits:0 "Беспартийный совет"
+#Мэрион Кинг Хабберт
+CSA_king_technocracy_traits:0 "Король технократии"
+#Лоуренс Деннис
+CSA_color_technocracy:0 "Цвет технократии"
+
+###American Union State###
+radio_preist:0 "Радио священник" #Coughlin
+big_jim:0 "Большой Джим" #Jim Folson
+the_kingfish:0 "Королевская рыба" #Хьюи Лонг
+authoritarian_tendencies:0 "Авторитарные тенденции" #Pelley
+spirit_of_fighting_bob:0 "Дух боевого Боба" #LaFolette
+political_boss:0 "Политический босс" #Pendergast
+american_visionary:0 "Американский визионер" #Bingham's 2nd Trait
+earl_of_louisiana:0 "Граф Луизианы" #Earl's Imperial Trait
+rock_em_sock_em:0 "Rock 'Em Sock 'Em" #Earl's Democracy Trait
+fundamentalism_dogmatism_practicality:0 "Фундаментализм, догматизм и практичность" #Smith's Final Trait
+father_of_the_people:0 "Отец народа" #Coughlin's Final Trait
+pappy_odaniel:0 "Паппи О'Дэниел" #W Lee O'Daniel's Trait
+
+###United States of America###
+cactus_jack:0 "Кактус Джек" #Garner
+the_fighting_liberal:0 "Боевой либерал" #Norris
+savior_of_america:0 "Спаситель Америки" #To whoever can prevent the 2ACW
+the_great_compromiser:0 "Великий соглашатель" #Curtis
+the_committee:0 "Комитет" #American Junta
+unpopular_president:0 "Непопулярный президент"
+hated_president:0 "Ненавистный президент"
+beloved_president:0 "Популярный президент"
+failed_humanitarian:0 "Неудавшийся гуманитарный"
+the_old_man:0 "Великий старик"
+radio_star:0 "Радио Звезда"
+#Olson:
+USA_mediator_of_the_grand_coalition: "Посредник Большой коалиции"
+#Roosevelt:
+USA_bullmoose_jr: "Буллмуз младший."
+#Smith:
+USA_catholic_rose: "Католическая роза"
+#Barkley:
+USA_old_alben: "Старый Альбен"
+#Truman:
+USA_proud_idealist: "Гордый идеалист"
+#Stevenson:
+USA_thoughtful_ambassador: "Вдумчивый посол"
+#Hoover:
+USA_man_at_the_crossroads: "Человек на перекрестке"
+#Landon:
+USA_the_sunflower: "Подсолнух"
+#Taft:
+USA_mr_republican: "Мистер республиканец"
+#MacArthur:
+USA_cincinnatus: "Цинциннат"
+#Willkie:
+USA_political_outsider: "Политический аутсайдер"
+#Halleck:
+USA_foe_of_the_establishment: "Враг истеблишмента"
+#Hershey:
+USA_chocolate_king: "Шоколадный король"
+#Eisenhower:
+USA_hero_of_the_civil_war: "Герой Гражданской Войны"
+#Garner:
+USA_cactus_jack: "'Кактус Джек'"
+#Byrd:
+USA_symbol_of_the_old_south: "Символ Старого Юга"
+#Russell Jr.:
+USA_jim_crows_champion: "Чемпион Джима Кроу "
+#Chandler:
+USA_crossing_the_colour_line: "Пересечение цветовой линии"
+#Sparkman:
+USA_engineering_americas_future: "Инженерное будущее Америки"
+#Harding:
+USA_scandalous_progressive: "Скандал в прогрессивном стиле"
+#Green
+USA_first_klan_president_traits:0 "Президент из Клана"
+#Stewart
+USA_great_american_bachelor: "Великий американский бакалавр"
+
+###Pacific States of America###
+diehard_progressive:0 "Стойкий прогрессивный"
+author:0 "Знаменитый автор" #Sinclair
+cult_leader:0 "Лидер культа" #Boden
+freind_of_japan:0 "Друг Японии" #Thornburg
+appointed_from_tokyo:0 "Назначенный Токио" #Nomura
+l_ron_hubbard_was_a_black_man:0 "Мессия и сумасшедший" #Hubbard
+provisional_congress:0 "Временный Конгресс"
+#Wallace:
+PSA_world_planner: "Планировщик мира"
+#La Follette:
+PSA_legacy_of_progressivism: "Наследие прогрессивизма"
+#Taylor:
+PSA_the_singing_cowboy: "Поющий ковбой"
+#Gahagan-Douglas:
+PSA_she_who_must_be_obeyed: "Та, которой нужно подчиняться"
+#Johnson:
+PSA_inward_reformer: "Внутренний реформатор"
+#Olson:
+PSA_proud_atheist: "Гордый атеист"
+#Martin:
+PSA_taming_the_west: "Укрощение Запада"
+#Magnuson:
+PSA_proactive_interventionist: "Проактивный интервенционист"
+#Merriam:
+PSA_champion_of_the_establishment: "Чемпион Учреждения"
+#McNary:
+PSA_electrify_america: "Электрифицировать Америку"
+#Bracken Lee:
+PSA_small_government_firebrand: "Малый правительственный головорез"
+#Warren:
+PSA_crusader_of_justice: "Крестоносец справедливости"
+#Cain:
+PSA_political_pragmatist: "Мирской антиинтернационалист"
+#Nixon:
+PSA_tricky_dick: "Хитрый Дик"
+#Dean:
+PSA_famed_actor: "Бунт без повода"
+#Chaplin:
+PSA_the_tittle_tramp: "Маленький бродяга"
+#Heinlein:
+PSA_the_dean: "Декан"
+#Downey:
+PSA_smiling_oilman: "Улыбающийся нефтяник"
+#Sinclair:
+PSA_an_end_to_poverty: "Конец бедности"
+#Hughes/Disney
+PSA_empowered_executive: "Уполномоченный руководитель"
+ 
+###New England###
+elite_family_ties:0 "Элитные семейные узы"
+the_shy_peer:0 "Застенчивый сверстник" #Fairhaven
+anti_statist:0 "Хардкорный антистатист" #Nock
+popular_author:0 "Популярный автор" #Stoddard
+foreign_monarch:0 "Иностранный монарх" #Albert
+staunch_prohibitionist:0 "Убежденный сторонник запрета" #Colvin
+determined_peacemaker:0 "Решительный миротворец"
+race_relation_pioneer:0 "Пионер расовых отношений"
+local_monarch:0 "Монарх Новой Англии"
+baron_kennedy:0 "Барон Кеннеди"
+radical_environmentalist:0 "Радикальный эколог" 
+anarchist_enthusiast:0 "Анархист-энтузиаст"
+influential_entrepeneur:0 "Влиятельный предприниматель"
+purple_shamrock:0 "Пурпурный трилистник"
+#Bowles:
+NEE_foreign_aid_proponent: "Сторонник иностранной помощи"
+#Walsh:
+NEE_outspoken_isolationist: "Откровенный изоляционист"
+#Hurley:
+NEE_great_naturaliser: "Великий натурализатор"
+#Tobin:
+NEE_friend_of_labour: "Друг труда"
+#Harriman:
+NEE_committed_diplomat: "Преданный дипломат"
+#Barrows:
+NEE_strikebreaker: "Штрейкбрейкер"
+#Martin Jr.:
+NEE_compromise_candidate: "Компромиссный кандидат"
+#Winant:
+NEE_social_security_proponent: "Сторонник социального обеспечения"
+#Baldwin:
+NEE_small_government_conservative: "Консерватор малого правительства"
+#Aiken:
+NEE_defender_of_the_common_folk: "Защитник простого народа"
+#Dewey:
+NEE_incorruptible_gangbuster: "Неподкупный гангбастер"
+
+###Black Belt Republic###
+the_pharoah:0 "Чёрный Фараон" #Дусе Мухаммад
+rabble_rouser:0 "Раббл Роузер"
+perserver_of_culture:0 "Хранитель культуры" #Husrton
+author_actor_athlete:0 "Автор, Актер, Спортсмен" #Robeson
+founder_of_the_ncaap:0 "Основатель НААКП" #DuBuois
+god_himself:0 "Сам Бог" #Фатер Дивайн
+the_honourable:0 "Мессенджер" #Элайджа Мухаммад
+
+###Western Command Center###
+desperate_defender:0 "Отчаянный защитник" #Bradley
+american_pompey:0 "Американский Помпей" #Bradley
+
+###NYC###
+black_socrates:0 "Чёрный Сократ"
+negro_debs:0 "'Негр' Юджин Дебс"
+hero_harlem:0 "Герой Гарлема"
+racket_queen:0 "Королева рэкета"
+black_moses:0 "Чёрный Моисей"
+godfather_harlem:0 "Крестный отец Гарлема"
+
+###Haiti###
+baron_samedi:0 "Барон Самеди"
+personality_cult:0 "Культ Личности"
+immaterial_being:0 "Нематериальное существо"
+king_of_la_gonave:0 "Король Ла-Гонавы"
+popular_marine:0 "Народный морской пехотинец"
+emperor_of_haiti:0 "Реинкарнация Фаустина I"
+romantic_marxist:0 "Романтический синдикалист"
+militant_poet:0 "Воинствующий поэт"
+dew_master:0 "Мастер Росы"
+charismatic_lawyer:0 "Харизматичный юрист"
+elitist_intellectual:0 "Элитный интеллектуал"
+crimson_columnist:0 "Багровый обозреватель"
+savior_of_democracy:0 "Спаситель Гаити"
+warrior_poet:0 "Воин-поэт"
+Principled_democrat:0 "Принципиальный демократ"
+kreyol_commander:0 "Командир Креола"
+liberal_noiriste:0 "либеральный нуарист"
+face_of_haitis_center:0 "Лицо гаитянского центра"
+anti_elite_crusader:0 "Антиэлитный крестоносец"
+self_made_man:0 "Человек, сделавший себя сам"
+sugar_baron:0 "Гаитянский сахарный барон"
+legacy_of_geffrard:0 "Наследие Джеффрарда"
+staunch_conservative:0 "Стойкий консерватор"
+anti_leftist_champion:0 "Антилевый чемпион"
+meek_diplomat:0 "Кроткий дипломат"
+american_puppet:0 "Американская марионетка"
+the_unpopular_leader:0 "Непопулярный лидер"
+disciplined_soldier:0 "Дисциплинированный солдат"
+head_of_the_garde:0 "Глава гвардии"
+the_dynamic_duo:0 "Динамичный дуэт"
+the_outsider:0 "Посторонний"
+talented_marine:0 "Талантливый морской пехотинец"
+brave_leader:0 "Храбрый лидер"
+guiding_hand_of_haiti:0 "Путеводная рука Гаити"
+military_backing:0 "Военная поддержка"
+drunkard:0 "Пьяница"
+famous_poet:0 "Известный поэт"
+powerful_protege:0 "Властный протеже"

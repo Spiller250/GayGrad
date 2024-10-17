@@ -1,0 +1,8 @@
+TMK_DIV_0_0 = {	name = "Example Division"
+	for_countries = { TMK }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. Example Division"
+}

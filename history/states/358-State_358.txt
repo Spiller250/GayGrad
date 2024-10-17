@@ -1,0 +1,15 @@
+state={
+	id=358
+	name="STATE_358"
+	provinces={
+		266 382 1345 2220 3455 4455 5740 6573 6817 6997 7570 9360 9381 9403 9488 9568 9671 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 9360 7 }
+        victory_points = { 3455 12 }
+    victory_points = { 9381 8 }
+owner = NTC
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Томас Джонсон
+tomasdzhonson = {
+	name = tomasdzhonson
+	portraits = {
+		civilian = {
+			#Custom image for Томас Джонсон
+			large = "/gfx/leaders/ACO/fgBTdRYQ-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = libertarianstvo
+		traits = {  }
+	}
+}
+}

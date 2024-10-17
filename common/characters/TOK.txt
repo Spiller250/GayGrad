@@ -1,0 +1,953 @@
+characters = {
+
+#Create country leader - Группа Олигархов
+Anastasia = {
+	name = Anastasia 
+	portraits = {
+		civilian = {
+			#Custom image for Группа Олигархов
+			large = "/gfx/leaders/TOK/ANAS.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = avtoritarnyymonarhizm
+		traits = {  }
+	}
+}
+
+#Create country leader - Богдан Кабанов
+bogdankabanov = {
+	name = bogdankabanov
+	portraits = {
+		civilian = {
+			#Custom image for Богдан Кабанов
+			large = "/gfx/leaders/TOK/BOG.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = kievgradskayasistema
+		traits = {  dictator great_survivor }
+	}
+}
+
+#Create country leader - Богдан Кабанов
+bogdankabanov1 = {
+	name = bogdankabanov1
+	portraits = {
+		civilian = {
+			#Custom image for Богдан Кабанов
+			large = "/gfx/leaders/TOK/BOG1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = tradicionnayateokratiya 
+		traits = {  dictator great_survivor }
+	}
+}
+
+characters = {
+    # Create political advisor
+    TOK_advisor_1 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_1.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_1_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { political_power_gain_factor = 0.05 stability_factor = 0.10 }
+            idea_token = TOK_advisor_1_idea
+            available = {
+                has_government = monarhizm
+            }
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_2 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_2.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_2_small.dds"
+            }
+        }
+        advisor = {
+            slot = industrial_advisor
+            traits = { construction_speed_factor = 0.10 }
+            idea_token = TOK_advisor_2_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_3 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_3.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_3_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { stability_factor = 0.10 }
+            idea_token = TOK_advisor_3_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_4 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_4.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_4_small.dds"
+            }
+        }
+        advisor = {
+            slot = military_advisor
+            traits = { land_doctrine_research_speed_factor = 0.10 }
+            idea_token = TOK_advisor_4_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_5 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_5.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_5_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { monarhizm_factor = 0.10 }
+            idea_token = TOK_advisor_5_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_6 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_6.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_6_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { war_support_factor = 0.05 }
+            idea_token = TOK_advisor_6_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_7 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_7.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_7_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { stability_factor = 0.10 }
+            idea_token = TOK_advisor_7_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_8 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_8.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_8_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { construction_speed_factor = 0.10 }
+            idea_token = TOK_advisor_8_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_9 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_9.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_9_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { political_power_gain_factor = 0.05 }
+            idea_token = TOK_advisor_9_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_10 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_10.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_10_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { stability_factor = 0.10 }
+            idea_token = TOK_advisor_10_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_11 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_11.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_11_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { war_support_factor = 0.05 }
+            idea_token = TOK_advisor_11_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_12 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_12.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_12_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { stability_factor = 0.10 }
+            idea_token = TOK_advisor_12_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_13 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_13.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_13_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { construction_speed_factor = 0.10 }
+            idea_token = TOK_advisor_13_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_14 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_14.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_14_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { political_power_gain_factor = 0.05 }
+            idea_token = TOK_advisor_14_idea
+        }
+    }
+
+    # Create political advisor
+    TOK_advisor_15 = {
+        portraits = {
+            civilian = {
+                large = "/gfx/interface/ideas/TOK_advisor_15.dds"
+                small = "/gfx/interface/ideas/TOK_advisor_15_small.dds"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = { stability_factor = 0.10 }
+            idea_token = TOK_advisor_15_idea
+        }
+    }
+}
+
+characters = {
+    # Generals
+    TOK_general_1 = {
+        name = "General 1"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_1_large.dds"
+                small = "gfx/interface/ideas/general_1_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { old_guard harsh_leader }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_2 = {
+        name = "General 2"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_2_large.dds"
+                small = "gfx/interface/ideas/general_2_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { trickster mountaineer }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_3 = {
+        name = "General 3"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_3_large.dds"
+                small = "gfx/interface/ideas/general_3_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { logistic_wizard engineer }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+        }
+    }
+
+    TOK_general_4 = {
+        name = "General 4"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_4_large.dds"
+                small = "gfx/interface/ideas/general_4_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { offensive_doctrine defensive_doctrine }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_5 = {
+        name = "General 5"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_5_large.dds"
+                small = "gfx/interface/ideas/general_5_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { charismatic aggressive_assault }
+            skill = 2
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_6 = {
+        name = "General 6"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_6_large.dds"
+                small = "gfx/interface/ideas/general_6_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { adaptable cavalry_leader }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_7 = {
+        name = "General 7"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_7_large.dds"
+                small = "gfx/interface/ideas/general_7_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { hill_fighter commando }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_8 = {
+        name = "General 8"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_8_large.dds"
+                small = "gfx/interface/ideas/general_8_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { invader amphibious }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_9 = {
+        name = "General 9"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_9_large.dds"
+                small = "gfx/interface/ideas/general_9_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { desert_fox ranger }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_10 = {
+        name = "General 10"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_10_large.dds"
+                small = "gfx/interface/ideas/general_10_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { infantry_leader fast_planner }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_11 = {
+        name = "General 11"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_11_large.dds"
+                small = "gfx/interface/ideas/general_11_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { adaptable panzer_leader }
+            skill = 2
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_12 = {
+        name = "General 12"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_12_large.dds"
+                small = "gfx/interface/ideas/general_12_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { urban_assault specialist }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_13 = {
+        name = "General 13"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_13_large.dds"
+                small = "gfx/interface/ideas/general_13_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { charismatic trickster }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+        }
+    }
+
+    TOK_general_14 = {
+        name = "General 14"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_14_large.dds"
+                small = "gfx/interface/ideas/general_14_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { engineer winter_specialist }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    TOK_general_15 = {
+        name = "General 15"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/general_15_large.dds"
+                small = "gfx/interface/ideas/general_15_small.dds"
+            }
+        }
+        corps_commander = {
+            traits = { aggressive_assault ambusher }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    # Field Marshals
+    TOK_field_marshal_1 = {
+        name = "Field Marshal 1"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/field_marshal_1_large.dds"
+                small = "gfx/interface/ideas/field_marshal_1_small.dds"
+            }
+        }
+        field_marshal = {
+            traits = { logistics_wizard organization_first }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+
+    TOK_field_marshal_1 = {
+        name = "Field Marshal 1"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/field_marshal_1_large.dds"
+                small = "gfx/interface/ideas/field_marshal_1_small.dds"
+            }
+        }
+        field_marshal = {
+            traits = { logistics_wizard organization_first }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+
+    TOK_field_marshal_2 = {
+        name = "Field Marshal 2"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/field_marshal_2_large.dds"
+                small = "gfx/interface/ideas/field_marshal_2_small.dds"
+            }
+        }
+        field_marshal = {
+            traits = { offensive_doctrine charismatic }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    TOK_field_marshal_3 = {
+        name = "Field Marshal 3"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/field_marshal_3_large.dds"
+                small = "gfx/interface/ideas/field_marshal_3_small.dds"
+            }
+        }
+        field_marshal = {
+            traits = { defensive_doctrine fortress_buster }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    TOK_field_marshal_4 = {
+        name = "Field Marshal 4"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/field_marshal_4_large.dds"
+                small = "gfx/interface/ideas/field_marshal_4_small.dds"
+            }
+        }
+        field_marshal = {
+            traits = { thorough_planner cautious }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 1
+        }
+    }
+
+    TOK_field_marshal_5 = {
+        name = "Field Marshal 5"
+        portraits = {
+            army = {
+                large = "gfx/leaders/TOK/field_marshal_5_large.dds"
+                small = "gfx/interface/ideas/field_marshal_5_small.dds"
+            }
+        }
+        field_marshal = {
+            traits = { inspirational politically_connected }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+}
+
+#Create military leader - Владимир Драгомиров
+	vladimirdragomirov = {
+		name = "vladimirdragomirov"
+		portraits = {
+			army = {
+				#Custom images for Владимир Драгомиров
+				large = "/gfx/leaders/TOK/vladimirdragomirov-696864.dds"
+				small = "/gfx/interface/ideas/TOK/vladimirdragomirov-696864.dds"
+			}
+		}
+		corps_commander = {
+			traits = { logistics_wizard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		legacy_id = 1941299270
+		}
+	}
+
+#Create military leader - Сергей Азблотов
+	sergeyazblotov = {
+		name = "sergeyazblotov"
+		portraits = {
+			army = {
+				#Custom images for Сергей Азблотов
+				large = "/gfx/leaders/TOK/sergeyazblotov-696871.dds"
+				small = "/gfx/interface/ideas/TOK/sergeyazblotov-696871.dds"
+			}
+		}
+		corps_commander = {
+			traits = { aggressive_assaulter }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		legacy_id = 1941299271
+		}
+	}
+
+#Create military leader - Игорь Кобзар
+	igorkobzar = {
+		name = "igorkobzar"
+		portraits = {
+			army = {
+				#Custom images for Игорь Кобзар
+				large = "/gfx/leaders/TOK/igorkobzar-696876.dds"
+				small = "/gfx/interface/ideas/TOK/igorkobzar-696876.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_engineer trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		legacy_id = 1941299272
+		}
+	}
+
+#Create military leader - Алексей Васильев
+	alekseyvasilev = {
+		name = "alekseyvasilev"
+		portraits = {
+			army = {
+				#Custom images for Алексей Васильев
+				large = "/gfx/leaders/TOK/alekseyvasilev-696885.dds"
+				small = "/gfx/interface/ideas/TOK/alekseyvasilev-696885.dds"
+			}
+		}
+		corps_commander = {
+			traits = { winter_specialist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		legacy_id = 1941299273
+		}
+	}
+
+#Create military leader - Ким Сон-хун
+	kimsonhun = {
+		name = "kimsonhun"
+		portraits = {
+			army = {
+				#Custom images for Ким Сон-хун
+				large = "/gfx/leaders/TOK/kimsonhun-696896.dds"
+				small = "/gfx/interface/ideas/TOK/kimsonhun-696896.dds"
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		legacy_id = 1941299274
+		}
+	}
+
+#Create military leader - Леонид Карпов
+	leonidkarpov = {
+		name = "leonidkarpov"
+		portraits = {
+			army = {
+				#Custom images for Леонид Карпов
+				large = "/gfx/leaders/TOK/leonidkarpov-696897.dds"
+				small = "/gfx/interface/ideas/TOK/leonidkarpov-696897.dds"
+			}
+		}
+		corps_commander = {
+			traits = { offensive_doctrine }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1941299275
+		}
+	}
+
+#Create military leader - Андрей Лебедев
+	andreylebedev = {
+		name = "andreylebedev"
+		portraits = {
+			army = {
+				#Custom images for Андрей Лебедев
+				large = "/gfx/leaders/TOK/andreylebedev-696898.dds"
+				small = "/gfx/interface/ideas/TOK/andreylebedev-696898.dds"
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		legacy_id = 1941299276
+		}
+	}
+
+#Create military leader - Владислав Ковальчук
+	vladislavkovalchuk = {
+		name = "vladislavkovalchuk"
+		portraits = {
+			army = {
+				#Custom images for Владислав Ковальчук
+				large = "/gfx/leaders/TOK/vladislavkovalchuk-696899.dds"
+				small = "/gfx/interface/ideas/TOK/vladislavkovalchuk-696899.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected organizer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		legacy_id = 1941299277
+		}
+	}
+
+#Create military leader - 
+	MpLdXjuD = {
+		name = "MpLdXjuD"
+		portraits = {
+			army = {
+				#Custom images for 
+				large = "/gfx/leaders/TOK/MpLdXjuD-696901.dds"
+				small = "/gfx/interface/ideas/TOK/MpLdXjuD-696901.dds"
+			}
+		}
+		corps_commander = {
+			traits = { unyielding_defender }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		legacy_id = 1941299278
+		}
+	}
+
+#Create military leader - Горислав Власов
+	gorislavvlasov = {
+		name = "gorislavvlasov"
+		portraits = {
+			army = {
+				#Custom images for Горислав Власов
+				large = "/gfx/leaders/TOK/gorislavvlasov-696902.dds"
+				small = "/gfx/interface/ideas/TOK/gorislavvlasov-696902.dds"
+			}
+		}
+		corps_commander = {
+			traits = { navy_media_personality }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1941299279
+		}
+	}
+
+#Create military leader - Сергей  Мельник 
+	sergeymelnik = {
+		name = "sergeymelnik"
+		portraits = {
+			army = {
+				#Custom images for Сергей  Мельник 
+				large = "/gfx/leaders/TOK/sergeymelnik-696904.dds"
+				small = "/gfx/interface/ideas/TOK/sergeymelnik-696904.dds"
+			}
+		}
+		field_marshal = {
+			traits = { old_guard combined_arms_expert war_hero }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 5
+		legacy_id = 19412992710
+		}
+	}
+
+#Create military leader - Милорад Михайлов
+	miloradmihaylov = {
+		name = "miloradmihaylov"
+		portraits = {
+			army = {
+				#Custom images for Милорад Михайлов
+				large = "/gfx/leaders/TOK/miloradmihaylov-696906.dds"
+				small = "/gfx/interface/ideas/TOK/miloradmihaylov-696906.dds"
+			}
+		}
+		field_marshal = {
+			traits = { skilled_staffer crisis_magician }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 4
+		legacy_id = 19412992711
+		}
+	}
+
+#Create military leader - Геннадий Ковач
+	gennadiykovach = {
+		name = "gennadiykovach"
+		portraits = {
+			army = {
+				#Custom images for Геннадий Ковач
+				large = "/gfx/leaders/TOK/gennadiykovach-696907.dds"
+				small = "/gfx/interface/ideas/TOK/gennadiykovach-696907.dds"
+			}
+		}
+		field_marshal = {
+			traits = { trait_cautious }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		legacy_id = 19412992712
+		}
+	}
+
+	yaroslavboyko = {
+		name = "yaroslavboyko"
+		portraits = {
+			army = {
+				#Custom images for Ярослав Бойко
+				large = "/gfx/leaders/TOK/yaroslavboyko-696908.dds"
+				small = "/gfx/interface/ideas/TOK/yaroslavboyko-696908.dds"
+			}
+		}
+		navy_leader = {
+			traits = { naval_liason }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = 3941299270
+		}
+	}
+}

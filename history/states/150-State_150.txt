@@ -1,0 +1,15 @@
+state={
+	id=150
+	name="STATE_150"
+	provinces={
+		2100 3867 5008 5621 8195 8256 
+	}
+       history={
+        victory_points = { 8256 13 }
+        victory_points = { 5621 4 }
+        victory_points = { 3867 25 }
+		owner = TAT
+	}
+	manpower=100000
+	state_category = large_town
+}

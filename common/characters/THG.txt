@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Уильям Джобс
+uilyamdzhobs = {
+	name = uilyamdzhobs
+	portraits = {
+		civilian = {
+			#Custom image for Уильям Джобс
+			large = "/gfx/leaders/THG/xbgZyCsJ-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = tehnokraticheskiyprogressivizm
+		traits = {  }
+	}
+}
+}

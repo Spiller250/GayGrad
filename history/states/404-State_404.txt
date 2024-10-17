@@ -1,0 +1,15 @@
+state={
+	id=404
+	name="STATE_404"
+	provinces={
+		427 1448 3244 6396 9540 9582 9633 9665 9747 9795 9843 10005 
+	}
+ history={
+        victory_points = { 9540 17 }
+        victory_points = { 9747 5 }
+        victory_points = { 1448 16 }
+		owner = CAN
+	}
+	manpower=100000
+	state_category = large_town
+}

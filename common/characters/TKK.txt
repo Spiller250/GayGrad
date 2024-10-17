@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Король Филипп III
+korolfilippiii = {
+	name = korolfilippiii
+	portraits = {
+		civilian = {
+			#Custom image for Король Филипп III
+			large = "/gfx/leaders/TKK/SkbwXAEL-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = konservativnyymonarhizm
+		traits = {  }
+	}
+}
+}

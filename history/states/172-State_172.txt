@@ -1,0 +1,15 @@
+state={
+	id=172
+	name="STATE_172"
+	provinces={
+		470 746 1377 3002 6053 7232 7693 8271 8307 8319 8341 8342 8398 8434 8491 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 3002 4 }
+        victory_points = { 746 12 }
+    victory_points = { 8398 23 }
+owner = LHT
+}

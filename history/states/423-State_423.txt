@@ -1,0 +1,15 @@
+state={
+	id=423
+	name="STATE_423"
+	provinces={
+		1696 3695 3795 5684 6017 6236 9558 9648 9722 9796 9868 9951 
+	}
+ history={
+        victory_points = { 6236 13 }
+        victory_points = { 9868 22 }
+        victory_points = { 9558 14 }
+		owner = YEL
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,16 @@
+state={
+	id=447
+	name="STATE_447"
+	provinces={
+		911 1958 4559 9839 9866 9917 9943 9974 9975 10052 10062 10079 10125 10135 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 10052 16 }
+        victory_points = { 9866 8 }
+    victory_points = { 10062 25 }
+owner = GLZ
+}

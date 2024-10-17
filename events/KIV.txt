@@ -1,0 +1,56 @@
+add_namespace = kievgrad_unified
+add_namespace = KIV
+
+country_event = {
+    id = kievgrad_unified.1
+    title = kievgrad_unified.1.t
+    desc = kievgrad_unified.1.d
+    picture = GFX_report_event_generic
+
+    is_triggered_only = yes
+
+    option = {
+        name = kievgrad_unified.1.a
+        set_country_flag = kiev_unified_flag
+        set_cosmetic_tag = UKR # Изменение тега страны (например, на Украину)
+    }
+}
+
+country_event = {
+    id = KIV.workers_issue_event
+    title = "Проблема рабочих"
+    desc = "Баланс сил между рабочими и правительством нарушается. Рабочие требуют улучшений, но правительство готово подавить недовольство. Какую сторону вы поддержите?"
+
+    picture = GFX_report_event
+
+    is_triggered_only = yes
+    trigger = {
+        tag = KIV
+    }
+
+    option = {
+        name = "Поддержать рабочих"
+        add_power_balance_value = {
+            side = workers
+            value = 0.3
+        }
+        set_country_flag = supported_workers
+        clr_country_flag = supported_government
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "Поддержать правительство"
+        add_power_balance_value = {
+            side = government
+            value = -0.3
+        }
+        set_country_flag = supported_government
+        clr_country_flag = supported_workers
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

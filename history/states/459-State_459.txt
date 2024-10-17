@@ -1,0 +1,16 @@
+state={
+	id=459
+	name="STATE_459"
+	provinces={
+		2006 2666 3489 4366 9920 9927 10013 10033 10073 10074 10164 10278 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 2666 13 }
+        victory_points = { 4366 16 }
+    victory_points = { 10278 5 }
+owner = CCC
+}

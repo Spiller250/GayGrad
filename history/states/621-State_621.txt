@@ -1,0 +1,15 @@
+state={
+	id=621
+	name="STATE_621"
+	provinces={
+		751 2430 3112 5618 5792 5900 10878 10939 10975 11043 11062 11155 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 10878 25 }
+        victory_points = { 11062 25 }
+    victory_points = { 11043 25 }
+owner = TLR
+}

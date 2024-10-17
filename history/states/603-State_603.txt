@@ -1,0 +1,15 @@
+state={
+	id=603
+	name="STATE_603"
+	provinces={
+		938 1657 1750 1824 4373 10742 10829 10918 10933 11000 11035 11064 11106 11117 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 10918 21 }
+        victory_points = { 11064 16 }
+    victory_points = { 11000 12 }
+owner = NGR
+}

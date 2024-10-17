@@ -1,0 +1,15 @@
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		370 1759 3656 4411 4520 6464 12998 13072 13142 13143 13189 
+	}
+ history={
+        victory_points = { 370 21 }
+        victory_points = { 12998 25 }
+        victory_points = { 3656 10 }
+		owner = TPR
+	}
+	manpower=100000
+	state_category = large_town
+}

@@ -1,0 +1,15 @@
+state={
+	id=1039
+	name="STATE_1039"
+	provinces={
+		1614 1782 2073 4727 6415 7052 7219 7432 13500 13535 13590 13617 13728 
+	}
+       history={
+        victory_points = { 7219 12 }
+        victory_points = { 13728 7 }
+        victory_points = { 1782 22 }
+		owner = SSR
+	}
+	manpower=100000
+	state_category = large_town
+}

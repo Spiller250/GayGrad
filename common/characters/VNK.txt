@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Виктор Веннц
+viktorvennc = {
+	name = viktorvennc
+	portraits = {
+		civilian = {
+			#Custom image for Виктор Веннц
+			large = "/gfx/leaders/VNK/DyJHwCvx-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = tehnokraticheskiyprogressivizm
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,15 @@
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		398 1435 1721 2713 5096 5102 5656 6291 7231 7542 9252 9369 9419 9547 9629 9685 9710 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 7231 25 }
+        victory_points = { 1721 21 }
+    victory_points = { 398 6 }
+owner = TKR
+}

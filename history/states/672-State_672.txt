@@ -1,0 +1,15 @@
+state={
+	id=672
+	name="STATE_672"
+	provinces={
+		1982 3030 3649 5894 6610 7288 7385 11204 11234 11302 11387 11448 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 3030 4 }
+        victory_points = { 11234 6 }
+    victory_points = { 5894 14 }
+owner = TKK
+}

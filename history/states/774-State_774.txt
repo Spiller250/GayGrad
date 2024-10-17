@@ -1,0 +1,16 @@
+state={
+	id=774
+	name="STATE_774"
+	provinces={
+		1571 6177 6771 7725 11844 11919 11920 11970 12051 12143 12185 
+	}
+	manpower=100000
+	state_category = large_town
+
+
+history = {
+        victory_points = { 12051 11 }
+        victory_points = { 12143 5 }
+    victory_points = { 6771 6 }
+owner = LNR
+}

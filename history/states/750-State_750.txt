@@ -1,0 +1,15 @@
+state={
+	id=750
+	name="STATE_750"
+	provinces={
+		857 941 955 1521 4002 5034 7704 11730 11823 11836 11837 11900 12039 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 11836 11 }
+        victory_points = { 12039 22 }
+    victory_points = { 4002 9 }
+owner = TLR
+}

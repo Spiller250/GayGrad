@@ -1,0 +1,15 @@
+state={
+	id=365
+	name="STATE_365"
+	provinces={
+		2676 2703 5261 6857 7295 9322 9400 9408 9417 9500 9533 9578 9642 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 5261 11 }
+        victory_points = { 2703 14 }
+    victory_points = { 9533 10 }
+owner = VNK
+}

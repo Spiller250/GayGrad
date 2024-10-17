@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Анна Березова
+annaberezova = {
+	name = annaberezova
+	portraits = {
+		civilian = {
+			#Custom image for  Анна Березова
+			large = "/gfx/leaders/BER/oGuKictH-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = centrism
+		traits = {  }
+	}
+}
+}

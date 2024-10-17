@@ -1,0 +1,15 @@
+state={
+	id=319
+	name="STATE_319"
+	provinces={
+		260 2019 2064 2375 4546 5776 5974 9225 9277 9335 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 260 21 }
+        victory_points = { 9335 15 }
+    victory_points = { 2019 21 }
+owner = NTC
+}

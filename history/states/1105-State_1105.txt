@@ -1,0 +1,15 @@
+state={
+	id=1105
+	name="STATE_1105"
+	provinces={
+		1512 4155 4325 4621 4846 7554 13773 13845 13867 13877 13909 13928 13950 13979 14132 
+	}
+       history={
+        victory_points = { 14132 14 }
+        victory_points = { 7554 5 }
+        victory_points = { 1512 15 }
+		owner = TSC
+	}
+	manpower=100000
+	state_category = large_town
+}

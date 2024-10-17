@@ -1,0 +1,17 @@
+characters = {
+#Create country leader -  Жэнь Хань
+zhenhan = {
+	name = zhenhan
+	portraits = {
+		civilian = {
+			#Custom image for  Жэнь Хань
+			large = "/gfx/leaders/TZS/pDUAHGjB-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+}

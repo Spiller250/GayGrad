@@ -1,0 +1,15 @@
+state={
+	id=187
+	name="STATE_187"
+	provinces={
+		515 796 1362 3053 3439 4345 4489 6823 8321 8348 8371 8393 8442 8455 8473 
+	}
+ history={
+        victory_points = { 4345 13 }
+        victory_points = { 6823 10 }
+        victory_points = { 8371 14 }
+		owner = CUB
+	}
+	manpower=100000
+	state_category = large_town
+}

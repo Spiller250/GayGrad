@@ -1,0 +1,15 @@
+state={
+	id=873
+	name="STATE_873"
+	provinces={
+		333 4050 6392 12472 12558 12641 12642 12722 12723 12732 12894 
+	}
+	manpower=100000
+	state_category = large_town
+
+history = {
+        victory_points = { 12472 11 }
+        victory_points = { 12722 19 }
+    victory_points = { 12723 16 }
+owner = TLI
+}

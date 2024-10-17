@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Иван Зорин
+ivanzorin = {
+	name = ivanzorin
+	portraits = {
+		civilian = {
+			#Custom image for Иван Зорин
+			large = "/gfx/leaders/NRR/hNmlnJcy-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nacionalnyysocializm
+		traits = {  }
+	}
+}
+}

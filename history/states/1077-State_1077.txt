@@ -1,0 +1,15 @@
+state={
+	id=1077
+	name="STATE_1077"
+	provinces={
+		1311 4167 4823 5496 13638 13685 13758 13772 13821 
+	}
+       history={
+        victory_points = { 4167 20 }
+        victory_points = { 13772 10 }
+        victory_points = { 13758 6 }
+		owner = TBK 
+	}
+	manpower=100000
+	state_category = large_town
+}
