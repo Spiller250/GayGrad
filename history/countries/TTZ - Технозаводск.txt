@@ -4,8 +4,8 @@ set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 0
-
-
+recruit_character = TTZ_mama
+recruit_character = TTZ_mama2
 add_ideas = {
 	scraping_the_barrel
 	all_adults_serve
@@ -15,7 +15,7 @@ add_ideas = {
 	civilian_economy
 }
 
-
+give_military_access = TTS
 
 
 #For start date 1939.1.1

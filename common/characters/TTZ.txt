@@ -1,1 +1,51 @@
-characters = {}
+Characters = {
+	TTZ_mama = {
+		name = TTZ_mama_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TTZ/mama.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialnyyprogressivizm
+			traits = {
+				political_dancer
+			}
+			#desc = ALG_bendzhedit_desc
+		}
+		corps_commander={
+			#desc = NTS_vovka_ezh_desc
+			traits={ war_hero media_personality politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TTZ_mama2 = {
+		name = TTZ_mama_name2
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TTZ_mama"
+			}
+		}
+		country_leader = {
+			ideology = tehnokraticheskiyprogressivizm
+			traits = {
+			}
+			#desc = ALG_bendzhedit_desc
+		}
+		corps_commander={
+			#desc = NTS_vovka_ezh_desc
+			traits={ war_hero media_personality politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}
