@@ -4,12 +4,23 @@ state={
 	provinces={
 		317 2163 3736 5089 5105 6188 6331 13764 13804 13835 13874 13891 
 	}
-	manpower=100000
+	manpower=542120
 	state_category = large_town
+	resources={
+		steel=14
+		oil=31
+		rubber=12
+		tungsten=1
+	}
 
 history = {
         victory_points = { 317 25 }
         victory_points = { 13874 6 }
     victory_points = { 13764 16 }
 owner = TVF
+	buildings = {
+		infrastructure = 2
+		#arms_factory = 3
+		industrial_complex = 3
+	}
 }

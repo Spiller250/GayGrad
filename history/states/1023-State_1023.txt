@@ -4,8 +4,11 @@ state={
 	provinces={
 		945 5863 6125 6150 7105 13397 13524 
 	}
-	manpower=100000
+	manpower=222000
 	state_category = large_town
+	resources={
+		steel=31
+	}
 
 
 history = {
@@ -13,4 +16,9 @@ history = {
         victory_points = { 13397 5 }
     victory_points = { 6150 24 }
 owner = TLI
+	buildings = {
+		infrastructure = 1
+		arms_factory = 1
+		industrial_complex = 1
+	}
 }
