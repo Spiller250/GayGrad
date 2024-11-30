@@ -10,7 +10,7 @@ andreynorkin = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = socialism
+		ideology = liberal_socialism
 		traits = {  }
 	}
 }

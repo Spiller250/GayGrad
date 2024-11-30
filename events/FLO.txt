@@ -1,4 +1,5 @@
 add_namespace = FLO.dixieland_event
+add_namespace = FLO
 
 country_event = {
     id = FLO.dixieland_event.1
@@ -11,5 +12,27 @@ country_event = {
         name = "Long live Dixieland!"
         set_cosmetic_tag = FLO_dixieland
         set_global_flag = FLO_dixieland
+    }
+}
+
+
+country_event = {
+    id = FLO.alliance_decision
+    title = "Союз или Независимость?"
+    desc = "FLO должна выбрать между Альянсом с Новоградом или свободой с Пасифией."
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
+
+    option = {
+        name = "Мы за Новоград!"
+        ai_chance = { factor = 30 }
+        NOV = { add_to_faction = FLO }
+    }
+
+    option = {
+        name = "Свобода превыше всего!"
+        ai_chance = { factor = 70 }
+        release = FLO
+        PAS = { add_to_faction = FLO }
     }
 }

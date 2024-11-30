@@ -27,15 +27,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = konservatizm ##Рулевая партия
+	ruling_party = social_liberal  ##Рулевая партия
 	last_election = "1936.1.1" ##Последние выборы (если есть)
 	election_frequency = 48 ##Через сколько проводят выборы
 	elections_allowed = no ##Есть ли выборы
 }
 
 set_popularities = {
-        liberalizm = 50
-        konservatizm = 50
+	social_liberal = 40
+	conservative = 30
+	fascist = 20
+	market_liberal = 10
+	
 }
 
 recruit_character = Nathan

@@ -2,14 +2,12 @@ state={
 	id=1
 	name="STATE_1"
 	provinces={
-		157 1607 5006 5373 7797 7798 15141 
+		157 1607 5006 5373 7797 7798 
 	}
 	manpower=100000
 	state_category = large_town
 history = {
         victory_points = { 7797 13 }
-
-  
         victory_points = { 7798 8 }
     victory_points = { 157 7 }
 owner = SIK

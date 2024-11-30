@@ -1,0 +1,14 @@
+characters = {
+    Trade_Master = {
+        name = "Trade Master"
+        portraits = {
+            civil_adult_male = {
+                large = GFX_trd_leader
+            }
+        }
+        ideology = libertarianism
+        country_leader = {
+            traits = { trade_genius }
+        }
+    }
+}

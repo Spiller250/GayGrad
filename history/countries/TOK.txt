@@ -1,0 +1,76 @@
+﻿oob = "TOK_1936"
+capital = 1359
+set_research_slots = 4
+set_stability = 0.2
+set_war_support = 0.5
+set_convoys = 159
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+}
+
+
+#Starting tech
+set_technology = {
+}
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarian_democrat = 50
+    market_liberal = 30
+    conservative = 20
+
+}
+
+recruit_character = bogdankabanov
+recruit_character = Anastasia
+recruit_character = TOK_field_marshal_5
+recruit_character = stanislavchernenko
+recruit_character = viktorkravchenko
+recruit_character = stanislavchernenko
+recruit_character = evgeniykorolenko
+recruit_character = alekseygurev
+recruit_character = vasiliylarionov
+recruit_character = andreytihonov
+recruit_character = konstantingoncharov
+recruit_character = olegmazut
+recruit_character = vladimirmuromcev
+recruit_character = antonsamoylov
+recruit_character = denistregubov
+recruit_character = ilyakaydash
+recruit_character = leonidvasilchuk
+recruit_character = glebchernogradskiy
+recruit_character = dmitriyyazov
+recruit_character = viktorshevchenko
+recruit_character = yuriytitarenko
+recruit_character = nikolaykovalev
+recruit_character = borismartynov
+recruit_character = alekseygromov
+recruit_character = borislevin
+recruit_character = dmitriygoncharov
+recruit_character = ruslanmarkov
+recruit_character = levsavelev
+recruit_character = vladimirdragomirov
+recruit_character = sergeyazblotov
+recruit_character = igorkobzar
+recruit_character = alekseyvasilev
+recruit_character = kimsonhun
+recruit_character = leonidkarpov
+recruit_character = andreylebedev
+recruit_character = vladislavkovalchuk
+recruit_character = MpLdXjuD
+recruit_character = gorislavvlasov
+recruit_character = sergeymelnik
+recruit_character = miloradmihaylov
+recruit_character = gennadiykovach
+recruit_character = yaroslavboyko
+

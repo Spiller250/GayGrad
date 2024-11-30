@@ -10,7 +10,7 @@ aleksandrredfild = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = tehnokraticheskiyprogressivizm
+		ideology = autocrat
 		traits = {  }
 	}
 }

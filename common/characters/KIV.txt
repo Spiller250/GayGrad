@@ -10,7 +10,7 @@ dzhonnivetnam = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = nacionalnyykonservatizm
+		ideology = national_classical_conservatism
 		traits = {  eager_collaborator economic_reformer }
 	}
 }

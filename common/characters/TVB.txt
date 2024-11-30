@@ -5,12 +5,12 @@ viktorsangvin = {
 	portraits = {
 		civilian = {
 			#Custom image for  Виктор Сангвин
-			large = "/gfx/leaders/TVB/aeGYSiwk-1.dds"
+			large = "/gfx/leaders/TVB/TVB.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = martializm
+		ideology = absolute_monarchist
 		traits = {  }
 	}
 }

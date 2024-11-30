@@ -1,0 +1,23 @@
+oob = "FLO_OOB"
+capital = 100
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.4
+set_convoys = 10
+
+add_ideas = {
+    free_trade minimal_government
+}
+
+# Politics for 1936.1.1
+set_politics = {
+    ruling_party = anarhism 
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+    anarhism = 100
+}
+
+recruit_character = Market_Overseer

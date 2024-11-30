@@ -5,12 +5,12 @@ liczin = {
 	portraits = {
 		civilian = {
 			#Custom image for Ли Цзин
-			large = "/gfx/leaders/TZU/OnwbsvRF-1.dds"
+			large = "/gfx/leaders/TZU/TZU.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = tehnokraticheskiyprogressivizm
+		ideology = ultra_conservatism
 		traits = {  }
 	}
 }

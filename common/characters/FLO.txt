@@ -9,7 +9,7 @@ Nathan = {
     }
     country_leader = {
         expire = "1965.1.1"
-        ideology = rynochnyyliberalizm
+        ideology = market_classical_liberalism
         traits = { trait_administrator trait_decisive }
     }
 }
@@ -23,7 +23,7 @@ Garrett = {
     }
     country_leader = {
         expire = "1965.1.1"
-        ideology = nacionalnyykonservatizm
+        ideology = national_classical_conservatism
         traits = { trait_strategist trait_demagogue }
     }
 }

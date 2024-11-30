@@ -8,8 +8,14 @@ state={
         victory_points = { 2532 9 }
         victory_points = { 8766 25 }
         victory_points = { 8927 18 }
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
+			anti_air_building = 1
+		}
 		owner = NGA
 	}    
-	manpower=100000
+	manpower=1200000
 	state_category = large_town
 }

@@ -925,11 +925,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="gamesetup_country_details"
-		position = { x=600 y =0}
-		show_position = { x=0 y =0}
+		position = { x=20 y =-490}
+		show_position = { x=20 y =90}
 		animation_type = decelerated
 		animation_time = 1000
-		size = { width=389 height=710}
+		size = { width=492 height=301}
 		Orientation = upper_right
 		origo = upper_right
 		show_sound = menu_open_window
@@ -937,52 +937,51 @@ guiTypes = {
 
 		background={
 			name ="background"
-			spriteType = "GFX_TNO_map_select_topright_bg"
+			spriteType = "GFX_lobby_right_sidepanel_bg"
 		}
 
 		iconType = {
 			name = "country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 20 y = 79 }
-			scale=0.37
+			position = { x = 30 y = 20 }
+			scale=0.4
 		}
 
 		iconType = {
 			name = "country_leader_frame"
-			quadTextureSprite ="GFX_minor_portrait_overlay"
-			position = { x = 1400 y = 73 }
-			scale=0.55
+			quadTextureSprite ="GFX_naval_unit_leader_frame"
+			position = { x = 27 y = 15 }
 		}
 
 		iconType ={
-			name = "pol_faction_icon"
+			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x = 79 y = 85 }
+			position = { x= 105 y = 30 }
 			#Orientation = "UPPER_LEFT"
 			frame = 1
 		}
 
 		gridboxtype = {
 			name = "spirit_grid"
-			position = { x = 148 y = 85 }
-			size = { width = 230 height = 70 }
+			position = { x = 253 y = 30 }
+			size = { width = 300 height = 68 }
 			slotsize = { width = 60 height = 68 }
-			max_slots = { x = 6 y = 1 }
+			max_slots = { x = 5 y = 1 }
 			format = "UPPER_LEFT"
 		}
 
 		gridboxtype = {
 			name = "spirit_grid_over_defined"
-			position = { x = 148 y = 85 }
-			size = { width = 230 height = 70 }
-			slotsize = { width = 60 height = 68 }
-			max_slots = { x = 100 y = 1 }
+			position = { x = 253 y = 28 }
+			size = { width = 330 height = 68 }
+			slotsize = { width = 33 height = 34 }
+			max_slots = { x = 6 y = 2 }
 			format = "UPPER_LEFT"
 		}
 
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 1085 y = 40 }
+			position = { x= 185 y = 40 }
 			size = { width=100 height=100 }
 			clipping = no
 
@@ -1007,12 +1006,12 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "info"
-			position = { x = 30 y = 139 }
+			position = { x = 30 y = 140 }
 
 			instantTextBoxType = {
 				name = "leader_label"
-				position = { x = -10 y = 28 }
-				font = "hoi_20b4_outline"
+				position = { x = 6 y = 3 }
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
 				maxWidth = 340
@@ -1021,19 +1020,17 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader"
-				position = { x = 80 y = 28 }
-				font = "hoi_20b"
+				position = { x = 72 y = 3 }
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 270
-				maxHeight = 40
-				fixedsize = yes
+				maxWidth = 340
 				format = right
 			}
 
 			instantTextBoxType = {
 				name = "ideology_label"
-				position = { x = -10 y = 48 }
-				font = "hoi_20b"
+				position = { x = 6 y = 27 }
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -1042,19 +1039,17 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology"
-				position = { x = 50 y = 48 }
-				font = "hoi_20b"
+				position = { x = 72 y = 27 }
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 300
-				maxHeight = 40
-				fixedsize = yes
+				maxWidth = 340
 				format = right
 			}
 
 			instantTextBoxType = {
 				name = "government_label"
-				position = { x = 1000 y = 68 }
-				font = "hoi_20b"
+				position = { x = 6 y = 51 }
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
 				maxWidth = 340
@@ -1063,9 +1058,9 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "government"
-				position = { x = 10000 y = 68 }
+				position = { x = 72 y = 51 }
 				textureFile = ""
-				font = "hoi_20b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = right
@@ -1073,7 +1068,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elections_label"
-				position = { x = 1000 y = 74 }
+				position = { x = 6 y = 75 }
 				textureFile = ""
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
@@ -1084,7 +1079,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elections"
-				position = { x = 1000 y = 74 }
+				position = { x = 72 y = 75 }
 				textureFile = ""
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
@@ -1094,9 +1089,9 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party_label"
-				position = { x = -10 y = 70 }
+				position = { x = 6 y = 99 }
 				textureFile = ""
-				font = "hoi_20b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
@@ -1105,12 +1100,12 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party"
-				position = { x = 115 y = 70 }
+				position = { x = 148 y = 99 }
 				textureFile = ""
-				font = "hoi_20b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 235
-				maxHeight = 40
+				maxWidth = 264
+				maxHeight = 20
 				fixedsize = yes
 				format = right
 			}

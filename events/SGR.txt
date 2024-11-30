@@ -1,0 +1,22 @@
+add_namespace = SGR
+
+country_event = {
+    id = SGR.alliance_decision
+    title = "Союз или Независимость?"
+    desc = "SGR должна выбрать между Альянсом с Новоградом или свободой с Пасифией."
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
+
+    option = {
+        name = "Мы за Новоград!"
+        ai_chance = { factor = 75 }
+        NOV = { add_to_faction = SGR }
+    }
+
+    option = {
+        name = "Свобода превыше всего!"
+        ai_chance = { factor = 25 }
+        release = SGR
+        PAS = { add_to_faction = SGR }
+    }
+}

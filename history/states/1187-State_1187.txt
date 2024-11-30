@@ -9,7 +9,11 @@ state={
         victory_points = { 14439 12 }
         victory_points = { 1441 8 }
 		owner = PAS
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
-	manpower=100000
+	manpower=775063
 	state_category = large_town
 }

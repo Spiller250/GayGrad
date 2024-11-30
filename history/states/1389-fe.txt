@@ -1,0 +1,14 @@
+state={
+	id=1389
+	name="STATE_1389"
+	provinces={
+		2325 4561 5938 13439 13603 
+	}
+        history = {
+        owner = PNC
+        }
+	manpower=100000
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

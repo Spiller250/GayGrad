@@ -1,0 +1,21 @@
+spriteTypes = { 
+	##Icon For: Эффективная бюрократия
+	SpriteType = { 
+		name = "GFX_idea_Effective_B__-762416"
+		texturefile = "gfx/interface/ideas/effektivnaya-byurokratiya-ideas/Effective_B__-762416.dds"
+	}
+
+	##Icon For: Инновационный прорыв
+	SpriteType = { 
+		name = "GFX_idea_Effective_B__-762443"
+		texturefile = "gfx/interface/ideas/effektivnaya-byurokratiya-ideas/Effective_B__-762443.dds"
+	}
+
+	##Icon For: Эксплуатация рабочего класса
+	SpriteType = { 
+		name = "GFX_idea_Effective_B_OUIocmEF-737025"
+		texturefile = "gfx/interface/ideas/effektivnaya-byurokratiya-ideas/Effective_B_OUIocmEF-737025.dds"
+	}
+
+ 
+ }

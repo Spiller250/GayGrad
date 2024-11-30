@@ -9,7 +9,15 @@ state={
         victory_points = { 935 12 }
         victory_points = { 6959 14 }
                 owner = NFK
+				buildings = {
+					industrial_complex = 1
+					radar_station = 1
+					14152 = {
+						naval_base = 1
+						dockyard = 1
+					}
+				}
 }
-	manpower=100000
+	manpower=651432
 	state_category = large_town
 }

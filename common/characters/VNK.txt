@@ -5,12 +5,12 @@ viktorvennc = {
 	portraits = {
 		civilian = {
 			#Custom image for Виктор Веннц
-			large = "/gfx/leaders/VNK/DyJHwCvx-1.dds"
+			large = "/gfx/leaders/VNK.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = tehnokraticheskiyprogressivizm
+		ideology = civic_nationalism 
 		traits = {  }
 	}
 }

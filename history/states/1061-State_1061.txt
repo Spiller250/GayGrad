@@ -9,7 +9,15 @@ state={
         victory_points = { 13768 10 }
         victory_points = { 6676 5 }
 		owner = SSR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			13768 = {
+			coastal_bunker = 5
+			naval_base = 3
+			}
+		}
 	}
-	manpower=100000
+	manpower=842950
 	state_category = large_town
 }

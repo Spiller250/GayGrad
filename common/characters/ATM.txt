@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Toter Führer
+toterfuhrer = {
+	name = toterfuhrer
+	portraits = {
+		civilian = {
+			#Custom image for Toter Führer
+			large = "/gfx/leaders/ATM/EBANAT.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = neo_nazism
+		traits = {  }
+	}
+}
+}

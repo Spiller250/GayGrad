@@ -1,0 +1,53 @@
+﻿oob = "ACZ_1936"
+capital = 1
+set_research_slots = 2
+set_stability = 0.1
+set_war_support = 0.3
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "ACZ_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = anarhism
+	last_election = "1975.3.13"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	anarhism = 70
+	liberalism = 30
+}
+set_popularities = {
+	anarhism = 50
+	liberalism = 50
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+	anarhism = 50
+	liberalism = 50
+}
+}
+
+recruit_character = obshchestvo
+
+

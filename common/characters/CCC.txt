@@ -10,7 +10,7 @@ olaferikson = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = demokraticheskiysocializm
+		ideology = democratic_classic_socialism
 		traits = {  }
 	}
 }

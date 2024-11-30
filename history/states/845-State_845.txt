@@ -14,13 +14,20 @@ state={
 			12538 20 
 		}
 		owner = KSR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			anti_air_building = 1
+		}
+		
 
 	}
 
 	provinces={
 		479 2098 2145 2228 3627 4586 4817 4861 5937 6120 6317 6513 7218 7343 7686 12261 12428 12436 12484 12500 12538 12581 12610 12611 12680 12739 12773 12855 12927 12968 
 	}
-	manpower=100000
+	manpower = 120000
 	state_category = large_town
 	local_supplies=0.000
 }

@@ -1,0 +1,14 @@
+state={
+	id=1384
+	name="STATE_1384"
+	provinces={
+		4444 6319 14011 14032 
+	}
+        history = {
+        owner = LUC
+        }
+	manpower=100000
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

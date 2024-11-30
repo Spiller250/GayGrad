@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+
+		Effective_B__ = {
+			picture = Effective_B__-762416
+			allowed = {
+				has_government = authoritarian_democrat
+
+
+			}
+			cancel = {
+				always = no
+
+
+			}
+			modifier = {
+				license_subject_master_purchase_cost = 0.1
+
+research_speed_factor = 0.1
+
+
+			}
+		}
+
+		Effective_B__ = {
+			picture = Effective_B__-762443
+		}
+
+		Effective_B_OUIocmEF = {
+			picture = Effective_B_OUIocmEF-737025
+		}
+	}
+}

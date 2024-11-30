@@ -8,8 +8,18 @@ history = {
         victory_points = { 3813 25 }
         victory_points = { 1312 24 }
     victory_points = { 710 11 }
+	buildings = {
+        industrial_complex = 4
+        arms_factory = 2
+        radar_station = 2
+        710 = {
+            naval_base = 2
+			dockyard = 2
+        }
+    }
            owner = NFK
+
 }
-	manpower=100000
+	manpower=1500000
 	state_category = large_town
 }

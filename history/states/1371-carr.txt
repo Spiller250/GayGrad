@@ -6,8 +6,12 @@ state={
 	} 
         history={
         owner = CAR
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 3
+			radar_station = 1
         }
-	manpower=100000
+	manpower=510474
 	state_category = large_town
 	local_supplies=0.000
 }

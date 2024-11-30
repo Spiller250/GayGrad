@@ -10,7 +10,7 @@ polkovnikyozefmyuller = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = voennayahunta
+		ideology = authoritarian_militarism 
 		traits = {  }
 	}
 }

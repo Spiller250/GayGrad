@@ -1,0 +1,5 @@
+﻿capital = 1
+set_popularities = {
+	liberalism = 50
+	conservatism = 50
+}

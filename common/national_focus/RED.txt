@@ -1,0 +1,717 @@
+
+focus_tree = {
+    id = "RED_focus_tree"
+    continuous_focus_position = { x = 0 y = 0 }
+    focus = {
+        id = "restore_state"
+        icon = "GFX_goal_generic_political_reform"
+        x = 0
+        y = 0
+        cost = 10
+        available = {
+            has_war = no
+            is_subject = no
+        }
+        completion_reward = {
+            add_political_power = 50
+            add_stability = 0.05
+            add_ideas = RED_RESTORED_NATION
+        }
+        ai_will_do = { factor = 2.0 }
+        desc = "Редоград должен объединить разрозненные земли и народ. Это первый шаг на пути восстановления национального величия."
+    }
+
+    focus = {
+        id = "remove_liberal_rebels"
+        icon = "GFX_goal_generic_revolt_suppressed"
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { "restore_state" }
+        completion_reward = {
+            add_stability = 0.1
+            add_ideas = RED_CLEARED_REBELS
+        }
+        ai_will_do = { factor = 1.5 }
+        desc = "Либеральные мятежники представляют угрозу для нашей власти. Мы должны устранить их и вернуть порядок."
+    }
+
+    focus = {
+        id = "purge_government"
+        icon = "GFX_goal_generic_cleanup"
+        x = -2
+        y = 2
+        cost = 10
+        prerequisite = { "remove_liberal_rebels" }
+        completion_reward = {
+            add_stability = 0.1
+            add_ideas = RED_GOVERNMENT_PURGE
+        }
+        ai_will_do = { factor = 1.2 }
+        desc = "Предатели проникли в правительство. Проведение чистки необходимо для укрепления власти и создания эффективного управления."
+    }
+
+    focus = {
+        id = "moral_boost"
+        icon = "GFX_goal_generic_nationalism"
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { "restore_state" }
+        completion_reward = {
+            add_stability = 0.05
+            add_war_support = 0.1
+        }
+        ai_will_do = { factor = 1.0 }
+        desc = "Поднятие морального духа населения поможет сплотить нацию и подготовить её к вызовам будущего."
+    }
+
+    focus = {
+        id = "unified_nation_law"
+        icon = "GFX_goal_generic_political_reform"
+        x = 2
+        y = 2
+        cost = 10
+        prerequisite = { "moral_boost" }
+        completion_reward = {
+            add_political_power = 75
+            add_ideas = RED_NATION_LAW
+        }
+        ai_will_do = { factor = 1.3 }
+        desc = "Закон об единой нации обеспечит стабильность и консолидацию всех слоёв общества под общим флагом."
+    }
+
+    focus = {
+        id = "revise_constitution"
+        icon = "GFX_goal_generic_political_reform"
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { purge_government unified_nation_law }
+        completion_reward = {
+            add_stability = 0.05
+            add_political_power = 100
+        }
+        ai_will_do = { factor = 1.2 }
+        desc = "Новая конституция необходима для создания правового фундамента, отвечающего современным реалиям."
+    }
+
+    focus = {
+        id = "industrial_modernization"
+        icon = "GFX_goal_generic_industry"
+        x = 0
+        y = 10
+        cost = 10
+        prerequisite = { "revise_constitution" }
+        completion_reward = {
+            add_building_construction = {
+                type = arms_factory
+                level = 2
+                state = 7
+            }
+            add_building_construction = {
+                type = civilian_factory
+                level = 1
+                state = 8
+            }
+        }
+        ai_will_do = { factor = 1.5 }
+        desc = "Модернизация нашей промышленной базы обеспечит рост производства и повысит её эффективность."
+    }
+}
+
+focus = {
+	id = "revise_constitution"
+	icon = "GFX_goal_generic_political_reform"
+	x = 0
+	y = 3
+	cost = 10
+	prerequisite = { "purge_government" "unified_nation_law" }
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 100
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Новая конституция необходима для создания правового фундамента, отвечающего современным реалиям."
+}
+
+focus = {
+	id = "industrial_modernization"
+	icon = "GFX_goal_generic_industry"
+	x = 0
+	y = 10
+	cost = 10
+	prerequisite = { "economic_independence" }
+	completion_reward = {
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			state = 7
+		}
+		add_building_construction = {
+			type = civilian_factory
+			level = 1
+			state = 8
+		}
+	}
+	ai_will_do = {
+		factor = 1.5
+	}
+	desc = "Модернизация нашей промышленной базы обеспечит рост производства и повысит её эффективность."
+}
+
+focus = {
+	id = "scientific_research_institutes"
+	icon = "GFX_goal_generic_science"
+	x = -2
+	y = 11
+	cost = 10
+	prerequisite = { "industrial_modernization" }
+	completion_reward = {
+		add_research_slot = 1
+		add_political_power = 50
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Создание научно-исследовательских институтов станет толчком для развития технологий и подготовки кадров."
+}
+
+focus = {
+	id = "heavy_industry"
+	icon = "GFX_goal_generic_industry_steel"
+	x = 2
+	y = 11
+	cost = 10
+	prerequisite = { "industrial_modernization" }
+	completion_reward = {
+		add_resource = {
+			type = steel
+			amount = 10
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			state = 9
+		}
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Развитие тяжёлой промышленности обеспечит нас сталью и другими ключевыми ресурсами для военной и гражданской продукции."
+}
+
+focus = {
+	id = "aerospace_technologies"
+	icon = "GFX_goal_generic_aircraft"
+	x = 4
+	y = 12
+	cost = 10
+	prerequisite = { "scientific_research_institutes" }
+	completion_reward = {
+		add_research_slot = 1
+		add_tech_bonus = {
+			category = air
+			uses = 1
+			bonus = 0.5
+		}
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Инвестиции в аэрокосмические технологии откроют новые горизонты для нашей военной авиации."
+}
+
+focus = {
+	id = "nuclear_energy_research"
+	icon = "GFX_goal_generic_nuclear"
+	x = -4
+	y = 12
+	cost = 10
+	prerequisite = { "scientific_research_institutes" }
+	completion_reward = {
+		add_tech_bonus = {
+			category = nuclear
+			uses = 2
+			bonus = 0.5
+		}
+		add_political_power = 50
+	}
+	ai_will_do = {
+		factor = 1.1
+	}
+	desc = "Исследования в области ядерной энергии позволят нам выйти на новый уровень технологий и открыть новые источники энергии."
+}
+
+focus = {
+	id = "industrial_gigants"
+	icon = "GFX_goal_generic_industry_large"
+	x = 0
+	y = 13
+	cost = 10
+	prerequisite = { "heavy_industry" "aerospace_technologies" "nuclear_energy_research" }
+	completion_reward = {
+		add_building_construction = {
+			type = arms_factory
+			level = 3
+			state = 10
+		}
+		add_building_construction = {
+			type = civilian_factory
+			level = 2
+			state = 11
+		}
+	}
+	ai_will_do = {
+		factor = 1.4
+	}
+	desc = "Мы создадим гигантов индустрии, которые укрепят нашу экономику и сделают её готовой к любым вызовам."
+}
+
+
+
+focus = {
+	id = "military_reform"
+	icon = "GFX_goal_generic_army_training"
+	x = 0
+	y = 15
+	cost = 10
+	prerequisite = { "industrial_gigants" }
+	completion_reward = {
+		add_experience = {
+			army_xp = 10
+		}
+		add_stability = 0.05
+	}
+	ai_will_do = {
+		factor = 1.5
+	}
+	desc = "Мы пересмотрим структуру нашей армии и внедрим современные методы подготовки, чтобы обеспечить её боеготовность."
+}
+
+focus = {
+	id = "officer_training"
+	icon = "GFX_goal_generic_officer_training"
+	x = -2
+	y = 16
+	cost = 10
+	prerequisite = { "military_reform" }
+	completion_reward = {
+		add_experience = {
+			army_xp = 20
+		}
+		add_ideas = RED_PROFESSIONAL_ARMY
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Качественная подготовка офицеров станет основой профессионализации нашей армии."
+}
+
+focus = {
+	id = "specialized_units"
+	icon = "GFX_goal_generic_special_forces"
+	x = 2
+	y = 16
+	cost = 10
+	prerequisite = { "military_reform" }
+	completion_reward = {
+		add_ideas = RED_SPECIAL_UNITS
+		add_experience = {
+			army_xp = 15
+		}
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Создание специализированных подразделений позволит нашей армии быть готовой к любой боевой обстановке."
+}
+
+focus = {
+	id = "new_war_tactics"
+	icon = "GFX_goal_generic_artillery"
+	x = 0
+	y = 17
+	cost = 10
+	prerequisite = { "officer_training" "specialized_units" }
+	completion_reward = {
+		add_tech_bonus = {
+			category = land_doctrine
+			uses = 2
+			bonus = 0.5
+		}
+		add_political_power = 50
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Новая тактика ведения боевых действий улучшит эффективность нашей армии на поле боя."
+}
+
+
+
+focus = {
+	id = "war_preparation"
+	icon = "GFX_goal_generic_mobilize"
+	x = 0
+	y = 20
+	cost = 10
+	prerequisite = { "new_war_tactics" }
+	completion_reward = {
+		add_political_power = 100
+		add_stability = 0.05
+		set_country_flag = war_ready
+	}
+	ai_will_do = {
+		factor = 1.4
+	}
+	desc = "Мы начнём масштабную подготовку к войне, мобилизуем ресурсы и укрепим оборону."
+}
+
+focus = {
+	id = "resource_mobilization"
+	icon = "GFX_goal_generic_resources"
+	x = -2
+	y = 21
+	cost = 10
+	prerequisite = { "war_preparation" }
+	completion_reward = {
+		add_resource = {
+			type = steel
+			amount = 10
+		}
+		add_resource = {
+			type = oil
+			amount = 5
+		}
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Мы мобилизуем все доступные ресурсы для обеспечения военной промышленности."
+}
+
+focus = {
+	id = "defense_construction"
+	icon = "GFX_goal_generic_fortification"
+	x = 2
+	y = 21
+	cost = 10
+	prerequisite = { "war_preparation" }
+	completion_reward = {
+		add_building_construction = {
+			type = land_fort
+			level = 3
+			state = 3
+		}
+		add_building_construction = {
+			type = coastal_fort
+			level = 2
+			state = 4
+		}
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Укрепление оборонительных сооружений поможет нам подготовиться к любой агрессии извне."
+}
+
+
+
+focus = {
+	id = "victory_in_war"
+	icon = "GFX_goal_generic_war_goal"
+	x = 0
+	y = 25
+	cost = 10
+	prerequisite = { "resource_mobilization" "defense_construction" }
+	completion_reward = {
+		add_war_support = 0.1
+		add_political_power = 100
+		set_country_flag = victory_prepared
+	}
+	ai_will_do = {
+		factor = 1.5
+	}
+	desc = "Мы готовы к войне за победу. Триумф Редограда обеспечит наше господство в регионе."
+}
+
+focus = {
+	id = "territory_assimilation"
+	icon = "GFX_goal_generic_territory"
+	x = 0
+	y = 26
+	cost = 10
+	prerequisite = { "victory_in_war" }
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Ассимиляция новых территорий поможет нам интегрировать их в наше государство и использовать их потенциал."
+}
+
+
+
+focus = {
+	id = "nuclear_research_initiation"
+	icon = "GFX_goal_generic_nuclear"
+	x = 0
+	y = 30
+	cost = 10
+	prerequisite = { "scientific_research_institutes" }
+	completion_reward = {
+		add_tech_bonus = {
+			category = nuclear
+			uses = 1
+			bonus = 0.5
+		}
+		add_political_power = 50
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Начало исследований в области ядерной физики откроет путь к созданию мощного оружия и энергетических технологий."
+}
+
+focus = {
+	id = "nuclear_facility_construction"
+	icon = "GFX_goal_generic_nuclear_facility"
+	x = -2
+	y = 31
+	cost = 10
+	prerequisite = { "nuclear_research_initiation" }
+	completion_reward = {
+		add_building_construction = {
+			type = reactor
+			level = 1
+			state = 5
+		}
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Мы начнём строительство ядерных объектов, чтобы обеспечить базу для дальнейших исследований."
+}
+
+focus = {
+	id = "atomic_bomb_development"
+	icon = "GFX_goal_generic_bomb"
+	x = 2
+	y = 31
+	cost = 10
+	prerequisite = { "nuclear_research_initiation" }
+	completion_reward = {
+		add_tech_bonus = {
+			category = nuclear
+			uses = 2
+			bonus = 0.5
+		}
+		add_political_power = 50
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Разработка атомной бомбы станет нашим приоритетом для укрепления военной мощи."
+}
+
+focus = {
+	id = "nuclear_weapon_testing"
+	icon = "GFX_goal_generic_test"
+	x = 0
+	y = 32
+	cost = 10
+	prerequisite = { "nuclear_facility_construction" "atomic_bomb_development" }
+	completion_reward = {
+		add_political_power = 100
+		set_country_flag = nuclear_test_successful
+	}
+	ai_will_do = {
+		factor = 1.4
+	}
+	desc = "Проведение первых испытаний атомного оружия продемонстрирует наши возможности всему миру."
+}
+
+focus = {
+	id = "nuclear_deterrence_strategy"
+	icon = "GFX_goal_generic_nuclear_diplomacy"
+	x = 0
+	y = 33
+	cost = 10
+	prerequisite = { "nuclear_weapon_testing" }
+	completion_reward = {
+		add_ideas = RED_NUCLEAR_DETERRENCE
+		add_stability = 0.05
+	}
+	ai_will_do = {
+		factor = 1.5
+	}
+	desc = "Ядерное сдерживание станет ключевым элементом нашей внешней политики, гарантируя защиту от агрессии."
+}
+
+
+
+focus = {
+	id = "aggressive_diplomacy"
+	icon = "GFX_goal_generic_diplomatic_pressure"
+	x = 0
+	y = 35
+	cost = 10
+	prerequisite = { "victory_in_war" }
+	completion_reward = {
+		add_political_power = 75
+		add_stability = 0.05
+	}
+	ai_will_do = {
+		factor = 1.4
+	}
+	desc = "Мы используем дипломатическое давление для влияния на соседние страны, стремясь к расширению нашего контроля."
+}
+
+focus = {
+	id = "support_separatists"
+	icon = "GFX_goal_generic_separatist"
+	x = -2
+	y = 36
+	cost = 10
+	prerequisite = { "aggressive_diplomacy" }
+	completion_reward = {
+		add_political_power = 50
+		add_intel_network_strength = 10
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Мы начнём поддерживать сепаратистские движения в странах-соседях для их дестабилизации."
+}
+
+focus = {
+	id = "military_intervention"
+	icon = "GFX_goal_generic_military_intervention"
+	x = 2
+	y = 36
+	cost = 10
+	prerequisite = { "aggressive_diplomacy" }
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = PRE
+		}
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Военное вмешательство станет нашей главной стратегией для расширения территории Редограда."
+}
+
+focus = {
+	id = "global_dominance"
+	icon = "GFX_goal_generic_global_dominance"
+	x = 0
+	y = 37
+	cost = 10
+	prerequisite = { "support_separatists" "military_intervention" }
+	completion_reward = {
+		add_stability = 0.1
+		add_political_power = 100
+		set_country_flag = global_dominance_achieved
+	}
+	ai_will_do = {
+		factor = 1.5
+	}
+	desc = "Редоград станет мировым лидером, распространив своё влияние по всему континенту."
+}
+
+
+
+focus = {
+	id = "population_control"
+	icon = "GFX_goal_generic_control"
+	x = 0
+	y = 40
+	cost = 10
+	prerequisite = { "victory_in_war" }
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+		set_country_flag = population_control_started
+	}
+	ai_will_do = {
+		factor = 1.4
+	}
+	desc = "Мы начнём контролировать население, чтобы укрепить стабильность и устранить любые угрозы нашему режиму."
+}
+
+focus = {
+	id = "opposition_suppression"
+	icon = "GFX_goal_generic_opposition_suppressed"
+	x = -2
+	y = 41
+	cost = 10
+	prerequisite = { "population_control" }
+	completion_reward = {
+		add_stability = 0.05
+		add_ideas = RED_OPPOSITION_SUPPRESSED
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Оппозиция внутри страны угрожает нашему режиму. Мы подавим любые её проявления."
+}
+
+focus = {
+	id = "mandatory_surveillance"
+	icon = "GFX_goal_generic_surveillance"
+	x = 2
+	y = 41
+	cost = 10
+	prerequisite = { "population_control" }
+	completion_reward = {
+		add_intel_network_strength = 10
+		add_political_power = 50
+	}
+	ai_will_do = {
+		factor = 1.3
+	}
+	desc = "Мы внедрим обязательное наблюдение за всеми гражданами для предотвращения угроз режиму."
+}
+
+focus = {
+	id = "forced_loyalty"
+	icon = "GFX_goal_generic_forced_loyalty"
+	x = 0
+	y = 42
+	cost = 10
+	prerequisite = { "opposition_suppression" "mandatory_surveillance" }
+	completion_reward = {
+		add_stability = 0.1
+		add_political_power = 75
+		add_ideas = RED_FORCED_LOYALTY
+	}
+	ai_will_do = {
+		factor = 1.2
+	}
+	desc = "Все граждане должны быть лояльны нашему правительству. Мы сделаем это обязательным для всех."
+}
+
+focus = {
+	id = "nationwide_order"
+	icon = "GFX_goal_generic_order"
+	x = 0
+	y = 43
+	cost = 10
+	prerequisite = { "forced_loyalty" }
+	completion_reward = {
+		add_stability = 0.1
+		add_war_support = 0.1
+		set_country_flag = nationwide_order_enforced
+	}
+	ai_will_do = {
+		factor = 1.5
+	}
+	desc = "Редоград станет образцом порядка и стабильности, когда мы полностью возьмём население под контроль."
+}

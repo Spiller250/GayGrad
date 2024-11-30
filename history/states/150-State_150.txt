@@ -8,6 +8,17 @@ state={
         victory_points = { 8256 13 }
         victory_points = { 5621 4 }
         victory_points = { 3867 25 }
+buildings = {
+    industrial_complex = 2
+    arms_factory = 1
+    radar_station = 1
+    8195 = {
+        naval_base = 3
+        dockyard = 3
+    }
+}
+population = 800000
+
 		owner = TAT
 	}
 	manpower=100000

@@ -1,0 +1,24 @@
+add_namespace = BNZ
+
+country_event = {
+    id = BNZ.alliance_decision
+    title = BNZ.alliance_decision.title
+    desc = BNZ.alliance_decision.desc
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
+
+    option = {
+        name = BNZ.alliance_decision.option.1 # Вступить в Альянс Новограда
+        ai_chance = { factor = 60 }
+        NOV = { add_to_faction = BZN }
+    }
+
+    option = {
+        name = BNZ.alliance_decision.option.2 # Вступить в Альянс Пасифии
+        ai_chance = { factor = 40 }
+        effect = {
+        release = BZN
+        }
+        PAS = { add_to_faction = BZN }
+    }
+}

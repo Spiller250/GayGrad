@@ -11,24 +11,8 @@ Anastasia = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = avtoritarnyymonarhizm
+		ideology = absolute_monarchist
 		traits = {  }
-	}
-}
-
-#Create country leader - Богдан Кабанов
-bogdankabanov = {
-	name = bogdankabanov
-	portraits = {
-		civilian = {
-			#Custom image for Богдан Кабанов
-			large = "/gfx/leaders/TOK/BOG.dds"
-		}
-	}
-	country_leader = {
-		expire = "1965.1.1"
-		ideology = kievgradskayasistema
-		traits = {  dictator great_survivor }
 	}
 }
 
@@ -43,7 +27,7 @@ bogdankabanov1 = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = tradicionnayateokratiya 
+		ideology = oligarchist 
 		traits = {  dictator great_survivor }
 	}
 }

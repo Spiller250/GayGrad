@@ -7,7 +7,7 @@ Demyan = {
     }
     country_leader = {
         expire = "1984.1.1"
-        ideology = klassicheskiyliberalizm
+        ideology = classical_liberalism
         traits = { eager_collaborator economic_reformer }
     }
 }

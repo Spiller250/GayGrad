@@ -1,0 +1,14 @@
+state={
+	id=1401
+	name="STATE_1401"
+	provinces={
+		4624 7017 13283 13359 13497 
+	}
+	manpower=100000
+	state_category = large_town
+         history = {
+        owner = ATM
+        }
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

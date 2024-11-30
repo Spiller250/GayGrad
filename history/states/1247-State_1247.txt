@@ -4,12 +4,20 @@ state={
 	provinces={
 		106 833 929 2028 2380 4070 7009 14716 14762 14816 
 	}
-        history={
+        history= {
         victory_points = { 14716 14 }
         victory_points = { 14816 20 }
         victory_points = { 929 9 }
 		owner = PAS
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+		14716 = {
+			dockyard = 3
+			naval_base = 2
 	}
-	manpower=100000
+}
+		}
+	manpower=648798
 	state_category = large_town
 }

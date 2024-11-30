@@ -10,6 +10,6 @@ state={
         victory_points = { 797 13 }
 		owner = NOV
 	}
-	manpower=100000
+	manpower=900000
 	state_category = large_town
 }

@@ -10,7 +10,7 @@ igorgrozovskiy = {
 	}
 	country_leader = {
 		expire = "2077.7.7"
-		ideology = kievgradskayasistema
+		ideology = absolute_monarchist
 		traits = {  }
 	}
 }

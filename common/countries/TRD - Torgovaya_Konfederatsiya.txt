@@ -1,0 +1,3 @@
+graphical_culture = american_gfx
+graphical_culture_2d = american_2d
+color = rgb { 255 165 0 }

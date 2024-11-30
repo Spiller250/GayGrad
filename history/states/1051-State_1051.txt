@@ -14,13 +14,20 @@ state={
 			2668 9 
 		}
 		owner = SRO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			anti_air_building = 1
+		}
+		
 
 	}
 
 	provinces={
 		1032 1833 3702 4252 4662 6897 6937 7073 13544 13602 13607 13674 
 	}
-	manpower=100000
+	manpower = 70000
 	state_category = large_town
 	local_supplies=0.000
 }

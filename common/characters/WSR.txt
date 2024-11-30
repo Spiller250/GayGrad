@@ -5,12 +5,12 @@ elzaklyayn = {
 	portraits = {
 		civilian = {
 			#Custom image for Эльза Кляйн
-			large = "/gfx/leaders/WSR/eSgiryXO-1.dds"
+			large = "/gfx/leaders/WSR/WSR.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = nacionalnyysocializm
+		ideology = marxism_leninism
 		traits = {  }
 	}
 }

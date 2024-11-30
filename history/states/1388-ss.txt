@@ -1,0 +1,14 @@
+state={
+	id=1388
+	name="STATE_1388"
+	provinces={
+		7656 13463 13533 13610 
+	}
+         history = {
+        owner = ASH
+        }
+	manpower=100000
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

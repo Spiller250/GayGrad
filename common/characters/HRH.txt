@@ -10,7 +10,7 @@ papabratskiy = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = revolyucionnyynacionalizm
+		ideology = revolutionary_syndicalism
 		traits = {  orthodox_rabblerouser }
 	}
 }

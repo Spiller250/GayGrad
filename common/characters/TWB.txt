@@ -5,12 +5,12 @@ gregorvays = {
 	portraits = {
 		civilian = {
 			#Custom image for Грегор Вайс
-			large = "/gfx/leaders/TWB/ZJkxhIMs-1.dds"
+			large = "/gfx/leaders/TWB/TWB.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = conservatism
+		ideology = autocrat 
 		traits = {  }
 	}
 }

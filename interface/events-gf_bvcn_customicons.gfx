@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: fdsf
+	SpriteType = { 
+		name = "Skam"
+		texturefile = "gfx/interface/events/Scam.dds"
+	}
+
+ 
+ }

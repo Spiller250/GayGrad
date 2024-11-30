@@ -8,6 +8,8 @@ state={
 	state_category = large_town
 
 history = {
+		buildings = {
+		}
         victory_points = { 2838 14 }
         victory_points = { 14107 11 }
     victory_points = { 3176 11 }

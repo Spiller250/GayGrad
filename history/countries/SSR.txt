@@ -1,0 +1,71 @@
+﻿oob = "SSR_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+}
+
+	recruit_character = grigoriyzemlyanicyn
+	recruit_character = fyodorkaramzin
+	recruit_character = andreyberyozkin
+	recruit_character = konstantinvetrov
+	recruit_character = konstantinvetrov
+	recruit_character = mihailgolovin
+	recruit_character = pyotrpolenov
+	recruit_character = levkondratev
+	recruit_character = andreysevastyanov
+	recruit_character = vasiliymorozov
+	recruit_character = stanislavtverdovskiy
+	recruit_character = valentinshestakov
+	recruit_character = vladislavsmiryagin
+	recruit_character = igorholodov
+	recruit_character = nikolayzorin
+	recruit_character = olegtihomirov
+	recruit_character = evgrafburovskiy
+	recruit_character = makarstruminskiy
+	recruit_character = trofimignatev
+	recruit_character = georgiyshulepov
+	recruit_character = platonpolevoy
+	recruit_character = alekseycherenkov
+	recruit_character = timofeyvoropaev
+	recruit_character = arseniystrelkov
+	recruit_character = fyodorkrapivin
+
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = syndicalism
+	last_election = "1935.2.22"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	syndicalism = 60
+	communist = 30
+	authoritarian_democrat = 10
+	
+}
+
+
+recruit_character = ilyaborozdin
+recruit_character = semyonlagutin
+recruit_character = anatoliygurev
+recruit_character = leonidgrekov
+recruit_character = vladimirkondratev
+recruit_character = fyodortrubeckoy
+recruit_character = yakovzimin
+recruit_character = aleksandrkiselyov
+recruit_character = mihailyarovoy
+recruit_character = fyodorsurkov
+recruit_character = valentinzharkov
+recruit_character = sergeylaptev
+recruit_character = paveltkachenko
+recruit_character = stanislavglubokov
+

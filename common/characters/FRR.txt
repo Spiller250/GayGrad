@@ -10,7 +10,7 @@ alekseyvedenev = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = liberalism
+		ideology = classical_classical_liberalism 
 		traits = {  }
 	}
 }

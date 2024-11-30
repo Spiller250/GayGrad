@@ -5,12 +5,12 @@ mayklsanderson = {
 	portraits = {
 		civilian = {
 			#Custom image for  Майкл Сандерсон
-			large = "/gfx/leaders/WPR/CGgMQYvR-1.dds"
+			large = "/gfx/leaders/WPR/WPR.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = ekosocializm
+		ideology = classical_liberalism 
 		traits = {  }
 	}
 }

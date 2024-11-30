@@ -1,0 +1,14 @@
+characters = {
+    Union_President = {
+        name = "Union President"
+        portraits = {
+            civil_adult_male = {
+                large = GFX_luc_leader
+            }
+        }
+        ideology = classical_liberalism
+        country_leader = {
+            traits = { pragmatic }
+        }
+    }
+}

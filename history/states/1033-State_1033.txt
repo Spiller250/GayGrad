@@ -14,12 +14,22 @@ state={
 			13680 18 
 		}
 		owner = TOU
+		buildings = {
+			infrastructure = 1
+            13680 = {
+				bunker = 1
+			}
+			13687 = {
+			    bunker = 1
+			}
+		}
+		
 	}
 
 	provinces={
 		448 2899 4046 5869 7244 13376 13438 13542 13543 13561 13615 13680 13687 
 	}
-	manpower=100000
+	manpower=40000
 	state_category = large_town
 	local_supplies=0.000
 }

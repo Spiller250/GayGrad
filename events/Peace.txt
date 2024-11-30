@@ -1,0 +1,127 @@
+add_namespace = END
+
+country_event = {
+    id = END.novograd_collapse
+    title = "Падение Новограда"
+    desc = "После упорных боёв Новоград капитулировал. Теперь судьба страны в руках победителей. Что мы решим?"
+
+    is_triggered_only = yes
+
+    trigger = {
+        has_capitulated = yes
+        tag = NOV # Тег Новограда
+    }
+
+    immediate = {
+        FROM = { # Ссылка на победителя
+            add_political_power = 50
+        }
+    }
+
+    option = {
+        name = "Аннексируем всю страну"
+        hidden_effect = {
+            FROM = { 
+                annex_country = {
+                    target = NOV
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "Отдадим немного территорий бывшим марионеткам"
+        hidden_effect = {
+            FROM = { 
+                annex_country = {
+                    target = NOV
+                    transfer_troops = yes
+                }
+            }
+
+            # Логика для BZN
+            if = {
+                limit = {
+                    BZN = { is_in_faction_with = ROOT }
+                }
+                296 = { transfer_state_to = BZN }
+                326 = { transfer_state_to = BZN }
+            }
+            else = {
+                FROM = {
+                    annex_country = {
+                        target = BZN
+                        transfer_troops = yes
+                    }
+                }
+            }
+
+            # Логика для TAT
+            if = {
+                limit = {
+                    TAT = { is_in_faction_with = ROOT }
+                }
+                182 = { transfer_state_to = TAT }
+                181 = { transfer_state_to = TAT }
+            }
+            else = {
+                FROM = {
+                    annex_country = {
+                        target = TAT
+                        transfer_troops = yes
+                    }
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "Отдадим морскую базу для Пасифии"
+        hidden_effect = {
+            FROM = { 
+                annex_country = {
+                    target = NOV
+                    transfer_troops = yes
+                }
+            }
+
+            # Логика для BZN
+            if = {
+                limit = {
+                    BZN = { is_in_faction_with = ROOT }
+                }
+                296 = { transfer_state_to = BZN }
+                326 = { transfer_state_to = BZN }
+            }
+            else = {
+                FROM = {
+                    annex_country = {
+                        target = BZN
+                        transfer_troops = yes
+                    }
+                }
+            }
+
+            # Логика для TAT
+            if = {
+                limit = {
+                    TAT = { is_in_faction_with = ROOT }
+                }
+                182 = { transfer_state_to = TAT }
+                181 = { transfer_state_to = TAT }
+            }
+            else = {
+                FROM = {
+                    annex_country = {
+                        target = TAT
+                        transfer_troops = yes
+                    }
+                }
+            }
+
+            # Передача морской базы Пасифии
+            185 = { transfer_state_to = PAS }
+        }
+    }
+}

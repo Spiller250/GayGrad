@@ -10,7 +10,7 @@ sebastyankortes = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = despotism
+		ideology = national_classical_conservatism
 		traits = {  }
 	}
 }
@@ -26,7 +26,7 @@ sebastyankortes = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = fascism_ideology
+		ideology = national_classical_conservatism
 		traits = {  }
 	}
 }

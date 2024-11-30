@@ -1,0 +1,37 @@
+﻿oob = "FCK_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = market_liberal
+	last_election = "1935.4.4"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+   market_liberal = 40
+   social_liberal = 30
+   conservative = 20
+   social_democrat = 10
+ 
+}
+
+
+recruit_character = nacionalnyysovet
+
+

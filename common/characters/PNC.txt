@@ -1,0 +1,14 @@
+Corporat = {
+	name = "Corporat"
+	portraits = {
+		civilian = {
+			#Custom image for Джонни Вьетнам
+			large = "/gfx/leaders/PMC/Corporat.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = corporatocracy
+		traits = {  eager_collaborator economic_reformer }
+	}
+}

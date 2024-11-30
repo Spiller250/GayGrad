@@ -13,3 +13,4 @@ history = {
     victory_points = { 8469 10 }
 owner = RDR
 }
+}

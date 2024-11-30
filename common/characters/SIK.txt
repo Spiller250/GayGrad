@@ -10,7 +10,7 @@ koroleduardlitovich = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = avtoritarnyymonarhizm
+		ideology = absolute_monarchist
 		traits = {  }
 	}
 }

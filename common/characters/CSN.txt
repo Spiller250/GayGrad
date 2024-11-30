@@ -10,7 +10,7 @@ vasiliydreksler = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = burgundskayasistema
+		ideology = burgundian_system
 		traits = {  warmonger fascist_militia_leader }
 	}
 }

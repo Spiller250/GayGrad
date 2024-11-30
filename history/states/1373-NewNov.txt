@@ -1,0 +1,23 @@
+state={
+	id=1373
+	name="STATE_1373"
+	provinces={
+		15141 
+	}
+        history = {
+            owner = NOV
+         victory_points = { 15141 100 }
+        buildings = {
+    industrial_complex = 4
+    arms_factory = 2
+    radar_station = 2
+    15141 = {
+        naval_base = 2
+        dockyard = 1
+    }
+}
+}
+	manpower= 1275385
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

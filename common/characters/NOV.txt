@@ -5,8 +5,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Алексей Златов
-				large = "/gfx/leaders/TOK/alekseyzlatov-679076.dds"
-				small = "/gfx/interface/ideas/TOK/alekseyzlatov-679076.dds"
+				large = "/gfx/leaders/NOV/alekseyzlatov-679076.dds"
+				small = "/gfx/interface/ideas/NOV/alekseyzlatov-679076.dds"
 			}
 		}
 		corps_commander = {
@@ -26,8 +26,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Борис Лазарев
-				large = "/gfx/leaders/TOK/borislazarev-679079.dds"
-				small = "/gfx/interface/ideas/TOK/borislazarev-679079.dds"
+				large = "/gfx/leaders/NOV/borislazarev-679079.dds"
+				small = "/gfx/interface/ideas/NOV/borislazarev-679079.dds"
 			}
 		}
 		field_marshal = {
@@ -47,8 +47,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Михаил Чернешёв
-				large = "/gfx/leaders/TOK/mihailcherneshyov-679092.dds"
-				small = "/gfx/interface/ideas/TOK/mihailcherneshyov-679092.dds"
+				large = "/gfx/leaders/NOV/mihailcherneshyov-679092.dds"
+				small = "/gfx/interface/ideas/NOV/mihailcherneshyov-679092.dds"
 			}
 		}
 		field_marshal = {
@@ -68,8 +68,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Виктор Селезнёв
-				large = "/gfx/leaders/TOK/viktorseleznyov-679094.dds"
-				small = "/gfx/interface/ideas/TOK/viktorseleznyov-679094.dds"
+				large = "/gfx/leaders/NOV/viktorseleznyov-679094.dds"
+				small = "/gfx/interface/ideas/NOV/viktorseleznyov-679094.dds"
 			}
 		}
 		corps_commander = {
@@ -89,8 +89,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Александр Обухов
-				large = "/gfx/leaders/TOK/aleksandrobuhov-679100.dds"
-				small = "/gfx/interface/ideas/TOK/aleksandrobuhov-679100.dds"
+				large = "/gfx/leaders/NOV/aleksandrobuhov-679100.dds"
+				small = "/gfx/interface/ideas/NOV/aleksandrobuhov-679100.dds"
 			}
 		}
 		corps_commander = {
@@ -110,8 +110,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Николай Белозёрский
-				large = "/gfx/leaders/TOK/nikolaybelozyorskiy-679104.dds"
-				small = "/gfx/interface/ideas/TOK/nikolaybelozyorskiy-679104.dds"
+				large = "/gfx/leaders/NOV/nikolaybelozyorskiy-679104.dds"
+				small = "/gfx/interface/ideas/NOV/nikolaybelozyorskiy-679104.dds"
 			}
 		}
 		corps_commander = {
@@ -131,8 +131,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Иван Чарушин
-				large = "/gfx/leaders/TOK/ivancharushin-679113.dds"
-				small = "/gfx/interface/ideas/TOK/ivancharushin-679113.dds"
+				large = "/gfx/leaders/NOV/ivancharushin-679113.dds"
+				small = "/gfx/interface/ideas/NOV/ivancharushin-679113.dds"
 			}
 		}
 		corps_commander = {
@@ -152,8 +152,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Павел Бондаренко
-				large = "/gfx/leaders/TOK/pavelbondarenko-679118.dds"
-				small = "/gfx/interface/ideas/TOK/pavelbondarenko-679118.dds"
+				large = "/gfx/leaders/NOV/pavelbondarenko-679118.dds"
+				small = "/gfx/interface/ideas/NOV/pavelbondarenko-679118.dds"
 			}
 		}
 		corps_commander = {
@@ -173,8 +173,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Владимир Глинский 
-				large = "/gfx/leaders/TOK/vladimirglinskiy-679127.dds"
-				small = "/gfx/interface/ideas/TOK/vladimirglinskiy-679127.dds"
+				large = "/gfx/leaders/NOV/vladimirglinskiy-679127.dds"
+				small = "/gfx/interface/ideas/NOV/vladimirglinskiy-679127.dds"
 			}
 		}
 		corps_commander = {
@@ -194,8 +194,8 @@ characters = {
 		portraits = {
 			army = {
 				#Custom images for Олег Долинин
-				large = "/gfx/leaders/TOK/olegdolinin-679137.dds"
-				small = "/gfx/interface/ideas/TOK/olegdolinin-679137.dds"
+				large = "/gfx/leaders/NOV/olegdolinin-679137.dds"
+				small = "/gfx/interface/ideas/NOV/olegdolinin-679137.dds"
 			}
 		}
 		field_marshal = {
@@ -214,12 +214,12 @@ maksimnovogordskiy = {
 	portraits = {
 		civilian = {
 			#Custom image for Максим Новогордский
-			large = "/gfx/leaders/TOK/TOK.dds"
+			large = "/gfx/leaders/NOV/NOV.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = nacionalnyykonservatizm
+		ideology = national_conservatism
 		traits = {  dictator }
 	}
 }
@@ -230,12 +230,12 @@ VSokolov = {
 	portraits = {
 		civilian = {
 			#Custom image for Максим Новогордский
-			large = "/gfx/leaders/TOK/NOVL.dds"
+			large = "/gfx/leaders/NOV/NOVL.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = klassicheskiyliberalizm
+		ideology = classical_liberalism
 		traits = {  liberal_democratic_paragon }
 	}
 }
@@ -245,12 +245,12 @@ ABarreta = {
 	portraits = {
 		civilian = {
 			#Custom image for Максим Новогордский
-			large = "/gfx/leaders/TOK/NOVF.dds"
+			large = "/gfx/leaders/NOV/NOVF.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = fascism
+		ideology = classic_nazism
 		traits = {   fascist_demagogue }
 	}
 }
@@ -261,12 +261,12 @@ GVladimir = {
 	portraits = {
 		civilian = {
 			#Custom image for Максим Новогордский
-			large = "/gfx/leaders/TOK/NOVM.dds"
+			large = "/gfx/leaders/NOV/NOVM.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = avtoritarnyymonarhizm
+		ideology = constitutional_monarchism
 		traits = {  divisive_absolute_monarch }
 	}
 }
@@ -275,14 +275,14 @@ arseniychernogorov = {
         name = arseniychernogorov
         portraits = {
 			army = {
-			small = "gfx/interface/ideas/TOK/NOVADVICE.dds"
+			small = "gfx/interface/ideas/NOV/NOVADVICE.dds"
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = arseniychernogorov
 			allowed = {
-				original_tag = TOK
+				original_tag = NOV
 			}
 			traits = { railroad_enthusiast railway_company}
 		}
@@ -292,14 +292,14 @@ nikolaitrofimov = {
     name = nikolaitrofimov
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE1.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE1.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = nikolaitrofimov
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { silent_workhorse political_commissar }
     }
@@ -309,14 +309,14 @@ olgapetrovskaya = {
     name = olgapetrovskaya
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE2.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE2.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = olgapetrovskaya
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { popular_figue_head industrial_concern }
     }
@@ -326,14 +326,14 @@ dmitrykovalev = {
     name = dmitrykovalev
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE3.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE3.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = dmitrykovalev
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { backroom_backer theorist }
     }
@@ -343,14 +343,14 @@ ekaterinazorina = {
     name = ekaterinazorina
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE4.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE4.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = ekaterinazorina
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { compassionate_gentleman head_of_intelligence }
     }
@@ -360,14 +360,14 @@ alexandergrinev = {
     name = alexandergrinev
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE5.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE5.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = alexandergrinev
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { democratic_reformer research_grants }
     }
@@ -377,14 +377,14 @@ sofiaivanova = {
     name = sofiaivanova
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE6.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE6.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = sofiaivanova
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { military_theorist military_entrepreneur }
     }
@@ -394,14 +394,14 @@ vladimirsmirnov = {
     name = vladimirsmirnov
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE7.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE7.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = vladimirsmirnov
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { logistics_specialist free_market_advocate }
     }
@@ -418,7 +418,7 @@ olgaivanova = {
         slot = economic_advisor
         idea_token = olgaivanova
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { industrialist economist pragmatist }
         description = "Ольга Иванова - талантливый экономист, специализирующийся на развитии промышленности. Ее идеи о стимулировании производства и внедрении новых технологий помогут вашей стране стать экономическим гигантом."
@@ -436,7 +436,7 @@ nataliavolkova = {
         slot = intelligence_advisor
         idea_token = nataliavolkova
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { mastermind intelligence_expert cunning }
         description = "Наталья Волкова - опытный разведчик, обладающий блестящим умом и интуицией. Она  может  получить  важную  информацию  о  противниках  и  обеспечить  безопасность  вашей  страны."
@@ -454,7 +454,7 @@ ivanfedorov = {
         slot = political_advisor
         idea_token = ivanfedorov
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { charismatic diplomatic strong_leader }
         description = "Иван Федоров - харизматичный политик, способный убедить народ в правильности своих идей.  Он мастер дипломатии и умеет находить компромиссы, чтобы укрепить позицию вашей страны на международной арене."
@@ -465,14 +465,14 @@ ivangolubev = {
     name = "Ivan Golubev"
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE8.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE8.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = ivangolubev
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { silent_workhorse industrial_concern }
     }
@@ -482,14 +482,14 @@ mariavlasova = {
     name = "Maria Vlasova"
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE9.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE9.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = mariavlasova
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { popular_figue_head research_grants }
     }
@@ -499,14 +499,14 @@ sergeyorlov = {
     name = "Sergey Orlov"
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE10.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE10.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = sergeyorlov
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { backroom_backer political_commissar }
     }
@@ -516,14 +516,14 @@ alekseylebedev = {
     name = "Aleksey Landon"
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE11.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE11.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = alekseylebedev
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { compassionate_gentleman head_of_intelligence }
     }
@@ -533,14 +533,14 @@ artemlebedev = {
     name = "Artem Lozarev"
     portraits = {
         army = {
-            small = "gfx/interface/ideas/TOK/NOVADVICE14.dds"
+            small = "gfx/interface/ideas/NOV/NOVADVICE14.dds"
         }
     }
     advisor = {
         slot = political_advisor
         idea_token = artemlebedev
         allowed = {
-            original_tag = TOK
+            original_tag = NOV
         }
         traits = { liberalizm_supporter }
     }

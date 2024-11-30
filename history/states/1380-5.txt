@@ -1,0 +1,14 @@
+state={
+	id=1380
+	name="STATE_1380"
+	provinces={
+		3118 7421 13934 13972 13980 14063 
+	}
+        history = {
+        owner = FLD
+        }
+	manpower=100000
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

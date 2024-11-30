@@ -10,4 +10,4 @@ history = {
     victory_points = { 15132 14 }
 owner = ATK
 
-   }
+}

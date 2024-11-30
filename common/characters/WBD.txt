@@ -5,12 +5,12 @@ ivarlang = {
 	portraits = {
 		civilian = {
 			#Custom image for  Ивар Ланг
-			large = "/gfx/leaders/WBD/FjZlCqng-1.dds"
+			large = "/gfx/leaders/WBD/WBD-1.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = socialism
+		ideology = classical_liberalism
 		traits = {  }
 	}
 }

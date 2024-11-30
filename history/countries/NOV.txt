@@ -1,0 +1,108 @@
+﻿oob = "NOV_1936"
+capital = 233
+set_research_slots = 3
+set_stability = 4
+set_war_support = 3
+set_convoys = 200
+
+set_power_balance = {
+		id = K_balance_of_power 
+		set_default = yes 
+} 
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription   
+	limited_conscription
+	volunteer_only 
+        limited_conscription
+	civilian_economy
+	recruit_character = arseniychernogorov
+	civilian_economy     
+}                                                           
+
+
+
+set_autonomy = {
+	target = BZN
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = TAT
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = NGA
+	autonomous_state = autonomy_puppet
+}
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = conservative
+	last_election = "1935.1.24"
+	election_frequency = 60
+	elections_allowed = yes
+ 
+}
+set_popularities = {
+	conservative = 75
+	market_liberal = 10
+	nationalist  = 10
+	social_democrat = 5
+
+}
+
+recruit_character = maksimnovogordskiy
+recruit_character = VSokolov
+recruit_character = ABarreta
+recruit_character = GVladimir
+recruit_character = VremPrav
+recruit_character = alekseyzlatov
+recruit_character = borislazarev
+recruit_character = mihailcherneshyov
+recruit_character = viktorseleznyov
+recruit_character = aleksandrobuhov
+recruit_character = nikolaybelozyorskiy
+recruit_character = ivancharushin
+recruit_character = pavelbondarenko
+recruit_character = vladimirglinskiy
+recruit_character = olegdolinin
+recruit_character = arseniychernogorov
+recruit_character = nikolaitrofimov
+recruit_character = olgapetrovskaya
+recruit_character = dmitrykovalev
+recruit_character = ekaterinazorina
+recruit_character = alexandergrinev
+recruit_character = sofiaivanova
+recruit_character = vladimirsmirnov
+recruit_character = igorpetrov
+recruit_character = olgaivanova
+recruit_character = ivanfedorov
+recruit_character = nataliavolkova
+recruit_character = nikolaitrofimov
+recruit_character = olgapetrovskaya
+recruit_character = dmitrykovalev
+recruit_character = ekaterinazorina
+recruit_character = alexandergrinev
+recruit_character = sofiaivanova
+recruit_character = vladimirsmirnov
+recruit_character = ivangolubev
+recruit_character = mariavlasova
+recruit_character = sergeyorlov
+recruit_character = alekseylebedev
+recruit_character = elenanovikova
+recruit_character = viktormikhailov
+recruit_character = artemlebedev
+recruit_character = nataliasmirnova
+recruit_character = pavelromanov
+recruit_character = annaklimova
+
+
+
+
+

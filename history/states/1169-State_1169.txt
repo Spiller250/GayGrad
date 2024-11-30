@@ -14,13 +14,17 @@ state={
 			14326 25 
 		}
 		owner = CAR
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+		}
 
 	}
 
 	provinces={
 		1945 3717 14326 
 	}
-	manpower=100000
+	manpower=559684
 	state_category = large_town
 	local_supplies=0.000
 }

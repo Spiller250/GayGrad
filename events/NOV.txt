@@ -1,442 +1,175 @@
-add_namespace = nov_summit
-add_namespace = nov_summit_invite
-add_namespace =  nov_summit_some_decline
-add_namespace =  nov_summit_all_agree
-add_namespace =  nov_summit_response
-add_namespace =  nov_invite
-add_namespace = nov_unification
+add_namespace = NOV
+add_namespace = NGA
+
 
 country_event = {
-    id = nov_summit.1
-    title = "Организация саммита Великограда"
-    desc = "Правительство [NOV.GetName] организовало саммит с целью обсуждения будущего государств бывшего Великограда."
-    picture = GFX_report_event_meeting
+    id = NOV.fail_pas_assassination
+    title = "Покушение провалилось!"
+    desc = "Пасифия узнала о попытке покушения и формирует альянс."
+    picture = GFX_event_generic_disaster 
+    is_triggered_only = yes
+    fire_only_once = yes
 
     option = {
-        name = "Пригласить бывшие государства"
-        trigger = {
-            NOT = { has_global_flag = nov_summit_invitation_sent }
-        }
-        add_political_power = -50
-        set_global_flag = nov_summit_invitation_sent
-        country_event = { id = nov_summit_invite.PAS }
-        country_event = { id = nov_summit_invite.FLO }
-        country_event = { id = nov_summit_invite.KIV }
-        country_event = { id = nov_summit_invite.TOK }
-        country_event = { id = nov_summit_invite.BAN }
-        country_event = { id = nov_summit_invite.TAT }
-        country_event = { id = nov_summit_invite.BNZ }
-    }
-}
+        name = "Готовиться к войне"
+        ai_chance = { factor = 100 }
 
-country_event = {
-    id = nov_summit_invite.PAS
-    title = "Приглашение на саммит"
-    desc = "[From.GetNameDef] пригласило Пасифию на саммит бывших государств Великограда."
-    picture = GFX_report_event_meeting
-    is_target_country = yes  # Ивент показывается только Пасифии (PAS)
-
-    option = {
-        name = "Мы приедем"
-        add_political_power = -10
-        set_country_flag = pas_agrees_to_summit
-        country_event = { id = nov_summit_response.NOV option = pas_accept }
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        add_political_power = 10
-        country_event = { id = nov_summit_response.NOV option = pas_decline }
-    }
-}
-
-country_event = {
-    id = nov_summit_invite.FLO
-    title = "Приглашение на саммит"
-    desc = "[From.GetNameDef] пригласило Флорию на саммит бывших государств Великограда."
-    picture = GFX_report_event_meeting
-    is_target_country = yes  # Ивент показывается только Флории (FLO)
-
-    option = {
-        name = "Мы приедем"
-        add_political_power = -10
-        set_country_flag = flo_agrees_to_summit
-        country_event = { id = nov_summit_response.NOV option = flo_accept }
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        add_political_power = 10
-        country_event = { id = nov_summit_response.NOV option = flo_decline }
-    }
-}
-
-
-## Новогвардейский Союз (KIV)
-country_event = {
-    id = nov_summit_invite.KIV
-    title = "Приглашение на саммит"
-    desc = "[From.GetNameDef] пригласило Новогвардейский Союз на саммит бывших государств Великограда."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Мы приедем"
-        add_political_power = -10
-        set_country_flag = kiv_agrees_to_summit
-        country_event = { id = nov_summit_response.NOV option = kiv_accept }
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        add_political_power = 10
-        country_event = { id = nov_summit_response.NOV option = kiv_decline }
-    }
-}
-
-## Эдоград (TOK)
-country_event = {
-    id = nov_summit_invite.TOK
-    title = "Приглашение на саммит"
-    desc = "[From.GetNameDef] пригласило Эдоград на саммит бывших государств Великограда."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Мы приедем"
-        add_political_power = -10
-        set_country_flag = tok_agrees_to_summit
-        country_event = { id = nov_summit_response.NOV option = tok_accept }
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        add_political_power = 10
-        country_event = { id = nov_summit_response.NOV option = tok_decline }
-    }
-}
-
-## Бангистан (BAN)
-country_event = {
-    id = nov_summit_invite.BAN
-    title = "Приглашение на саммит"
-    desc = "[From.GetNameDef] пригласило Бангистан на саммит бывших государств Великограда."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Мы приедем"
-        add_political_power = -10
-        set_country_flag = ban_agrees_to_summit
-        country_event = { id = nov_summit_response.NOV option = ban_accept }
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        add_political_power = 10
-        country_event = { id = nov_summit_response.NOV option = ban_decline }
-    }
-}
-
-## Татарград (TAT)
-country_event = {
-    id = nov_summit_invite.TAT
-    title = "Приглашение на саммит"
-    desc = "[From.GetNameDef] пригласило Татарград на саммит бывших государств Великограда."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Мы приедем"
-        add_political_power = -10
-        set_country_flag = tat_agrees_to_summit
-        country_event = { id = nov_summit_response.NOV option = tat_accept }
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        add_political_power = 10
-        country_event = { id = nov_summit_response.NOV option = tat_decline }
-    }
-}
-
-## Банзаеград (BNZ)
-country_event = {
-    id = nov_summit_invite.BNZ
-    title = "Приглашение на саммит"
-    desc = "[From.GetNameDef] пригласило Банзаеград на саммит бывших государств Великограда."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Мы приедем"
-        add_political_power = -10
-        set_country_flag = bnz_agrees_to_summit
-        country_event = { id = nov_summit_response.NOV option = bnz_accept }
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        add_political_power = 10
-        country_event = { id = nov_summit_response.NOV option = bnz_decline }
-    }
-}
-
-# Ответные ивенты для Новограда (NOV)
-
-## Ответы от Пасифии (PAS)
-country_event = {
-    id = nov_summit_response.NOV
-    title = "Ответ от Пасифии"
-    desc = "Пасифия приняла решение по приглашению на саммит."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Пасифия согласилась приехать"
-        trigger = { has_country_flag = pas_agrees_to_summit }
-        add_political_power = 50
-    }
-    option = {
-        name = "Пасифия отказалась"
-        trigger = { NOT = { has_country_flag = pas_agrees_to_summit } }
-        add_political_power = -50
-    }
-}
-
-## Ответы от Флории (FLO)
-country_event = {
-    id = nov_summit_response.NOV
-    title = "Ответ от Флории"
-    desc = "Флория приняла решение по приглашению на саммит."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Флория согласилась приехать"
-        trigger = { has_country_flag = flo_agrees_to_summit }
-        add_political_power = 50
-    }
-    option = {
-        name = "Флория отказалась"
-        trigger = { NOT = { has_country_flag = flo_agrees_to_summit } }
-        add_political_power = -50
-    }
-}
-
-## Ответы от Новогвардейского Союза (KIV)
-country_event = {
-    id = nov_summit_response.NOV
-    title = "Ответ от Новогвардейского Союза"
-    desc = "Новогвардейский Союз принял решение по приглашению на саммит."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Новогвардейский Союз согласился приехать"
-        trigger = { has_country_flag = kiv_agrees_to_summit }
-        add_political_power = 50
-    }
-    option = {
-        name = "Новогвардейский Союз отказался"
-        trigger = { NOT = { has_country_flag = kiv_agrees_to_summit } }
-        add_political_power = -50
-    }
-}
-
-## Ответы от Бангистана (BAN)
-country_event = {
-    id = nov_summit_response.NOV
-    title = "Ответ от Бангистана"
-    desc = "Бангистан принял решение по приглашению на саммит."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Бангистан согласился приехать"
-        trigger = { has_country_flag = ban_agrees_to_summit }
-        add_political_power = 50
-    }
-    option = {
-        name = "Бангистан отказался"
-        trigger = { NOT = { has_country_flag = ban_agrees_to_summit } }
-        add_political_power = -50
-    }
-}
-
-## Ответы от Татарграда (TAT)
-country_event = {
-    id = nov_summit_response.NOV
-    title = "Ответ от Татарграда"
-    desc = "Татарград принял решение по приглашению на саммит."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Татарград согласился приехать"
-        trigger = { has_country_flag = tat_agrees_to_summit }
-        add_political_power = 50
-    }
-    option = {
-        name = "Татарград отказался"
-        trigger = { NOT = { has_country_flag = tat_agrees_to_summit } }
-        add_political_power = -50
-    }
-}
-
-## Ответы от Банзаеграда (BNZ)
-country_event = {
-    id = nov_summit_response.NOV
-    title = "Ответ от Банзаеграда"
-    desc = "Банзаеград принял решение по приглашению на саммит."
-    picture = GFX_report_event_meeting
-    is_target_country = yes
-
-    option = {
-        name = "Банзаеград согласился приехать"
-        trigger = { has_country_flag = bnz_agrees_to_summit }
-        add_political_power = 50
-    }
-    option = {
-        name = "Банзаеград отказался"
-        trigger = { NOT = { has_country_flag = bnz_agrees_to_summit } }
-        add_political_power = -50
-    }
-}
-
-
-
-# Ивенты для Новограда (NOV) на основании согласия или отказа
-
-## Согласие всех стран
-country_event = {
-    id = nov_summit_all_agree
-    title = "Все страны согласились участвовать"
-    desc = "Все приглашенные страны согласились приехать на саммит. Пора начинать обсуждения!"
-    picture = GFX_report_event_meeting
-    trigger = {
-        all_of = {
-            has_country_flag = pas_agrees_to_summit
-            has_country_flag = flo_agrees_to_summit
-            has_country_flag = kiv_agrees_to_summit
-            has_country_flag = tok_agrees_to_summit
-            has_country_flag = ban_agrees_to_summit
-            has_country_flag = tat_agrees_to_summit
-            has_country_flag = bnz_agrees_to_summit
+        # Создание альянсов
+        PAS = { create_faction = "Конфедерация Свободных Наций" }
+        NOV = { create_faction = "СФГ" }
+        PAS = { add_to_faction = KIV }  
+        NOV = { add_to_faction = TOK }  
+       KIV = { annex_country = {
+            target = GPR
+            transfer_troops = yes
         }
     }
-
-    option = {
-        name = "Начнем саммит!"
-        # Дополнительные эффекты или события могут быть добавлены здесь
+     
+    KIV = { annex_country = {
+        target = TSC
+        transfer_troops = yes
     }
 }
 
-## Если хотя бы одна страна отказалась
-country_event = {
-    id = nov_summit_some_decline.1  
-    title = "Некоторые страны отказались участвовать"
-    desc = "Некоторые приглашенные страны отказались приехать на саммит. Будем надеяться, что остальные согласны!"
-    picture = GFX_report_event_meeting
-    trigger = {
-        any_of = {
-            NOT = { has_country_flag = pas_agrees_to_summit }
-            NOT = { has_country_flag = flo_agrees_to_summit }
-            NOT = { has_country_flag = kiv_agrees_to_summit }
-            NOT = { has_country_flag = tok_agrees_to_summit }
-            NOT = { has_country_flag = ban_agrees_to_summit }
-            NOT = { has_country_flag = tat_agrees_to_summit }
-            NOT = { has_country_flag = bnz_agrees_to_summit }
+KIV = { annex_country = {
+    target = TBK
+    transfer_troops = yes
+}
+}
+
+KIV = { annex_country = {
+    target = AKT
+    transfer_troops = yes
+}
+}
+
+KIV = { annex_country = {
+    target = TOU
+    transfer_troops = yes
+}
+}
+
+KIV = { annex_country = {
+    target = KSR
+    transfer_troops = yes
+}
+}
+
+KIV = { annex_country = {
+    target = SRO
+    transfer_troops = yes
+}
+}
+
+KIV = { annex_country = {
+    target = REG
+    transfer_troops = yes
+}
+}
+
+PAS = { annex_country = {
+    target = CAR
+    transfer_troops = yes
+}
+}
+
+TOK = { annex_country = {
+    target = AZO
+    transfer_troops = yes
+}
+}
+
+BAN = { annex_country = {
+    target = GLU
+    transfer_troops = yes
+}
+}
+
+
+        # Вызов конкретного ивента у BZN
+        every_country = {
+            limit = { tag = BZN }
+            country_event = { id = BNZ.alliance_decision }
+
+            every_country = {
+                limit = { tag = BZN }
+                country_event = { id = BZN.alliance_decision }
+            }
+            
+            every_country = {
+                limit = { tag = TAT }
+                country_event = { id = TAT.alliance_decision }
+            }
+            
+            every_country = {
+                limit = { tag = SGR }
+                country_event = { id = SGR.alliance_decision }
+            }
+            
+            every_country = {
+                limit = { tag = BAN }
+                country_event = { id = BAN.alliance_decision }
+            }
+            
+            every_country = {
+                limit = { tag = FLO }
+                country_event = { id = FLO.alliance_decision }
+
+                every_country = {
+                    limit = { tag = NOV }
+                    country_event = { id = NGA.challenge_guardian_army }
+                }
+            }
+            
         }
     }
-
-    option = {
-        name = "Начнем саммит, несмотря на отказ"
-        # Дополнительные эффекты или события могут быть добавлены здесь
-    }
 }
 
 
-## Ивент для Новогвардейского Союза (KIV)
 country_event = {
-    id = nov_invite.kiv
-    title = "Приглашение на саммит от Новограда"
-    desc = "Мы получили приглашение на саммит от Новограда."
-    picture = GFX_report_event_meeting
+    id = NGA.challenge_guardian_army
+    title = "Гвардейская армия бросает нам вызов!"
+    desc = NGA.desc.1
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
 
     option = {
-        name = "Мы приедем"
-        add_country_flag = kiv_agrees_to_summit
-        # Здесь можно добавить дополнительные эффекты
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        # Здесь можно добавить дополнительные эффекты
-    }
-}
+        name = "БЛЯТЬ!"
+        ai_chance = { factor = 100 }
+            # NGA перестает быть марионеткой
+            release = NGA
+            NGA = {
+            set_cosmetic_tag = NGA_LIB
+            set_global_flag = NGA_LIB
+            }
+            # NGA вступает в альянс с PAS
+            PAS = { add_to_faction = NGA }
+            every_country = {
+                limit = { tag = NOV }
+                country_event = { id = NOV.declaration_of_war_pasify }
+            }
 
-## Ивент для Эдограда (TOK)
-country_event = {
-    id = nov_invite.tok
-    title = "Приглашение на саммит от Новограда"
-    desc = "Мы получили приглашение на саммит от Новограда."
-    picture = GFX_report_event_meeting
+            }
+        }
+    
 
-    option = {
-        name = "Мы приедем"
-        add_country_flag = tok_agrees_to_summit
-        # Здесь можно добавить дополнительные эффекты
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        # Здесь можно добавить дополнительные эффекты
-    }
-}
-
-## Ивент для Бангистана (BAN)
-country_event = {
-    id = nov_invite.ban
-    title = "Приглашение на саммит от Новограда"
-    desc = "Мы получили приглашение на саммит от Новограда."
-    picture = GFX_report_event_meeting
-
-    option = {
-        name = "Мы приедем"
-        add_country_flag = ban_agrees_to_summit
-        # Здесь можно добавить дополнительные эффекты
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        # Здесь можно добавить дополнительные эффекты
-    }
-}
-
-## Ивент для Татарграда (TAT)
-country_event = {
-    id = nov_invite.tat
-    title = "Приглашение на саммит от Новограда"
-    desc = "Мы получили приглашение на саммит от Новограда."
-    picture = GFX_report_event_meeting
-
-    option = {
-        name = "Мы приедем"
-        add_country_flag = tat_agrees_to_summit
-        # Здесь можно добавить дополнительные эффекты
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        # Здесь можно добавить дополнительные эффекты
-    }
-}
-
-## Ивент для Банзаеграда (BNZ)
-country_event = {
-    id = nov_invite.bnz
-    title = "Приглашение на саммит от Новограда"
-    desc = "Мы получили приглашение на саммит от Новограда."
-    picture = GFX_report_event_meeting
-
-    option = {
-        name = "Мы приедем"
-        add_country_flag = bnz_agrees_to_summit
-        # Здесь можно добавить дополнительные эффекты
-    }
-    option = {
-        name = "Мы не сможем приехать"
-        # Здесь можно добавить дополнительные эффекты
-    }
-}
-
+    country_event = {
+        id = NOV.declaration_of_war_pasify
+        title = "Новоград объявляет войну Пасифии!"
+        desc = "После долгих месяцев напряженности, конфликт между Новоградом и Пасифией достигает своей кульминации. Новоград решает, что дальнейшее существование Пасифии как независимой силы угрожает их интересам. Правительство Новограда решает, что пришло время для решающего шага — объявить войну Пасифии и начать вторжение."
+        picture = GFX_report_event_generic
+        is_triggered_only = yes
+    
+        option = {
+            name = "Время действовать!"
+            ai_chance = { factor = 100 }
+    
+                # Новоград объявляет войну Пасифии
+                declare_war_on = {
+                    target = PAS
+                    type = annex_everything
+                }
+            }
+        }
+    
+    

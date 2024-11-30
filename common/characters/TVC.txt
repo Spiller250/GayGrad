@@ -5,12 +5,12 @@ dzhonlend = {
 	portraits = {
 		civilian = {
 			#Custom image for Джон Ленд
-			large = "/gfx/leaders/TVC/siGnOrBV-1.dds"
+			large = "/gfx/leaders/TVC/TVC.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = conservatism
+		ideology = constitutionalist
 		traits = {  }
 	}
 }

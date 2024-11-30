@@ -4,7 +4,7 @@ state={
 	provinces={
 		1988 2608 4199 4723 6094 6515 7732 13279 13313 13373 13424 13435 
 	}
-	manpower=100000
+	manpower=327461
 	state_category = large_town
 
 history = {
@@ -12,4 +12,8 @@ history = {
         victory_points = { 13313 18 }
     victory_points = { 1988 20 }
 owner = BSR
+buildings = {
+	infrastructure = 2
+	industrial_complex = 1
+}
 }

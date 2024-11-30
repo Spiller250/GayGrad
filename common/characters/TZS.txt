@@ -5,12 +5,12 @@ zhenhan = {
 	portraits = {
 		civilian = {
 			#Custom image for  Жэнь Хань
-			large = "/gfx/leaders/TZS/pDUAHGjB-1.dds"
+			large = "/gfx/leaders/TZS/TZS.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = stalinism
+		ideology = military_junta
 		traits = {  }
 	}
 }

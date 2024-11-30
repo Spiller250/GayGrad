@@ -10,8 +10,18 @@ state={
         victory_points = { 139 23 }
         victory_points = { 14782 23 }
 		owner = AZO
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			14782 = {
+				bunker = 3
+			}
+			2939 = {
+				bunker = 2
+			}
+		}
 	}
-	manpower=100000
+	manpower=280000
 	state_category = large_town
 	local_supplies=0.000
 }

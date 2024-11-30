@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Ицхак Бар-Элиэзер
+ichakbareliezer = {
+	name = ichakbareliezer
+	portraits = {
+		civilian = {
+			#Custom image for Ицхак Бар-Элиэзер
+			large = "/gfx/leaders/SHH/Jewish.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = national_syndicalism 
+		traits = {  }
+	}
+}
+}

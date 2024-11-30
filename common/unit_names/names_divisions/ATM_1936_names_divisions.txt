@@ -1,0 +1,8 @@
+ATM_DIV_0_0 = {	name = "Example Division"
+	for_countries = { ATM }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. Example Division"
+}

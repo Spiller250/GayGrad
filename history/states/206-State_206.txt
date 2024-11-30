@@ -13,3 +13,4 @@ history = {
     victory_points = { 6941 11 }
 owner = WPR
 }
+}

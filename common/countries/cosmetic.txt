@@ -3,7 +3,54 @@ FLO_dixieland = {
     color_ui = rgb { 180 0 0 }
 }
 
+SFG_BNZ = {
+    color = rgb { 24 26 122 }
+    color_ui = rgb { 24 26 122 }
+}
+
+SFG_TAT = {
+    color = rgb { 24 26 122 }
+    color_ui = rgb { 24 26 122 }
+}
+
+
+NGA_LIB = {
+    color = rgb { 40 47 52 }
+    color_ui = rgb { 40 47 52 }
+}
+
+SFG_PAS = {
+    color = rgb { 24 26 122 }
+    color_ui = rgb { 24 26 122 }
+}
+
+SFG_FLO = {
+    color = rgb { 24 26 122 }
+    color_ui = rgb { 24 26 122 }
+}
+
+SFG_KIV = {
+    color = rgb { 24 26 122 }
+    color_ui = rgb { 24 26 122 }
+}
+
+SFG_NGA = {
+    color = rgb { 24 26 122 }
+    color_ui = rgb { 24 26 122 }
+}
+
+SFG_BAN = {
+    color = rgb { 24 26 122 }
+    color_ui = rgb { 24 26 122 }
+}
+
+
 SFG = {
     color = rgb { 24 26 122 }
     color_ui = rgb { 24 26 122 }
+}
+
+NGA_dixieland = {
+    color = rgb { 180 0 0 }
+    color_ui = rgb { 180 0 0 }
 }

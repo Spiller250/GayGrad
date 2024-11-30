@@ -10,7 +10,7 @@ mariyapashenina = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = socialliberalizm
+		ideology = democratic_classic_socialism
 		traits = {  }
 	}
 }

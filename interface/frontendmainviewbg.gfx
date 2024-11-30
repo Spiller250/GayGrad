@@ -1,0 +1,180 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/load_awd.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=1920 y=1200 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_Main"
+		texturefile = "gfx/interface/menu.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=1920 y=1200 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_nudge_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_exit_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_singleplayer_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_multiplayer_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_options_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_main_lobby_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_frontend_game_logo"
+		texturefile = "gfx/interface/Logo.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=400 y=400 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_discord_button"
+		texturefile = "gfx/interface/Discrod.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=170 y=170 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "PDX_Logo"
+		texturefile = "gfx/interface/Paradox.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=135 y=135 }
+		tilingCenter = no				
+	}
+}
+
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "sp_load_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "sp_new_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_continue_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_new_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_load_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_back_button"
+		texturefile = "gfx/interface/Button1.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=370 y=65 }
+		tilingCenter = no				
+	}
+}
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg2"
+		texturefile = "gfx/interface/bg2.dds"
+		borderSize = { x=0 y= 0 }
+		size = { x=1920 y=1200 }
+		tilingCenter = no				
+	}
+}

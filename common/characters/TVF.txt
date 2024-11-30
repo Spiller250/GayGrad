@@ -5,12 +5,12 @@ izabelgarsia = {
 	portraits = {
 		civilian = {
 			#Custom image for Изабель Гарсиа
-			large = "/gfx/leaders/TVF/jykgHeaD-1.dds"
+			large = "/gfx/leaders/TVF/TVF.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = ekosocializm
+		ideology = classical_liberalism 
 		traits = {  }
 	}
 }

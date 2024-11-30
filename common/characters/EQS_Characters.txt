@@ -1,0 +1,14 @@
+characters = {
+    Liberty_Advocate = {
+        name = "Liberty Advocate"
+        portraits = {
+            civil_adult_male = {
+                large = GFX_eqs_leader
+            }
+        }
+        ideology = libertarianism
+        country_leader = {
+            traits = { egalitarian }
+        }
+    }
+}

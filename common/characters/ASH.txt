@@ -1,0 +1,14 @@
+characters = {
+    Shaman = {
+        name = "Shaman"
+        portraits = {
+            civilian = {
+                large = "/gfx/leaders/ASH/Shaman.dds"
+            }
+        }
+        country_leader = {
+        expire = "1965.1.1"
+        ideology = theocratic_government 
+        traits = { spiritual_leader charismatic_leader }
+        }
+    

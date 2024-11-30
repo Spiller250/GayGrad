@@ -8,8 +8,16 @@ state={
         victory_points = { 7707 15 }
         victory_points = { 8987 16 }
         victory_points = { 7737 20 }
+		-- Банзаеград
+buildings = {
+    industrial_complex = 2
+    arms_factory = 1
+    air_base = 3
+    radar_station = 2
+}
+
 		owner = BZN
 	}
-	manpower=100000
+	manpower=700000
 	state_category = large_town
 }

@@ -1,0 +1,36 @@
+﻿oob = "AKT_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.1
+set_war_support = 0.2
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = anarchism
+	last_election = "1975.7.21"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	anarchism = 80
+    libertarian_socialist = 20
+   
+}
+
+
+recruit_character = obshchestvo
+
+

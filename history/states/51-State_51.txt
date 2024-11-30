@@ -5,11 +5,10 @@ state={
 		15140 
 	}
         history={
-        victory_points = { 15140 18 }
-}
-
 		owner = TOK
+        victory_points = { 15140 18 }
+}		
 	}
 
-	manpower=100000
+	manpower=453123
 	state_category = large_town

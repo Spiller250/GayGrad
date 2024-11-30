@@ -1,0 +1,177 @@
+focus_tree = {
+	id = kok
+	continuous_focus_position = { x = 1100 y = 1700 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOK
+		}
+	}
+	#Формирование национального правительства
+	focus = {
+		id = KOK_formirovanienacionalnogopravitelstva
+		icon = GFX_goal_unknown
+		x = 14
+		y = 7
+		cost = 10
+		prerequisite = { focus = KOK_likvidaciyaanarhistskihgrupp  } prerequisite = { focus = KOK_ustanovlenieporyadkavstolice  }
+		completion_reward = {
+			
+						add_political_power = 100
+						add_stability = 0.1
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Восстановление армии
+	focus = {
+		id = KOK_vosstanovleniearmii
+		icon = GFX_goal_unknown
+		x = 13
+		y = 8
+		cost = 10
+		prerequisite = { focus = KOK_formirovanienacionalnogopravitelstva  }
+		completion_reward = {
+			
+						add_military_experience = 5
+						add_war_support = 0.05
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Начало мобилизации ресурсов
+	focus = {
+		id = KOK_nachalomobilizaciiresursov
+		icon = GFX_goal_unknown
+		x = 15
+		y = 8
+		cost = 10
+		prerequisite = { focus = KOK_formirovanienacionalnogopravitelstva  }
+		completion_reward = {
+			
+						add_resource = {
+							type = steel
+							amount = 5
+						}
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Установление контроля над стратегическими регионами
+	focus = {
+		id = KOK_ustanovleniekontrolyanadstrategicheskimiregionami
+		icon = GFX_goal_unknown
+		x = 14
+		y = 9
+		cost = 10
+		prerequisite = { focus = KOK_vosstanovleniearmii  } prerequisite = { focus = KOK_nachalomobilizaciiresursov  }
+		completion_reward = {
+			
+						add_stability = 0.05
+						add_political_power = 50
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Реформа разведки
+	focus = {
+		id = KOK_reformarazvedki
+		icon = GFX_goal_unknown
+		x = 13
+		y = 10
+		cost = 10
+		prerequisite = { focus = KOK_ustanovleniekontrolyanadstrategicheskimiregionami  }
+		completion_reward = {
+			
+						add_intel_to_faction = 5
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Оживление экономики через первичные проекты
+	focus = {
+		id = KOK_ozhivlenieekonomikicherezpervichnyeproekty
+		icon = GFX_goal_unknown
+		x = 15
+		y = 10
+		cost = 10
+		prerequisite = { focus = KOK_ustanovleniekontrolyanadstrategicheskimiregionami  }
+		completion_reward = {
+			
+						add_building_construction_speed = 0.1
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Восстановление государственного аппарата
+	focus = {
+		id = KOK_vosstanovleniegosudarstvennogoapparata
+		icon = GFX_goal_unknown
+		x = 14
+		y = 5
+		cost = 10
+		prerequisite = { focus = KOK_vosstanovleniegosudarstva  }
+		completion_reward = {
+			
+						add_political_power = 50
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Ликвидация анархистских групп
+	focus = {
+		id = KOK_likvidaciyaanarhistskihgrupp
+		icon = GFX_goal_unknown
+		x = 13
+		y = 6
+		cost = 10
+		prerequisite = { focus = KOK_vosstanovleniegosudarstvennogoapparata  }
+		completion_reward = {
+			
+						add_stability = 0.03
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Установление порядка в столице
+	focus = {
+		id = KOK_ustanovlenieporyadkavstolice
+		icon = GFX_goal_unknown
+		x = 15
+		y = 6
+		cost = 10
+		prerequisite = { focus = KOK_vosstanovleniegosudarstvennogoapparata  }
+		completion_reward = {
+			
+						add_stability = 0.05
+						add_political_power = 25
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Восстановление государства
+	focus = {
+		id = KOK_vosstanovleniegosudarstva
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		cost = 10
+		completion_reward = {
+			
+						add_stability = 0.05
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+}

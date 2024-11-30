@@ -10,7 +10,7 @@ aleksandrkovalyov = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = revolyucionnyynacionalizm 
+		ideology = revolutionary_syndicalism
 		traits = {  }
 	}
 }
@@ -26,7 +26,7 @@ DenisDushlan = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = konservatizm
+		ideology = national_syndicalism
 		traits = {  }
 	}
 }

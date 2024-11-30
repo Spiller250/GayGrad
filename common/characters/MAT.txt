@@ -10,7 +10,7 @@ arturmendal = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = revolyucionnyysocializm
+		ideology = revolutionary_classic_socialism
 		traits = {  }
 	}
 }

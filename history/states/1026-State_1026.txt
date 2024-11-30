@@ -11,7 +11,11 @@ history = {
         victory_points = { 13516 5 }
         victory_points = { 13507 14 }
     victory_points = { 4030 7 }
+	buildings = {
+        industrial_complex = 2
+        arms_factory = 1
+    }
 }
-	manpower=100000
+	manpower=343984
 	state_category = large_town
 }

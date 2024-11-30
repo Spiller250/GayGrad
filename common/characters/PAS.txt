@@ -10,7 +10,7 @@ bogdan = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = klassicheskiyliberalizm
+		ideology = neoliberalism
 		traits = {  eager_collaborator economic_reformer }
 	}
 
@@ -24,7 +24,7 @@ TRIMP = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = klassicheskiykonservatizm
+		ideology = constitutionalist
 		traits = {  eager_collaborator economic_reformer }
 	}
 }

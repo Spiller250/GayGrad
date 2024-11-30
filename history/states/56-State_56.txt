@@ -9,7 +9,12 @@ history={
         victory_points = { 15089 12 }
         victory_points = { 15094 6 }
         owner = TOK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+		}
 }
-manpower=100000
+manpower=900000
 	state_category = large_town}
 	

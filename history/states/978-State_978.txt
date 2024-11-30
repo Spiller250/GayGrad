@@ -9,7 +9,14 @@ state={
         victory_points = { 3759 8 }
         victory_points = { 4512 12 }
     victory_points = { 2337 12 }
+	buildings = {
+        industrial_complex = 2
+        2410 = {
+            naval_base = 1
+            dockyard = 1
+        }
+    }
 }
-	manpower=100000
+	manpower=512646
 	state_category = large_town
 }

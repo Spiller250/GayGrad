@@ -9,8 +9,20 @@ state={
         victory_points = { 1112 15 }
         victory_points = { 14490 23 }
 		owner = TOK
+		buildings = {
+
+		infrastructure = 2
+        arms_factory = 1
+		14653 = {
+			bunker = 1
+		}
+		14593 = {
+			bunker = 1
+		}
+
+    }
 	}
 
-	manpower=100000
+	manpower = 400000
 	state_category = large_town
 }

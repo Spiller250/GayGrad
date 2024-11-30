@@ -5,12 +5,12 @@ centralnyyprofsoyuznyysovet = {
 	portraits = {
 		civilian = {
 			#Custom image for Центральный Профсоюзный Совет
-			large = "/gfx/leaders/RWR/RWR.dds"
+			large = "/gfx/leaders/RWR/mevfgDtN-1.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = revolyucionnyynacionalizm
+		ideology = stalinism
 		traits = {  }
 	}
 }

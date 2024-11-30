@@ -1,0 +1,22 @@
+add_namespace = TAT
+
+country_event = {
+    id = TAT.alliance_decision
+    title = "Союз или Независимость?"
+    desc = "TAT должна выбрать между Альянсом с Новоградом или свободой с Пасифией."
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
+
+    option = {
+        name = "Мы за Новоград!"
+        ai_chance = { factor = 60 }
+        NOV = { add_to_faction = TAT }
+    }
+
+    option = {
+        name = "Свобода превыше всего!"
+        ai_chance = { factor = 40 }
+        release = TAT
+        PAS = { add_to_faction = TAT }
+    }
+}

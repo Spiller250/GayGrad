@@ -5,12 +5,12 @@ obshchestvo = {
 	portraits = {
 		civilian = {
 			#Custom image for Общество
-			large = "/gfx/leaders/AKT/cwiFrQpE-1.dds"
+			large = "/gfx/leaders/AKT/AKT.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = anarhokommunizm
+		ideology = individualist_anarchism
 		traits = {  }
 	}
 }

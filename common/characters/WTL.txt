@@ -5,12 +5,12 @@ sofiyahartman = {
 	portraits = {
 		civilian = {
 			#Custom image for София Хартман
-			large = "/gfx/leaders/WTL/mafiIERM-1.dds"
+			large = "/gfx/leaders/WTL/WTL.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = sa
+		ideology = classical_conservatism
 		traits = {  }
 	}
 }

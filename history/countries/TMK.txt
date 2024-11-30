@@ -1,0 +1,35 @@
+﻿oob = "TMK_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+set_politics = {
+	ruling_party = nationalist 
+	last_election = "1935.10.26"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	nationalist  = 90
+        authoritarian_democrat = 10
+} 
+
+
+}
+
+recruit_character = ivaniv
+
+

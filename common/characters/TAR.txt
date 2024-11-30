@@ -10,7 +10,7 @@ markusgeldman = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = socialnyyprogressivizm
+		ideology = left_populism
 		traits = {  }
 	}
 }

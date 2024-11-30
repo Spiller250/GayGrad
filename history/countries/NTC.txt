@@ -1,0 +1,36 @@
+﻿oob = "NTC_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1935.8.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	social_liberal = 40
+    market_liberal = 30
+    social_democrat = 20
+    conservative = 10
+
+}
+
+recruit_character = ragnarledyanoyvolk
+
+

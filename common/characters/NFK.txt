@@ -10,7 +10,7 @@ knyazaleksandrdragomirov = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = militaristskiyneofeodalizm
+		ideology = military_nationalism 
 		traits = {  dictator collaborator_king }
 	}
 }

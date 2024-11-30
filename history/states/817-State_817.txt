@@ -9,7 +9,13 @@ state={
         victory_points = { 12041 16 }
         victory_points = { 7173 24 }
 		owner = REG
+		buildings = {
+			infrastructure = 2
+			anti_air_building = 1
+			radar_station = 2
+		}
+		
 	}
-	manpower=100000
+	manpower = 60000
 	state_category = large_town
 }

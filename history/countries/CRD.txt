@@ -1,0 +1,36 @@
+﻿oob = "CRD_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+set_politics = {
+	ruling_party = totalitarian_socialist
+	last_election = "1965.5.27"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialist  = 65
+	communist = 15
+	authoritarian_democrat = 10
+	syndicalism = 5
+	conservative = 5
+
+}
+
+
+
+

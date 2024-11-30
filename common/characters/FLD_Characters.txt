@@ -1,0 +1,14 @@
+characters = {
+    Market_Overseer = {
+        name = "Market Overseer"
+        portraits = {
+            civil_adult_male = {
+                large = GFX_flo_leader
+            }
+        }
+        ideology = anarcho_capitalism
+        country_leader = {
+            traits = { economic_mastermind }
+        }
+    }
+}

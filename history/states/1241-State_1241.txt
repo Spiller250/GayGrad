@@ -5,11 +5,21 @@ state={
 		1414 2349 4107 5893 14570 14619 14731 
 	}
         history={
+			owner = PAS
         victory_points = { 2349 5 }
         victory_points = { 5893 23 }
         victory_points = { 14570 25 }
-		owner = PAS
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 4
+			radar_station = 2
+			14619 = {
+				dockyard = 3
+				naval_base = 2
+		}
 	}
-	manpower=100000
+}
+	manpower=1162750
 	state_category = large_town
 }

@@ -7,7 +7,7 @@ Characters = {
 			}
 		}
 		country_leader = {
-			ideology = socialnyyprogressivizm
+			ideology = social_progressivism
 			traits = {
 				political_dancer
 			}
@@ -32,7 +32,7 @@ Characters = {
 			}
 		}
 		country_leader = {
-			ideology = tehnokraticheskiyprogressivizm
+			ideology = progressivism 
 			traits = {
 			}
 			#desc = ALG_bendzhedit_desc

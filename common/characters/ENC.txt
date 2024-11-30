@@ -10,7 +10,7 @@ arturvolkovskiy = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = sindikalizmssr
+		ideology = revolutionary_syndicalism
 		traits = {  }
 	}
 }

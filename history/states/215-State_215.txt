@@ -9,7 +9,11 @@ state={
         victory_points = { 2830 17 }
         victory_points = { 3257 20 }
 		owner = NOV
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
-	manpower=100000
+	manpower=765345
 	state_category = large_town
 }

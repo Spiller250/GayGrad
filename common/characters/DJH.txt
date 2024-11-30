@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Джаяна Ратнаварман
+dzhayanaratnavarman = {
+	name = dzhayanaratnavarman
+	portraits = {
+		civilian = {
+			#Custom image for Джаяна Ратнаварман
+			large = "/gfx/leaders/DJH/Buddhist.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology =  revolutionary_syndicalism
+		traits = {  }
+	}
+}
+}

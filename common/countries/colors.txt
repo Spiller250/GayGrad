@@ -817,11 +817,19 @@ CHU = {
 }
 
 #Custom colours start here
-TPR = {
-	color = rgb { 0 83 34 }
-	color_ui = rgb { 0 83 34 }
+RWR = {
+	color = rgb { 109 31 40 }
+	color_ui = rgb { 109 31 40 }
 }
-HRH = {
-	color = rgb { 96 0 0 }
-	color_ui = rgb { 96 0 0 }
+SHH = {
+	color = rgb { 67 15 0 }
+	color_ui = rgb { 67 15 0 }
+}
+DJH = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ATM = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }

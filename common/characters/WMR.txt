@@ -5,12 +5,12 @@ fuchzhen = {
 	portraits = {
 		civilian = {
 			#Custom image for Фу Чжэн
-			large = "/gfx/leaders/WMR/SfPcrpGh-1.dds"
+			large = "/gfx/leaders/WMR/WMR.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = tehnokraticheskiyprogressivizm
+		ideology = classical_liberalism
 		traits = {  }
 	}
 }

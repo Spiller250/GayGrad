@@ -14,13 +14,17 @@ state={
 			14056 7 
 		}
 		owner = AKT
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
 
 	}
 
 	provinces={
 		221 1751 2915 3599 3724 4483 4666 6845 7019 13759 13828 13895 13918 13966 13971 14056 
 	}
-	manpower=100000
+	manpower=30000
 	state_category = large_town
 	local_supplies=0.000
 }

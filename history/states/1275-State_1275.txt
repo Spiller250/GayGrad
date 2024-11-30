@@ -9,7 +9,14 @@ state={
         victory_points = { 4509 8 }
         victory_points = { 14737 20 }
 		owner = NSS
+		buildings = {
+			infrastructure = 1
+			arms_factory = ё
+			industrial_complex = 1
+			anti_air_building = 1
+		}
+		
 	}
-	manpower=100000
+	manpower = 52000
 	state_category = large_town
 }
